@@ -1,0 +1,14 @@
+{
+  "_como_usar": "Estado dos trades carregado de um Log para o outro (estilo Dollynho). Cada execução lê, mantém ou atualiza e grava de volta.",
+  "343m": {
+    "postura": "short",
+    "desde": "2026-11-09 14:09",
+    "alvos": ["MA1372", "RSI 23.67"],
+    "stop": "EMA21",
+    "origem": "Alinhado ao Log 343 do Dollynho de 09/11/2026 14:09",
+    "atualizado": "2026-11-09 14:09"
+  },
+  "686m": {"postura": "a definir", "alvos": [], "stop": null, "atualizado": null},
+  "1D": {"postura": "a definir", "alvos": [], "stop": null, "atualizado": null},
+  "1W": {"postura": "a definir", "alvos": [], "stop": null, "atualizado": null}
+}

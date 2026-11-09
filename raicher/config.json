@@ -114,6 +114,7 @@
     "agulhada_squeeze_pct": 3.0
   },
   "rsi_template": {
+    "72.86": 72.86,
     "Resistencia Superior": 70.0,
     "Linha 50": 50.0,
     "Suporte Inferior (aprox)": 43.6,

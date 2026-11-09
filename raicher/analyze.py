@@ -64,13 +64,18 @@ def tf_state(tf: str, df: pd.DataFrame, cfg: dict) -> dict:
         if pd.isna(val):
             continue
         ev = cross_event(df["close"], df[col])
-        touched = bool(last["low"] <= val <= last["high"])
+        tol = val * 0.0015  # "toque perfeito": pavio a até 0,15% da média conta como toque
+        touched = bool(last["low"] - tol <= val <= last["high"] + tol)
         mas[col] = {"value": _f(val), "dist_pct": _f((close / val - 1) * 100), "touched_wick": touched, **ev}
     st["mas"] = mas
     below = {k: v for k, v in mas.items() if v["value"] < close}
     above = {k: v for k, v in mas.items() if v["value"] > close}
     st["support_mas"] = sorted(below, key=lambda k: -below[k]["value"])[:3]
     st["resistance_mas"] = sorted(above, key=lambda k: above[k]["value"])[:3]
+    # Escada completa (para alvos e stops no estilo do Dollynho: alvo = média mais à frente, stop = média logo atrás)
+    st["ladder_below"] = [[k, below[k]["value"]] for k in sorted(below, key=lambda k: -below[k]["value"])]
+    st["ladder_above"] = [[k, above[k]["value"]] for k in sorted(above, key=lambda k: above[k]["value"])]
+    st["wick_touches"] = [k for k, v in mas.items() if v["touched_wick"]]
 
     # RSI
     r = df["rsi"]
