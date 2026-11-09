@@ -129,7 +129,7 @@ def setups(tfs: dict, states: dict, cfg: dict) -> list:
         c2 = bool(d2["rsi"] < b["rsi"])
         c3 = bool(d2["stoch_k"] < b["stoch_k"])
         out.append({"tf": "2D", "setup": "BBB (2D)", "active": c1 and c2 and c3,
-                    "near": (c1 + c2 + c3) >= 2 or (c1 and d2["rsi"] < b["rsi"] + 4),
+                    "near": bool(c1 and d2["rsi"] < b["rsi"] + 5 and d2["stoch_k"] < 30),
                     "detail": {"abaixo_ma200": c1, "rsi": _f(d2["rsi"]), "rsi_lt_26_21": c2,
                                "stoch_k": _f(d2["stoch_k"]), "stoch_lt_20_44": c3}})
         x77 = cross_event(tfs["2D"]["ma77"], tfs["2D"]["ma200"])
