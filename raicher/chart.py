@@ -47,7 +47,9 @@ def plot(tf: str, df, state: dict, path, bars: int = 200, log_scale: bool = Fals
     ax.set_ylim((lo * 0.92, hi * 1.08) if log_scale else (lo - pad, hi + pad))
     if log_scale:
         ax.set_yscale("log")
-    ax.set_title(f"BTCUSD {tf}  |  fechamento {state['bar_close'][:16]} UTC  |  {state['close']:,.0f}",
+    import pandas as pd
+    fech = pd.Timestamp(state["bar_close"]).tz_convert("America/Sao_Paulo").strftime("%d/%m/%Y %H:%M")
+    ax.set_title(f"BTCUSD {tf}  |  fechamento {fech} (Brasília)  |  {state['close']:,.0f}",
                  color="white", fontsize=12, loc="left")
 
     # RSI
@@ -78,7 +80,7 @@ def plot(tf: str, df, state: dict, path, bars: int = 200, log_scale: bool = Fals
     step = max(1, len(d) // 10)
     ak.set_xticks(x[::step])
     fmt = "%d/%m %Hh" if tf.endswith("m") else "%d/%m/%y"
-    ak.set_xticklabels([t.strftime(fmt) for t in d.index[::step]], fontsize=8, rotation=0)
+    ak.set_xticklabels([t.tz_convert("America/Sao_Paulo").strftime(fmt) for t in d.index[::step]], fontsize=8, rotation=0)
     fig.tight_layout()
     fig.savefig(path, dpi=110, facecolor="black")
     plt.close(fig)
