@@ -3,23 +3,37 @@
   "343m": {
     "postura": "short",
     "desde": "2026-11-03 ~22:05 (rejeição do Suporte Inferior no RSI + abaixo da MA7/EMA7)",
-    "alvos": ["MA1372", "RSI 23.67"],
-    "stop": "EMA21",
-    "historico_stop": ["MA7/EMA7 (09/11 08:26)", "EMA21 (09/11 14:09, após o pavio tocar a MA21)"],
-    "observacao": "08/11 01:32 ele disse: stop ajustado, já no lucro, sigo shortado.",
-    "atualizado": "2026-11-09 14:09"
+    "alvos": [
+      "MA1372 (72.282)",
+      "RSI 23.67"
+    ],
+    "stop": "EMA21 (75.653)",
+    "historico_stop": [
+      "MA7/EMA7 (09/11 08:26)",
+      "EMA21 (09/11 14:09, após o pavio tocar a MA21)",
+      "EMA21 mantida (09/11 19:52)"
+    ],
+    "observacao": "19:52: fechou ACIMA da MA7/EMA7 e confirmou acima da MA1617, mas ABAIXO da MA21/EMA21; stop intacto, trade mantido. Fechamento ACIMA da EMA21 = fechamos o trade.",
+    "atualizado": "2026-11-09 19:52"
   },
   "686m": {
     "postura": "short",
     "desde": "2026-11-03 22:05 (bull trap, fechou ABAIXO da MA7/EMA7, rejeição clara do Suporte Inferior no RSI = ponto de entrada)",
-    "alvos": ["não informados pelo Dollynho; mesmo trade do 343"],
-    "stop": "não informado (referência: MA343 do 686, perdida em 08/11 21:00)",
-    "atualizado": "2026-11-08 21:00"
+    "alvos": [
+      "MA686 (72.941)",
+      "MA539 (72.497)"
+    ],
+    "stop": "MA343 do 686 (75.758) — principal resistência, escolhida pelo método (Dollynho não informou)",
+    "atualizado": "2026-11-09 19:52",
+    "observacao": "19:52: fechou colado ACIMA da EMA7/MA7, abaixo da MA343; RSI acima da Média com divergência bullish; Stoch virando de baixo. Candle de alerta."
   },
   "1D": {
     "postura": "short",
     "condicao": "Abaixo da MA7 do Diário mantemos o trade (Log 317, 02/11)",
-    "alvos": ["MA343 (ATINGIDO: perdemos a MA343 em 08/11)", "MA231"],
+    "alvos": [
+      "MA343 (ATINGIDO: perdemos a MA343 em 08/11)",
+      "MA231"
+    ],
     "stop": "fechamento diário ACIMA da MA7",
     "atualizado": "2026-11-08 21:00"
   },
@@ -28,6 +42,14 @@
     "visao": "Log 323 (08/11): abaixo da EMA49/MA49, abaixo da Média do RSI, perdeu o RSI 50; possível suporte na MA21; ele acha que o fundo ainda não foi feito.",
     "atualizado": "2026-11-08 21:00"
   },
-  "2D": {"postura": "observando BBB", "visao": "08/11: 2 dos 3 'Bilaus' armados (abaixo da MA200 e Stoch); falta o RSI. MA77 do 2D como suporte.", "atualizado": "2026-11-08 21:00"},
-  "3D": {"postura": "observando", "visao": "08/11: RSI resetou no 3D, mas fechou ABAIXO da MA343; Stoch zerado.", "atualizado": "2026-11-08 21:00"}
+  "2D": {
+    "postura": "observando BBB",
+    "visao": "08/11: 2 dos 3 'Bilaus' armados (abaixo da MA200 e Stoch); falta o RSI. MA77 do 2D como suporte.",
+    "atualizado": "2026-11-08 21:00"
+  },
+  "3D": {
+    "postura": "observando",
+    "visao": "08/11: RSI resetou no 3D, mas fechou ABAIXO da MA343; Stoch zerado.",
+    "atualizado": "2026-11-08 21:00"
+  }
 }
