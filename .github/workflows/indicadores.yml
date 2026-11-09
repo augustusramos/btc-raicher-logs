@@ -1,0 +1,83 @@
+name: indicadores
+
+on:
+  schedule:
+    # Logo após os fechamentos (UTC). 343m/686m ancorados no início do dia UTC:
+    # 343m fecha 05:43, 11:26, 17:09, 22:52 e 00:00 | 686m fecha 11:26, 22:52 e 00:00 | 1D fecha 00:00
+    - cron: "7 0 * * *"
+    - cron: "50 5 * * *"
+    - cron: "33 11 * * *"
+    - cron: "16 17 * * *"
+    - cron: "59 22 * * *"
+  workflow_dispatch:
+    inputs:
+      charts:
+        description: "Gerar gráficos (changed/all/none)"
+        default: "changed"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: indicadores
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Cache dos candles
+        uses: actions/cache@v4
+        with:
+          path: data
+          key: candles-${{ github.run_id }}
+          restore-keys: candles-
+
+      - name: Recupera saída anterior (branch dados)
+        run: |
+          mkdir -p out
+          if git ls-remote --exit-code --heads origin dados >/dev/null 2>&1; then
+            git clone --depth 1 --branch dados "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" prev
+            cp -r prev/. out/ && rm -rf out/.git prev
+          fi
+
+      - name: Calcula indicadores
+        run: python -m raicher.run --charts "${{ github.event.inputs.charts || 'changed' }}"
+
+      - name: Confere contra valores citados nos posts
+        continue-on-error: true
+        run: python -m tests.check_vs_posts | tee out/calibracao.txt
+
+      - name: Abre issue com alertas novos
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'EOF'
+          import json, subprocess
+          alerts = json.load(open("out/alerts_new.json"))
+          if alerts:
+              title = "ALERTA BTC: " + ", ".join(sorted({a["setup"] + (" (ATIVO)" if a["active"] else " (perto)") for a in alerts}))[:240]
+              body = "\n\n".join(f"**{a['setup']}** — {'ATIVO' if a['active'] else 'perto'}\n```json\n{json.dumps(a.get('detail'), ensure_ascii=False, indent=1)}\n```" for a in alerts)
+              subprocess.run(["gh", "issue", "create", "--title", title, "--body", body], check=True)
+          EOF
+
+      - name: Publica na branch dados
+        run: |
+          cd out
+          git init -q -b dados
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          git commit -qm "dados $(date -u +%FT%TZ)"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" dados
