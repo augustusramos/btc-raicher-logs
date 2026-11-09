@@ -2,35 +2,122 @@
   "pair": "btcusd",
   "minute_history_days": 200,
   "intraday_anchor": "day",
-  "mas": [7, 21, 49, 77, 200, 231, 343, 539, 686, 777, 1372],
-  "emas": [7, 21, 49, 77, 231, 343],
+  "mas": [
+    7,
+    21,
+    49,
+    77,
+    200,
+    231,
+    343,
+    539,
+    686,
+    777,
+    1372
+  ],
+  "emas": [
+    7,
+    21,
+    49,
+    77,
+    231,
+    343
+  ],
   "rsi_length": 14,
   "rsi_ma_length": 14,
   "rsi_ma_type": "SMA",
-  "stoch": {"rsi_length": 14, "stoch_length": 14, "k": 3, "d": 3},
+  "stoch": {
+    "rsi_length": 14,
+    "stoch_length": 14,
+    "k": 3,
+    "d": 3
+  },
   "timeframes": {
-    "343m": {"chart_bars": 200, "log_scale": false},
-    "686m": {"chart_bars": 200, "log_scale": false},
-    "1D":   {"chart_bars": 180, "log_scale": false},
-    "2D":   {"chart_bars": 220, "log_scale": true},
-    "3D":   {"chart_bars": 200, "log_scale": true},
-    "1W":   {"chart_bars": 220, "log_scale": true},
-    "2W":   {"chart_bars": 200, "log_scale": true},
-    "1M":   {"chart_bars": 160, "log_scale": true},
-    "2M":   {"chart_bars": 100, "log_scale": true},
-    "4M":   {"chart_bars": 60,  "log_scale": true}
+    "343m": {
+      "chart_bars": 200,
+      "log_scale": false
+    },
+    "686m": {
+      "chart_bars": 200,
+      "log_scale": false
+    },
+    "1D": {
+      "chart_bars": 180,
+      "log_scale": false
+    },
+    "2D": {
+      "chart_bars": 220,
+      "log_scale": true
+    },
+    "3D": {
+      "chart_bars": 200,
+      "log_scale": true
+    },
+    "1W": {
+      "chart_bars": 220,
+      "log_scale": true
+    },
+    "2W": {
+      "chart_bars": 200,
+      "log_scale": true
+    },
+    "1M": {
+      "chart_bars": 160,
+      "log_scale": true
+    },
+    "2M": {
+      "chart_bars": 100,
+      "log_scale": true
+    },
+    "4M": {
+      "chart_bars": 60,
+      "log_scale": true
+    }
   },
   "known_rsi_levels": {
-    "1D": {"Resistencia Inferior": 40.54},
-    "2D": {"BBB": 26.21},
-    "1M": {"Fim de bull (88.15)": 88.15}
+    "1D": {
+      "Resistencia Inferior": 40.54,
+      "RSI 50 (baliza)": 50.0
+    },
+    "2D": {
+      "BBB": 26.21
+    },
+    "1W": {
+      "Dips historicos (35.74)": 35.74,
+      "Reset do ciclo (30)": 30.0
+    },
+    "1M": {
+      "Fim de bull (88.15)": 88.15
+    }
   },
-  "bbb": {"rsi": 26.21, "stoch_k": 20.44, "ma": 200},
-  "agulhada": {"1D": [7, 21, 343], "1W": [7, 21, 77]},
-  "btfd": {"1D": 343, "1W": 49},
+  "bbb": {
+    "rsi": 26.21,
+    "stoch_k": 20.44,
+    "ma": 200
+  },
+  "agulhada": {
+    "1D": [
+      7,
+      21,
+      343
+    ],
+    "1W": [
+      7,
+      21,
+      77
+    ]
+  },
+  "btfd": {
+    "1D": 343,
+    "1W": 49
+  },
   "alerts": {
     "ma343_touch_pct": 1.0,
-    "timeframes_ma343": ["343m", "686m", "1D"],
+    "timeframes_ma343": [
+      "343m",
+      "686m",
+      "1D"
+    ],
     "agulhada_squeeze_pct": 3.0
   }
 }

@@ -38,10 +38,13 @@ def auto_levels(r: pd.Series, k: int = 6, bandwidth: float = 1.0, min_gap: float
         if len(chosen) == k:
             break
     total = dens[chosen].sum() if chosen else 1
-    return sorted(
-        ({"value": round(float(grid[i]), 2), "strength": round(float(dens[i] / total), 3)} for i in chosen),
-        key=lambda x: x["value"],
-    )
+    # Como o Raicher: a linha fica em cima de um pivô real (ex.: 26.21 = pivô do RSI 2D em out/2011)
+    snapped = []
+    for i in chosen:
+        near = p[np.abs(p - grid[i]) <= bandwidth * 1.5]
+        val = float(near[np.argmin(np.abs(near - grid[i]))]) if len(near) else float(grid[i])
+        snapped.append({"value": round(val, 2), "strength": round(float(dens[i] / total), 3)})
+    return sorted(snapped, key=lambda x: x["value"])
 
 
 def label(levels: list, rsi_now: float) -> list:
