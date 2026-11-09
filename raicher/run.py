@@ -122,6 +122,10 @@ def main() -> None:
             day = states["1D"]["bar_open"][:10]
             (out / "history" / f"{day}.json").write_text(json.dumps(clean(latest), ensure_ascii=False))
 
+    if not args.synthetic and (Path(args.data) / "daily.csv.gz").exists():
+        import shutil
+        shutil.copy(Path(args.data) / "daily.csv.gz", out / "daily.csv.gz")
+
     print(f"ok | fechamentos novos: {changed} | alertas novos: {len(new)}")
 
 
