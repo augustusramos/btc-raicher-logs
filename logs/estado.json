@@ -1,14 +1,33 @@
 {
-  "_como_usar": "Estado dos trades carregado de um Log para o outro (estilo Dollynho). Cada execução lê, mantém ou atualiza e grava de volta.",
+  "_como_usar": "Estado dos trades carregado de um Log para o outro (estilo Dollynho). Cada execução lê, mantém ou atualiza e grava de volta. Reconstruído da cronologia dos posts do Dollynho de 25/10 a 09/11/2026.",
   "343m": {
     "postura": "short",
-    "desde": "2026-11-09 14:09",
+    "desde": "2026-11-03 ~22:05 (rejeição do Suporte Inferior no RSI + abaixo da MA7/EMA7)",
     "alvos": ["MA1372", "RSI 23.67"],
     "stop": "EMA21",
-    "origem": "Alinhado ao Log 343 do Dollynho de 09/11/2026 14:09",
+    "historico_stop": ["MA7/EMA7 (09/11 08:26)", "EMA21 (09/11 14:09, após o pavio tocar a MA21)"],
+    "observacao": "08/11 01:32 ele disse: stop ajustado, já no lucro, sigo shortado.",
     "atualizado": "2026-11-09 14:09"
   },
-  "686m": {"postura": "a definir", "alvos": [], "stop": null, "atualizado": null},
-  "1D": {"postura": "a definir", "alvos": [], "stop": null, "atualizado": null},
-  "1W": {"postura": "a definir", "alvos": [], "stop": null, "atualizado": null}
+  "686m": {
+    "postura": "short",
+    "desde": "2026-11-03 22:05 (bull trap, fechou ABAIXO da MA7/EMA7, rejeição clara do Suporte Inferior no RSI = ponto de entrada)",
+    "alvos": ["não informados pelo Dollynho; mesmo trade do 343"],
+    "stop": "não informado (referência: MA343 do 686, perdida em 08/11 21:00)",
+    "atualizado": "2026-11-08 21:00"
+  },
+  "1D": {
+    "postura": "short",
+    "condicao": "Abaixo da MA7 do Diário mantemos o trade (Log 317, 02/11)",
+    "alvos": ["MA343 (ATINGIDO: perdemos a MA343 em 08/11)", "MA231"],
+    "stop": "fechamento diário ACIMA da MA7",
+    "atualizado": "2026-11-08 21:00"
+  },
+  "1W": {
+    "postura": "sem trade",
+    "visao": "Log 323 (08/11): abaixo da EMA49/MA49, abaixo da Média do RSI, perdeu o RSI 50; possível suporte na MA21; ele acha que o fundo ainda não foi feito.",
+    "atualizado": "2026-11-08 21:00"
+  },
+  "2D": {"postura": "observando BBB", "visao": "08/11: 2 dos 3 'Bilaus' armados (abaixo da MA200 e Stoch); falta o RSI. MA77 do 2D como suporte.", "atualizado": "2026-11-08 21:00"},
+  "3D": {"postura": "observando", "visao": "08/11: RSI resetou no 3D, mas fechou ABAIXO da MA343; Stoch zerado.", "atualizado": "2026-11-08 21:00"}
 }
