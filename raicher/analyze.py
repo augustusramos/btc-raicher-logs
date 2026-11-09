@@ -76,7 +76,7 @@ def tf_state(tf: str, df: pd.DataFrame, cfg: dict) -> dict:
     r = df["rsi"]
     rnow = float(r.iloc[-1])
     auto = lv.auto_levels(r)
-    known = cfg["known_rsi_levels"].get(tf, {})
+    known = {**cfg.get("rsi_template", {}), **cfg["known_rsi_levels"].get(tf, {})}
     labeled = lv.label(auto, rnow)
     lowest_inf = min((x["value"] for x in auto if x["value"] < 50), default=30.0)
     st["rsi"] = {
@@ -90,7 +90,11 @@ def tf_state(tf: str, df: pd.DataFrame, cfg: dict) -> dict:
         "nearest_below": max((x for x in labeled if x["value"] < rnow), key=lambda x: x["value"], default=None),
         "reset_level": lowest_inf,
         "bars_since_reset": bars_since(r <= lowest_inf),
-        "calibration": lv.calibration(auto, known) if known else [],
+        "calibration": lv.calibration(auto, cfg["known_rsi_levels"].get(tf, {})),
+        "known_level_events": {name: cross_event(r, val) for name, val in known.items()},
+        "known_nearest_above": min(((n, v) for n, v in known.items() if v > rnow), key=lambda x: x[1], default=None),
+        "known_nearest_below": max(((n, v) for n, v in known.items() if v < rnow), key=lambda x: x[1], default=None),
+        "in_traps_zone": bool(cfg["traps_zone"][0] <= rnow <= cfg["traps_zone"][1]) if "traps_zone" in cfg else None,
     }
     # Divergência simples: preço fez low menor e RSI low maior nas últimas 30 velas (ou o contrário)
     win = df.iloc[-30:]
@@ -109,8 +113,10 @@ def tf_state(tf: str, df: pd.DataFrame, cfg: dict) -> dict:
         "cross": ("bullish" if kc["pos"] == "ACIMA" else "bearish") if kc["event"] and kc["event"].startswith(("ROMPEU", "PERDEU")) else None,
         "k_vs_d": kc,
         "zone": "ZERADO" if kn <= 5 else "abaixo de 20" if kn < 20 else "TETO" if kn >= 95 else "acima de 80" if kn > 80 else "range 20-80",
-        "vs_20": cross_event(k, 20.0), "vs_80": cross_event(k, 80.0),
+        "levels": {name: cross_event(k, val) for name, val in cfg.get("stoch_levels", {"20": 20.0, "80": 80.0}).items()},
     }
+    st["horizontal_levels"] = {n: {"value": v, "dist_pct": _f((close / v - 1) * 100), **cross_event(df["close"], float(v))}
+                               for n, v in cfg.get("horizontal_levels", {}).items()}
     if "pi_111" in df and not pd.isna(last.get("pi_111", np.nan)):
         st["picycle_ratio_pct"] = _f(last["pi_111"] / last["pi_350x2"] * 100)
     return st

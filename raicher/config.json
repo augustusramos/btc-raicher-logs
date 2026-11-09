@@ -1,6 +1,6 @@
 {
   "pair": "btcusd",
-  "minute_history_days": 200,
+  "minute_history_days": 420,
   "intraday_anchor": "day",
   "mas": [
     7,
@@ -13,7 +13,8 @@
     539,
     686,
     777,
-    1372
+    1372,
+    1617
   ],
   "emas": [
     7,
@@ -75,19 +76,11 @@
     }
   },
   "known_rsi_levels": {
-    "1D": {
-      "Resistencia Inferior": 40.54,
-      "RSI 50 (baliza)": 50.0
-    },
     "2D": {
       "BBB": 26.21
     },
-    "1W": {
-      "Dips historicos (35.74)": 35.74,
-      "Reset do ciclo (30)": 30.0
-    },
     "1M": {
-      "Fim de bull (88.15)": 88.15
+      "Fim de bull": 88.15
     }
   },
   "bbb": {
@@ -119,5 +112,26 @@
       "1D"
     ],
     "agulhada_squeeze_pct": 3.0
+  },
+  "rsi_template": {
+    "Resistencia Superior": 70.0,
+    "Linha 50": 50.0,
+    "Suporte Inferior (aprox)": 43.6,
+    "Regiao dos Traps": 40.54,
+    "Dips historicos": 35.74,
+    "30": 30.0,
+    "23.67": 23.67
+  },
+  "traps_zone": [
+    40.54,
+    43.6
+  ],
+  "stoch_levels": {
+    "Suporte Inferior": 20.0,
+    "Suporte Superior": 50.0,
+    "Resistencia Superior": 80.0
+  },
+  "horizontal_levels": {
+    "Fundo 2025-NOV": 80537
   }
 }

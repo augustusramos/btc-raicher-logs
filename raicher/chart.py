@@ -7,7 +7,7 @@ import numpy as np  # noqa: E402
 
 MA_COLORS = {
     7: "#2ecc40", 21: "#ff4136", 49: "#b10dc9", 77: "#ff851b", 200: "#ff2d55", 231: "#cccccc",
-    343: "#ffdc00", 539: "#39cccc", 686: "#f012be", 777: "#c71585", 1372: "#0074d9",
+    343: "#ffdc00", 539: "#39cccc", 686: "#f012be", 777: "#c71585", 1372: "#0074d9", 1617: "#ffffff",
 }
 
 
@@ -51,18 +51,17 @@ def plot(tf: str, df, state: dict, path, bars: int = 200, log_scale: bool = Fals
                  color="white", fontsize=12, loc="left")
 
     # RSI
-    ar.axhspan(30, 70, color="#3d1a5b", alpha=0.35)
+    ar.axhspan(43.6, 70, color="#3d1a5b", alpha=0.45)
+    ar.axhspan(40.54, 43.6, color="#ff851b", alpha=0.10)
     ar.plot(x, d["rsi"], color="#f5d76e", linewidth=1.1)
     ar.plot(x, d["rsi_ma"], color="#ff4136", linewidth=1.0)
     ar.axhline(50, color="white", alpha=0.35, linestyle=":")
     for L in state["rsi"]["levels_auto"]:
-        ar.axhline(L["value"], color="#7fdbff", alpha=0.55, linewidth=0.8)
-        ar.annotate(f"{L['name']} {L['value']}", (0, L["value"]), xytext=(2, 2), textcoords="offset points",
-                    color="#7fdbff", fontsize=7)
+        ar.axhline(L["value"], color="#7fdbff", alpha=0.18, linewidth=0.6)
     for name, val in state["rsi"]["levels_known"].items():
-        ar.axhline(val, color="#ffdc00", alpha=0.8, linewidth=0.9, linestyle="--")
-        ar.annotate(f"{name} {val}", (x[len(x) // 2], val), xytext=(2, 2), textcoords="offset points",
-                    color="#ffdc00", fontsize=7)
+        c = "#ff851b" if "Traps" in name else "#ffdc00" if name in ("BBB", "Fim de bull") else "#bbbbbb"
+        ar.axhline(val, color=c, alpha=0.8, linewidth=0.9, linestyle="--")
+        ar.annotate(f"{name} {val}", (x[-1], val), xytext=(-150, 2), textcoords="offset points", color=c, fontsize=7)
     ar.set_ylim(5, 100)
     ar.set_ylabel("RSI", color="white")
 
@@ -70,7 +69,9 @@ def plot(tf: str, df, state: dict, path, bars: int = 200, log_scale: bool = Fals
     ak.axhspan(20, 80, color="#3d1a5b", alpha=0.35)
     ak.plot(x, d["stoch_k"], color="#0a84ff", linewidth=1.0)
     ak.plot(x, d["stoch_d"], color="#ff851b", linewidth=1.0)
-    ak.axhline(50, color="white", alpha=0.3, linestyle=":")
+    for name, val in {"Suporte Inferior": 20, "Suporte Superior": 50, "Resistencia Superior": 80}.items():
+        ak.axhline(val, color="white", alpha=0.35, linestyle=":")
+        ak.annotate(name, (x[-1], val), xytext=(-90, 2), textcoords="offset points", color="#7fdbff", fontsize=7)
     ak.set_ylim(-5, 105)
     ak.set_ylabel("Stoch RSI", color="white")
 

@@ -6,8 +6,8 @@ Alinhamento (conferido contra datas de fechamento citadas nos posts):
 - 2W: limite de vela em 2025-12-22 (post do Raicher de 20/12/2025 "daqui 47h").
 - 2D / 3D: ancorados no início de cada ano (o 2D bate com fechamentos de 23/11/2025, 06/02/2026 e 06/06/2026).
 - 2M / 4M: ancorados em janeiro (4M fecha fim de abr, ago, dez).
-- 343m / 686m: ancorados no início de cada dia UTC (padrão do TradingView para intervalos fora do padrão;
-  troque "intraday_anchor" para "epoch" no config se os horários não baterem com o seu gráfico).
+- 343m / 686m: ancorados no início de cada dia UTC. CONFERIDO com prints do Dollynho de 08-09/11/2026:
+  343m fecha 05:43, 11:26, 17:09, 22:52, 00:00 UTC; 686m fecha 11:26, 22:52, 00:00 UTC.
 """
 import pandas as pd
 

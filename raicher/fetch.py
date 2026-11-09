@@ -44,6 +44,8 @@ def fetch(pair: str, step: int, since: pd.Timestamp, cache: Path) -> pd.DataFram
         cached = pd.read_csv(cache, index_col=0, parse_dates=True)
         cached.index = pd.to_datetime(cached.index, utc=True)
         cached = cached[cached.index >= since]
+        if not cached.empty and cached.index[0] > since + pd.Timedelta(days=2):
+            cached = None  # histórico pedido aumentou: baixa tudo de novo
     start = since if cached is None or cached.empty else cached.index[-2]  # refaz a última vela (pode estar aberta)
     start_s = int(start.timestamp())
     now_s = int(time.time())
