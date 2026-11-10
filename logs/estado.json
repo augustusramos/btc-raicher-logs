@@ -4,30 +4,31 @@
     "postura": "short",
     "desde": "2026-11-03 ~22:05 (rejeição do Suporte Inferior no RSI + abaixo da MA7/EMA7)",
     "alvos": [
-      "MA1372 (72.288)",
+      "MA1372 (72.291)",
       "RSI 23.67"
     ],
-    "stop": "EMA21 (75.541)",
+    "stop": "EMA21 (75.416)",
     "historico_stop": [
       "MA7/EMA7 (09/11 08:26)",
       "EMA21 (09/11 14:09, após o pavio tocar a MA21)",
       "EMA21 mantida (09/11 19:52)",
       "EMA21 mantida (09/11 21:00)",
-      "EMA21 mantida (10/11 02:43, pavio rejeitado na MA21)"
+      "EMA21 mantida (10/11 02:43, pavio rejeitado na MA21)",
+      "EMA21 mantida (10/11 08:26, pavio rejeitado na MA7/EMA7)"
     ],
-    "observacao": "02:43: toque perfeito na MA21 (75.373) e rejeição; fechou ABAIXO da EMA7 (74.944, confirma/anula 08:26), US$ 9 ACIMA da MA7 (74.769). RSI 39.79 ANULOU o Suporte Inferior e perdeu a Região dos Traps; ACIMA da Média (37.67). Stoch 91.1 na máxima, ainda sem virar. Fechamento ACIMA da EMA21 = fechamos o trade.",
-    "atualizado": "2026-11-10 02:43"
+    "observacao": "08:26: toque perfeito na MA7/EMA7 (pavio 74.904) e rejeição; fechou em 74.162, CONFIRMOU ABAIXO da EMA7 (74.748), perdeu MA7 (74.687) e MA1617 (74.533) (confirma/anula 14:09). RSI 35.50 perdeu a Média (37.51) e os Dips históricos (35.74). Stoch 72.49 cruzou para baixo e perdeu 80: confluência completa, tese confirmada. MA686 (73.580) no caminho. Fechamento ACIMA da EMA21 = fechamos o trade.",
+    "atualizado": "2026-11-10 08:26"
   },
   "686m": {
     "postura": "short",
     "desde": "2026-11-03 22:05 (bull trap, fechou ABAIXO da MA7/EMA7, rejeição clara do Suporte Inferior no RSI = ponto de entrada)",
     "alvos": [
-      "MA686 (72.950)",
-      "MA539 (72.490)"
+      "MA686 (72.958)",
+      "MA539 (72.476)"
     ],
-    "stop": "MA343 do 686 (75.789) — principal resistência, escolhida pelo método (Dollynho não informou)",
-    "atualizado": "2026-11-09 21:00",
-    "observacao": "21:00: toque perfeito na MA7/EMA7 e CONFIRMOU ACIMA; ABAIXO da MA343 (stop). RSI 41.32 confirmou acima da Média, na Região dos Traps, divergência bullish. Stoch 46.7 rompeu o Suporte Inferior (confirma/anula 08:26). Segundo candle de alerta."
+    "stop": "MA343 do 686 (75.816) — principal resistência, escolhida pelo método (Dollynho não informou)",
+    "atualizado": "2026-11-10 08:26",
+    "observacao": "08:26: toque perfeito na MA7/EMA7 (pavio 75.334) e rejeição; fechou em 74.162, PERDEU MA7 (74.827)/EMA7 (74.917) (confirma/anula 19:52): candles de alerta anulados. RSI 36.04 perdeu a Média (37.71) e anulou a Região dos Traps. Stoch 58.25 ainda subindo (rompeu 50): falta virar para confluência."
   },
   "1D": {
     "postura": "short",
