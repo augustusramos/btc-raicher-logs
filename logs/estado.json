@@ -4,38 +4,40 @@
     "postura": "short",
     "desde": "2026-11-03 ~22:05 (rejeição do Suporte Inferior no RSI + abaixo da MA7/EMA7)",
     "alvos": [
-      "MA1372 (72.282)",
+      "MA1372 (72.285)",
       "RSI 23.67"
     ],
-    "stop": "EMA21 (75.653)",
+    "stop": "EMA21 (75.618)",
     "historico_stop": [
       "MA7/EMA7 (09/11 08:26)",
       "EMA21 (09/11 14:09, após o pavio tocar a MA21)",
-      "EMA21 mantida (09/11 19:52)"
+      "EMA21 mantida (09/11 19:52)",
+      "EMA21 mantida (09/11 21:00)"
     ],
-    "observacao": "19:52: fechou ACIMA da MA7/EMA7 e confirmou acima da MA1617, mas ABAIXO da MA21/EMA21; stop intacto, trade mantido. Fechamento ACIMA da EMA21 = fechamos o trade.",
-    "atualizado": "2026-11-09 19:52"
+    "observacao": "21:00: toque perfeito na EMA7 e CONFIRMOU ACIMA da MA7/EMA7; ABAIXO da MA21 (75.430)/EMA21 (75.618), stop intacto. RSI 43.69 rompeu o Suporte Inferior (confirma/anula 02:43). Stoch 93.7 na máxima. Fechamento ACIMA da EMA21 = fechamos o trade.",
+    "atualizado": "2026-11-09 21:00"
   },
   "686m": {
     "postura": "short",
     "desde": "2026-11-03 22:05 (bull trap, fechou ABAIXO da MA7/EMA7, rejeição clara do Suporte Inferior no RSI = ponto de entrada)",
     "alvos": [
-      "MA686 (72.941)",
-      "MA539 (72.497)"
+      "MA686 (72.950)",
+      "MA539 (72.490)"
     ],
-    "stop": "MA343 do 686 (75.758) — principal resistência, escolhida pelo método (Dollynho não informou)",
-    "atualizado": "2026-11-09 19:52",
-    "observacao": "19:52: fechou colado ACIMA da EMA7/MA7, abaixo da MA343; RSI acima da Média com divergência bullish; Stoch virando de baixo. Candle de alerta."
+    "stop": "MA343 do 686 (75.789) — principal resistência, escolhida pelo método (Dollynho não informou)",
+    "atualizado": "2026-11-09 21:00",
+    "observacao": "21:00: toque perfeito na MA7/EMA7 e CONFIRMOU ACIMA; ABAIXO da MA343 (stop). RSI 41.32 confirmou acima da Média, na Região dos Traps, divergência bullish. Stoch 46.7 rompeu o Suporte Inferior (confirma/anula 08:26). Segundo candle de alerta."
   },
   "1D": {
     "postura": "short",
     "condicao": "Abaixo da MA7 do Diário mantemos o trade (Log 317, 02/11)",
     "alvos": [
-      "MA343 (ATINGIDO: perdemos a MA343 em 08/11)",
-      "MA231"
+      "MA343 (ATINGIDO: perdeu em 08/11, CONFIRMOU ABAIXO em 09/11 com toque perfeito no pavio)",
+      "MA231 (72.935), com MA200 (73.156) logo antes"
     ],
-    "stop": "fechamento diário ACIMA da MA7",
-    "atualizado": "2026-11-08 21:00"
+    "stop": "fechamento diário ACIMA da MA7 (76.465)",
+    "atualizado": "2026-11-09 21:00",
+    "observacao": "09/11: CONFIRMOU ABAIXO da MA343 (75.393); MA49 Semanal (75.188) junto = resistência. RSI 37.93 abaixo da Média (39.35) e da Região dos Traps. Stoch 18.1 abaixo de 20, perto de zerar: cautela com nova entrada short."
   },
   "1W": {
     "postura": "sem trade",
