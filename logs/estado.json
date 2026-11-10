@@ -4,42 +4,43 @@
     "postura": "short",
     "desde": "2026-11-03 ~22:05 (rejeição do Suporte Inferior no RSI + abaixo da MA7/EMA7)",
     "alvos": [
-      "MA1372 (72.291)",
+      "MA1372 (72.292), MA777 (72.400) no caminho",
       "RSI 23.67"
     ],
-    "stop": "EMA21 (75.416)",
+    "stop": "MA7 (74.472), com MA1617 (74.523) colada",
     "historico_stop": [
       "MA7/EMA7 (09/11 08:26)",
       "EMA21 (09/11 14:09, após o pavio tocar a MA21)",
       "EMA21 mantida (09/11 19:52)",
       "EMA21 mantida (09/11 21:00)",
       "EMA21 mantida (10/11 02:43, pavio rejeitado na MA21)",
-      "EMA21 mantida (10/11 08:26, pavio rejeitado na MA7/EMA7)"
+      "EMA21 mantida (10/11 08:26, pavio rejeitado na MA7/EMA7)",
+      "MA7 (10/11 14:09, pavio testou MA7/EMA7/MA1617 e foi rejeitado)"
     ],
-    "observacao": "08:26: toque perfeito na MA7/EMA7 (pavio 74.904) e rejeição; fechou em 74.162, CONFIRMOU ABAIXO da EMA7 (74.748), perdeu MA7 (74.687) e MA1617 (74.533) (confirma/anula 14:09). RSI 35.50 perdeu a Média (37.51) e os Dips históricos (35.74). Stoch 72.49 cruzou para baixo e perdeu 80: confluência completa, tese confirmada. MA686 (73.580) no caminho. Fechamento ACIMA da EMA21 = fechamos o trade.",
-    "atualizado": "2026-11-10 08:26"
+    "observacao": "14:09: pavio 74.740 rejeitado na MA7/EMA7/MA1617; fechou 72.796 (-1,84%), CONFIRMOU ABAIXO da MA7 e MA1617, perdeu MA686 (73.599) (confirma/anula 19:52). Mínima 72.677, ainda sem tocar MA777/MA1372. RSI 28.21 abaixo da Média (36.83), perdeu 30. Stoch 39.16 virado para baixo, perdeu 50. Cautela: RSI < 30. Fechamento ACIMA da MA7 = fechamos o trade.",
+    "atualizado": "2026-11-10 14:09"
   },
   "686m": {
     "postura": "short",
     "desde": "2026-11-03 22:05 (bull trap, fechou ABAIXO da MA7/EMA7, rejeição clara do Suporte Inferior no RSI = ponto de entrada)",
     "alvos": [
-      "MA686 (72.958)",
+      "MA686 (72.958) — ATINGIDO no pavio (mínima 72.677, candle em andamento, 10/11 ~14:09)",
       "MA539 (72.476)"
     ],
     "stop": "MA343 do 686 (75.816) — principal resistência, escolhida pelo método (Dollynho não informou)",
-    "atualizado": "2026-11-10 08:26",
-    "observacao": "08:26: toque perfeito na MA7/EMA7 (pavio 75.334) e rejeição; fechou em 74.162, PERDEU MA7 (74.827)/EMA7 (74.917) (confirma/anula 19:52): candles de alerta anulados. RSI 36.04 perdeu a Média (37.71) e anulou a Região dos Traps. Stoch 58.25 ainda subindo (rompeu 50): falta virar para confluência."
+    "atualizado": "2026-11-10 14:09 (intrabar)",
+    "observacao": "08:26: toque perfeito na MA7/EMA7 (pavio 75.334) e rejeição; fechou em 74.162, PERDEU MA7 (74.827)/EMA7 (74.917) (confirma/anula 19:52): candles de alerta anulados. RSI 36.04 perdeu a Média (37.71) e anulou a Região dos Traps. Stoch 58.25 ainda subindo (rompeu 50): falta virar para confluência. | 14:09 (intrabar): mínima 72.677 passou pela MA686 do 686: alvo 1 atingido; próximo MA539 (72.476). Confirmar no fechamento das 19:52."
   },
   "1D": {
     "postura": "short",
     "condicao": "Abaixo da MA7 do Diário mantemos o trade (Log 317, 02/11)",
     "alvos": [
       "MA343 (ATINGIDO: perdeu em 08/11, CONFIRMOU ABAIXO em 09/11 com toque perfeito no pavio)",
-      "MA231 (72.935), com MA200 (73.156) logo antes"
+      "MA231 (72.935), com MA200 (73.156) — ATINGIDO no pavio intradiário de 10/11 (mínima 72.677); falta o fechamento das 21:00"
     ],
     "stop": "fechamento diário ACIMA da MA7 (76.465)",
-    "atualizado": "2026-11-09 21:00",
-    "observacao": "09/11: CONFIRMOU ABAIXO da MA343 (75.393); MA49 Semanal (75.188) junto = resistência. RSI 37.93 abaixo da Média (39.35) e da Região dos Traps. Stoch 18.1 abaixo de 20, perto de zerar: cautela com nova entrada short."
+    "atualizado": "2026-11-10 14:09 (intrabar)",
+    "observacao": "09/11: CONFIRMOU ABAIXO da MA343 (75.393); MA49 Semanal (75.188) junto = resistência. RSI 37.93 abaixo da Média (39.35) e da Região dos Traps. Stoch 18.1 abaixo de 20, perto de zerar: cautela com nova entrada short. | 10/11 14:09: pavio intradiário abaixo da MA200 e MA231 do Diário: alvo atingido; decidir no fechamento das 21:00 se a posição é liquidada (Seguimos, fora) ou se há novo alvo."
   },
   "1W": {
     "postura": "sem trade",
