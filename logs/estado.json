@@ -4,18 +4,19 @@
     "postura": "short",
     "desde": "2026-11-03 ~22:05 (rejeição do Suporte Inferior no RSI + abaixo da MA7/EMA7)",
     "alvos": [
-      "MA1372 (72.285)",
+      "MA1372 (72.288)",
       "RSI 23.67"
     ],
-    "stop": "EMA21 (75.618)",
+    "stop": "EMA21 (75.541)",
     "historico_stop": [
       "MA7/EMA7 (09/11 08:26)",
       "EMA21 (09/11 14:09, após o pavio tocar a MA21)",
       "EMA21 mantida (09/11 19:52)",
-      "EMA21 mantida (09/11 21:00)"
+      "EMA21 mantida (09/11 21:00)",
+      "EMA21 mantida (10/11 02:43, pavio rejeitado na MA21)"
     ],
-    "observacao": "21:00: toque perfeito na EMA7 e CONFIRMOU ACIMA da MA7/EMA7; ABAIXO da MA21 (75.430)/EMA21 (75.618), stop intacto. RSI 43.69 rompeu o Suporte Inferior (confirma/anula 02:43). Stoch 93.7 na máxima. Fechamento ACIMA da EMA21 = fechamos o trade.",
-    "atualizado": "2026-11-09 21:00"
+    "observacao": "02:43: toque perfeito na MA21 (75.373) e rejeição; fechou ABAIXO da EMA7 (74.944, confirma/anula 08:26), US$ 9 ACIMA da MA7 (74.769). RSI 39.79 ANULOU o Suporte Inferior e perdeu a Região dos Traps; ACIMA da Média (37.67). Stoch 91.1 na máxima, ainda sem virar. Fechamento ACIMA da EMA21 = fechamos o trade.",
+    "atualizado": "2026-11-10 02:43"
   },
   "686m": {
     "postura": "short",
