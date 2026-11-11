@@ -28,3 +28,13 @@ Amostra: 110 posts de Log/343/686/Diário/2D do perfil, de 16/10/2026 a 11/11/20
 
 ## Diferença em relação aos nossos Logs (modo completo)
 Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português claro" e "Leitura consolidada". O modo Dollynho corta isso para o tamanho dele, mais no máximo uma linha 📌 quando a posição muda e o rodapé de risco. O raciocínio completo fica em "Notas internas" no arquivo do Log no repositório.
+
+## Regras de redação confirmadas 3 vezes (11/11/2026)
+- RSI ABAIXO do Suporte Inferior (~43,6): a leitura é "Seguimos ABAIXO do Suporte Inferior no RSI" (principal resistência). Média do RSI ou Região dos Traps só entram se mudaram no fechamento ou mudam a decisão.
+- Pavio que chega à MA21/EMA21 (ou passa) e fecha ABAIXO, estando em short: "Rejeição na MA21/EMA21" (👀). Se tocou sem rejeição clara: "toque perfeito na MA21".
+## Observados 1-2 vezes (ainda não são regra)
+- Stoch com K logo abaixo de 80: "IMEDIATAMENTE ABAIXO da Resistência Superior! CUIDADO!"; no print, "não cruzou" se K ainda não cruzou D.
+- Cruzamento MA7 x MA686 e outras médias que ele só marca no print não entram no texto, a não ser que sejam decisivas.
+- Despedida "Até logo mais." quando o próximo fechamento importante está a ~1h (19:52 → Diário 21:00): 2 dos 3 posts das 19:52.
+- ✅ só quando o cenário esperado se confirma; pavio rompendo e voltando é 👀/🚨.
+
