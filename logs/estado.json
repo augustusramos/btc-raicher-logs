@@ -16,7 +16,7 @@
       "MA21/EMA21 mantida (11/11 14:09, post dele: recuperou MA7/EMA7, 'seguimos ABAIXO da MA21/EMA21, é o nosso stop')"
     ],
     "proxima_entrada": "em trade short. Fechou ACIMA da MA21/EMA21 = fechamos o trade. Long só com: ACIMA da MA7/EMA7 + RSI ACIMA do Suporte Inferior (~43.6) + Stoch ACIMA de 20 e sem estar testando 80.",
-    "observacao": "14:09: fechou 74.127 (+0,27%); recuperou MA7/EMA7 (73.737/73.989), ACIMA da MA686 (73.700), ABAIXO da MA1617 (74.477, pavio rejeitado) e da MA21/EMA21. RSI 41.89 ACIMA da Média (37.44), mas ABAIXO do Suporte Inferior (~43.6) = principal Resistência. Stoch 75.12 testando a Resistência Superior: cuidado com longs.",
+    "observacao": "14:09: fechou 74.127 (+0,27%); recuperou MA7/EMA7 (73.737/73.989), ACIMA da MA686 (73.700), ABAIXO da MA1617 (74.477, pavio rejeitado) e da MA21/EMA21. RSI 41.89 ACIMA da Média (37.44), mas ABAIXO do Suporte Inferior (~43.6) = principal Resistência. Stoch 75.12 testando a Resistência Superior: cuidado com longs. | 10/11 21:58 (resposta dele): trade ganho, parciais realizadas, posição mantida com stop ajustado, a favor dos prazos maiores.",
     "atualizado": "2026-11-11 14:09 (corrigido pelo post do Dollynho)"
   },
   "686m": {
@@ -31,16 +31,16 @@
     "observacao": "08:26: fechou 73.930 ABAIXO da MA7/EMA7, máxima 74.071 nem testou. RSI 36.10 recuperou os Dips (35.74), confirma/anula 19:52; ABAIXO da Média (36.90); divergência bullish. Stoch 30.26 CONFIRMOU ABAIXO de 50."
   },
   "1D": {
-    "postura": "fora (alvo atingido, posição liquidada em 10/11 21:00)",
-    "condicao": "Abaixo da MA7 do Diário mantemos o trade (Log 317, 02/11)",
+    "postura": "short mantido com parciais (corrigido pela cronologia do Dollynho em 11/11)",
+    "condicao": "Abaixo da MA343 do Diário, sigo bearish (Log 324); a MA7 está cruzando bearish a MA343 (10/11).",
     "alvos": [
       "MA343 (ATINGIDO 08-09/11)",
-      "MA231 (72.949) com MA200 (73.137) — ATINGIDO no pavio de 10/11 (72.677), posição liquidada"
+      "MA231 (ATINGIDO 10/11 no pavio a 72.677: QED, parciais realizadas)",
+      "próximo da escada pelo método (ele não informou): MA1372 do Diário (~68.700)"
     ],
-    "stop": "sem trade",
-    "atualizado": "2026-11-10 21:00",
-    "observacao": "10/11: fechou 73.698 (-2,08%), 2º fechamento ABAIXO da MA343 (75.342); RSI 34.20 perdeu os Dips (35.74), confirma/anula 11/11 21:00.",
-    "proxima_entrada": "short: rejeição da MA343/MA7 (75.342 / 75.944) ou fechamento ABAIXO da MA231 (72.949) → 🎯 MA1372 (68.695); long: fechar ACIMA da MA7 (75.944) + RSI ACIMA da Média (38.54) + Stoch ACIMA de 20. Stoch 10.36 quase zerado: cautela com short."
+    "stop": "ajustado para ponto de ganho (valor não informado); referência do método: fechamento diário ACIMA da MA343 (~75.342) / MA7 (~75.944)",
+    "atualizado": "2026-11-11 (cronologia)",
+    "observacao": "Nosso Log de 10/11 21:00 liquidou o trade; ele realizou parciais e manteve. Stoch do Diário quase zerado: 'cuidado aos comprados'."
   },
   "1W": {
     "postura": "sem trade",
@@ -49,7 +49,7 @@
   },
   "2D": {
     "postura": "observando BBB",
-    "visao": "10/11 21:00: fechou 73.698 ABAIXO da MA7 (76.645) e MA200 (79.072); pavio parou ~0,2% da MA77 (72.548), suporte. RSI 37.82 CONFIRMOU ABAIXO da Região dos Traps; Stoch 1.08 ZERADO. BBB 2 de 3, falta RSI < 26.21.",
+    "visao": "10/11 21:00: fechou 73.698 ABAIXO da MA7 (76.645) e MA200 (79.072); pavio parou ~0,2% da MA77 (72.548), suporte. RSI 37.82 CONFIRMOU ABAIXO da Região dos Traps; Stoch 1.08 ZERADO. BBB 2 de 3, falta RSI < 26.21. | Log 325 do Dollynho (10/11): pincelada na MA77 do 2D e fechou ACIMA; Stoch de volta ao zero; retorno à MA77 é quase certo; principal suporte; perdendo, BBB quase certo.",
     "atualizado": "2026-11-10 21:00"
   },
   "3D": {

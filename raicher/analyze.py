@@ -77,6 +77,29 @@ def tf_state(tf: str, df: pd.DataFrame, cfg: dict) -> dict:
     st["ladder_above"] = [[k, above[k]["value"]] for k in sorted(above, key=lambda k: above[k]["value"])]
     st["wick_touches"] = [k for k, v in mas.items() if v["touched_wick"]]
 
+    # Cruzamentos da MA7 com as médias que o Dollynho/Raicher citam ("MA7 cruzando bearish a MA343", "7x21", "7x343")
+    crosses = []
+    if "ma7" in df:
+        m7 = df["ma7"]
+        for n in (21, 49, 77, 200, 231, 343, 539, 686, 1372, 1617):
+            col = f"ma{n}"
+            if col not in df or pd.isna(df[col].iloc[-1]):
+                continue
+            ev = cross_event(m7, df[col])
+            gap = (m7 - df[col]) / df[col] * 100
+            g_now, g_prev = float(gap.iloc[-1]), float(gap.iloc[-4]) if len(gap) > 4 else float("nan")
+            converging = (not math.isnan(g_prev)) and abs(g_now) < abs(g_prev)
+            near = abs(g_now) <= 1.0 and converging
+            if ev["event"] or near:
+                if ev["event"]:
+                    direction = "bullish" if ev["pos"] == "ACIMA" else "bearish"
+                else:  # ainda não cruzou: MA7 acima e se aproximando = cruzando para baixo
+                    direction = "bearish" if g_now > 0 else "bullish"
+                crosses.append({"par": f"MA7 x MA{n}", "event": ev["event"], "ma7_pos": ev["pos"],
+                                "gap_pct": _f(g_now), "cruzando": near and not ev["event"],
+                                "direcao": direction})
+    st["ma_crosses"] = crosses
+
     # RSI
     r = df["rsi"]
     rnow = float(r.iloc[-1])

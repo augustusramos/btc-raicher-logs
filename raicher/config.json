@@ -1,6 +1,6 @@
 {
   "pair": "btcusd",
-  "minute_history_days": 420,
+  "minute_history_days": 700,
   "intraday_anchor": "day",
   "mas": [
     7,
@@ -14,7 +14,8 @@
     686,
     777,
     1372,
-    1617
+    1617,
+    2744
   ],
   "emas": [
     7,
