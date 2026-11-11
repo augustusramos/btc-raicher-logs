@@ -4,10 +4,10 @@
     "postura": "short",
     "desde": "2026-11-03 ~22:05 (rejeição do Suporte Inferior no RSI + abaixo da MA7/EMA7)",
     "alvos": [
-      "MA1372 (72.299), MA777 (72.426) no caminho",
+      "MA1372 (72.301), MA777 (72.439) no caminho",
       "RSI 23.67"
     ],
-    "stop": "MA7 (74.221), com EMA7 (74.016) e MA1617 (74.503) juntas",
+    "stop": "MA7 (74.021), com EMA7 (73.948) e MA1617 (74.494) juntas",
     "historico_stop": [
       "MA7/EMA7 (09/11 08:26)",
       "EMA21 (09/11 14:09, após o pavio tocar a MA21)",
@@ -17,10 +17,11 @@
       "EMA21 mantida (10/11 08:26, pavio rejeitado na MA7/EMA7)",
       "MA7 (10/11 14:09, pavio testou MA7/EMA7/MA1617 e foi rejeitado)",
       "MA7 mantida (10/11 19:52, máxima 73.960 nem testou)",
-      "MA7 mantida (10/11 21:00, máxima 73.738 nem testou)"
+      "MA7 mantida (10/11 21:00, máxima 73.738 nem testou)",
+      "MA7 mantida (11/11 02:43, pavio tocou EMA7/MA7 e foi rejeitado)"
     ],
-    "observacao": "21:00: toque perfeito na MA686 (73.639), CONFIRMOU ACIMA dela; fechou 73.698. RSI 37.38 CONFIRMOU ACIMA da Média (36.68); Stoch 39.55 cruzou para cima (confirma/anula 02:43). 2 de 3 sinais de long; falta recuperar MA7/EMA7. Fechamento ACIMA da MA7 = fechamos o trade (e candle de entrada long).",
-    "atualizado": "2026-11-10 21:00"
+    "observacao": "02:43: pavio a 73.118, 2º fechamento ACIMA da MA686 (73.659); máxima 73.923 tocou EMA7/MA7 e foi rejeitada; fechou 73.743. RSI 37.83 ACIMA da Média (36.48); Stoch 60.26 CONFIRMOU cruzamento p/ cima e rompeu 50 (confirma/anula 08:26). 2 de 3 sinais de long confirmados; falta fechar ACIMA da MA7 = fechamos o trade (e candle de entrada long).",
+    "atualizado": "2026-11-11 02:43"
   },
   "686m": {
     "postura": "short",
