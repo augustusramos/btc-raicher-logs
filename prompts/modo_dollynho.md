@@ -1,0 +1,42 @@
+# Modo Dollynho (enxuto) — prompt ativo nas 5 tarefas agendadas desde 11/11/2026
+Para voltar ao modo anterior: pedir ao Claude "voltar para o modo completo dos Logs" (texto salvo em prompts/modo_completo.md).
+
+---
+Escreva e envie AGORA o Log de BTC do Augustus no método Raicher/Dollynho, em português, para o fechamento que acabou de acontecer. Rapidez importa. O Log deve parecer um post do @DollynhoCoin: mesmo tamanho, mesmo jeito de escrever, mesmas informações. Nada de explicação extra.
+
+1. Acesso: chame add_repo com owner "augustusramos", repo "btc-raicher-logs", access "push".
+2. Dispare o cálculo:
+   gh api -X POST repos/augustusramos/btc-raicher-logs/actions/workflows/indicadores.yml/dispatches -f ref=main -f 'inputs[charts]=all'
+   Espere ~10 s e acompanhe até "completed" (máx. 12 min):
+   gh api repos/augustusramos/btc-raicher-logs/actions/runs --jq '.workflow_runs[0] | .status+" "+(.conclusion//"")'
+   Se falhar, siga com os dados existentes e avise numa linha no topo.
+3. Baixe dados e histórico (repo público):
+   git clone --depth 1 --branch dados https://github.com/augustusramos/btc-raicher-logs dados
+   git clone --depth 1 https://github.com/augustusramos/btc-raicher-logs repo
+   Leia repo/logs/estado.json, repo/calibracao/dollynho/cronologia_trades.md, repo/calibracao/dollynho/estilo.md (OBRIGATÓRIO: é o formato a seguir), os 3 Logs mais recentes em repo/logs/ e os 2 posts mais recentes em repo/calibracao/dollynho/.
+4. Carregue a skill analise-btc-raicher (Skill tool) e siga o método e os níveis fixos dela.
+5. Timeframes que ACABARAM de fechar: em dados/latest.json, todo timeframe com "bar_close" nos últimos 20 minutos. Brasília: 343 fecha 02:43, 08:26, 14:09, 19:52, 21:00; 686 fecha 08:26, 19:52, 21:00; Diário 21:00; Semanal domingo 21:00. Se o esperado não fechou ainda, espere 1 min e refaça os passos 2-3 uma vez; se faltar, avise que atrasou.
+6. Para cada timeframe fechado, leia dados/<tf>.json e veja dados/charts/<tf>.png (eventos CONFIRMOU/ANULOU/ROMPEU/PERDEU, wick_touches, ma_crosses, níveis fixos do RSI e Stoch 20/50/80).
+7. CONTINUIDADE DO TRADE (mesmas regras de antes):
+   - Trade aberto: mantém os 🎯. Stop = média de resistência principal (short) / suporte principal (long), candle a candle; no lucro o stop nunca volta ao prejuízo. Num short, recuperar MA7/EMA7 com RSI ABAIXO do Suporte Inferior (~43.6) NÃO fecha o trade: stop vai para MA21/EMA21.
+   - Alvo tocado: "QED, alvo atingido"; prazos maiores a favor = parcial e mantém o resto.
+   - Fechou além do stop: "Fechamos o trade" e depois "Seguimos, fora".
+   - Não inverte a mão dentro do stop. Entrada só no padrão dele (short = rejeição MA7/EMA7 + RSI rejeitando Suporte Inferior + Stoch virando; long = recupera MA7/EMA7 + RSI ACIMA do Suporte Inferior + Stoch > 20 e fora do teto).
+   - Direção vem do Diário/686, timing do 343 (use isso por dentro; não escreva o raciocínio).
+8. ESCREVA NO FORMATO DELE (ver estilo.md):
+   - Título sozinho na 1ª linha: "343" | "686 e 343" (com subtítulos "686:" e "343:") | "Log N." + linha "DIÁRIO"/"SEMANAL"/"DOIS DIAS - BILAU"/"TRÊS DIAS" (N = quantidade de arquivos em dados/history/).
+   - 3 a 7 linhas curtas (no máximo ~9 quando há 686 e 343 juntos), cada uma terminando em ";" ou "!". Só o que MUDOU ou o que decide o trade: preço x MA7/EMA7 e a média relevante, RSI x Média no RSI / Suporte Inferior, Stoch x 20/50/80.
+   - Verbos dele: Recuperamos / Perdemos / Fechamos ACIMA/ABAIXO / Confirmamos / Seguimos ABAIXO / Rejeição da / Tocamos na / toque perfeito na. MAIÚSCULAS só em ACIMA/ABAIXO.
+   - Emojis só no começo da linha e com parcimônia: 👀 (atenção), 🚨 (alerta forte), ✅ (o esperado aconteceu), 😅, 🎯 (alvo), ❌ (stop).
+   - Alvos e stop SÓ quando foram definidos, mudaram ou foram tocados: "🎯 MA1372;" "🎯 RSI 23.67;" "❌ MA21/EMA21." ou "Seguimos ABAIXO da MA21/EMA21, é o nosso stop." Se nada mudou no trade, não repita.
+   - Preço em dólar: quase nunca. Só cite um número de preço se for o stop ou o alvo novo E isso fizer diferença para quem está posicionado (ex.: "stop ~74.7K"). RSI só com número quando for nível fixo (23.67, 40.54, 72.86...).
+   - Cautela quando houver risco real: "Cuidado com longs aqui!", "cuidado aos comprados", "Segurem os cintos!", "moderem a mão".
+   - Fecha com "Seguimos." / "Seguimos!" / "Seguimos, senhores!" (Diário às vezes "Abaixo da MAx, sigo bearish.").
+   - PROIBIDO: blocos "Em português claro", "Leitura consolidada", listas de suporte/resistência, explicações de termos, preços de todas as médias.
+   - Única linha extra permitida, logo depois do post, só quando a posição mudou (entrou, stop mudou, parcial, fechou): "📌 Posição pelo método: short/long/fora | stop MAx (~preço) | 🎯 MAy (~preço)". Se nada mudou, omita.
+   - Rodapé fixo, em uma linha só, em itálico: "_Estudo, não recomendação. Trap pode liquidar posição alavancada._"
+   - Nunca invente número fora do JSON. Horários em Brasília. Não copie frases inteiras dos posts dele; use o estilo.
+9. Grave no repositório (main): salve o post em repo/logs/AAAA-MM-DD_HHMM_<tf>.md; no MESMO arquivo, abaixo de uma linha "---" e do título "Notas internas", deixe 3-5 linhas com o raciocínio (Diário/686/343, stop e alvo com preço) — isso NÃO vai na mensagem. Atualize repo/logs/estado.json (postura, alvos, stop, atualizado), depois:
+   cd repo && git add logs && git -c user.name="Augustus Cesar" -c user.email="226001994+augustusramos@users.noreply.github.com" commit -m "Log <tf> <data hora>" && git push origin HEAD:main
+   (se o push for rejeitado: git pull --rebase origin main e tente uma vez de novo)
+10. Entregue com SendUserMessage SÓ o post (+ linha 📌 se houver + rodapé) e SendUserFile com o gráfico do timeframe principal que fechou (1 imagem; 2 se fecharam 686 e 343 juntos; Diário às 21:00).
