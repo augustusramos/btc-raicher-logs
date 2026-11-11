@@ -4,10 +4,10 @@
     "postura": "short",
     "desde": "2026-11-03 ~22:05 (rejeição do Suporte Inferior no RSI + abaixo da MA7/EMA7)",
     "alvos": [
-      "MA1372 (72.296), MA777 (72.413) no caminho",
+      "MA1372 (72.299), MA777 (72.426) no caminho",
       "RSI 23.67"
     ],
-    "stop": "MA7 (74.376), com EMA7 (74.122) e MA1617 (74.513) juntas",
+    "stop": "MA7 (74.221), com EMA7 (74.016) e MA1617 (74.503) juntas",
     "historico_stop": [
       "MA7/EMA7 (09/11 08:26)",
       "EMA21 (09/11 14:09, após o pavio tocar a MA21)",
@@ -16,32 +16,34 @@
       "EMA21 mantida (10/11 02:43, pavio rejeitado na MA21)",
       "EMA21 mantida (10/11 08:26, pavio rejeitado na MA7/EMA7)",
       "MA7 (10/11 14:09, pavio testou MA7/EMA7/MA1617 e foi rejeitado)",
-      "MA7 mantida (10/11 19:52, máxima 73.960 nem testou)"
+      "MA7 mantida (10/11 19:52, máxima 73.960 nem testou)",
+      "MA7 mantida (10/11 21:00, máxima 73.738 nem testou)"
     ],
-    "observacao": "19:52: rebote +1,25%, mínima 72.708 sem tocar MA777/MA1372; fechou 73.705, ANULOU a perda da MA686 (73.619); segue ABAIXO de EMA7/MA7/MA1617. RSI 37.42 rompeu a Média (36.75) para cima (confirma/anula 21:00), recuperou 30 e 35.74; Região dos Traps (40.54) = resistência. Stoch 34.51 K<D, confirmou abaixo de 50. Alerta, não saída. Fechamento ACIMA da MA7 = fechamos o trade.",
-    "atualizado": "2026-11-10 19:52"
+    "observacao": "21:00: toque perfeito na MA686 (73.639), CONFIRMOU ACIMA dela; fechou 73.698. RSI 37.38 CONFIRMOU ACIMA da Média (36.68); Stoch 39.55 cruzou para cima (confirma/anula 02:43). 2 de 3 sinais de long; falta recuperar MA7/EMA7. Fechamento ACIMA da MA7 = fechamos o trade (e candle de entrada long).",
+    "atualizado": "2026-11-10 21:00"
   },
   "686m": {
     "postura": "short",
     "desde": "2026-11-03 22:05 (bull trap, fechou ABAIXO da MA7/EMA7, rejeição clara do Suporte Inferior no RSI = ponto de entrada)",
     "alvos": [
-      "MA686 (72.965) — ATINGIDO no fechamento de 10/11 19:52 (pavio 72.677, tocou também MA777 72.574)",
-      "MA539 (72.462)"
+      "MA686 (72.965) — ATINGIDO em 10/11 19:52",
+      "MA539 (72.449), MA777 (72.587) no caminho"
     ],
-    "stop": "EMA7 (74.614), com MA7 (74.513) colada — reposicionado em 10/11 19:52 após pavio testar e ser rejeitado (antes: MA343 75.843)",
-    "atualizado": "2026-11-10 19:52",
-    "observacao": "19:52: pavio 74.740 rejeitado na MA7/EMA7, CONFIRMOU ABAIXO; fechou 73.705 (-0,62%). RSI 34.10 confirmou abaixo da Média (37.39) e da Região dos Traps; perdeu 35.74 (confirma/anula 21:00); divergência bullish. Stoch 55.73 K>D, confirmou acima de 50: ponto contra. MA539 a ~0,3% da mínima."
+    "stop": "MA7/EMA7 (74.441 / 74.385)",
+    "atualizado": "2026-11-10 21:00",
+    "observacao": "21:00: candle quase doji, fechou 73.698 ABAIXO da MA7/EMA7. RSI 34.07 CONFIRMOU ABAIXO dos Dips (35.74), ABAIXO da Média (37.06); divergência bullish. Stoch 30.05 cruzou para baixo e perdeu 50 (confirma/anula 08:26)."
   },
   "1D": {
-    "postura": "short",
+    "postura": "fora (alvo atingido, posição liquidada em 10/11 21:00)",
     "condicao": "Abaixo da MA7 do Diário mantemos o trade (Log 317, 02/11)",
     "alvos": [
-      "MA343 (ATINGIDO: perdeu em 08/11, CONFIRMOU ABAIXO em 09/11 com toque perfeito no pavio)",
-      "MA231 (72.935), com MA200 (73.156) — ATINGIDO no pavio intradiário de 10/11 (mínima 72.677); falta o fechamento das 21:00"
+      "MA343 (ATINGIDO 08-09/11)",
+      "MA231 (72.949) com MA200 (73.137) — ATINGIDO no pavio de 10/11 (72.677), posição liquidada"
     ],
-    "stop": "fechamento diário ACIMA da MA7 (76.465)",
-    "atualizado": "2026-11-10 14:09 (intrabar)",
-    "observacao": "09/11: CONFIRMOU ABAIXO da MA343 (75.393); MA49 Semanal (75.188) junto = resistência. RSI 37.93 abaixo da Média (39.35) e da Região dos Traps. Stoch 18.1 abaixo de 20, perto de zerar: cautela com nova entrada short. | 10/11 14:09: pavio intradiário abaixo da MA200 e MA231 do Diário: alvo atingido; decidir no fechamento das 21:00 se a posição é liquidada (Seguimos, fora) ou se há novo alvo. | 19:52: preço 73.705, ainda sem fechamento diário; decidir às 21:00."
+    "stop": "sem trade",
+    "atualizado": "2026-11-10 21:00",
+    "observacao": "10/11: fechou 73.698 (-2,08%), 2º fechamento ABAIXO da MA343 (75.342); RSI 34.20 perdeu os Dips (35.74), confirma/anula 11/11 21:00.",
+    "proxima_entrada": "short: rejeição da MA343/MA7 (75.342 / 75.944) ou fechamento ABAIXO da MA231 (72.949) → 🎯 MA1372 (68.695); long: fechar ACIMA da MA7 (75.944) + RSI ACIMA da Média (38.54) + Stoch ACIMA de 20. Stoch 10.36 quase zerado: cautela com short."
   },
   "1W": {
     "postura": "sem trade",
@@ -50,8 +52,8 @@
   },
   "2D": {
     "postura": "observando BBB",
-    "visao": "08/11: 2 dos 3 'Bilaus' armados (abaixo da MA200 e Stoch); falta o RSI. MA77 do 2D como suporte.",
-    "atualizado": "2026-11-08 21:00"
+    "visao": "10/11 21:00: fechou 73.698 ABAIXO da MA7 (76.645) e MA200 (79.072); pavio parou ~0,2% da MA77 (72.548), suporte. RSI 37.82 CONFIRMOU ABAIXO da Região dos Traps; Stoch 1.08 ZERADO. BBB 2 de 3, falta RSI < 26.21.",
+    "atualizado": "2026-11-10 21:00"
   },
   "3D": {
     "postura": "observando",
