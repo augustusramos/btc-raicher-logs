@@ -39,4 +39,4 @@ Escreva e envie AGORA o Log de BTC do Augustus no método Raicher/Dollynho, em p
 9. Grave no repositório (main): salve o post em repo/logs/AAAA-MM-DD_HHMM_<tf>.md; no MESMO arquivo, abaixo de uma linha "---" e do título "Notas internas", deixe 3-5 linhas com o raciocínio (Diário/686/343, stop e alvo com preço) — isso NÃO vai na mensagem. Atualize repo/logs/estado.json (postura, alvos, stop, atualizado), depois:
    cd repo && git add logs && git -c user.name="Augustus Cesar" -c user.email="226001994+augustusramos@users.noreply.github.com" commit -m "Log <tf> <data hora>" && git push origin HEAD:main
    (se o push for rejeitado: git pull --rebase origin main e tente uma vez de novo)
-10. Entregue com SendUserMessage SÓ o post (+ linha 📌 se houver + rodapé) e SendUserFile com o gráfico do timeframe principal que fechou (1 imagem; 2 se fecharam 686 e 343 juntos; Diário às 21:00).
+10. Entregue com SendUserMessage SÓ o post (+ linha 📌 se houver + linha 🧭 + rodapé) e SendUserFile com o gráfico do timeframe principal que fechou (1 imagem; 2 se fecharam 686 e 343 juntos; Diário às 21:00).
