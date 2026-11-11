@@ -1,20 +1,23 @@
 {
   "_como_usar": "Estado dos trades carregado de um Log para o outro (estilo Dollynho). Cada execução lê, mantém ou atualiza e grava de volta. Reconstruído da cronologia dos posts do Dollynho de 25/10 a 09/11/2026.",
   "343m": {
-    "postura": "long",
-    "desde": "2026-11-11 14:09 (candle de entrada: recuperou MA7/EMA7, RSI ACIMA da Média, Stoch ACIMA de 20); entrada 74.127",
-    "trade_anterior": "short desde 03/11 ~22:05; fechado em 73.930 (11/11 08:26) ao fechar ACIMA da MA7 (73.830); alvos MA1372/RSI 23.67 não atingidos",
+    "postura": "short (mantido; corrigido pelo post do Dollynho de 11/11 14:09)",
+    "desde": "2026-11-03 ~22:05",
+    "trade_anterior": "(nenhum) — o 'fechamento' do short em 11/11 08:26 e o long de 14:09 foram erro nosso: o stop dele é a MA21/EMA21, não a MA7",
     "alvos": [
-      "MA21 (74.677) / EMA21 (74.679), MA1617 (74.477) no caminho",
-      "EMA49 (75.957) / MA49 (76.259)"
+      "MA1372 (72.307), com a MA777 (72.467) no caminho",
+      "RSI 23.67"
     ],
-    "stop": "MA686 (73.700), com a MA7 (73.737) colada",
+    "stop": "MA21/EMA21 (74.677 / 74.679)",
     "historico_stop": [
-      "MA686 (11/11 14:09, entrada long; pavio furou MA7/MA686 e voltou)"
+      "MA7/EMA7 (09/11 08:26)",
+      "EMA21 (09/11 14:09, após o pavio tocar a MA21)",
+      "MA21/EMA21 (09/11 19:52, post dele: fechou ACIMA da MA7/EMA7, stop segue MA21/EMA21)",
+      "MA21/EMA21 mantida (11/11 14:09, post dele: recuperou MA7/EMA7, 'seguimos ABAIXO da MA21/EMA21, é o nosso stop')"
     ],
-    "proxima_entrada": "em trade long; fechou ABAIXO da MA686/MA7 = fechamos o trade",
-    "observacao": "14:09: fechou 74.127 (+0,27%); CONFIRMOU ACIMA da MA7, rompeu EMA7 (73.989) (confirma/anula 19:52); pavio rejeitado na MA1617 (74.477). RSI 41.89 ACIMA da Média (37.44), rompeu a Região dos Traps (40.54), dentro da região dos traps; Suporte Inferior ~43.6 = resistência. Stoch 75.12 K>D (66.93), perto de 80: cautela.",
-    "atualizado": "2026-11-11 14:09"
+    "proxima_entrada": "em trade short. Fechou ACIMA da MA21/EMA21 = fechamos o trade. Long só com: ACIMA da MA7/EMA7 + RSI ACIMA do Suporte Inferior (~43.6) + Stoch ACIMA de 20 e sem estar testando 80.",
+    "observacao": "14:09: fechou 74.127 (+0,27%); recuperou MA7/EMA7 (73.737/73.989), ACIMA da MA686 (73.700), ABAIXO da MA1617 (74.477, pavio rejeitado) e da MA21/EMA21. RSI 41.89 ACIMA da Média (37.44), mas ABAIXO do Suporte Inferior (~43.6) = principal Resistência. Stoch 75.12 testando a Resistência Superior: cuidado com longs.",
+    "atualizado": "2026-11-11 14:09 (corrigido pelo post do Dollynho)"
   },
   "686m": {
     "postura": "short",

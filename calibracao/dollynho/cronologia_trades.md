@@ -18,5 +18,13 @@
 - 09/11 08:26 343: confirmou abaixo da MA1617; 🎯 RSI 23.67; stop MA7/EMA7; cita MA2744 (pavios).
 - 09/11 14:09 343: toque perfeito na MA21; fechou abaixo da MA7/EMA7; recuperou MA1617 e Média do RSI; 🎯 MA1372, 🎯 RSI 23.67; stop passa a ser a EMA21.
 
+- 09/11 19:52 343: fechou ACIMA da MA7/EMA7, mas stop segue na MA21/EMA21 (de olho na resistência).
+- 11/11 14:09 343: recuperou MA7/EMA7, mas RSI ABAIXO do Suporte Inferior (principal Resistência); "seguimos ABAIXO da MA21/EMA21, é o nosso stop"; Stoch testando a Resistência Superior, "cuidado com longs aqui". Short segue aberto; 🎯 MA777/MA1372 e 🎯 RSI 23.67 seguem no gráfico.
+
+## Correções de calibração (11/11)
+- Short no 343: recuperar a MA7/EMA7 NÃO fecha o trade quando o stop já foi movido para a MA21/EMA21. Só um fechamento ACIMA da MA21/EMA21 fecha o short. (Nosso estado tinha voltado o stop para a MA7 em 10/11 14:09 e fechado em 11/11 08:26: errado.)
+- Long no 343: além de recuperar MA7/EMA7 e Stoch ACIMA de 20, o RSI precisa estar ACIMA do Suporte Inferior (~43.6). RSI ABAIXO dele = o Suporte Inferior é a principal Resistência, sem entrada long.
+- Stoch testando/na Resistência Superior (80) = "cuidado com longs aqui".
+
 ## Pendências
 - MA2744 (343) e EMA1617 (686) ainda não estão nos dados (a MA2744 do 343 precisa de ~650 dias de candles de 1 min).
