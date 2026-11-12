@@ -5,20 +5,21 @@
     "desde": "2026-11-03 ~22:05",
     "trade_anterior": "(nenhum) — o 'fechamento' do short em 11/11 08:26 e o long de 14:09 foram erro nosso: o stop dele é a MA21/EMA21, não a MA7",
     "alvos": [
-      "MA1372 (72.311), com a MA777 (72.482) no caminho",
+      "MA1372 (72.314), com a MA777 (72.498) no caminho",
       "RSI 23.67"
     ],
-    "stop": "MA21/EMA21 (74.591 / 74.607)",
+    "stop": "MA21/EMA21 (74.508 / 74.544)",
     "historico_stop": [
       "MA7/EMA7 (09/11 08:26)",
       "EMA21 (09/11 14:09, após o pavio tocar a MA21)",
       "MA21/EMA21 (09/11 19:52, post dele: fechou ACIMA da MA7/EMA7, stop segue MA21/EMA21)",
       "MA21/EMA21 mantida (11/11 14:09, post dele: recuperou MA7/EMA7, 'seguimos ABAIXO da MA21/EMA21, é o nosso stop')",
-      "MA21/EMA21 mantida (11/11 19:52: pavio furou MA1617 e MA21/EMA21 a 74.712, fechou 73.886 ABAIXO = rejeição)"
+      "MA21/EMA21 mantida (11/11 19:52: pavio furou MA1617 e MA21/EMA21 a 74.712, fechou 73.886 ABAIXO = rejeição)",
+      "MA21/EMA21 mantida (11/11 21:00: máx 74.026, nem testou; fechou 73.915)"
     ],
     "proxima_entrada": "em trade short. Fechou ACIMA da MA21/EMA21 (~74.6K) = fechamos o trade. Long só com: ACIMA da MA7/EMA7 + RSI ACIMA do Suporte Inferior (~43.6) + Stoch ACIMA de 20 e sem estar testando 80.",
-    "observacao": "19:52: pavio a 74.712 furou MA1617 (74.468) e MA21/EMA21, fechou 73.886 (-0,33%) ABAIXO; anulou EMA7 (73.964); ACIMA da MA7 (73.698) e MA686 (73.719), MA7 cruzou bearish a MA686. RSI 40.06 ACIMA da Média (37.78), anulou Região dos Traps, ABAIXO do Suporte Inferior. Stoch 79.91 na Resistência Superior: cuidado com longs. | 14:09: fechou 74.127 (+0,27%); recuperou MA7/EMA7 (73.737/73.989), ACIMA da MA686 (73.700), ABAIXO da MA1617 (74.477, pavio rejeitado) e da MA21/EMA21. RSI 41.89 ACIMA da Média (37.44), mas ABAIXO do Suporte Inferior (~43.6) = principal Resistência. Stoch 75.12 testando a Resistência Superior: cuidado com longs. | 10/11 21:58 (resposta dele): trade ganho, parciais realizadas, posição mantida com stop ajustado, a favor dos prazos maiores.",
-    "atualizado": "2026-11-11 19:52",
+    "observacao": "21:00: fechou 73.915 ACIMA da MA7 (73.858) e MA686 (73.739), CONFIRMOU ABAIXO da EMA7 (73.951); máx 74.026 longe do stop. RSI 40.39 > Média 38.32, CONFIRMOU ABAIXO da Região dos Traps, ABAIXO do Suporte Inferior. Stoch 81.17 rompeu 80 (confirma/anula 02:43): cuidado com longs. | 19:52: pavio a 74.712 furou MA1617 (74.468) e MA21/EMA21, fechou 73.886 (-0,33%) ABAIXO; anulou EMA7 (73.964); ACIMA da MA7 (73.698) e MA686 (73.719), MA7 cruzou bearish a MA686. RSI 40.06 ACIMA da Média (37.78), anulou Região dos Traps, ABAIXO do Suporte Inferior. Stoch 79.91 na Resistência Superior: cuidado com longs. | 14:09: fechou 74.127 (+0,27%); recuperou MA7/EMA7 (73.737/73.989), ACIMA da MA686 (73.700), ABAIXO da MA1617 (74.477, pavio rejeitado) e da MA21/EMA21. RSI 41.89 ACIMA da Média (37.44), mas ABAIXO do Suporte Inferior (~43.6) = principal Resistência. Stoch 75.12 testando a Resistência Superior: cuidado com longs. | 10/11 21:58 (resposta dele): trade ganho, parciais realizadas, posição mantida com stop ajustado, a favor dos prazos maiores.",
+    "atualizado": "2026-11-11 21:00",
     "entrada": {
       "lado": "short",
       "onde": "rejeição da MA7/EMA7 (bull trap do 686 + RSI rejeitando o Suporte Inferior)",
@@ -30,12 +31,12 @@
     "postura": "short",
     "desde": "2026-11-03 22:05 (bull trap, fechou ABAIXO da MA7/EMA7, rejeição clara do Suporte Inferior no RSI = ponto de entrada)",
     "alvos": [
-      "MA686 (72.965) — ATINGIDO em 10/11 19:52",
-      "MA539 (72.430), com a MA777 (72.605) no caminho"
+      "MA686 — ATINGIDO em 10/11 19:52",
+      "MA539 (72.423), com a MA777 (72.613) no caminho"
     ],
-    "stop": "MA7/EMA7 (74.256 / 74.175)",
-    "atualizado": "2026-11-11 19:52",
-    "observacao": "19:52: pavio a 74.712 passou MA7/EMA7 e fechou 73.886 ABAIXO = rejeição, short mantido. RSI 35.87 ABAIXO da Média (36.76), CONFIRMOU ACIMA dos Dips (35.74); divergência bullish. Stoch 36.54 cruzou bullish (confirma/anula 21:00). | 08:26: fechou 73.930 ABAIXO da MA7/EMA7, máxima 74.071 nem testou. RSI 36.10 recuperou os Dips (35.74), confirma/anula 19:52; ABAIXO da Média (36.90); divergência bullish. Stoch 30.26 CONFIRMOU ABAIXO de 50.",
+    "stop": "MA7/EMA7 (74.081 / 74.110)",
+    "atualizado": "2026-11-11 21:00",
+    "observacao": "21:00: máx 74.026 tocou MA7/EMA7 e fechou 73.915 ABAIXO = rejeição, short mantido. RSI 36.15 < Média 36.59, divergência bullish; Stoch 43.92 K>D CONFIRMOU ACIMA. | 19:52: pavio a 74.712 passou MA7/EMA7 e fechou 73.886 ABAIXO = rejeição, short mantido. RSI 35.87 ABAIXO da Média (36.76), CONFIRMOU ACIMA dos Dips (35.74); divergência bullish. Stoch 36.54 cruzou bullish (confirma/anula 21:00). | 08:26: fechou 73.930 ABAIXO da MA7/EMA7, máxima 74.071 nem testou. RSI 36.10 recuperou os Dips (35.74), confirma/anula 19:52; ABAIXO da Média (36.90); divergência bullish. Stoch 30.26 CONFIRMOU ABAIXO de 50.",
     "entrada": {
       "lado": "short",
       "onde": "fechou ABAIXO da MA7/EMA7, rejeição clara do Suporte Inferior no RSI",
@@ -45,15 +46,15 @@
   },
   "1D": {
     "postura": "short mantido com parciais (corrigido pela cronologia do Dollynho em 11/11)",
-    "condicao": "Abaixo da MA343 do Diário, sigo bearish (Log 324); a MA7 está cruzando bearish a MA343 (10/11).",
+    "condicao": "11/11: toque perfeito na MA200 (73.118) e fechou ACIMA; ABAIXO da MA7/EMA7 e MA343; MA7 cruzou bearish a MA343 (confirma/anula 12/11). Abaixo da MA343, sigo bearish.",
     "alvos": [
       "MA343 (ATINGIDO 08-09/11)",
-      "MA231 (ATINGIDO 10/11 no pavio a 72.677: QED, parciais realizadas)",
-      "próximo da escada pelo método (ele não informou): MA1372 do Diário (~68.700)"
+      "MA231 (ATINGIDO 10/11: QED, parciais realizadas)",
+      "próximo da escada pelo método: MA1372 do Diário (~68.732)"
     ],
-    "stop": "ajustado para ponto de ganho (valor não informado); referência do método: fechamento diário ACIMA da MA343 (~75.342) / MA7 (~75.944)",
-    "atualizado": "2026-11-11 (cronologia)",
-    "observacao": "Nosso Log de 10/11 21:00 liquidou o trade; ele realizou parciais e manteve. Stoch do Diário quase zerado: 'cuidado aos comprados'.",
+    "stop": "ajustado para ponto de ganho (valor não informado); referência do método: fechamento diário ACIMA da MA343 (~75.285) / MA7 (~75.012)",
+    "atualizado": "2026-11-11 21:00",
+    "observacao": "11/11 21:00: fechou 73.915 (+0,29%). RSI 35.15 < Média 37.66, CONFIRMOU ABAIXO dos Dips (35.74). Stoch 9.29 ABAIXO de 20, ainda não zerou. | Nosso Log de 10/11 21:00 liquidou o trade; ele realizou parciais e manteve. Stoch do Diário quase zerado: 'cuidado aos comprados'.",
     "entrada": {
       "lado": "short",
       "onde": "perda da MA7/MA343 do Diário (cronologia do Dollynho)",
