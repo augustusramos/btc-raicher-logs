@@ -5,11 +5,11 @@
     "desde": "2026-11-03 ~22:05",
     "trade_anterior": "(nenhum) — o 'fechamento' do short em 11/11 08:26 e o long de 14:09 foram erro nosso: o stop dele é a MA21/EMA21, não a MA7",
     "alvos": [
-      "MA777 (72.513)",
-      "MA1372 (72.318)",
+      "MA777 (72.528)",
+      "MA1372 (72.321)",
       "RSI 23.67"
     ],
-    "stop": "MA21/EMA21 (74.398/74.444) E RSI ACIMA do Suporte Inferior (~43.6): são as duas condições dele (21:00 de 11/11)",
+    "stop": "MA21/EMA21 (74.279/74.334) E RSI ACIMA do Suporte Inferior (~43.6): são as duas condições dele (21:00 de 11/11)",
     "historico_stop": [
       "MA7/EMA7 (09/11 08:26)",
       "EMA21 (09/11 14:09, após o pavio tocar a MA21)",
@@ -17,11 +17,12 @@
       "MA21/EMA21 mantida (11/11 14:09, post dele: recuperou MA7/EMA7, 'seguimos ABAIXO da MA21/EMA21, é o nosso stop')",
       "MA21/EMA21 mantida (11/11 19:52: pavio furou MA1617 e MA21/EMA21 a 74.712, fechou 73.886 ABAIXO = rejeição)",
       "MA21/EMA21 mantida (11/11 21:00: máx 74.026, nem testou; fechou 73.915)",
-      "MA21/EMA21 mantida (12/11 02:43: rejeição da MA7/EMA7, fechou 73.444 na mínima)"
+      "MA21/EMA21 mantida (12/11 02:43: rejeição da MA7/EMA7, fechou 73.444 na mínima)",
+      "MA21/EMA21 mantida (12/11 08:26: rejeição da EMA7, fechou 73.233, CONFIRMOU ABAIXO da MA7/MA686)"
     ],
     "proxima_entrada": "em trade short. Fechou ACIMA da MA21/EMA21 (~74.6K) = fechamos o trade. Long só com: ACIMA da MA7/EMA7 + RSI ACIMA do Suporte Inferior (~43.6) + Stoch ACIMA de 20 e sem estar testando 80.",
-    "observacao": "12/11 02:43: máx 74.117 tocou MA7/EMA7 (73.821/73.825) e MA686 (73.759), fechou 73.444 (-0,64%) na mínima; PERDEU MA7 e MA686 (confirma/anula 08:26). RSI 36.78 PERDEU a Média (38.54), ABAIXO do Suporte Inferior. Stoch 70.17 < D 77.08 cruzou bearish, ANULOU os 80. | 21:00: fechou 73.915 ACIMA da MA7 (73.858) e MA686 (73.739), CONFIRMOU ABAIXO da EMA7 (73.951); máx 74.026 longe do stop. RSI 40.39 > Média 38.32, CONFIRMOU ABAIXO da Região dos Traps, ABAIXO do Suporte Inferior. Stoch 81.17 rompeu 80 (confirma/anula 02:43): cuidado com longs. | 19:52: pavio a 74.712 furou MA1617 (74.468) e MA21/EMA21, fechou 73.886 (-0,33%) ABAIXO; anulou EMA7 (73.964); ACIMA da MA7 (73.698) e MA686 (73.719), MA7 cruzou bearish a MA686. RSI 40.06 ACIMA da Média (37.78), anulou Região dos Traps, ABAIXO do Suporte Inferior. Stoch 79.91 na Resistência Superior: cuidado com longs. | 14:09: fechou 74.127 (+0,27%); recuperou MA7/EMA7 (73.737/73.989), ACIMA da MA686 (73.700), ABAIXO da MA1617 (74.477, pavio rejeitado) e da MA21/EMA21. RSI 41.89 ACIMA da Média (37.44), mas ABAIXO do Suporte Inferior (~43.6) = principal Resistência. Stoch 75.12 testando a Resistência Superior: cuidado com longs. | 10/11 21:58 (resposta dele): trade ganho, parciais realizadas, posição mantida com stop ajustado, a favor dos prazos maiores.",
-    "atualizado": "2026-11-12 02:43",
+    "observacao": "12/11 08:26: máx 73.641 tocou a EMA7 (73.677), fechou 73.233 (-0,29%); CONFIRMOU ABAIXO da MA7 (73.754) e MA686 (73.778). RSI 35.25 < Média 38.31, PERDEU os Dips (35.74) (confirma/anula 14:09). Stoch 59.82 < D 70.39, CONFIRMOU ABAIXO de 80. MA777 a ~1%. | 12/11 02:43: máx 74.117 tocou MA7/EMA7 (73.821/73.825) e MA686 (73.759), fechou 73.444 (-0,64%) na mínima; PERDEU MA7 e MA686 (confirma/anula 08:26). RSI 36.78 PERDEU a Média (38.54), ABAIXO do Suporte Inferior. Stoch 70.17 < D 77.08 cruzou bearish, ANULOU os 80. | 21:00: fechou 73.915 ACIMA da MA7 (73.858) e MA686 (73.739), CONFIRMOU ABAIXO da EMA7 (73.951); máx 74.026 longe do stop. RSI 40.39 > Média 38.32, CONFIRMOU ABAIXO da Região dos Traps, ABAIXO do Suporte Inferior. Stoch 81.17 rompeu 80 (confirma/anula 02:43): cuidado com longs. | 19:52: pavio a 74.712 furou MA1617 (74.468) e MA21/EMA21, fechou 73.886 (-0,33%) ABAIXO; anulou EMA7 (73.964); ACIMA da MA7 (73.698) e MA686 (73.719), MA7 cruzou bearish a MA686. RSI 40.06 ACIMA da Média (37.78), anulou Região dos Traps, ABAIXO do Suporte Inferior. Stoch 79.91 na Resistência Superior: cuidado com longs. | 14:09: fechou 74.127 (+0,27%); recuperou MA7/EMA7 (73.737/73.989), ACIMA da MA686 (73.700), ABAIXO da MA1617 (74.477, pavio rejeitado) e da MA21/EMA21. RSI 41.89 ACIMA da Média (37.44), mas ABAIXO do Suporte Inferior (~43.6) = principal Resistência. Stoch 75.12 testando a Resistência Superior: cuidado com longs. | 10/11 21:58 (resposta dele): trade ganho, parciais realizadas, posição mantida com stop ajustado, a favor dos prazos maiores.",
+    "atualizado": "2026-11-12 08:26",
     "entrada": {
       "lado": "short",
       "onde": "rejeição da MA7/EMA7 (bull trap do 686 + RSI rejeitando o Suporte Inferior)",
@@ -34,11 +35,11 @@
     "desde": "2026-11-03 22:05 (bull trap, fechou ABAIXO da MA7/EMA7, rejeição clara do Suporte Inferior no RSI = ponto de entrada)",
     "alvos": [
       "MA686 — ATINGIDO em 10/11 19:52",
-      "MA539 (72.423), com a MA777 (72.613) no caminho"
+      "MA539 (72.413), com a MA777 (72.619) no caminho"
     ],
-    "stop": "MA7/EMA7 (74.081 / 74.110)",
-    "atualizado": "2026-11-11 21:00",
-    "observacao": "21:00: máx 74.026 tocou MA7/EMA7 e fechou 73.915 ABAIXO = rejeição, short mantido. RSI 36.15 < Média 36.59, divergência bullish; Stoch 43.92 K>D CONFIRMOU ACIMA. | 19:52: pavio a 74.712 passou MA7/EMA7 e fechou 73.886 ABAIXO = rejeição, short mantido. RSI 35.87 ABAIXO da Média (36.76), CONFIRMOU ACIMA dos Dips (35.74); divergência bullish. Stoch 36.54 cruzou bullish (confirma/anula 21:00). | 08:26: fechou 73.930 ABAIXO da MA7/EMA7, máxima 74.071 nem testou. RSI 36.10 recuperou os Dips (35.74), confirma/anula 19:52; ABAIXO da Média (36.90); divergência bullish. Stoch 30.26 CONFIRMOU ABAIXO de 50.",
+    "stop": "MA7/EMA7 (73.790 / 73.891)",
+    "atualizado": "2026-11-12 08:26",
+    "observacao": "12/11 08:26: máx 74.117 tocou MA7/EMA7 e fechou 73.233 (-0,92%) ABAIXO = rejeição do stop, short mantido. RSI 32.52 < Média 36.22, PERDEU os Dips (35.74) (confirma/anula 19:52); divergência bullish. Stoch 31.26 cruzou bearish (D 37.24). | 21:00: máx 74.026 tocou MA7/EMA7 e fechou 73.915 ABAIXO = rejeição, short mantido. RSI 36.15 < Média 36.59, divergência bullish; Stoch 43.92 K>D CONFIRMOU ACIMA. | 19:52: pavio a 74.712 passou MA7/EMA7 e fechou 73.886 ABAIXO = rejeição, short mantido. RSI 35.87 ABAIXO da Média (36.76), CONFIRMOU ACIMA dos Dips (35.74); divergência bullish. Stoch 36.54 cruzou bullish (confirma/anula 21:00). | 08:26: fechou 73.930 ABAIXO da MA7/EMA7, máxima 74.071 nem testou. RSI 36.10 recuperou os Dips (35.74), confirma/anula 19:52; ABAIXO da Média (36.90); divergência bullish. Stoch 30.26 CONFIRMOU ABAIXO de 50.",
     "entrada": {
       "lado": "short",
       "onde": "fechou ABAIXO da MA7/EMA7, rejeição clara do Suporte Inferior no RSI",
