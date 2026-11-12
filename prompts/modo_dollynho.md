@@ -48,3 +48,6 @@ Escreva e envie AGORA o Log de BTC do Augustus no método Raicher/Dollynho, em p
    cd repo && git add logs && git -c user.name="Augustus Cesar" -c user.email="226001994+augustusramos@users.noreply.github.com" commit -m "Log <tf> <data hora>" && git push origin HEAD:main
    (se o push for rejeitado: git pull --rebase origin main e tente uma vez de novo)
 10. Entregue com SendUserMessage SÓ o post + linha 📌 + linha 🧭 + rodapé e SendUserFile com o gráfico do timeframe principal que fechou (1 imagem; 2 se fecharam 686 e 343 juntos; Diário às 21:00).
+
+## Gatilho de long no 343 (Dollynho, 12/11 ~13:36 — provisório, 1 vez)
+Enquanto estivermos short, na linha 📌 acrescente: "🔁 Long só: RSI < 23.67 ou 343 ACIMA da MA7/EMA7 (valor)". Fechar acima da MA21/EMA21 com RSI acima da Resistência Inferior, sozinho, não inverte. Se o 343 fechar acima da MA7/EMA7, avise "👀 gatilho de long acionado?" e cheque o RSI (regra antiga: RSI > ~43.6 e Stoch > 20 sem estar no topo); se divergir do que ele postar depois, registre no placar. Alvo do short: ele fecha na região MA777 (~72,5K) por ser suporte histórico (coincide com MA77 do 2D). Cite o "Bilau" do 2D (RSI 25.78 + Stoch < 20.44) quando o RSI 2D se aproximar da linha.

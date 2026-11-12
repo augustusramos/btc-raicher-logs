@@ -83,5 +83,14 @@
   "numeracao": {
     "ultimo_log_dollynho_conhecido": 326,
     "obs": "Log 324 = Diário 09/11; 325 = 2D BILAU 10/11; 326 = Diário 11/11 21:00 (confirmado pelo post). Nosso Diário de 11/11 saiu como 'Log 4' por erro de contagem. Próximo = 327."
+  },
+  "gatilho_long_343": {
+    "regra": "long só se RSI < 23.67 OU fechamento do 343 ACIMA da MA7/EMA7; fechar acima da MA21 + RSI acima da Resistência Inferior sozinho NÃO inverte",
+    "fonte": "Dollynho, 12/11 ~13:36",
+    "status": "provisório (1 vez); tensão com regra antiga 'RSI acima de ~43.6' a confirmar"
+  },
+  "bilau_2d": {
+    "obs": "2D acima da MA77, RSI abaixo do Suporte Inferior, Stoch 2D <20.44, RSI testando linha 25.78 ('Bilau tremendo'); ainda sem Bilau",
+    "fonte": "Dollynho 12/11"
   }
 }
