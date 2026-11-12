@@ -63,3 +63,10 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Linha Pink = linha desenhada à mão (~71,67K no 343), citada como "Tocamos na Linha Pink". Não reproduzível sem print.
 - Fechamento ainda no meio do candle (print 14:09): fala "perdemos" em vez de "confirmamos".
 - Comentário descontraído com 😅 quando a queda favorece o trade (1ª vez).
+
+## 12/11 19:52
+- 686 NUNCA no 08:26/19:52 (3 de 3, mesmo com alvo do 686 batido): só no 21:00.
+- RSI perto do alvo sem tocar: "Quase tocamos no RSI 23.67, mas AINDA não!!" (⚠️).
+- Stoch: "cruzou!! CUIDADO!!" (🚨) quando K cai abaixo do Suporte Inferior/ já cruzou D; é aviso de exaustão para quem está short.
+- Não repete alvos já anunciados (MA777/MA1372 só no 14:09).
+- Fecho do 19:52: "Seguimos." (antes "Até logo mais.").
