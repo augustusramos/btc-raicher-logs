@@ -38,3 +38,4 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Despedida "Até logo mais." quando o próximo fechamento importante está a ~1h (19:52 → Diário 21:00): 2 dos 3 posts das 19:52.
 - ✅ só quando o cenário esperado se confirma; pavio rompendo e voltando é 👀/🚨.
 - 11/11 21:00: segundo o Augustus, ele posta só o Diário nesse fechamento (sem 686/343). Confirmar com o post.
+- Preferência do Augustus (11/11): nos NOSSOS Logs, toda média citada leva o valor entre parênteses. O Dollynho não faz isso; é uma adição deliberada, não divergência a corrigir.
