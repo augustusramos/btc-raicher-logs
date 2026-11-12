@@ -14,7 +14,7 @@ import pandas as pd
 from . import fetch, indicators, timeframes
 
 ROOT = Path(__file__).resolve().parent.parent
-CAMPOS = ["ma7", "ema7", "ma21", "ema21", "ma539", "ma686", "ma777", "ma1372", "ma1617", "ma343", "ma200"]
+CAMPOS = ["ma7", "ema7", "ma21", "ema21", "ma77", "ma539", "ma686", "ma777", "ma1372", "ma1617", "ma343", "ma200"]
 
 
 def _f(x):
@@ -44,7 +44,7 @@ def main():
 
     out = {"gerado_em_utc": now.isoformat(), "fonte": "bitstamp btcusd",
            "aviso": "candle EM FORMAÇÃO: não é fechamento", "timeframes": {}}
-    for tf in ["343m", "686m", "1D"]:
+    for tf in ["343m", "686m", "1D", "2D"]:
         df = indicators.add_all(tfs[tf], cfg)
         aberto = df.iloc[-1]
         fechado = df[df["end"] <= now].iloc[-1]
