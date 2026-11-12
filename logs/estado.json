@@ -76,5 +76,9 @@
     "postura": "observando",
     "visao": "08/11: RSI resetou no 3D, mas fechou ABAIXO da MA343; Stoch zerado.",
     "atualizado": "2026-11-08 21:00"
+  },
+  "numeracao": {
+    "ultimo_log_dollynho_conhecido": 325,
+    "obs": "Log 324 = Diário 09/11 21:07; Log 325 = 2D BILAU 10/11 21:16. Nosso Diário de 11/11 saiu como 'Log 4' (contagem errada); usar a numeração dele: próximo estimado = 326, confirmar com o post dele."
   }
 }
