@@ -55,3 +55,11 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - "Rejeição da Resistência Superior" é o termo dele para o Stoch que subiu à 80 e voltou.
 - Para o alvo da MA777 ele escreveu "MA77" no texto (provável deslize); no print fica ~72,5K.
 
+
+## 12/11 14:09
+- Alvos batidos: "QED!!! Perdemos a MAx e a MAy!!" (🤩) + "De olho no próximo alvo:" + 🎯. Sem parcial/stop no texto.
+- Stoch: cita o nível de suporte que está sendo PERDIDO agora (K ~33 → Suporte Inferior 20), não o que já foi perdido.
+- Fecho do 14:09: "Até a noite, senhores!" (19:52 = "Até logo mais.").
+- Linha Pink = linha desenhada à mão (~71,67K no 343), citada como "Tocamos na Linha Pink". Não reproduzível sem print.
+- Fechamento ainda no meio do candle (print 14:09): fala "perdemos" em vez de "confirmamos".
+- Comentário descontraído com 😅 quando a queda favorece o trade (1ª vez).
