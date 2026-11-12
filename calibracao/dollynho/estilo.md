@@ -39,3 +39,12 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - ✅ só quando o cenário esperado se confirma; pavio rompendo e voltando é 👀/🚨.
 - 11/11 21:00: segundo o Augustus, ele posta só o Diário nesse fechamento (sem 686/343). Confirmar com o post.
 - Preferência do Augustus (11/11): nos NOSSOS Logs, toda média citada leva o valor entre parênteses. O Dollynho não faz isso; é uma adição deliberada, não divergência a corrigir.
+## Do fechamento 21:00 de 11/11 (novas observações)
+- Stop do short tem duas condições: fechamento ACIMA da MA21/EMA21 e RSI ACIMA do Suporte Inferior (~43,6). Ele escreve "Stop segue sendo a MA21/EMA21 e o Suporte Inferior do RSI".
+- Às 21:00, com trade aberto, ele reafirma: "Seguimos com os mesmos alvos:" + lista 🎯 (MA777, MA1372, RSI 23.67) + stop.
+- Stoch com K em ~78–82: "tocou/testando a Resistência Superior" e "ensaiando cruzar bearish" (2 posts seguidos); "rompeu" fica para movimento claro acima.
+- "Zona dúbia" = preço ACIMA da MA7 e ABAIXO da EMA7 (ou o contrário).
+- O Diário confirma o cruzamento de médias no 1º fechamento ("Confirmamos o cruzamento bearish da MA7 com a MA343"). Observado 1x.
+- Despedida às 21:00: "Boa noite, senhores!" (686 e 343); Diário: "Seguimos!".
+- Numeração: Log 326 = Diário de 11/11 (nossa estimativa estava certa).
+

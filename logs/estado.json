@@ -5,10 +5,11 @@
     "desde": "2026-11-03 ~22:05",
     "trade_anterior": "(nenhum) — o 'fechamento' do short em 11/11 08:26 e o long de 14:09 foram erro nosso: o stop dele é a MA21/EMA21, não a MA7",
     "alvos": [
-      "MA1372 (72.314), com a MA777 (72.498) no caminho",
+      "MA777 (72.498)",
+      "MA1372 (72.314)",
       "RSI 23.67"
     ],
-    "stop": "MA21/EMA21 (74.508 / 74.544)",
+    "stop": "MA21/EMA21 (74.508/74.544) E RSI ACIMA do Suporte Inferior (~43.6): são as duas condições dele (21:00 de 11/11)",
     "historico_stop": [
       "MA7/EMA7 (09/11 08:26)",
       "EMA21 (09/11 14:09, após o pavio tocar a MA21)",
@@ -78,7 +79,7 @@
     "atualizado": "2026-11-08 21:00"
   },
   "numeracao": {
-    "ultimo_log_dollynho_conhecido": 325,
-    "obs": "Log 324 = Diário 09/11 21:07; Log 325 = 2D BILAU 10/11 21:16. Nosso Diário de 11/11 saiu como 'Log 4' (contagem errada); usar a numeração dele: próximo estimado = 326, confirmar com o post dele."
+    "ultimo_log_dollynho_conhecido": 326,
+    "obs": "Log 324 = Diário 09/11; 325 = 2D BILAU 10/11; 326 = Diário 11/11 21:00 (confirmado pelo post). Nosso Diário de 11/11 saiu como 'Log 4' por erro de contagem. Próximo = 327."
   }
 }
