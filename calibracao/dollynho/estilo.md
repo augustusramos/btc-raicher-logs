@@ -47,4 +47,11 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - O Diário confirma o cruzamento de médias no 1º fechamento ("Confirmamos o cruzamento bearish da MA7 com a MA343"). Observado 1x.
 - Despedida às 21:00: "Boa noite, senhores!" (686 e 343); Diário: "Seguimos!".
 - Numeração: Log 326 = Diário de 11/11 (nossa estimativa estava certa).
+## 12/11 08:26
+- Cruzamentos da MA7 com médias longas SÃO citados por ele ("Confirmamos o cruzamento bearish da MA7 com a MA686", "... com a MA343"): 2 vezes em 2 fechamentos. A anotação de 11/11 19:52 (não citar cruzamentos) estava errada e foi desfeita.
+- 686 postado só às 21:00 (em "686 e 343"); às 19:52 e 08:26 ele posta só o 343 (2 de 2).
+- 08:26: cumprimenta com "Bom dia" (10/11 no fim, 12/11 na abertura "pra quem acordou shortado").
+- Dips históricos do RSI: ele não cita (nós citávamos).
+- "Rejeição da Resistência Superior" é o termo dele para o Stoch que subiu à 80 e voltou.
+- Para o alvo da MA777 ele escreveu "MA77" no texto (provável deslize); no print fica ~72,5K.
 
