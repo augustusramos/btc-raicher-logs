@@ -71,3 +71,12 @@ Não repita alvos já anunciados em Log anterior. RSI perto do alvo: "⚠️ Qua
 - Não cite o cruzamento da MA7 com a MA1372 (ele só cita MA343/MA686/MA231). Não conte só com isso: confira o texto dele.
 - Saudação "Bom dia" é opcional (2 de 3 no 08:26).
 - Compare sempre o RSI do FECHAMENTO com o rótulo dele: se o texto dele disser que fechou abaixo do 23.67 e o dado disser acima, registre no placar.
+
+## PRÓXIMOS ALVOS PRÓPRIOS (regra do usuário, 13/11 15:53) — VALE SEMPRE
+O objetivo é analisar sozinho, NÃO esperar o Dollynho. Quando o último alvo foi atingido ou não há alvo definido, NUNCA responda "ele ainda não disse". Calcule os próximos alvos pelo método:
+1. Rode `python -m raicher.alvos --dados dados` (clone da branch dados; opção --lado long para long). Ele lista a escada de médias na direção do trade (343m, 686m, 1D, 2D, 3D, 1W), agrupa as que coincidem (<=1%) e dá a "forca" (1W=3; 1D/2D/3D=2; 343/686=1; soma por timeframe distinto). Cluster com forca >= 4 = confluência (mais confiável; ex.: MA539 3D + MA1617 1D + MA231 1W em ~61,4K = fundo de bear no Semanal).
+2. Alvos do Log: os 2-3 primeiros clusters NÃO colados (>0,5% do preço). Níveis colados (<=0,25%) já estão sendo testados: cite como "testando/colados". Se o preço já está abaixo de todas as médias do 343/686, os alvos vêm dos timeframes maiores (1W, 2D, 3D, 1D). Some o alvo de RSI abaixo do atual (rsi_proximos: 23.67 -> 13.53 -> 6.23, linhas do print dele) e o alvo do Bilau 2D (MA777 do 2D) quando houver BBB.
+3. Se o Dollynho citou um alvo, ele vem PRIMEIRO; os seus entram depois e no estado interno. Não declare parcial/saída por conta própria (regra de 12/11): alvos próprios são "🎯 a observar".
+4. Formato no Log: "De olho nos próximos alvos:" + 🎯 MA200 do Semanal (67,8K); 🎯 EMA231 do Semanal (66,7K); 🎯 MA777 do 2D (63,0K); 🎯 confluência MA539 3D/MA1617 1D/MA231 1W (61,4K). Máx 3 linhas 🎯. Mesma regra de valores entre parênteses.
+5. Também diga, em uma linha, onde o repique encontra resistência (MA7/EMA7, MA1372 do Diário, MA686 do 2D) e a baliza do RSI.
+6. Grave os alvos próprios em estado.json (alvos_proprios, com data) e compare com o que ele postar no placar (acerto de alvo).
