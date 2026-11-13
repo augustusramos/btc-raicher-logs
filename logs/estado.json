@@ -90,9 +90,9 @@
     "obs": "Um número de Log por lote das 21:00. 324 = Diário 09/11; 325 = lote 2D 10/11; 326 = Diário 11/11; 327 = lote 12/11 (2D abre; Diário e \"686 e 343\" em thread SEM número). Próximo = 328 (lote de 13/11, Diário). Nosso Diário de 12/11 saiu como Log 327 (coincide). 2D fecha a cada 2 dias (próximo 14/11)."
   },
   "gatilho_long_343": {
-    "regra": "long só se RSI < 23.67 OU fechamento do 343 ACIMA da MA7/EMA7; fechar acima da MA21 + RSI acima da Resistência Inferior sozinho NÃO inverte",
-    "fonte": "Dollynho, 12/11 ~13:36",
-    "status": "provisório (1 vez); tensão com regra antiga 'RSI acima de ~43.6' a confirmar",
+    "regra": "BALIZA RSI 23.67 (Dollynho 13/11 08:26): RSI do 343 ABAIXO de 23.67 = não tem short (zona de long/realização); ACIMA de 23.67 = não tem long. Resposta de 12/11 ~13:36: long só se RSI < 23.67 OU 343 fechar ACIMA da MA7/EMA7.",
+    "fonte": "Dollynho, 12/11 ~13:36 (resposta) + post 343 de 13/11 08:26 (regra explícita)",
+    "status": "confirmado 2x; dúvida aberta: fechamento ACIMA da MA7/EMA7 com RSI > 23.67 vale como long?",
     "baliza": "23.67 é a baliza: abaixo dela não tem short, acima dela não tem long (Dollynho 13/11 08:26, 1 vez)"
   },
   "bilau_2d": {
