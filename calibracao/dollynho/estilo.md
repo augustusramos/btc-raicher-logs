@@ -70,3 +70,9 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Stoch: "cruzou!! CUIDADO!!" (🚨) quando K cai abaixo do Suporte Inferior/ já cruzou D; é aviso de exaustão para quem está short.
 - Não repete alvos já anunciados (MA777/MA1372 só no 14:09).
 - Fecho do 19:52: "Seguimos." (antes "Até logo mais.").
+
+## 12/11 21:00 (Log 327 = 2D)
+- Em dia de fechamento do 2D (10/11, 12/11: a cada 2 dias) ele posta o 2D em post próprio: "Log N. DOIS DIAS - BILAU..." (325 em 10/11, 327 em 12/11). O Diário tem outro número (326 em 11/11).
+- Leituras do 2D: "QED! Perdemos a MA77!!", RSI "mais próximo do Bilau (chega a tremer)", Stoch "totalmente arrefecido", e o alvo caso o BBB se confirme (MA777 2D ~63K).
+- Emojis novos: 🦢 (abertura do assunto do Trade do Bilau), 🍩 (linha roxa ~53K desenhada) com "Saudades!".
+- Linha do Bilau no RSI 2D nos prints dele: 25,78 (2 de 2 prints); nossa config: 26,21 (Raicher). Registrar; não mudar até confirmar.

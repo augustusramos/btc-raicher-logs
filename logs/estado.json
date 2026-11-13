@@ -85,7 +85,7 @@
   },
   "numeracao": {
     "ultimo_log_dollynho_conhecido": 327,
-    "obs": "Log 324 = Diário 09/11; 325 = 2D BILAU 10/11; 326 = Diário 11/11; 327 = Diário 12/11 (nosso, número estimado: confirmar com o post dele). Próximo = 328."
+    "obs": "Log 324 = Diário 09/11; 325 = 2D BILAU 10/11; 326 = Diário 11/11; 327 = 2D 12/11 (DOIS DIAS, dele). O Diário de 12/11 nosso saiu numerado 327 por engano (renumerado 328). Próximo = 328 (Diário 12/11, se ele postar) ou o que ele informar. 2D fecha a cada 2 dias (próximo 14/11 21:00): post próprio \"DOIS DIAS\"."
   },
   "gatilho_long_343": {
     "regra": "long só se RSI < 23.67 OU fechamento do 343 ACIMA da MA7/EMA7; fechar acima da MA21 + RSI acima da Resistência Inferior sozinho NÃO inverte",
