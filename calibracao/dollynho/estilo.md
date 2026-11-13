@@ -100,3 +100,7 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - "Rejeitamos um toque na MA7" com máxima a ~0,3-0,6% da média: a tolerância dele de "toque" é maior que 0,15% (1 vez; observar).
 - Alvos dele aqui são linhas desenhadas (Azul Pontilhada ~67,2K; Linha Vermelha): sem equivalente exato nos nossos dados; nosso alvo próprio mais perto é a MA200 do Semanal (67.755).
 - Fecho curto "Seguimos" (sem "senhores") no 08:26 e 14:09 de 13/11.
+
+## 13/11 18:52 (resposta no X)
+- Linha Vermelha (alvo do 14:09) = ~62.800, dito por ele a um seguidor. Coincide (~0,4%) com a MA777 do 2D (63.049), que ele já citou no Log 327 como destino do BBB. Linha Azul Pontilhada ~67,2K (alvo anterior) fica a ~0,8% da MA200 do Semanal (67.755).
+- Conclusão provisória: os alvos dele em linhas desenhadas costumam cair sobre médias de timeframes maiores; usar a escada da ferramenta alvos.py como proxy.
