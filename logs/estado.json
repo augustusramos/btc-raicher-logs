@@ -92,7 +92,8 @@
   "gatilho_long_343": {
     "regra": "long só se RSI < 23.67 OU fechamento do 343 ACIMA da MA7/EMA7; fechar acima da MA21 + RSI acima da Resistência Inferior sozinho NÃO inverte",
     "fonte": "Dollynho, 12/11 ~13:36",
-    "status": "provisório (1 vez); tensão com regra antiga 'RSI acima de ~43.6' a confirmar"
+    "status": "provisório (1 vez); tensão com regra antiga 'RSI acima de ~43.6' a confirmar",
+    "baliza": "23.67 é a baliza: abaixo dela não tem short, acima dela não tem long (Dollynho 13/11 08:26, 1 vez)"
   },
   "bilau_2d": {
     "obs": "12/11 21:00: 2D PERDEU a MA77 (72.650) (confirma/anula 14/11); Stoch 2D 0.00; RSI 2D 34.10 (falta < 26.21/25.78). | 12/11 14:09: preço 71.664 ABAIXO da MA77 do 2D (72.548, último fechamento 2D); fechamento do 2D às 21:00 decide. | 2D acima da MA77, RSI abaixo do Suporte Inferior, Stoch 2D <20.44, RSI testando linha 25.78 ('Bilau tremendo'); ainda sem Bilau",

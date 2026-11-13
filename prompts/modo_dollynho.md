@@ -64,3 +64,10 @@ Não repita alvos já anunciados em Log anterior. RSI perto do alvo: "⚠️ Qua
 - Stop: se ele não deu valor, escreva "stop justinho" na 📌 sem inventar; mantenha os valores só no estado interno.
 - Fecho noturno: "Boa noite, senhores!" ou "Boa noite, amiguinhos! 🌘".
 - Linha do Bilau no RSI 2D: nos prints dele aparece 25,78 (nossa config 26,21): cite "RSI 2D ainda acima do Bilau" sem número até confirmar.
+
+## 13/11 (aprendizado 08:26)
+- Baliza do RSI: "23.67 é a baliza: abaixo dela não tem short, acima dela não tem long." Use na linha 🔁 e, quando o RSI estiver perto/abaixo do 23.67, no texto ("Abaixo da baliza dos 23.67 não temos novo short; aqui é o ponto de maior atenção!"). Vale para NOVAS entradas; o short aberto segue até o stop.
+- "Stoch cruzou" = cruzamento K x D; diga a direção ("cruzou bullish/bearish") e se segue ABAIXO do Suporte Inferior.
+- Não cite o cruzamento da MA7 com a MA1372 (ele só cita MA343/MA686/MA231). Não conte só com isso: confira o texto dele.
+- Saudação "Bom dia" é opcional (2 de 3 no 08:26).
+- Compare sempre o RSI do FECHAMENTO com o rótulo dele: se o texto dele disser que fechou abaixo do 23.67 e o dado disser acima, registre no placar.

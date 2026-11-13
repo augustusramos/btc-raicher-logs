@@ -86,3 +86,11 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Fecho noturno variou: "Boa noite, amiguinhos! 🌘" (antes "Boa noite, senhores!").
 - Diário: não repete cruzamentos já confirmados; fala do próximo cruzamento (MA7 x MA231) e do próximo suporte (EMA1372/MA1372). Pode opinar sobre acumulação de longo prazo (spot); não replicar como recomendação.
 - Lote do dia: UM número de Log (o do primeiro post do 21:00); os demais posts do lote saem em seguida sem número.
+
+## 13/11 08:26
+- "Stoch cruzou" = cruzamento K x D (aqui bullish: K subiu acima de D, ainda abaixo do Suporte Inferior). Resolve a dúvida de 12/11 19:52 (lá foi bearish).
+- Baliza: "23.67 é a baliza, abaixo dela não tem short, acima dela não tem long." (regra de ENTRADA nova, 1 vez). Convive com "long só sub 23.67 ou acima da MA7/EMA7" (12/11): contradição aparente em "acima dela não tem long" x "acima da MA7/EMA7"; registrar quando ele explicar.
+- Ele cita linhas desenhadas (Branca Tracejada, Azul Pontilhada, Pink): não reproduzíveis sem print.
+- "Aqui é o ponto de maior atenção" quando o RSI fecha abaixo do Suporte Histórico.
+- Dia especial no título: "343 - SEXTA-FEIRA, 13" + 🏴‍☠️ (sem saudação "bom dia" desta vez: 2 de 3).
+- Não citou o cruzamento MA7 x MA1372 (só cita MA343/MA686/MA231).
