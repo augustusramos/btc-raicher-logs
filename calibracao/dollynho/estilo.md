@@ -94,3 +94,9 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - "Aqui é o ponto de maior atenção" quando o RSI fecha abaixo do Suporte Histórico.
 - Dia especial no título: "343 - SEXTA-FEIRA, 13" + 🏴‍☠️ (sem saudação "bom dia" desta vez: 2 de 3).
 - Não citou o cruzamento MA7 x MA1372 (só cita MA343/MA686/MA231).
+
+## 13/11 14:09
+- RSI abaixo do Suporte Histórico (23.67): "Cuidado com a alavancagem. A volatilidade nessa Região costuma ser agressiva!" (2ª frase de cautela nessa zona: 08:26 "ponto de maior atenção").
+- "Rejeitamos um toque na MA7" com máxima a ~0,3-0,6% da média: a tolerância dele de "toque" é maior que 0,15% (1 vez; observar).
+- Alvos dele aqui são linhas desenhadas (Azul Pontilhada ~67,2K; Linha Vermelha): sem equivalente exato nos nossos dados; nosso alvo próprio mais perto é a MA200 do Semanal (67.755).
+- Fecho curto "Seguimos" (sem "senhores") no 08:26 e 14:09 de 13/11.

@@ -120,5 +120,13 @@
       "MA7/EMA7 343 (70.581/70.343)"
     ],
     "fonte": "python -m raicher.alvos (método; não confirmados pelo Dollynho)"
+  },
+  "alvos_dollynho": {
+    "quando": "13/11 14:09",
+    "alvos": [
+      "Linha Azul Pontilhada (~67,2K, desenhada)",
+      "Linha Vermelha (desenhada; valor não visto)"
+    ],
+    "nota": "nossos alvos próprios: MA200 1W 67.755 / EMA231 1W 66.662 / MA777 2D 63.049 / ~61.4K"
   }
 }

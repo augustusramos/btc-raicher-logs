@@ -80,3 +80,6 @@ O objetivo é analisar sozinho, NÃO esperar o Dollynho. Quando o último alvo f
 4. Formato no Log: "De olho nos próximos alvos:" + 🎯 MA200 do Semanal (67,8K); 🎯 EMA231 do Semanal (66,7K); 🎯 MA777 do 2D (63,0K); 🎯 confluência MA539 3D/MA1617 1D/MA231 1W (61,4K). Máx 3 linhas 🎯. Mesma regra de valores entre parênteses.
 5. Também diga, em uma linha, onde o repique encontra resistência (MA7/EMA7, MA1372 do Diário, MA686 do 2D) e a baliza do RSI.
 6. Grave os alvos próprios em estado.json (alvos_proprios, com data) e compare com o que ele postar no placar (acerto de alvo).
+
+## 13/11 14:09 (aprendizado)
+Com o RSI abaixo do Suporte Histórico, use a cautela dele: "Cuidado com a alavancagem. A volatilidade nessa Região costuma ser agressiva!". Rejeição de MA7: ele conta como "toque" máximas a até ~0,3-0,6% (provisório). Se ele citar alvos em linhas desenhadas (Azul Pontilhada ~67,2K), registre em estado.json (alvos_dollynho) e compare com os alvos próprios no placar. Não cite Stoch/MA1372 do Diário quando nada mudou. Fecho curto: "Seguimos."
