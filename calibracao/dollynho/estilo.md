@@ -76,3 +76,13 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Leituras do 2D: "QED! Perdemos a MA77!!", RSI "mais próximo do Bilau (chega a tremer)", Stoch "totalmente arrefecido", e o alvo caso o BBB se confirme (MA777 2D ~63K).
 - Emojis novos: 🦢 (abertura do assunto do Trade do Bilau), 🍩 (linha roxa ~53K desenhada) com "Saudades!".
 - Linha do Bilau no RSI 2D nos prints dele: 25,78 (2 de 2 prints); nossa config: 26,21 (Raicher). Registrar; não mudar até confirmar.
+
+## 12/11 21:00 (Diário, 686, 343)
+- RSI 23.67 = "Suporte Histórico" (nome dele). "RSI ainda ACIMA do Suporte Histórico! QUASE LÁ!". Ao chegar: "aceleração da queda ou reversão".
+- "Stoch ainda não zerou" com K ~2-5; "totalmente arrefecido" quando K=0 no 2D. Não escrever "ZERADO" com K > ~1.
+- Resumo quando tudo abaixo: "Estamos ABAIXO de TODAS as médias do indicador do Raicher!!!" (686) / "Também no 343 estamos ABAIXO de Todas as Médias!!!".
+- Aviso de configuração: "nessa configuração as coisas costumam ganhar tração".
+- Enquanto short e sem gatilho: "Sem longs ou reversões de posição por enquanto." Stop: "Vou dormir com o stop justinho, ainda shortado." (sem valor).
+- Fecho noturno variou: "Boa noite, amiguinhos! 🌘" (antes "Boa noite, senhores!").
+- Diário: não repete cruzamentos já confirmados; fala do próximo cruzamento (MA7 x MA231) e do próximo suporte (EMA1372/MA1372). Pode opinar sobre acumulação de longo prazo (spot); não replicar como recomendação.
+- Lote do dia: UM número de Log (o do primeiro post do 21:00); os demais posts do lote saem em seguida sem número.

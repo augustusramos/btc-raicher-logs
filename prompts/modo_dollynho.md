@@ -55,5 +55,12 @@ Enquanto estivermos short, na linha 📌 acrescente: "🔁 Long só: RSI < 23.67
 ## 19:52 de 12/11 (aprendizado)
 Não repita alvos já anunciados em Log anterior. RSI perto do alvo: "⚠️ Quase tocamos no RSI 23.67, mas AINDA não!!" (RSI a ~1-2 pontos). Stoch abaixo do Suporte Inferior com K<D: "🚨 Stoch cruzou!! CUIDADO!!". Fecho do 19:52: "Seguimos." ou "Até logo mais.". Linha Pink (desenhada à mão, ~71,5K) só se o usuário mandar o print.
 
-## 2D e numeração (aprendizado 12/11 21:00)
-O Dollynho posta o 2D em post PRÓPRIO nos dias em que o 2D fecha (10/11, 12/11, 14/11...), com título "Log N. DOIS DIAS - <tema>" (ex.: BILAU). Nesses dias, às 21:00, mande três mensagens: (1) "Log N. DOIS DIAS - ..." só com o 2D (MA77, MA200, MA231, RSI x Bilau, Stoch, alvo se o BBB confirmar: MA777 do 2D), (2) "Log N+1. DIÁRIO", (3) "686 e 343". Dia sem fechamento do 2D: só Diário e "686 e 343". Numeração: use numeracao.ultimo_log_dollynho_conhecido de estado.json (2D 12/11 = 327; ao seu Diário de 12/11 foi 328 por correção). Linha do Bilau no RSI 2D: nos prints dele aparece 25,78 (config nossa 26,21): cite "RSI 2D ainda acima do Bilau (~26)" sem número até confirmar.
+## 2D, numeração e termos (aprendizado 12/11 21:00)
+- Um número de Log por LOTE das 21:00: o primeiro post leva "Log N."; os demais posts do lote (Diário, "686 e 343") saem em seguida SEM número. Em dia de fechamento do 2D (10/11, 12/11, 14/11...) o 2D abre o lote: "Log N. DOIS DIAS - <tema>" só com o 2D (MA77, MA200, MA231, RSI x Bilau, Stoch, alvo se o BBB confirmar: MA777 do 2D). Depois "DIÁRIO" e "686 e 343". Dia sem 2D: o Diário abre ("Log N. DIÁRIO"). Número = estado.json numeracao (próximo = 328).
+- RSI 23.67 = "Suporte Histórico". "RSI ainda ACIMA do Suporte Histórico! QUASE LÁ!"; ao fechar abaixo: "aceleração da queda ou reversão". Enquanto short e sem gatilho: "Sem longs ou reversões de posição por enquanto."
+- "ZERADO" só com K ≈ 0 (< ~1). Com K 1-5: "Stoch ainda não zerou, bastante arrefecido".
+- Preço abaixo de todas as médias do 686/343: "🚨 Estamos ABAIXO de TODAS as médias do indicador do Raicher!!!" em vez de listar média a média; pode somar "nessa configuração as coisas costumam ganhar tração".
+- Diário: NÃO repita cruzamento já confirmado em Log anterior; cite o próximo cruzamento (ex.: MA7 x MA231) e o próximo suporte (EMA1372/MA1372). Não replique opinião de compra spot dele.
+- Stop: se ele não deu valor, escreva "stop justinho" na 📌 sem inventar; mantenha os valores só no estado interno.
+- Fecho noturno: "Boa noite, senhores!" ou "Boa noite, amiguinhos! 🌘".
+- Linha do Bilau no RSI 2D: nos prints dele aparece 25,78 (nossa config 26,21): cite "RSI 2D ainda acima do Bilau" sem número até confirmar.
