@@ -116,3 +116,10 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Ele posta fora de fechamento quando um alvo é tocado: "QED, tocamos na Linha AZUL Pontilhada!!" (🤑), com RSI e Stoch em uma linha cada e "Não descarto a possibilidade de irmos visitar a Linha Vermelha mais abaixo." (🎯). Fecho "Seguimos!".
 - "Stoch cruzando bearish de volta abaixo do Suporte Inferior": K voltou a cair abaixo de D abaixo de 20.
 - Linha Vermelha é descendente: ~62,8K (13/11) -> ~62,4K na borda direita (14/11 00:37).
+
+## 14/11 08:26
+- STOP do short passou a MA7/EMA7 (343), com alvo na Linha Vermelha: "Agora com alvo na Linha Vermelha e stop na MA7/EMA7." É o "stop justinho" de 13/11 à noite. Stop em lucro nunca volta a prejuízo (regra confirmada).
+- RSI: 23.67 = "principal Resistência local" quando o RSI está abaixo. Sinal de contorno: Média do RSI se aproximando/cruzando o 23.67 (se a Média ficar abaixo dele, nova aceleração para marcar o fundo).
+- Contexto de calendário: avisa que "amanhã temos fechamento Semanal" (domingo 21:00 BRT) e "costuma significar volatilidade". Lembrete: "Não alavanque! Modere a mão e cuidado com a ganância."
+- "Embandeirando em torno da Azul Pontilhada" = consolidando (bandeira) no nível tocado.
+- Saudação: "Bom dia, amiguinhos!" (08:26 de 14/11); 08:26 teve saudação em 3 de 4 (10/11, 12/11, 14/11; 13/11 não).

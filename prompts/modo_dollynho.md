@@ -86,3 +86,9 @@ Com o RSI abaixo do Suporte Histórico, use a cautela dele: "Cuidado com a alava
 
 ## 13/11 21:00 (aprendizado Diário)
 A escada de alvos agora inclui a Região da Agulhada ago/2024 (~65,4-65,9K; linha laranja ~64,45K), as linhas Azul Pontilhada (~67,2K) e Vermelha (~62,8K) dele (lista MANUAIS em raicher/alvos.py: ATUALIZE ao receber novos prints/respostas dele). No Diário: cite MA e EMA do mesmo período quando perdidas; "poder de atração das regiões de Agulhada" é tema dele; não repita o que já disse em Log anterior (MA200/MA231, cruzamento ainda não feito). Stoch: "totalmente arrefecido" com K e D <= ~5; "ainda não zerou, bastante arrefecido" com D maior.
+
+## 14/11 08:26 (aprendizado — IMPORTANTE)
+- O STOP do short agora é a MA7/EMA7 do 343 (ajuste dele em 14/11 08:26), com alvo na Linha Vermelha (~62,4-62,8K). Na 📌: "❌ Stop: fechamento ACIMA da MA7/EMA7 (valor)". Ele só aperta o stop; o stop em lucro nunca volta a prejuízo. Ler estado.json: o campo stop é a verdade.
+- RSI abaixo de 23.67: o 23.67 é "a principal Resistência local". Acompanhe a MÉDIA do RSI: se a Média vier para baixo de 23.67, "nova aceleração, aí sim marcando o fundo". Use: "A Média do RSI (27,2) já se aproxima dos 23.67".
+- Antes do fechamento Semanal (domingo 21:00): "Amanhã temos fechamento Semanal, volatilidade!" e a cautela "Não alavanque! Modere a mão e cuidado com a ganância."
+- Saudação do 08:26: "Bom dia, amiguinhos!" é aceitável (3 de 4).
