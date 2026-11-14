@@ -95,3 +95,6 @@ A escada de alvos agora inclui a Região da Agulhada ago/2024 (~65,4-65,9K; linh
 
 ## 14/11 (Bilau)
 O Dollynho avisa "LATEJANDO" (🍆) quando o BBB do 2D está perto: preço abaixo da MA200 do 2D + Stoch 2D < 20,44 + RSI 2D chegando em 25,78. No Log do 2D das 21:00 (14/11): diga qual condição falta e o alvo se confirmar (MA777 do 2D ~63K), e se o RSI 2D fechou abaixo de 25,78 diga "BILAU CONFIRMADO" (QED).
+
+## 14/11 14:28 (stop duplo)
+Stop do short 343 = fechamento ACIMA da MA7/EMA7 E RSI acima do Suporte Histórico (23,67). Citar "Média do RSI = nova resistência" quando ela alcançar o RSI. Alvo: Linha Vermelha.
