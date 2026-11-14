@@ -1,0 +1,431 @@
+{
+ "tf": "2D",
+ "bar_open": "2026-11-11T00:00:00+00:00",
+ "bar_close": "2026-11-13T00:00:00+00:00",
+ "open": 73697.93,
+ "high": 74711.57,
+ "low": 71040.0,
+ "close": 71374.07,
+ "change_pct": -3.15,
+ "bars_available": 2789,
+ "mas": {
+  "ma7": {
+   "value": 75728.49,
+   "dist_pct": -5.75,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma21": {
+   "value": 80110.44,
+   "dist_pct": -10.91,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma49": {
+   "value": 77953.3,
+   "dist_pct": -8.44,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma77": {
+   "value": 72649.95,
+   "dist_pct": -1.76,
+   "touched_wick": true,
+   "pos": "ABAIXO",
+   "event": "PERDEU (confirma/anula na proxima vela)"
+  },
+  "ma200": {
+   "value": 78819.96,
+   "dist_pct": -9.45,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma231": {
+   "value": 83700.27,
+   "dist_pct": -14.73,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma343": {
+   "value": 88828.86,
+   "dist_pct": -19.65,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma539": {
+   "value": 79806.31,
+   "dist_pct": -10.57,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma686": {
+   "value": 68849.47,
+   "dist_pct": 3.67,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  },
+  "ma777": {
+   "value": 63048.66,
+   "dist_pct": 13.2,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  },
+  "ma1372": {
+   "value": 47088.75,
+   "dist_pct": 51.57,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  },
+  "ma1617": {
+   "value": 40935.79,
+   "dist_pct": 74.36,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  },
+  "ma2744": {
+   "value": 24522.82,
+   "dist_pct": 191.05,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  },
+  "ema7": {
+   "value": 75280.85,
+   "dist_pct": -5.19,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema21": {
+   "value": 78233.86,
+   "dist_pct": -8.77,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema49": {
+   "value": 77266.33,
+   "dist_pct": -7.63,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema77": {
+   "value": 76252.46,
+   "dist_pct": -6.4,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema231": {
+   "value": 79271.31,
+   "dist_pct": -9.96,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema343": {
+   "value": 78906.35,
+   "dist_pct": -9.55,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  }
+ },
+ "support_mas": [
+  "ma686",
+  "ma777",
+  "ma1372"
+ ],
+ "resistance_mas": [
+  "ma77",
+  "ema7",
+  "ma7"
+ ],
+ "ladder_below": [
+  [
+   "ma686",
+   68849.47
+  ],
+  [
+   "ma777",
+   63048.66
+  ],
+  [
+   "ma1372",
+   47088.75
+  ],
+  [
+   "ma1617",
+   40935.79
+  ],
+  [
+   "ma2744",
+   24522.82
+  ]
+ ],
+ "ladder_above": [
+  [
+   "ma77",
+   72649.95
+  ],
+  [
+   "ema7",
+   75280.85
+  ],
+  [
+   "ma7",
+   75728.49
+  ],
+  [
+   "ema77",
+   76252.46
+  ],
+  [
+   "ema49",
+   77266.33
+  ],
+  [
+   "ma49",
+   77953.3
+  ],
+  [
+   "ema21",
+   78233.86
+  ],
+  [
+   "ma200",
+   78819.96
+  ],
+  [
+   "ema343",
+   78906.35
+  ],
+  [
+   "ema231",
+   79271.31
+  ],
+  [
+   "ma539",
+   79806.31
+  ],
+  [
+   "ma21",
+   80110.44
+  ],
+  [
+   "ma231",
+   83700.27
+  ],
+  [
+   "ma343",
+   88828.86
+  ]
+ ],
+ "wick_touches": [
+  "ma77"
+ ],
+ "ma_crosses": [
+  {
+   "par": "MA7 x MA49",
+   "event": "CONFIRMOU ABAIXO",
+   "ma7_pos": "ABAIXO",
+   "gap_pct": -2.85,
+   "cruzando": false,
+   "direcao": "bearish"
+  }
+ ],
+ "rsi": {
+  "value": 34.1,
+  "ma": 46.47,
+  "vs_ma": {
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "vs_50": {
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "levels_auto": [
+   {
+    "value": 33.84,
+    "strength": 0.132,
+    "name": "Suporte Inferior"
+   },
+   {
+    "value": 43.39,
+    "strength": 0.226,
+    "name": "Resistencia Inferior"
+   },
+   {
+    "value": 50.28,
+    "strength": 0.21,
+    "name": "Resistencia Superior"
+   },
+   {
+    "value": 57.12,
+    "strength": 0.17,
+    "name": "Resistencia Superior"
+   },
+   {
+    "value": 62.5,
+    "strength": 0.155,
+    "name": "Resistencia Superior"
+   },
+   {
+    "value": 73.73,
+    "strength": 0.108,
+    "name": "Resistencia Superior"
+   }
+  ],
+  "levels_known": {
+   "72.86": 72.86,
+   "Resistencia Superior": 70.0,
+   "Linha 50": 50.0,
+   "Suporte Inferior (aprox)": 43.6,
+   "Regiao dos Traps": 40.54,
+   "Dips historicos": 35.74,
+   "30": 30.0,
+   "23.67": 23.67,
+   "BBB": 26.21
+  },
+  "level_events": {
+   "33.84": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "43.39": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "50.28": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "57.12": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "62.5": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "73.73": {
+    "pos": "ABAIXO",
+    "event": null
+   }
+  },
+  "nearest_above": {
+   "value": 43.39,
+   "strength": 0.226,
+   "name": "Resistencia Inferior"
+  },
+  "nearest_below": {
+   "value": 33.84,
+   "strength": 0.132,
+   "name": "Suporte Inferior"
+  },
+  "reset_level": 33.84,
+  "bars_since_reset": 67,
+  "calibration": [
+   {
+    "known": "BBB",
+    "value": 26.21,
+    "nearest_auto": 33.84,
+    "diff": 7.63
+   }
+  ],
+  "known_level_events": {
+   "72.86": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "Resistencia Superior": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "Linha 50": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "Suporte Inferior (aprox)": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "Regiao dos Traps": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "Dips historicos": {
+    "pos": "ABAIXO",
+    "event": "PERDEU (confirma/anula na proxima vela)"
+   },
+   "30": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "23.67": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "BBB": {
+    "pos": "ACIMA",
+    "event": null
+   }
+  },
+  "known_nearest_above": [
+   "Dips historicos",
+   35.74
+  ],
+  "known_nearest_below": [
+   "30",
+   30.0
+  ],
+  "in_traps_zone": false,
+  "divergence": null
+ },
+ "stoch": {
+  "k": 0.0,
+  "d": 6.49,
+  "cross": null,
+  "k_vs_d": {
+   "pos": "ABAIXO",
+   "event": "CONFIRMOU ABAIXO"
+  },
+  "zone": "ZERADO",
+  "levels": {
+   "Suporte Inferior": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "Suporte Superior": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "Resistencia Superior": {
+    "pos": "ABAIXO",
+    "event": null
+   }
+  }
+ },
+ "horizontal_levels": {
+  "Fundo 2025-NOV": {
+   "value": 80537,
+   "dist_pct": -11.38,
+   "pos": "ABAIXO",
+   "event": null
+  }
+ },
+ "picycle_ratio_pct": 41.1
+}

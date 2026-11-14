@@ -1,0 +1,381 @@
+{
+ "tf": "1W",
+ "bar_open": "2026-11-02T00:00:00+00:00",
+ "bar_close": "2026-11-09T00:00:00+00:00",
+ "open": 78240.65,
+ "high": 81105.28,
+ "low": 73500.01,
+ "close": 74742.52,
+ "change_pct": -4.46,
+ "bars_available": 795,
+ "mas": {
+  "ma7": {
+   "value": 81381.7,
+   "dist_pct": -8.16,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma21": {
+   "value": 73078.09,
+   "dist_pct": 2.28,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  },
+  "ma49": {
+   "value": 75188.32,
+   "dist_pct": -0.59,
+   "touched_wick": true,
+   "pos": "ABAIXO",
+   "event": "PERDEU (confirma/anula na proxima vela)"
+  },
+  "ma77": {
+   "value": 87794.67,
+   "dist_pct": -14.87,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma200": {
+   "value": 67754.71,
+   "dist_pct": 10.31,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  },
+  "ma231": {
+   "value": 61316.03,
+   "dist_pct": 21.9,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  },
+  "ma343": {
+   "value": 52413.79,
+   "dist_pct": 42.6,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  },
+  "ma539": {
+   "value": 35434.3,
+   "dist_pct": 110.93,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  },
+  "ma686": {
+   "value": 27930.65,
+   "dist_pct": 167.6,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  },
+  "ma777": {
+   "value": 24664.01,
+   "dist_pct": 203.04,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  },
+  "ema7": {
+   "value": 78859.38,
+   "dist_pct": -5.22,
+   "touched_wick": true,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema21": {
+   "value": 76534.59,
+   "dist_pct": -2.34,
+   "touched_wick": true,
+   "pos": "ABAIXO",
+   "event": "PERDEU (confirma/anula na proxima vela)"
+  },
+  "ema49": {
+   "value": 78300.16,
+   "dist_pct": -4.54,
+   "touched_wick": true,
+   "pos": "ABAIXO",
+   "event": "CONFIRMOU ABAIXO"
+  },
+  "ema77": {
+   "value": 79565.24,
+   "dist_pct": -6.06,
+   "touched_wick": true,
+   "pos": "ABAIXO",
+   "event": "CONFIRMOU ABAIXO"
+  },
+  "ema231": {
+   "value": 66662.11,
+   "dist_pct": 12.12,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  },
+  "ema343": {
+   "value": 56830.22,
+   "dist_pct": 31.52,
+   "touched_wick": false,
+   "pos": "ACIMA",
+   "event": null
+  }
+ },
+ "support_mas": [
+  "ma21",
+  "ma200",
+  "ema231"
+ ],
+ "resistance_mas": [
+  "ma49",
+  "ema21",
+  "ema49"
+ ],
+ "ladder_below": [
+  [
+   "ma21",
+   73078.09
+  ],
+  [
+   "ma200",
+   67754.71
+  ],
+  [
+   "ema231",
+   66662.11
+  ],
+  [
+   "ma231",
+   61316.03
+  ],
+  [
+   "ema343",
+   56830.22
+  ],
+  [
+   "ma343",
+   52413.79
+  ],
+  [
+   "ma539",
+   35434.3
+  ],
+  [
+   "ma686",
+   27930.65
+  ],
+  [
+   "ma777",
+   24664.01
+  ]
+ ],
+ "ladder_above": [
+  [
+   "ma49",
+   75188.32
+  ],
+  [
+   "ema21",
+   76534.59
+  ],
+  [
+   "ema49",
+   78300.16
+  ],
+  [
+   "ema7",
+   78859.38
+  ],
+  [
+   "ema77",
+   79565.24
+  ],
+  [
+   "ma7",
+   81381.7
+  ],
+  [
+   "ma77",
+   87794.67
+  ]
+ ],
+ "wick_touches": [
+  "ma49",
+  "ema7",
+  "ema21",
+  "ema49",
+  "ema77"
+ ],
+ "ma_crosses": [],
+ "rsi": {
+  "value": 47.88,
+  "ma": 54.37,
+  "vs_ma": {
+   "pos": "ABAIXO",
+   "event": "CONFIRMOU ABAIXO"
+  },
+  "vs_50": {
+   "pos": "ABAIXO",
+   "event": "PERDEU (confirma/anula na proxima vela)"
+  },
+  "levels_auto": [
+   {
+    "value": 37.46,
+    "strength": 0.115,
+    "name": "Suporte Inferior"
+   },
+   {
+    "value": 44.16,
+    "strength": 0.213,
+    "name": "Suporte Inferior"
+   },
+   {
+    "value": 53.59,
+    "strength": 0.214,
+    "name": "Resistencia Superior"
+   },
+   {
+    "value": 62.57,
+    "strength": 0.219,
+    "name": "Resistencia Superior"
+   },
+   {
+    "value": 68.82,
+    "strength": 0.152,
+    "name": "Resistencia Superior"
+   },
+   {
+    "value": 80.06,
+    "strength": 0.087,
+    "name": "Resistencia Superior"
+   }
+  ],
+  "levels_known": {
+   "72.86": 72.86,
+   "Resistencia Superior": 70.0,
+   "Linha 50": 50.0,
+   "Suporte Inferior (aprox)": 43.6,
+   "Regiao dos Traps": 40.54,
+   "Dips historicos": 35.74,
+   "30": 30.0,
+   "23.67": 23.67
+  },
+  "level_events": {
+   "37.46": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "44.16": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "53.59": {
+    "pos": "ABAIXO",
+    "event": "CONFIRMOU ABAIXO"
+   },
+   "62.57": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "68.82": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "80.06": {
+    "pos": "ABAIXO",
+    "event": null
+   }
+  },
+  "nearest_above": {
+   "value": 53.59,
+   "strength": 0.214,
+   "name": "Resistencia Superior"
+  },
+  "nearest_below": {
+   "value": 44.16,
+   "strength": 0.213,
+   "name": "Suporte Inferior"
+  },
+  "reset_level": 37.46,
+  "bars_since_reset": 19,
+  "calibration": [],
+  "known_level_events": {
+   "72.86": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "Resistencia Superior": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "Linha 50": {
+    "pos": "ABAIXO",
+    "event": "PERDEU (confirma/anula na proxima vela)"
+   },
+   "Suporte Inferior (aprox)": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "Regiao dos Traps": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "Dips historicos": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "30": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "23.67": {
+    "pos": "ACIMA",
+    "event": null
+   }
+  },
+  "known_nearest_above": [
+   "Linha 50",
+   50.0
+  ],
+  "known_nearest_below": [
+   "Suporte Inferior (aprox)",
+   43.6
+  ],
+  "in_traps_zone": false,
+  "divergence": null
+ },
+ "stoch": {
+  "k": 52.02,
+  "d": 63.71,
+  "cross": null,
+  "k_vs_d": {
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "zone": "range 20-80",
+  "levels": {
+   "Suporte Inferior": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "Suporte Superior": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "Resistencia Superior": {
+    "pos": "ABAIXO",
+    "event": null
+   }
+  }
+ },
+ "horizontal_levels": {
+  "Fundo 2025-NOV": {
+   "value": 80537,
+   "dist_pct": -7.19,
+   "pos": "ABAIXO",
+   "event": null
+  }
+ },
+ "picycle_ratio_pct": 85.47
+}
