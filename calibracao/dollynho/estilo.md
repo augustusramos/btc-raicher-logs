@@ -104,3 +104,10 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 ## 13/11 18:52 (resposta no X)
 - Linha Vermelha (alvo do 14:09) = ~62.800, dito por ele a um seguidor. Coincide (~0,4%) com a MA777 do 2D (63.049), que ele já citou no Log 327 como destino do BBB. Linha Azul Pontilhada ~67,2K (alvo anterior) fica a ~0,8% da MA200 do Semanal (67.755).
 - Conclusão provisória: os alvos dele em linhas desenhadas costumam cair sobre médias de timeframes maiores; usar a escada da ferramenta alvos.py como proxy.
+
+## 13/11 21:00 (Log 328 Diário)
+- Agulhada: regiões de agulhada têm "poder de atração". Níveis fixos para alvo/suporte no Diário: Região da Agulhada ago/2024 ~65,4-65,9K e linha laranja da última Agulhada (ago/2024) ~64,45K. Ele diz "não descarto irmos até lá".
+- Perdas de média: cita MA e EMA do mesmo período ("Perdemos a EMA1372; fechamos ABAIXO da MA1372").
+- Stoch: "totalmente arrefecido" quando K e D <= ~5 (13/11: K 1.9 D 4.4); "ainda não zerou, bastante arrefecido" com D ~7 (12/11). Provisório.
+- Numeração: Log 328 = lote 13/11 (Diário abre) — confirmada pelo post dele.
+- Diário não repete o que já disse nem lista RSI quando nada novo.

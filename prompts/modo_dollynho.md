@@ -83,3 +83,6 @@ O objetivo é analisar sozinho, NÃO esperar o Dollynho. Quando o último alvo f
 
 ## 13/11 14:09 (aprendizado)
 Com o RSI abaixo do Suporte Histórico, use a cautela dele: "Cuidado com a alavancagem. A volatilidade nessa Região costuma ser agressiva!". Rejeição de MA7: ele conta como "toque" máximas a até ~0,3-0,6% (provisório). Se ele citar alvos em linhas desenhadas (Azul Pontilhada ~67,2K), registre em estado.json (alvos_dollynho) e compare com os alvos próprios no placar. Não cite Stoch/MA1372 do Diário quando nada mudou. Fecho curto: "Seguimos."
+
+## 13/11 21:00 (aprendizado Diário)
+A escada de alvos agora inclui a Região da Agulhada ago/2024 (~65,4-65,9K; linha laranja ~64,45K), as linhas Azul Pontilhada (~67,2K) e Vermelha (~62,8K) dele (lista MANUAIS em raicher/alvos.py: ATUALIZE ao receber novos prints/respostas dele). No Diário: cite MA e EMA do mesmo período quando perdidas; "poder de atração das regiões de Agulhada" é tema dele; não repita o que já disse em Log anterior (MA200/MA231, cruzamento ainda não feito). Stoch: "totalmente arrefecido" com K e D <= ~5; "ainda não zerou, bastante arrefecido" com D maior.

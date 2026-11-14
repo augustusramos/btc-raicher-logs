@@ -10,8 +10,12 @@ import json
 from pathlib import Path
 
 TFS = ["343m", "686m", "1D", "2D", "3D", "1W"]
-PESO = {"343m": 1, "686m": 1, "1D": 2, "2D": 2, "3D": 2, "1W": 3}
+PESO = {"manual": 2, "343m": 1, "686m": 1, "1D": 2, "2D": 2, "3D": 2, "1W": 3}
 RSI_LINHAS = [23.67, 13.53, 6.23]  # 23.67 Suporte Histórico; 13.53 (2022) e 6.23 (2023 ATL) = linhas do print dele
+MANUAIS = [  # níveis desenhados/citados por ele (valor, nome); manter atualizado ao receber prints
+    (65900, "Região da Agulhada ago/2024 (topo)"), (65400, "Região da Agulhada ago/2024 (base)"),
+    (64450, "Linha laranja da Agulhada ago/2024"), (62800, "Linha Vermelha (dele, 13/11)"), (67200, "Linha Azul Pontilhada (dele)"),
+]
 COLADO = 0.25   # % -> nível "colado" no preço (já testando/perdido agora)
 AGRUPA = 1.0    # % -> níveis a até 1% um do outro formam um cluster
 
@@ -35,6 +39,10 @@ def niveis(d: dict, preco: float, lado: str):
             dist = (val / preco - 1) * 100
             if (lado == "short" and dist < 0) or (lado == "long" and dist > 0):
                 res.append({"tf": tf, "nome": nome.upper(), "valor": round(val), "dist_pct": round(dist, 2)})
+    for val, nome in MANUAIS:
+        dist = (val / preco - 1) * 100
+        if (lado == "short" and dist < 0) or (lado == "long" and dist > 0):
+            res.append({"tf": "manual", "nome": nome.upper(), "valor": val, "dist_pct": round(dist, 2)})
     res.sort(key=lambda x: abs(x["dist_pct"]))
     return res
 
