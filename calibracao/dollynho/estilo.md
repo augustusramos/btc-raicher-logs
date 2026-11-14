@@ -111,3 +111,8 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Stoch: "totalmente arrefecido" quando K e D <= ~5 (13/11: K 1.9 D 4.4); "ainda não zerou, bastante arrefecido" com D ~7 (12/11). Provisório.
 - Numeração: Log 328 = lote 13/11 (Diário abre) — confirmada pelo post dele.
 - Diário não repete o que já disse nem lista RSI quando nada novo.
+
+## 14/11 ~00:37 (intradiário)
+- Ele posta fora de fechamento quando um alvo é tocado: "QED, tocamos na Linha AZUL Pontilhada!!" (🤑), com RSI e Stoch em uma linha cada e "Não descarto a possibilidade de irmos visitar a Linha Vermelha mais abaixo." (🎯). Fecho "Seguimos!".
+- "Stoch cruzando bearish de volta abaixo do Suporte Inferior": K voltou a cair abaixo de D abaixo de 20.
+- Linha Vermelha é descendente: ~62,8K (13/11) -> ~62,4K na borda direita (14/11 00:37).

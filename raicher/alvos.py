@@ -14,7 +14,7 @@ PESO = {"manual": 2, "343m": 1, "686m": 1, "1D": 2, "2D": 2, "3D": 2, "1W": 3}
 RSI_LINHAS = [23.67, 13.53, 6.23]  # 23.67 Suporte Histórico; 13.53 (2022) e 6.23 (2023 ATL) = linhas do print dele
 MANUAIS = [  # níveis desenhados/citados por ele (valor, nome); manter atualizado ao receber prints
     (65900, "Região da Agulhada ago/2024 (topo)"), (65400, "Região da Agulhada ago/2024 (base)"),
-    (64450, "Linha laranja da Agulhada ago/2024"), (62800, "Linha Vermelha (dele, 13/11)"), (67200, "Linha Azul Pontilhada (dele)"),
+    (64450, "Linha laranja da Agulhada ago/2024"), (62600, "Linha Vermelha (dele, descendente: 62,8K em 13/11; 62,4K em 14/11)"), (67200, "Linha Azul Pontilhada (dele)"),
 ]
 COLADO = 0.25   # % -> nível "colado" no preço (já testando/perdido agora)
 AGRUPA = 1.0    # % -> níveis a até 1% um do outro formam um cluster

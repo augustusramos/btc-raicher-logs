@@ -127,11 +127,13 @@
   "alvos_dollynho": {
     "quando": "13/11 14:09",
     "alvos": [
-      "Linha Azul Pontilhada (~67,2K, desenhada)",
-      "Linha Vermelha (~62,8K, resposta dele a um seguidor em 13/11 18:52)"
+      "Linha Vermelha (~62,4-62,8K, descendente) — 'não descarto visitar' (14/11 00:37)"
     ],
     "nota": "nossos alvos próprios: MA200 1W 67.755 / EMA231 1W 66.662 / MA777 2D 63.049 / ~61.4K",
     "comparacao": "nosso MA200 1W 67.755 ~0,8% da Azul Pontilhada; nosso MA777 2D 63.049 ~0,4% da Linha Vermelha (acerto)",
-    "agulhada_2024": "Região ~65,4-65,9K e linha laranja ~64,45K (Agulhada ago/2024): 'não descarto irmos até lá' (Log 328, 13/11)"
+    "agulhada_2024": "Região ~65,4-65,9K e linha laranja ~64,45K (Agulhada ago/2024): paradas no caminho (21:00 de 13/11)",
+    "atingidos": [
+      "Linha Azul Pontilhada ~67,2K — tocada 14/11 ~00:37 (mín 66.562; EMA231 1W 66.662 também)"
+    ]
   }
 }
