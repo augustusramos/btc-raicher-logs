@@ -63,7 +63,7 @@ Não repita alvos já anunciados em Log anterior. RSI perto do alvo: "⚠️ Qua
 - Diário: NÃO repita cruzamento já confirmado em Log anterior; cite o próximo cruzamento (ex.: MA7 x MA231) e o próximo suporte (EMA1372/MA1372). Não replique opinião de compra spot dele.
 - Stop: se ele não deu valor, escreva "stop justinho" na 📌 sem inventar; mantenha os valores só no estado interno.
 - Fecho noturno: "Boa noite, senhores!" ou "Boa noite, amiguinhos! 🌘".
-- Linha do Bilau no RSI 2D: nos prints dele aparece 25,78 (nossa config 26,21): cite "RSI 2D ainda acima do Bilau" sem número até confirmar.
+- Linha do Bilau no RSI 2D: 25,78 (confirmada 3x nos prints dele; config corrigida em 14/11; 26,21 = referência Raicher). Pode citar o número: "RSI 2D (28,x) a ~2 pontos do Bilau (25,78)".
 
 ## 13/11 (aprendizado 08:26)
 - Baliza do RSI: "23.67 é a baliza: abaixo dela não tem short, acima dela não tem long." Use na linha 🔁 e, quando o RSI estiver perto/abaixo do 23.67, no texto ("Abaixo da baliza dos 23.67 não temos novo short; aqui é o ponto de maior atenção!"). Vale para NOVAS entradas; o short aberto segue até o stop.
@@ -92,3 +92,6 @@ A escada de alvos agora inclui a Região da Agulhada ago/2024 (~65,4-65,9K; linh
 - RSI abaixo de 23.67: o 23.67 é "a principal Resistência local". Acompanhe a MÉDIA do RSI: se a Média vier para baixo de 23.67, "nova aceleração, aí sim marcando o fundo". Use: "A Média do RSI (27,2) já se aproxima dos 23.67".
 - Antes do fechamento Semanal (domingo 21:00): "Amanhã temos fechamento Semanal, volatilidade!" e a cautela "Não alavanque! Modere a mão e cuidado com a ganância."
 - Saudação do 08:26: "Bom dia, amiguinhos!" é aceitável (3 de 4).
+
+## 14/11 (Bilau)
+O Dollynho avisa "LATEJANDO" (🍆) quando o BBB do 2D está perto: preço abaixo da MA200 do 2D + Stoch 2D < 20,44 + RSI 2D chegando em 25,78. No Log do 2D das 21:00 (14/11): diga qual condição falta e o alvo se confirmar (MA777 do 2D ~63K), e se o RSI 2D fechou abaixo de 25,78 diga "BILAU CONFIRMADO" (QED).

@@ -78,14 +78,15 @@
   },
   "known_rsi_levels": {
     "2D": {
-      "BBB": 26.21
+      "BBB": 25.78
     },
     "1M": {
       "Fim de bull": 88.15
     }
   },
   "bbb": {
-    "rsi": 26.21,
+    "rsi": 25.78,
+    "rsi_raicher": 26.21,
     "stoch_k": 20.44,
     "ma": 200
   },

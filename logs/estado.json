@@ -100,8 +100,9 @@
     "baliza": "23.67 é a baliza: abaixo dela não tem short, acima dela não tem long (Dollynho 13/11 08:26, 1 vez)"
   },
   "bilau_2d": {
-    "obs": "12/11 21:00: 2D PERDEU a MA77 (72.650) (confirma/anula 14/11); Stoch 2D 0.00; RSI 2D 34.10 (falta < 26.21/25.78). | 12/11 14:09: preço 71.664 ABAIXO da MA77 do 2D (72.548, último fechamento 2D); fechamento do 2D às 21:00 decide. | 2D acima da MA77, RSI abaixo do Suporte Inferior, Stoch 2D <20.44, RSI testando linha 25.78 ('Bilau tremendo'); ainda sem Bilau",
-    "fonte": "Dollynho 12/11"
+    "obs": "14/11 12:14 (post dele 'LATEJANDO'): 2D abaixo da MA200, Stoch 2D < 20,44, RSI 2D descendo para a linha 25,78 (ainda não abaixo; fecha 21:00). Alvo se BBB: MA777 2D (~63,0-63,2K).",
+    "fonte": "Dollynho 12/11",
+    "linha_rsi": 25.78
   },
   "alvos_proprios": {
     "gerado": "2026-11-14 02:43",

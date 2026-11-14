@@ -123,3 +123,8 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Contexto de calendário: avisa que "amanhã temos fechamento Semanal" (domingo 21:00 BRT) e "costuma significar volatilidade". Lembrete: "Não alavanque! Modere a mão e cuidado com a ganância."
 - "Embandeirando em torno da Azul Pontilhada" = consolidando (bandeira) no nível tocado.
 - Saudação: "Bom dia, amiguinhos!" (08:26 de 14/11); 08:26 teve saudação em 3 de 4 (10/11, 12/11, 14/11; 13/11 não).
+
+## 14/11 ~12:14 (2D intradiário)
+- Aviso intradiário só com título e imagem: "🚨⚠️🍆 LATEJANDO!! 🍆⚠️🚨" = Bilau (BBB) latejando: preço abaixo da MA200 do 2D, Stoch 2D < 20,44 e o RSI 2D chegando perto da linha do Bilau (25,78).
+- Linha do Bilau no RSI 2D nos prints dele: 25,78 (3 de 3). Config corrigida (26,21 Raicher fica como referência).
+- 🎯 MA777 do 2D marcado em 63.168 (o valor dele muda com a vela em formação; nosso valor nos dados fechados 63.049).
