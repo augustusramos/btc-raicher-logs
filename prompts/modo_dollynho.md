@@ -126,3 +126,6 @@ D. Trade aberto, nem stop nem alvo final → MANTER.
 E. Sem trade → ABRIR só se a condição de entrada de A fechou neste candle; senão FICAR DE FORA e dizer a condição que falta.
 O que valer aqui atualiza logs/estado.json (entrada/stop/trade_anterior). A linha ⚖️, a 🧭 e o texto do post não podem se contradizer.
 Toda divergência entre nossa ⚖️ e a decisão dele vai para o placar com a regra que faltou.
+
+## 15/11 09:42 (provisório, 1x): long no pullback com divergência
+Depois de zerar no alvo e com Bilau ativo: se o 343 dispara o gatilho de long (acima da MA7/EMA7) com Stoch K > ~80, a ⚖️ é FICAR DE FORA ("Stoch nas máximas, cuidado; long no pullback"). Long preferencial: pullback do RSI à sua Média / ao 23.67 formando divergência de alta (preço faz fundo igual ou menor, RSI faz fundo mais alto e segura acima de 23.67) + Stoch voltando a cruzar para cima. Avisar "👀 possível divergência se formando" quando acontecer.
