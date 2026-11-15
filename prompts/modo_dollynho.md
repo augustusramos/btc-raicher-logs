@@ -98,3 +98,6 @@ O Dollynho avisa "LATEJANDO" (🍆) quando o BBB do 2D está perto: preço abaix
 
 ## 14/11 14:28 (stop duplo)
 Stop do short 343 = fechamento ACIMA da MA7/EMA7 E RSI acima do Suporte Histórico (23,67). Citar "Média do RSI = nova resistência" quando ela alcançar o RSI. Alvo: Linha Vermelha.
+
+## 14/11 21:00 (pós-Bilau)
+Bilau 2D confirmado pelo post dele. Tom: "daqui pra baixo só long, sem novo short"; short existente: zerar na Linha Vermelha ou stop MA7/EMA7. 686 pode sair separado do 343. Alvo de capitulação ("rosquinha") = MA77 Mensal ~53,2K; Linha Laranja ~59K = suporte do 686; MA1617 1D = suporte do fundo dos 58K. Stoch "absolutamente zerado" quando K=D=0. Rodar alvos.py (agora com 1M).
