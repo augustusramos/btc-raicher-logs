@@ -114,3 +114,15 @@ Tabela de decisão (aplicar em ordem, a primeira que valer decide a conclusão d
 4. Long só dispara com 343 fechando ACIMA da MA7/EMA7 E RSI acima de 23.67 (ou o setup BTFD/Agulhada do método).
 5. Nada acima → seguir o viés de tendência (preço x MA7 + RSI x Média).
 Linha 🧭 e "Seguimos..." devem bater com esta tabela. Proibido no mesmo Log: "mantém short / sigo bearish" junto com regra 1 ativa.
+
+## DECISÃO DE POSIÇÃO (obrigatória em todo Log, Augustus 14/11 23:48)
+Logo depois da linha 🧭, escreva uma linha:
+"⚖️ Posição pelos dados: MANTER <lado> | ZERAR <lado> | ZERAR e ABRIR <outro lado> | FICAR DE FORA | ABRIR <lado> — porque <regra que decidiu, em poucas palavras com os números>"
+Como decidir (só com os números do JSON e estado.json, nesta ordem):
+A. Fechou além do stop do trade aberto (ex.: short: 343 ACIMA da MA7/EMA7 E RSI acima de 23.67) → ZERAR. Abrir o lado oposto só se a condição de entrada desse lado também fechou (long: 343 ACIMA da MA7/EMA7 + RSI acima de 23.67 + Stoch > 20 e não no topo; short: rejeição da MA7/EMA7 + RSI rejeitando o Suporte Inferior + Stoch virando para baixo). Senão, FICAR DE FORA.
+B. Alvo final do trade atingido → ZERAR. Se a regra 1 (Bilau) ou 2 (RSI < 23.67) da tabela estiver ativa, não abrir short novo; long só quando A disparar para long.
+C. Regra 1 (Bilau 2D) ativa com short aberto → MANTER só até o alvo atual/stop, escrito como "manter até zerar na <alvo>"; nunca abrir short novo.
+D. Trade aberto, nem stop nem alvo final → MANTER.
+E. Sem trade → ABRIR só se a condição de entrada de A fechou neste candle; senão FICAR DE FORA e dizer a condição que falta.
+O que valer aqui atualiza logs/estado.json (entrada/stop/trade_anterior). A linha ⚖️, a 🧭 e o texto do post não podem se contradizer.
+Toda divergência entre nossa ⚖️ e a decisão dele vai para o placar com a regra que faltou.
