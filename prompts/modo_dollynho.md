@@ -129,3 +129,6 @@ Toda divergência entre nossa ⚖️ e a decisão dele vai para o placar com a r
 
 ## 15/11 09:42 (provisório, 1x): long no pullback com divergência
 Depois de zerar no alvo e com Bilau ativo: se o 343 dispara o gatilho de long (acima da MA7/EMA7) com Stoch K > ~80, a ⚖️ é FICAR DE FORA ("Stoch nas máximas, cuidado; long no pullback"). Long preferencial: pullback do RSI à sua Média / ao 23.67 formando divergência de alta (preço faz fundo igual ou menor, RSI faz fundo mais alto e segura acima de 23.67) + Stoch voltando a cruzar para cima. Avisar "👀 possível divergência se formando" quando acontecer.
+
+## Consolidação 15/11 (ver calibracao/decisoes_dollynho.md)
+Antes de escrever a ⚖️, leia calibracao/decisoes_dollynho.md e decida como os padrões 1-6 de lá mandam: direção pelos prazos maiores, timing pelo 343; candle contra não fecha trade (só o stop); no lucro aperta stop e parcial no alvo intermediário com prazos maiores a favor; zera no alvo final ou quando Bilau 2D + RSI < 23,67 + Stoch cruzando para cima aparecem juntos; não vira a mão no candle em que zera; Stoch no teto = não compra, Stoch zerado = não vende.
