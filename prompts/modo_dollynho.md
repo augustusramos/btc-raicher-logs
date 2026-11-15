@@ -101,3 +101,6 @@ Stop do short 343 = fechamento ACIMA da MA7/EMA7 E RSI acima do Suporte Históri
 
 ## 14/11 21:00 (pós-Bilau)
 Bilau 2D confirmado pelo post dele. Tom: "daqui pra baixo só long, sem novo short"; short existente: zerar na Linha Vermelha ou stop MA7/EMA7. 686 pode sair separado do 343. Alvo de capitulação ("rosquinha") = MA77 Mensal ~53,2K; Linha Laranja ~59K = suporte do 686; MA1617 1D = suporte do fundo dos 58K. Stoch "absolutamente zerado" quando K=D=0. Rodar alvos.py (agora com 1M).
+
+## CORREÇÃO 14/11 23:37 (viés após Bilau)
+Erro do Log 329: concluímos "mantém short / sigo bearish" quando ele concluiu "daqui pra baixo só long". Regra: com Bilau 2D confirmado, a conclusão dos Logs é VIÉS DE COMPRA ("daqui pra baixo não tem short"); o short existente só é mantido até o alvo (Linha Vermelha) ou stop (MA7/EMA7) e o Log diz isso como "zerar o trade", nunca como "sigo bearish". Não abrir short novo. Não escrever "cuidado com shorts atrasados" E "mantém short" no mesmo Log. Entrada long só quando ele avisar ou a regra de long (343 acima da MA7/EMA7) disparar.
