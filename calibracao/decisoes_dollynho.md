@@ -15,6 +15,7 @@ Lido no X dele em 15/11 (with_replies) + prints do Augustus. Paráfrase; foco: d
 | 14/11 14:28 | RSI abaixo de 23,67; Média do RSI vira resistência | MANTÉM; stop = MA7/EMA7 E RSI de volta acima de 23,67 |
 | 14/11 21:34 | Bilau 2D confirmado; RSI 686/343 muito sobrevendido; Stoch cruzando para cima | MANTÉM só até o alvo final (Linha Vermelha) ou stop; "daqui pra baixo só long" |
 | 15/11 ~02:43 | mínima 61,9K toca a Linha Vermelha | ZERA no alvo (QED) |
+| 15/11 21:00 | 343 acima da MA7/EMA7, RSI acima da Média; 686 abaixo da MA7; Stoch 343 no teto | FORA ("aguardemos": inconsistência 686 x 343) |
 | 15/11 09:46 | preço volta à MA7, abaixo da EMA7; Stoch nas máximas | FORA; long só no pullback ao 23,67 com divergência de alta |
 
 ## Padrões (o que decide)
@@ -23,4 +24,5 @@ Lido no X dele em 15/11 (with_replies) + prints do Augustus. Paráfrase; foco: d
 3. No lucro: aperta o stop (MA21 → MA7/EMA7) e nunca deixa voltar ao prejuízo; parcial nos alvos intermediários quando os prazos maiores seguem a favor.
 4. Zera no alvo final OU quando os dados de fundo aparecem juntos (Bilau 2D + RSI < 23,67 + Stoch cruzando para cima).
 5. Não vira a mão no mesmo candle em que zera. Long exige: Stoch fora do teto + pullback do RSI à Média/23,67 com divergência, ou 343 acima da MA7/EMA7 com RSI acima de 23,67.
+7. Alinhamento: entrada no 343 só se o 686 estiver do mesmo lado da MA7 (15/11 21:00: 343 acima e 686 abaixo = inconsistência, aguarda).
 6. Com Stoch no teto: não entra comprado ("cuidado com longs"); com Stoch zerado: não entra vendido.

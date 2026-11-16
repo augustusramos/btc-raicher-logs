@@ -138,3 +138,6 @@ Log Semanal com preço abaixo da MA49 1W: citar as médias de fundo de bear do S
 
 ## 15/11 21:00 (Diário): faixa imediata primeiro
 No Diário, cite primeiro a faixa onde o preço está preso (suporte e resistência mais próximos, incluindo os níveis manuais do alvos.py: linha laranja ~64,45K e Agulhada 2024 ~65,4-65,9K) antes de médias distantes. Cruzamento da MA7 já anunciado em Log anterior não se repete (2ª ocorrência: regra firme).
+
+## 15/11 21:00 (686 e 343): alinhamento
+Long (ou short) no 343 só quando o 686 também está do mesmo lado da MA7. 343 acima da MA7/EMA7 com 686 abaixo da MA7 = "inconsistência entre 686 e 343" → ⚖️ FICAR DE FORA, aguardando. Próxima resistência do RSI do 343 acima de 30 = Suporte Inferior (~43,6).
