@@ -141,3 +141,9 @@ No Diário, cite primeiro a faixa onde o preço está preso (suporte e resistên
 
 ## 15/11 21:00 (686 e 343): alinhamento
 Long (ou short) no 343 só quando o 686 também está do mesmo lado da MA7. 343 acima da MA7/EMA7 com 686 abaixo da MA7 = "inconsistência entre 686 e 343" → ⚖️ FICAR DE FORA, aguardando. Próxima resistência do RSI do 343 acima de 30 = Suporte Inferior (~43,6).
+
+## 16/11 19:52 (aprendizado, provisório 1x)
+- 343 voltando ACIMA da MA7/EMA7 após rejeições: "De volta ACIMA da MA7/EMA7;".
+- Stoch K x D bullish no teto / voltando a subir: "E o Stoch volta a mirar a Máxima!" (neutro, sem 🚨 nem "cuidado com longs"). "🚨 Stoch cruzou!! CUIDADO!!" fica para o cruzamento bearish a partir do teto (ou K perdendo 20). A ⚖️ continua FICAR DE FORA com Stoch no teto.
+- RSI do 343 abaixo do Suporte Inferior em repique: "Seguimos atentos ao Suporte Inferior no RSI, deve atuar como Resistência!!" (2ª vez, regra firme).
+- Fecho do 19:52 pode ser "Seguimos, até o fechamento do Diário."
