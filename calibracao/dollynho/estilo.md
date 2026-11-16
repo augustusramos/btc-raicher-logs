@@ -134,3 +134,12 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Frase-resumo "ABAIXO de TODAS as Médias" vale também quando o preço VOLTA para baixo da MA7/EMA7 (única média que estava perto). 2ª vez: regra firme. Nós escrevemos "rejeição na MA7/EMA7" (mesmo fato, frase errada).
 - "Stoch cruzou!! CUIDADO!!" (🚨) serve para os dois sentidos: em 12/11 19:52 era K caindo abaixo de 20; agora é K x D bearish no teto (alerta para quem pensa em comprar).
 - Print: Azul Pontilhada (~67,2K) acima como resistência e Linha Vermelha (~62,4K) abaixo como suporte: a faixa dele no 343.
+
+## 16/11 19:52
+- Post de 3 linhas: "De volta ACIMA da MA7/EMA7;" + "Seguimos atentos ao Suporte Inferior no RSI, deve atuar como Resistência!!" + "E o Stoch volta a mirar a Máxima!" + "Seguimos, até o fechamento do Diário."
+- Recuperar a MA7/EMA7 depois de rejeições = "De volta ACIMA da MA7/EMA7" (espelho do "de volta ABAIXO de TODAS as Médias" de 08:26).
+- RSI abaixo do Suporte Inferior com repique: "atentos ao Suporte Inferior no RSI, deve atuar como Resistência" (2ª vez: 15/11 21:00 e agora; regra firme).
+- Stoch voltando ao teto (K x D bullish acima de 80): tom neutro, "volta a mirar a Máxima!", sem 🚨 nem "cuidado" (1x). O 🚨 "Stoch cruzou!! CUIDADO!!" ficou para o cruzamento bearish a partir do teto.
+- Fecho do 19:52: "Seguimos, até o fechamento do Diário." (variação de "Até logo mais.").
+- Print: Azul Pontilhada (~67,2K) acima e Linha Vermelha (~62,3K) abaixo seguem como limites da faixa (3ª vez).
+
