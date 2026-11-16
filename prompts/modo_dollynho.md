@@ -132,3 +132,6 @@ Depois de zerar no alvo e com Bilau ativo: se o 343 dispara o gatilho de long (a
 
 ## Consolidação 15/11 (ver calibracao/decisoes_dollynho.md)
 Antes de escrever a ⚖️, leia calibracao/decisoes_dollynho.md e decida como os padrões 1-6 de lá mandam: direção pelos prazos maiores, timing pelo 343; candle contra não fecha trade (só o stop); no lucro aperta stop e parcial no alvo intermediário com prazos maiores a favor; zera no alvo final ou quando Bilau 2D + RSI < 23,67 + Stoch cruzando para cima aparecem juntos; não vira a mão no candle em que zera; Stoch no teto = não compra, Stoch zerado = não vende.
+
+## 15/11 21:00 (Semanal): fundos de bear
+Log Semanal com preço abaixo da MA49 1W: citar as médias de fundo de bear do Semanal com valor — MA231, EMA343 e MA343 1W — como "nos ciclos anteriores o fundo tocou a EMA343 ou a MA343; não descarto visita". Zona ~52,6–56,9K (EMA343/MA343 1W + MA77 1M) é o destino de capitulação; não muda a decisão do 343, mas entra nos níveis de invalidação do long ("se perder 61,9K e a MA231 1W, próximo destino EMA343 1W").
