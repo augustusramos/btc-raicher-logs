@@ -135,3 +135,6 @@ Antes de escrever a ⚖️, leia calibracao/decisoes_dollynho.md e decida como o
 
 ## 15/11 21:00 (Semanal): fundos de bear
 Log Semanal com preço abaixo da MA49 1W: citar as médias de fundo de bear do Semanal com valor — MA231, EMA343 e MA343 1W — como "nos ciclos anteriores o fundo tocou a EMA343 ou a MA343; não descarto visita". Zona ~52,6–56,9K (EMA343/MA343 1W + MA77 1M) é o destino de capitulação; não muda a decisão do 343, mas entra nos níveis de invalidação do long ("se perder 61,9K e a MA231 1W, próximo destino EMA343 1W").
+
+## 15/11 21:00 (Diário): faixa imediata primeiro
+No Diário, cite primeiro a faixa onde o preço está preso (suporte e resistência mais próximos, incluindo os níveis manuais do alvos.py: linha laranja ~64,45K e Agulhada 2024 ~65,4-65,9K) antes de médias distantes. Cruzamento da MA7 já anunciado em Log anterior não se repete (2ª ocorrência: regra firme).
