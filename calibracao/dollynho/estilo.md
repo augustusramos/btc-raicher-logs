@@ -128,3 +128,9 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Aviso intradiário só com título e imagem: "🚨⚠️🍆 LATEJANDO!! 🍆⚠️🚨" = Bilau (BBB) latejando: preço abaixo da MA200 do 2D, Stoch 2D < 20,44 e o RSI 2D chegando perto da linha do Bilau (25,78).
 - Linha do Bilau no RSI 2D nos prints dele: 25,78 (3 de 3). Config corrigida (26,21 Raicher fica como referência).
 - 🎯 MA777 do 2D marcado em 63.168 (o valor dele muda com a vela em formação; nosso valor nos dados fechados 63.049).
+
+## 16/11 08:26
+- Post de 2 linhas: "🚨 Estamos de volta ABAIXO de TODAS as Médias!!" + "🚨 Stoch cruzou!! CUIDADO!!" + "Seguimos!". Sem saudação (bom dia 3 de 5 no 08:26).
+- Frase-resumo "ABAIXO de TODAS as Médias" vale também quando o preço VOLTA para baixo da MA7/EMA7 (única média que estava perto). 2ª vez: regra firme. Nós escrevemos "rejeição na MA7/EMA7" (mesmo fato, frase errada).
+- "Stoch cruzou!! CUIDADO!!" (🚨) serve para os dois sentidos: em 12/11 19:52 era K caindo abaixo de 20; agora é K x D bearish no teto (alerta para quem pensa em comprar).
+- Print: Azul Pontilhada (~67,2K) acima como resistência e Linha Vermelha (~62,4K) abaixo como suporte: a faixa dele no 343.
