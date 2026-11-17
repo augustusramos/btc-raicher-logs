@@ -150,3 +150,6 @@ Long (ou short) no 343 só quando o 686 também está do mesmo lado da MA7. 343 
 
 ## 16/11 21:00: dois horizontes
 Depois do Bilau, o Log do 2D separa: (1) TRADE 343/686 — baliza MA7/EMA7 nos dois; abaixo, fora e esperar divergência no RSI; short arriscado; (2) POSIÇÃO DE LONGO PRAZO — abaixo da EMA777 do 2D é zona de compra ("promoção"), alvo longo MA200 do 2D. A linha ⚖️ continua sendo do trade; a zona de longo prazo vai numa linha do texto do 2D, sem tamanho de posição. Lembrar: em 2018 e 2022 houve 2º dip depois do BBB.
+
+## 17/11 08:26 (provisório, 1x): MA21 como baliza do long
+Quando a MA21/EMA21 do 343 estiver a menos de ~2% acima do preço, o gatilho de long passa a exigir fechamento ACIMA da MA21 (não só da MA7/EMA7). Citar "MA21 (valor) é a baliza para qualquer tentativa de long". Stoch caindo de cima de 80 até 80 = "testando a Resistência Superior, aqui como suporte".
