@@ -143,3 +143,10 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Fecho do 19:52: "Seguimos, até o fechamento do Diário." (variação de "Até logo mais.").
 - Print: Azul Pontilhada (~67,2K) acima e Linha Vermelha (~62,3K) abaixo seguem como limites da faixa (3ª vez).
 
+
+## 17/11 08:26
+- Post de 4 linhas: "Confirmamos ABAIXO da MA7/EMA7;" + "👀 RSI indo testar a Média;" + "🚨 StochRSI indo testar a Resistência Superior, aqui atuando como Suporte. CUIDADO (!!)." + "Vejam a MA21 já bem próxima, deve servir de baliza para qualquer tentativa de long." + "Seguimos."
+- Leituras PROJETADAS (o que o próximo candle vai testar), não só a posição: RSI convergindo para a Média = "indo testar a Média"; Stoch descendo do teto = "indo testar a Resistência Superior, aqui atuando como Suporte".
+- Nível do Stoch muda de papel conforme o lado: 80 acima = Resistência; vindo de cima = "atuando como Suporte".
+- MA21 do 343 vira a baliza do long quando a MA7/EMA7 já foi testada várias vezes e a MA21 desce para perto do preço (~2%). 1x, provisório.
+- Sem saudação (bom dia 3 de 6 no 08:26). Não citou a MA49 1M.

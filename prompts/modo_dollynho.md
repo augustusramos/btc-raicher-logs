@@ -153,3 +153,4 @@ Depois do Bilau, o Log do 2D separa: (1) TRADE 343/686 — baliza MA7/EMA7 nos d
 
 ## 17/11 08:26 (provisório, 1x): MA21 como baliza do long
 Quando a MA21/EMA21 do 343 estiver a menos de ~2% acima do preço, o gatilho de long passa a exigir fechamento ACIMA da MA21 (não só da MA7/EMA7). Citar "MA21 (valor) é a baliza para qualquer tentativa de long". Stoch caindo de cima de 80 até 80 = "testando a Resistência Superior, aqui como suporte".
+Leituras projetadas (mesmo post): RSI acima da Média com diferença <= ~3 pts e convergindo = "👀 RSI indo testar a Média;". Stoch K descendo do teto e ainda > 80 = "🚨 StochRSI indo testar a Resistência Superior, aqui atuando como Suporte. CUIDADO!". "Confirmamos ABAIXO da MA7/EMA7;" vale também no 2º fechamento seguido abaixo.
