@@ -147,3 +147,6 @@ Long (ou short) no 343 só quando o 686 também está do mesmo lado da MA7. 343 
 - Stoch K x D bullish no teto / voltando a subir: "E o Stoch volta a mirar a Máxima!" (neutro, sem 🚨 nem "cuidado com longs"). "🚨 Stoch cruzou!! CUIDADO!!" fica para o cruzamento bearish a partir do teto (ou K perdendo 20). A ⚖️ continua FICAR DE FORA com Stoch no teto.
 - RSI do 343 abaixo do Suporte Inferior em repique: "Seguimos atentos ao Suporte Inferior no RSI, deve atuar como Resistência!!" (2ª vez, regra firme).
 - Fecho do 19:52 pode ser "Seguimos, até o fechamento do Diário."
+
+## 16/11 21:00: dois horizontes
+Depois do Bilau, o Log do 2D separa: (1) TRADE 343/686 — baliza MA7/EMA7 nos dois; abaixo, fora e esperar divergência no RSI; short arriscado; (2) POSIÇÃO DE LONGO PRAZO — abaixo da EMA777 do 2D é zona de compra ("promoção"), alvo longo MA200 do 2D. A linha ⚖️ continua sendo do trade; a zona de longo prazo vai numa linha do texto do 2D, sem tamanho de posição. Lembrar: em 2018 e 2022 houve 2º dip depois do BBB.
