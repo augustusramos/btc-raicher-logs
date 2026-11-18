@@ -150,3 +150,9 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Nível do Stoch muda de papel conforme o lado: 80 acima = Resistência; vindo de cima = "atuando como Suporte".
 - MA21 do 343 vira a baliza do long quando a MA7/EMA7 já foi testada várias vezes e a MA21 desce para perto do preço (~2%). 1x, provisório.
 - Sem saudação (bom dia 3 de 6 no 08:26). Não citou a MA49 1M.
+
+## 18/11 19:52
+- Post de 3 leituras + 1 frase de plano: "🚨 ABAIXO da Linha Vermelha!" / "👀 Bem próximo do Suporte Histórico no RSI;" / "🚨 Stoch praticamente zerado!" / "Seguimos de olho num possível toque no Suporte Histórico do RSI..." / "Volto já já no Fechamento do Diário."
+- Perder a linha desenhada que era alvo/suporte (Linha Vermelha ~62,3K) abre o post, antes das médias (1x).
+- Stoch caindo forte abaixo de 20 = "praticamente zerado" (1x); Stoch com espaço = "ainda dá pra chegar" ao nível do RSI.
+- Fecho do 19:52: "Volto já já no Fechamento do Diário." (variação de "Até logo mais.").
