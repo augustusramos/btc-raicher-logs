@@ -166,3 +166,10 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Post explicativo, mais longo que o normal (6 parágrafos), quando o cenário é contraditório: "A coisa aqui está realmente tensa e dúbia, explico:" + um parágrafo por timeframe ("Por outro lado, ...") + a decisão seca "Pois bem, comprei." + o que quer ver e o suporte ("Queremos ver uma recuperação da MA7, mas devemos ter por suporte a própria Linha Vermelha.") + "Seguimos, senhores!".
 - Imagens: "686 pendurado no precipício"; "BILAU-BILAU-BILAU!" (ênfase do Bilau duplo).
 - Ele anuncia entrada sem preço e sem 🎯/❌: o stop sai implícito no "devemos ter por suporte".
+
+## 19/11 14:09
+- Abertura de alerta: "🚨 ALERTA LIGADO!" + "Estamos na beira do precipício:" seguido de lista de leituras curtas (MA7/EMA7, MA21, RSI x Média, Stoch) — 2ª vez de "precipício" (686 em 18/11 21:00).
+- "Rejeição na MA21" com máxima a ~0,26% da média (tolerância de toque dele ~0,3-0,6%, 2ª vez).
+- "Fundo Anterior" = mínimo marcado no print (61.947). "Rejeição da Resistência Superior no Stoch!" com 🚨/"OPS!" quando K volta abaixo de 80.
+- Conclusão de risco em vez de decisão: "Portanto, ajustem os stops e acautelem-se na alavancagem!"; pergunta retórica com 🤔 sobre a rosquinha ("Será que vai ter promoção de rosquinha?").
+- Não anunciou saída do long mesmo com fechamento abaixo da MA7 (stop dado às 08:26). 1x: observar.
