@@ -16,6 +16,7 @@ MANUAIS = [  # níveis desenhados/citados por ele (valor, nome); manter atualiza
     (65900, "Região da Agulhada ago/2024 (topo)"), (65400, "Região da Agulhada ago/2024 (base)"),
     (64450, "Linha laranja da Agulhada ago/2024"), (62600, "Linha Vermelha (dele, descendente: 62,8K em 13/11; 62,4K em 14/11)"), (59000,"Linha Laranja (dele, ~59K, suporte mais próximo no 686)"),
     (67200, "Linha Azul Pontilhada (dele)"),
+    (50000, "MA42 do 2M (Raicher 19/11: '2 Month Double Bottom', ~50K, não tocada)"),
 ]
 COLADO = 0.25   # % -> nível "colado" no preço (já testando/perdido agora)
 AGRUPA = 1.0    # % -> níveis a até 1% um do outro formam um cluster
