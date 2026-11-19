@@ -26,3 +26,10 @@ Lido no X dele em 15/11 (with_replies) + prints do Augustus. Paráfrase; foco: d
 5. Não vira a mão no mesmo candle em que zera. Long exige: Stoch fora do teto + pullback do RSI à Média/23,67 com divergência, ou 343 acima da MA7/EMA7 com RSI acima de 23,67.
 7. Alinhamento: entrada no 343 só se o 686 estiver do mesmo lado da MA7 (15/11 21:00: 343 acima e 686 abaixo = inconsistência, aguarda).
 6. Com Stoch no teto: não entra comprado ("cuidado com longs"); com Stoch zerado: não entra vendido.
+
+## Trade long 343 (18/11 21:00 → 19/11 14:09)
+| Quando (BRT) | Dados no fechamento | Decisão dele |
+|---|---|---|
+| 18/11 21:00 | candle de reversão recuperando a Linha Vermelha; Bilau 2D; divergência 343/1D; 686 contra | ABRE long (~62.976), suporte na Linha Vermelha |
+| 19/11 08:26 | 343 fecha ACIMA da MA7/EMA7; Stoch no teto | MANTÉM; stop sobe na hora para a MA7 |
+| 19/11 14:09 | rejeição na MA21, fecha ABAIXO da MA7/EMA7 (62.389), RSI perde a Média, Stoch rejeita 80 | FECHA o long no stop (confirmado em resposta às ~14:42); post só com "ALERTA LIGADO / ajustem os stops" |
