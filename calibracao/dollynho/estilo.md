@@ -156,3 +156,8 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Perder a linha desenhada que era alvo/suporte (Linha Vermelha ~62,3K) abre o post, antes das médias (1x).
 - Stoch caindo forte abaixo de 20 = "praticamente zerado" (1x); Stoch com espaço = "ainda dá pra chegar" ao nível do RSI.
 - Fecho do 19:52: "Volto já já no Fechamento do Diário." (variação de "Até logo mais.").
+
+## 18/11 21:00 (Diário)
+- Post de 5 linhas em thread logo após o Log do 2D (sem número próprio): "QED, a MA7 chegou e direcionou o movimento;" / "Até aqui, nenhum abaixo da MA1617;" / "Mas Fechamos agora ABAIXO da Linha Laranja;" / "Estamos em DIVERGÊNCIA no RSI, não costumamos ficar tanto tempo assim;" / "Stoch segue ABAIXO do Suporte Inferior." / "Seguimos."
+- DIVERGÊNCIA (maiúsculas) no Diário: fundo de RSI mais alto com preço mais baixo. Ele preferiu isso à perda do 23.67 (não citou o nível).
+- "Mas" abre a linha da notícia negativa no meio das positivas (2ª vez do padrão "Mas").

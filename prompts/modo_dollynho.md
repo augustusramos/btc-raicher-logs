@@ -160,3 +160,6 @@ Mesmo com Bilau ativo: se o 343 estiver abaixo da MA21/EMA21 e o Stoch do 686 no
 
 ## 18/11 21:00: numeração e rosquinha
 Numeração: ele não numera todo lote; usar o último número dele (estado.json) + 1 e corrigir quando ele postar outro. No 2D com Bilau: "barato, mas pode cair mais"; compra preferida = rosquinha (MA77 do Mensal, ~53K, valor do JSON 1M); citar "primeiro fechamento abaixo da EMA777 do 2D" quando for o caso.
+
+## 18/11 21:00 (Diário, provisório 1x): divergência antes do 23.67
+No Diário (e no 343/686), antes de escrever sobre o RSI, compare o RSI do fechamento com o do fundo anterior (estado.json/history): preço fecha mais baixo (ou fundo igual) e RSI mais alto = "Estamos em DIVERGÊNCIA no RSI;" (pode somar "não costumamos ficar tanto tempo assim"). Com divergência, ela abre a leitura do RSI; NÃO abrir com "Perdemos o Suporte Histórico: aceleração da queda" (ele não citou o 23.67). MA7 descendo até o preço e a queda seguindo = "QED, a MA7 chegou e direcionou o movimento;" (quando um Log anterior previu). Suporte que nunca teve fechamento abaixo: "Até aqui, nenhum fechamento ABAIXO da MA1617 (valor);".
