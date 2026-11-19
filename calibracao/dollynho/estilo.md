@@ -161,3 +161,8 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - Post de 5 linhas em thread logo após o Log do 2D (sem número próprio): "QED, a MA7 chegou e direcionou o movimento;" / "Até aqui, nenhum abaixo da MA1617;" / "Mas Fechamos agora ABAIXO da Linha Laranja;" / "Estamos em DIVERGÊNCIA no RSI, não costumamos ficar tanto tempo assim;" / "Stoch segue ABAIXO do Suporte Inferior." / "Seguimos."
 - DIVERGÊNCIA (maiúsculas) no Diário: fundo de RSI mais alto com preço mais baixo. Ele preferiu isso à perda do 23.67 (não citou o nível).
 - "Mas" abre a linha da notícia negativa no meio das positivas (2ª vez do padrão "Mas").
+
+## 18/11 21:00 (686 e 343) — ENTRADA LONG
+- Post explicativo, mais longo que o normal (6 parágrafos), quando o cenário é contraditório: "A coisa aqui está realmente tensa e dúbia, explico:" + um parágrafo por timeframe ("Por outro lado, ...") + a decisão seca "Pois bem, comprei." + o que quer ver e o suporte ("Queremos ver uma recuperação da MA7, mas devemos ter por suporte a própria Linha Vermelha.") + "Seguimos, senhores!".
+- Imagens: "686 pendurado no precipício"; "BILAU-BILAU-BILAU!" (ênfase do Bilau duplo).
+- Ele anuncia entrada sem preço e sem 🎯/❌: o stop sai implícito no "devemos ter por suporte".
