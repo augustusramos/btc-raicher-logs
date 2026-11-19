@@ -103,8 +103,8 @@
     "atualizado": "2026-11-17 21:00"
   },
   "numeracao": {
-    "ultimo_log_dollynho_conhecido": 333,
-    "obs": "Um número de Log por lote das 21:00. 327 = lote 12/11 (2D abre), 328 = lote 13/11, 329 = lote 14/11 (2D abre), 330 = lote 15/11 (Semanal abre; nossa contagem, confirmar com o post dele). Próximo = 331 (lote 16/11: 2D abre). 331 = lote 16/11 (2D abre; nossa contagem). Próximo = 332 (lote 17/11: Diário abre). 332 = lote 17/11 (Diário abre; nossa contagem). Próximo = 333 (lote 18/11: 2D abre). 333 = lote 18/11 (2D abre; nossa contagem). Próximo = 334 (lote 19/11: Diário abre)."
+    "ultimo_log_dollynho_conhecido": 332,
+    "obs": "Post dele 18/11: Log 332 = lote 18/11 (2D abre). Ele NAO numera todo dia (entre 14/11 e 17/11 houve um lote sem número). Sempre usar o número dele quando conhecido; próximo provável = 333 no próximo lote com Log."
   },
   "gatilho_long_343": {
     "regra": "BALIZA RSI 23.67 (Dollynho 13/11 08:26): RSI do 343 ABAIXO de 23.67 = não tem short (zona de long/realização); ACIMA de 23.67 = não tem long. Resposta de 12/11 ~13:36: long só se RSI < 23.67 OU 343 fechar ACIMA da MA7/EMA7.",

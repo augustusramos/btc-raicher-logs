@@ -157,3 +157,6 @@ Leituras projetadas (mesmo post): RSI acima da Média com diferença <= ~3 pts e
 
 ## 17/11 21:00 (provisório, 1x): short tático na resistência
 Mesmo com Bilau ativo: se o 343 estiver abaixo da MA21/EMA21 e o Stoch do 686 no teto ("acelera ou reverte"), a ⚖️ pode acrescentar "ordem tática: short na EMA21 do 343 (valor), stop logo acima". Nunca short a mercado no preço atual. 686 ACIMA da MA7 e ABAIXO da EMA7 = zona dúbia = sem entrada (evita bulltrap).
+
+## 18/11 21:00: numeração e rosquinha
+Numeração: ele não numera todo lote; usar o último número dele (estado.json) + 1 e corrigir quando ele postar outro. No 2D com Bilau: "barato, mas pode cair mais"; compra preferida = rosquinha (MA77 do Mensal, ~53K, valor do JSON 1M); citar "primeiro fechamento abaixo da EMA777 do 2D" quando for o caso.
