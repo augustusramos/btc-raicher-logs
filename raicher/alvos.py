@@ -17,6 +17,7 @@ MANUAIS = [  # níveis desenhados/citados por ele (valor, nome); manter atualiza
     (64450, "Linha laranja da Agulhada ago/2024"), (62600, "Linha Vermelha (dele, descendente: 62,8K em 13/11; 62,4K em 14/11)"), (59200,"Linha Laranja (dele, ~59,2K em 19/11; fundo de jul/2025; 🎯 do 686)"),
     (61600, "Linha Ciano (dele, 343, descendente; ~61,6K em 19/11)"), (56902, "EMA2401 do Diário (print dele 19/11; não está nos dados)"),
     (67200, "Linha Azul Pontilhada (dele)"),
+    (57700, "Linha Branca (dele, 343, descendente; ~57,7K em 20/11 19:52, tocada: mín 57.668; = MA686/EMA777 3D)"),
     (50000, "MA42 do 2M (Raicher 19/11: '2 Month Double Bottom', ~50K, não tocada)"),
 ]
 COLADO = 0.25   # % -> nível "colado" no preço (já testando/perdido agora)
