@@ -180,3 +180,11 @@ Ele não declarou saída do long com o 343 fechando ABAIXO da MA7 (stop dado às
 
 ## 19/11 19:52 (aprendizado, provisório 1x): candle simétrico = suspeito
 Quando o 343 fecha rompendo um nível (Linha Vermelha, fundo) com pavios longos dos dois lados e corpo pequeno (pavio acima tocando a MA7/EMA7 e pavio abaixo furando o fundo), ele escreve "Confirmamos ABAIXO da <nível>, mas esses candles simétricos assim são estupidamente suspeitos!" (alerta de trap). Use isso no lugar de listar o que o pavio furou. Não muda a ⚖️. Fecho do 19:52: "Até o fechamento Diário, logo mais." (2ª vez com essa variação).
+
+## 19/11 21:00 (aprendizado, provisório 1x): toque na média de suporte = compra de longo prazo dele
+- Pavio que fura a média de suporte do Diário e fecha ACIMA (ex.: MA1617 1D): escreva "Tocamos na MA1617 (valor)!" (positivo), NÃO "pavio perdeu"; pode somar "Até aqui nenhum fechamento ABAIXO dela neste ciclo!".
+- Stoch do Diário há muitos dias abaixo de 20: "Stoch há N dias ABAIXO do Suporte Inferior, não vai ficar aí pra sempre!" em vez de 🚨 por um cruzamento K x D lá embaixo.
+- Compras de longo prazo dele (ordens limitadas: MA1617 1D preenchida em 19/11; ordens 58K–53K = Linha Laranja ~59K, EMA2401 1D 56.902, rosquinha MA77 1M) ficam em estado.json (compras_longo_prazo_dollynho) e podem aparecer numa linha do Diário/2D ("zona de compra de longo prazo"), sem tamanho de posição. A ⚖️ continua sendo do trade 343/686.
+- 686 abaixo da MA7 sem nenhuma média abaixo: "sem nenhuma Média abaixo para amparar" + 🎯 do recuo na Linha Laranja (~59K, valor do alvos.py).
+- 343: cite a faixa entre a Linha Vermelha (~62,3K) e a Linha Ciano (~61,6K, descendente) quando o preço estiver entre elas.
+- No dia antes do fechamento do 2D: pode dizer "intracandle pode ser tenebroso, mas o que vale é o fechamento do 2D".

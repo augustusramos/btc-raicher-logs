@@ -173,3 +173,13 @@ Nossos Logs tinham 25 a 40 linhas: preço de cada média, blocos "Em português 
 - "Fundo Anterior" = mínimo marcado no print (61.947). "Rejeição da Resistência Superior no Stoch!" com 🚨/"OPS!" quando K volta abaixo de 80.
 - Conclusão de risco em vez de decisão: "Portanto, ajustem os stops e acautelem-se na alavancagem!"; pergunta retórica com 🤔 sobre a rosquinha ("Será que vai ter promoção de rosquinha?").
 - Não anunciou saída do long mesmo com fechamento abaixo da MA7 (stop dado às 08:26). 1x: observar.
+
+## 19/11 21:00 (Log 333 Diário + 686 e 343)
+- Numeração 333 igual à nossa ("Cabalístico!" no título, brincadeira com o número).
+- Pavio que fura a média de suporte e fecha ACIMA: "tocamos na MA1617!" (positivo) + contexto histórico da média ("segurou o fundo nos ~58K em jul/2025") + "Até aqui nenhum Fechamento ABAIXO dela neste ciclo!" (3ª vez da frase "nenhum fechamento abaixo").
+- Compra anunciada em poucas palavras: "Levou minhas ordens aí." / "Deixei ordens entre os 58 a 53." (ordens limitadas escalonadas, longo prazo, sem stop).
+- Stoch muitos dias abaixo de 20: "já está há 11 dias morando ABAIXO do Suporte Inferior! Não vai ficar aí pra sempre!" (exaustão, não alarme).
+- 686 sem média por baixo: "ABAIXO da MA7, sem nenhuma Média abaixo para amparar, e o Stoch doido pra despejar em direção ao Suporte Inferior!" + destino 🎯 na Linha Laranja (~59K).
+- 343 descrito como faixa entre duas linhas dele: "entre a Linha Vermelha e a Ciano".
+- Previsão em duas velocidades: "candle belíssimo no 2 DIAS, mas o intracandle nas próximas 24h pode ser tenebroso".
+- Humor recorrente: "carro do ovo (morando) na sua rua", ovos (fundos; "o direito tá mais baixo"), rosquinha 🍩 53.358, "BIG BILAU". Fecho "Boa noite, amiguinhos".

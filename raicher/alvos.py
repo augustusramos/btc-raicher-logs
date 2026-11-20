@@ -14,7 +14,8 @@ PESO = {"manual": 2, "343m": 1, "686m": 1, "1D": 2, "2D": 2, "3D": 2, "1W": 3, "
 RSI_LINHAS = [23.67, 13.53, 6.23]  # 23.67 Suporte Histórico; 13.53 (2022) e 6.23 (2023 ATL) = linhas do print dele
 MANUAIS = [  # níveis desenhados/citados por ele (valor, nome); manter atualizado ao receber prints
     (65900, "Região da Agulhada ago/2024 (topo)"), (65400, "Região da Agulhada ago/2024 (base)"),
-    (64450, "Linha laranja da Agulhada ago/2024"), (62600, "Linha Vermelha (dele, descendente: 62,8K em 13/11; 62,4K em 14/11)"), (59000,"Linha Laranja (dele, ~59K, suporte mais próximo no 686)"),
+    (64450, "Linha laranja da Agulhada ago/2024"), (62600, "Linha Vermelha (dele, descendente: 62,8K em 13/11; 62,4K em 14/11)"), (59200,"Linha Laranja (dele, ~59,2K em 19/11; fundo de jul/2025; 🎯 do 686)"),
+    (61600, "Linha Ciano (dele, 343, descendente; ~61,6K em 19/11)"), (56902, "EMA2401 do Diário (print dele 19/11; não está nos dados)"),
     (67200, "Linha Azul Pontilhada (dele)"),
     (50000, "MA42 do 2M (Raicher 19/11: '2 Month Double Bottom', ~50K, não tocada)"),
 ]
