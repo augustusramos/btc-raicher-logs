@@ -187,9 +187,10 @@
   "compras_longo_prazo_dollynho": {
     "fonte": "Log 333 dele (Diário) + 686 e 343, 19/11 21:00",
     "preenchidas": "ordens limitadas no toque da MA1617 1D (~61,5K; mín 61.365) — 'Levou minhas ordens aí.'",
-    "abertas": "ordens entre 58K e 53K (Linha Laranja/fundo jul-2025 ~58-59K; EMA2401 1D 56.902; rosquinha MA77 1M ~53,4K)",
+    "abertas": "20/11 ~16:26: 'Já comprei o suficiente' — restam só 2 ordens limitadas: 57.050 (= EMA77 1M 57.058 / EMA343 1W / EMA2401 1D) e 53.000 (= rosquinha MA77 1M ~53,3K / MA343 1W ~52,6K). Antes (19/11): ordens entre 58K e 53K.",
     "stop": "não declarado (acumulação de longo prazo, horizonte 2)",
     "nosso_tratamento": "linha à parte no Log (não muda a ⚖️ do trade 343/686, que segue FORA)",
-    "previsao_dele": "intracandle 'tenebroso' nas 24h seguintes; 'candle belíssimo' no 2D que fecha 20/11 21:00"
+    "previsao_dele": "intracandle 'tenebroso' nas 24h seguintes; 'candle belíssimo' no 2D que fecha 20/11 21:00",
+    "atualizado": "2026-11-20 16:26 (mín intracandle 57.950)"
   }
 }
