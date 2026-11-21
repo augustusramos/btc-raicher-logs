@@ -107,13 +107,13 @@
     "atualizado": "2026-11-20 21:00"
   },
   "3D": {
-    "postura": "observando",
-    "visao": "17/11 21:00: 64.110→64.877 (+1,19%), máx 66.069, mín 61.947; ABAIXO da MA7/EMA7 (72.497/71.455); ACIMA da MA539 3D (61.568) e EMA686 3D (60.967); MA7 x MA49/MA77 PERDEU bearish (confirma/anula 20/11); RSI 29.07 < Média 48.65; Stoch 1.84 > 0.61 cruzou bullish, zerado. | 08/11: RSI resetou no 3D, mas fechou ABAIXO da MA343; Stoch zerado.",
-    "atualizado": "2026-11-17 21:00"
+    "postura": "observando; tocou MA686/EMA777 3D (~57,8K) e fechou ACIMA; 🎯 MA777 3D (54.036; Dollynho 54.013)",
+    "visao": "20/11 21:00: 64.877→58.814 (−9,35%), mín 57.668; PERDEU MA539 (61.639)/EMA686 (60.961); MA7 x MA49/MA77 CONFIRMOU ABAIXO; RSI 23,69 < Média 46,05 (nível do fundo de 2022, Dollynho); Stoch 1,84 > 1,23 no zero. | 17/11 21:00: 64.110→64.877 (+1,19%), máx 66.069, mín 61.947; ABAIXO da MA7/EMA7 (72.497/71.455); ACIMA da MA539 3D (61.568) e EMA686 3D (60.967); MA7 x MA49/MA77 PERDEU bearish (confirma/anula 20/11); RSI 29.07 < Média 48.65; Stoch 1.84 > 0.61 cruzou bullish, zerado. | 08/11: RSI resetou no 3D, mas fechou ABAIXO da MA343; Stoch zerado.",
+    "atualizado": "2026-11-20 21:00"
   },
   "numeracao": {
     "ultimo_log_dollynho_conhecido": 334,
-    "obs": "20/11 21:00: nosso Log 334 (2D abre o lote; estimativa, corrigir se ele postar outro número). | 19/11 21:00: Log 333 CONFIRMADO pelo post dele ('Log 333 (Cabalístico!)'). 19/11 21:00: nosso Log 333 (Diário abre o lote; sem 2D). Post dele 18/11: Log 332. Ele NAO numera todo dia; sempre usar o número dele quando conhecido. Post dele 18/11: Log 332 = lote 18/11 (2D abre). Ele NAO numera todo dia (entre 14/11 e 17/11 houve um lote sem número). Sempre usar o número dele quando conhecido; próximo provável = 333 no próximo lote com Log."
+    "obs": "20/11 21:00: Log 334 CONFIRMADO pelo post dele = TRÊS DIAS (3D abriu o lote; 2D e 3D fecharam juntos). | 20/11 21:00: nosso Log 334 (2D abre o lote; estimativa, corrigir se ele postar outro número). | 19/11 21:00: Log 333 CONFIRMADO pelo post dele ('Log 333 (Cabalístico!)'). 19/11 21:00: nosso Log 333 (Diário abre o lote; sem 2D). Post dele 18/11: Log 332. Ele NAO numera todo dia; sempre usar o número dele quando conhecido. Post dele 18/11: Log 332 = lote 18/11 (2D abre). Ele NAO numera todo dia (entre 14/11 e 17/11 houve um lote sem número). Sempre usar o número dele quando conhecido; próximo provável = 333 no próximo lote com Log."
   },
   "gatilho_long_343": {
     "regra": "BALIZA RSI 23.67 (Dollynho 13/11 08:26): RSI do 343 ABAIXO de 23.67 = não tem short (zona de long/realização); ACIMA de 23.67 = não tem long. Resposta de 12/11 ~13:36: long só se RSI < 23.67 OU 343 fechar ACIMA da MA7/EMA7.",
@@ -169,7 +169,8 @@
     "linhas_17_11": "Print 17/11 08:26: Azul Pontilhada ~67,2K (acima), Linha Vermelha ~62,3K (abaixo, descendente), linha ciano nova ~61,7K (sem nome)",
     "19/11 21:00": "686: 🎯 Linha Laranja ~59,2K (fundo jul/2025), 'sem média abaixo para amparar'; 343: faixa Linha Vermelha (~62,3K) x Linha Ciano (~61,6K); 1D: EMA2401 56.902 no print; ordens 58-53K",
     "20/11 12:48": "Semanal: 'Meu palpite é que o fundo está entre a EMA343 (56.972) e a MA343 (52.909) do Semanal. Logo ali!' Preço 59.548 ABAIXO da MA231 1W.",
-    "20/11 14:09": "'Se consolidar abaixo do Suporte Histórico (23.67), visita pelo menos nos ~57K; quiçá a rosquinha' — 🎯 no print ~57,7K (= MA686/EMA777 3D 57.838/57.738 nos nossos dados); rosquinha = MA77 1M. Condicional ao RSI 343 consolidar abaixo do 23.67."
+    "20/11 14:09": "'Se consolidar abaixo do Suporte Histórico (23.67), visita pelo menos nos ~57K; quiçá a rosquinha' — 🎯 no print ~57,7K (= MA686/EMA777 3D 57.838/57.738 nos nossos dados); rosquinha = MA77 1M. Condicional ao RSI 343 consolidar abaixo do 23.67.",
+    "20/11 21:00": "3D: 🎯 MA777 3D 54.013 (nosso 54.036), cruzando linha roxa descendente; RSI 3D no nível do fundo de 2022; Stoch 3D 'mortinho'"
   },
   "viés_pos_bilau": "Dollynho 14/11 21:00: daqui pra baixo só long/sem short; 343: zerar short na Linha Vermelha ou stop MA7; 686: difícil manter short",
   "trade_dollynho": {
