@@ -102,7 +102,7 @@
     "atualizado": "2026-11-15 21:00"
   },
   "2D": {
-    "postura": "BILAU ativo (20/11 21:00: RSI 2D 22,10 < 25,78, PERDEU o 23.67; preço 58.814 < MA200 2D 77.857; Stoch 1,89); CONFIRMOU ABAIXO da MA777 2D (63.256); MA7 x MA686 cruzou bearish; regra 1 ativa",
+    "postura": "BILAU: 2º candle SEGUIDO em BBB (18/11 e 20/11; RSI 2D 22,10 < 25,78; < MA200 2D 77.857; Stoch 1,89); ABAIXO da EMA777 2D; Dollynho 20/11: 🎯 rosquinha 53.500 'quase inevitável, sem garantias'; regra 1 ativa",
     "visao": "20/11 21:00: 62.978→58.814 (−6,61%), máx 64.014, mín 57.668; pavio na MA777 (63.256) e CONFIRMOU ABAIXO; ABAIXO da MA7 (67.220)/EMA7 (66.208)/MA686 (69.076)/EMA777 (67.544)/MA200 (77.857). MA7 x MA686 cruzou bearish (confirma/anula 22/11). RSI 22,10 < Média 37,93. Stoch 1,89/1,87 totalmente arrefecido. EMA1372 2D 53.331 ~ rosquinha. | 18/11 21:00: 64.835→62.976 (-2,85%), máx 65.378, mín 61.995; pavio na MA777 2D (63.208) e PERDEU (confirma/anula 20/11); ABAIXO da MA7 (69.639)/EMA7 (68.673)/MA686 (69.026)/EMA777 (67.566)/MA200 (78.095). MA7 x MA77 CONFIRMOU ABAIXO (bearish); MA7 x MA686 cruzando (gap 0,89%). RSI 25.68 < Média 40.02, voltou ABAIXO do Bilau 25,78 (BBB ativo). Stoch K 1.89 > D 1.24, zerado. | 16/11 21:00: 64.110→64.822 (+1,10%), máx 66.069, mín 61.947; CONFIRMOU ABAIXO da MA686 2D (68.970); MA7 (72.133) x MA77 (72.627) PERDEU bearish (confirma/anula 18/11). RSI 27.51 < Média 42.50, ANULOU o Bilau (ACIMA de 25,78). Stoch K 1.81 > D 0.60 cruzou bullish. | 14/11 21:00: 71.381→64.114 (-10,17%), mín 63.280; CONFIRMOU ABAIXO da MA77 (72.646); PERDEU MA686 2D (68.911) (confirma/anula 16/11). RSI 25.62 < Média 44.46. Stoch 0.00/D 0.36. | 12/11 21:00: fechou 71.374 (-3,15%), pavio na MA77 (72.650) e PERDEU (confirma/anula 14/11 21:00); ABAIXO da MA200 (78.820). RSI 34.10 < Média 46.47, PERDEU os Dips. Stoch 0.00 ZERADO. BBB 2 de 3 (falta RSI < 26.21). MA686 2D (68.849) abaixo. | 10/11 21:00: fechou 73.698 ABAIXO da MA7 (76.645) e MA200 (79.072); pavio parou ~0,2% da MA77 (72.548), suporte. RSI 37.82 CONFIRMOU ABAIXO da Região dos Traps; Stoch 1.08 ZERADO. BBB 2 de 3, falta RSI < 26.21. | Log 325 do Dollynho (10/11): pincelada na MA77 do 2D e fechou ACIMA; Stoch de volta ao zero; retorno à MA77 é quase certo; principal suporte; perdendo, BBB quase certo.",
     "atualizado": "2026-11-20 21:00"
   },
@@ -170,7 +170,8 @@
     "19/11 21:00": "686: 🎯 Linha Laranja ~59,2K (fundo jul/2025), 'sem média abaixo para amparar'; 343: faixa Linha Vermelha (~62,3K) x Linha Ciano (~61,6K); 1D: EMA2401 56.902 no print; ordens 58-53K",
     "20/11 12:48": "Semanal: 'Meu palpite é que o fundo está entre a EMA343 (56.972) e a MA343 (52.909) do Semanal. Logo ali!' Preço 59.548 ABAIXO da MA231 1W.",
     "20/11 14:09": "'Se consolidar abaixo do Suporte Histórico (23.67), visita pelo menos nos ~57K; quiçá a rosquinha' — 🎯 no print ~57,7K (= MA686/EMA777 3D 57.838/57.738 nos nossos dados); rosquinha = MA77 1M. Condicional ao RSI 343 consolidar abaixo do 23.67.",
-    "20/11 21:00": "3D: 🎯 MA777 3D 54.013 (nosso 54.036), cruzando linha roxa descendente; RSI 3D no nível do fundo de 2022; Stoch 3D 'mortinho'"
+    "20/11 21:00": "3D: 🎯 MA777 3D 54.013 (nosso 54.036), cruzando linha roxa descendente; RSI 3D no nível do fundo de 2022; Stoch 3D 'mortinho'",
+    "20/11 21:00 2D": "🎯 rosquinha 53.500 (print 53.358 = MA77 1M; nosso 53.245): 'quase inevitável ir até lá. SEM GARANTIAS'; 'estamos no meio do caminho'"
   },
   "viés_pos_bilau": "Dollynho 14/11 21:00: daqui pra baixo só long/sem short; 343: zerar short na Linha Vermelha ou stop MA7; 686: difícil manter short",
   "trade_dollynho": {
