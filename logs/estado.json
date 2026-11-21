@@ -94,7 +94,8 @@
       "onde": "perda da MA7/MA343 do Diário (cronologia do Dollynho)",
       "quando": "início de nov/2026 (a confirmar)",
       "preco": null
-    }
+    },
+    "rsi_atl": 9.63
   },
   "1W": {
     "postura": "sem trade",
@@ -171,7 +172,8 @@
     "20/11 12:48": "Semanal: 'Meu palpite é que o fundo está entre a EMA343 (56.972) e a MA343 (52.909) do Semanal. Logo ali!' Preço 59.548 ABAIXO da MA231 1W.",
     "20/11 14:09": "'Se consolidar abaixo do Suporte Histórico (23.67), visita pelo menos nos ~57K; quiçá a rosquinha' — 🎯 no print ~57,7K (= MA686/EMA777 3D 57.838/57.738 nos nossos dados); rosquinha = MA77 1M. Condicional ao RSI 343 consolidar abaixo do 23.67.",
     "20/11 21:00": "3D: 🎯 MA777 3D 54.013 (nosso 54.036), cruzando linha roxa descendente; RSI 3D no nível do fundo de 2022; Stoch 3D 'mortinho'",
-    "20/11 21:00 2D": "🎯 rosquinha 53.500 (print 53.358 = MA77 1M; nosso 53.245): 'quase inevitável ir até lá. SEM GARANTIAS'; 'estamos no meio do caminho'"
+    "20/11 21:00 2D": "🎯 rosquinha 53.500 (print 53.358 = MA77 1M; nosso 53.245): 'quase inevitável ir até lá. SEM GARANTIAS'; 'estamos no meio do caminho'",
+    "20/11 21:00 1D": "Perdemos a MA1617; quase visitamos a EMA2401 (56.902); RSI 1D rumo ao ATL do RSI (9,63); Stoch de volta ao zero"
   },
   "viés_pos_bilau": "Dollynho 14/11 21:00: daqui pra baixo só long/sem short; 343: zerar short na Linha Vermelha ou stop MA7; 686: difícil manter short",
   "trade_dollynho": {
