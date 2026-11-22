@@ -19,6 +19,8 @@ MANUAIS = [  # níveis desenhados/citados por ele (valor, nome); manter atualiza
     (67200, "Linha Azul Pontilhada (dele)"),
     (57700, "Linha Branca (dele, 343, descendente; ~57,7K em 20/11 19:52, tocada: mín 57.668; = MA686/EMA777 3D)"),
     (50000, "MA42 do 2M (Raicher 19/11: '2 Month Double Bottom', ~50K, não tocada)"),
+    (57500, "Trend das Agulhadas 03/03+16/10/2023 (Raicher 22/11, 686, ASCENDENTE ~+1,2K/mês; ~57,5K em 22/11; suporte do fundo)"),
+    (55000, "Trend das Agulhadas 29/07+07/09/2025 (Raicher 22/11, 343, DESCENDENTE ~-80/dia; ~55,0K em 22/11; tocada no fundo 55.081)"),
 ]
 COLADO = 0.25   # % -> nível "colado" no preço (já testando/perdido agora)
 AGRUPA = 1.0    # % -> níveis a até 1% um do outro formam um cluster
