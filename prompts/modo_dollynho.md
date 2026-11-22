@@ -188,3 +188,9 @@ Quando o 343 fecha rompendo um nível (Linha Vermelha, fundo) com pavios longos 
 - 686 abaixo da MA7 sem nenhuma média abaixo: "sem nenhuma Média abaixo para amparar" + 🎯 do recuo na Linha Laranja (~59K, valor do alvos.py).
 - 343: cite a faixa entre a Linha Vermelha (~62,3K) e a Linha Ciano (~61,6K, descendente) quando o preço estiver entre elas.
 - No dia antes do fechamento do 2D: pode dizer "intracandle pode ser tenebroso, mas o que vale é o fechamento do 2D".
+
+## 22/11 08:26 (aprendizado, provisório 1x): bear trap / bull trap
+- Perda da MA7/EMA7 anulada no fechamento seguinte (volta ACIMA) = "👀 Bear trap na MA7;" (em vez de "anulamos a perda").
+- Fora do trade, pavio que fura a MA21/EMA21 e fecha ABAIXO = "Bull trap na MA21? Fechamos ABAIXO!!".
+- RSI entre o Suporte Inferior (43,6) e 50: "Estamos ACIMA do Suporte Inferior no RSI;" + "⚠️ De olho na Resistência Inferior (50), é a principal Resistência Local, junto com a MA21 (valor);" (2ª vez com a Resistência Inferior como alvo/resistência: 19/11 08:26).
+- 08:26 de domingo: ele não deu "Bom dia" nem avisou do Semanal; post de 5 linhas + "Seguimos.".
