@@ -1,0 +1,102 @@
+{
+ "print": "G-jyPOrWoAEpxbN",
+ "quando": "2026-01-13 14:10",
+ "erro_eixo_px": 0.57,
+ "erro_tempo_h": 0.27,
+ "conferencia_max_min": [
+  [
+   94792,
+   94785
+  ],
+  [
+   89199,
+   89191
+  ]
+ ],
+ "linhas": {
+  "magenta_pontilhada": {
+   "cor": "magenta",
+   "estilo": "pontilhada",
+   "nota": "alvo 🎯",
+   "p1": [
+    "2026-01-02 08:25",
+    95491
+   ],
+   "p2": [
+    "2026-01-15 12:38",
+    96943
+   ],
+   "res_px": 0.32
+  },
+  "rosa_tracejada": {
+   "cor": "rosa",
+   "estilo": "tracejada grossa",
+   "nota": "alvo 🎯",
+   "p1": [
+    "2026-01-02 08:25",
+    95050
+   ],
+   "p2": [
+    "2026-01-17 06:03",
+    96800
+   ],
+   "res_px": 0.23
+  },
+  "alaranjada_pontilhada": {
+   "cor": "salmão",
+   "estilo": "pontilhada",
+   "nota": "ganhamos a Linha Alaranjada",
+   "p1": [
+    "2026-01-02 08:25",
+    91710
+   ],
+   "p2": [
+    "2026-01-17 05:13",
+    93130
+   ],
+   "res_px": 0.62
+  },
+  "lilas": {
+   "cor": "lilás",
+   "estilo": "sólida",
+   "nota": "",
+   "p1": [
+    "2026-01-02 12:39",
+    90261
+   ],
+   "p2": [
+    "2026-01-17 07:45",
+    90950
+   ],
+   "res_px": 0.18
+  },
+  "amarela_tracejada": {
+   "cor": "amarela",
+   "estilo": "tracejada grossa",
+   "nota": "",
+   "p1": [
+    "2026-01-11 21:33",
+    90289
+   ],
+   "p2": [
+    "2026-01-17 00:59",
+    89544
+   ],
+   "res_px": 0.36
+  },
+  "azul_tracejada": {
+   "cor": "azul",
+   "estilo": "tracejada",
+   "nota": "",
+   "p1": [
+    "2026-01-09 17:24",
+    89026
+   ],
+   "p2": [
+    "2026-01-17 08:02",
+    90033
+   ],
+   "res_px": 0.28
+  }
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "print": "G-0xcXVXcAECnjy",
+ "quando": "2026-01-16 21:30",
+ "erro_eixo_px": 0.86,
+ "erro_tempo_h": 0.13,
+ "conferencia_max_min": [
+  [
+   97939,
+   97936
+  ]
+ ],
+ "linhas": {
+  "magenta_pontilhada": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-01-09 12:27",
+    96281
+   ],
+   "p2": [
+    "2026-01-20 07:11",
+    97475
+   ],
+   "res_px": 0.27
+  },
+  "rosa_tracejada": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-01-09 12:27",
+    95890
+   ],
+   "p2": [
+    "2026-01-20 08:24",
+    97168
+   ],
+   "res_px": 0.19
+  },
+  "verde_tracejada_grossa": {
+   "cor": "verde",
+   "estilo": "tracejada grossa",
+   "nota": "acima da MA7; suporte",
+   "p1": [
+    "2026-01-09 12:27",
+    94142
+   ],
+   "p2": [
+    "2026-01-20 08:24",
+    95710
+   ],
+   "res_px": 0.26
+  },
+  "alaranjada_pontilhada": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-01-09 12:27",
+    92391
+   ],
+   "p2": [
+    "2026-01-19 09:40",
+    93338
+   ],
+   "res_px": 0.44
+  },
+  "lilas": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-01-09 12:27",
+    90585
+   ],
+   "p2": [
+    "2026-01-20 08:24",
+    91090
+   ],
+   "res_px": 0.22
+  }
+ }
+}
