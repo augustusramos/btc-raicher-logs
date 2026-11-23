@@ -5,7 +5,7 @@ Uso (no GitHub Actions): python tools/baixar_prints.py saida/
 import json, sys, glob, datetime as dt, urllib.request, pathlib, re, time
 out = pathlib.Path(sys.argv[1]); out.mkdir(parents=True, exist_ok=True)
 rows = []
-for f in sorted(glob.glob('calibracao/historico/dollynho_posts_*.json')):
+for f in sorted(glob.glob('calibracao/historico/dollynho_posts*.json')):
     rows += json.load(open(f))
 seen = {}
 for pid, ts, body, imgs in sorted(rows, key=lambda r: r[1]):
