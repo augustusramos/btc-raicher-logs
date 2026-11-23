@@ -85,6 +85,9 @@ def main() -> None:
         if prev_state.get(tf, {}).get("bar_open") != st["bar_open"]:
             changed.append(tf)
         (out / f"{tf}.json").write_text(json.dumps(clean(st), ensure_ascii=False, indent=1))
+        # OHLC fechado (para o detector de linhas): ultimos 1500 candles de cada timeframe
+        (out / "ohlc").mkdir(exist_ok=True)
+        df[["open", "high", "low", "close"]].tail(1500).to_csv(out / "ohlc" / f"{tf}.csv.gz", float_format="%.2f")
 
     for tf in tfs:
         if args.charts == "all" or (args.charts == "changed" and tf in changed):
