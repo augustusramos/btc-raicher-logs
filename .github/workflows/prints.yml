@@ -1,0 +1,30 @@
+name: prints
+on:
+  workflow_dispatch:
+  push:
+    paths: ['calibracao/historico/**']
+permissions:
+  contents: write
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Branch prints
+        run: |
+          git fetch origin prints || true
+          if git rev-parse --verify origin/prints >/dev/null 2>&1; then
+            git worktree add saida origin/prints
+          else
+            git worktree add --detach saida && (cd saida && git checkout --orphan prints && git rm -rf . -q || true)
+          fi
+      - name: Baixar
+        run: python tools/baixar_prints.py saida/
+      - name: Publicar
+        run: |
+          cd saida
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add -A
+          git commit -qm "prints $(date -u +%F)" || echo nada novo
+          git push origin HEAD:prints
