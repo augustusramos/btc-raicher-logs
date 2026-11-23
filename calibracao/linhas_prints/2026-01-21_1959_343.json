@@ -1,0 +1,200 @@
+{
+ "print": "G_OOyc2XsAAPhhl",
+ "quando": "2026-01-21 19:59",
+ "erro_eixo_px": 0.5,
+ "erro_tempo_h": 0.25,
+ "conferencia_max_min": [
+  [
+   97939,
+   97929
+  ],
+  [
+   87193,
+   87184
+  ]
+ ],
+ "linhas": {
+  "magenta_pontilhada": {
+   "cor": "magenta",
+   "estilo": "pontilhada",
+   "nota": "",
+   "p1": [
+    "2026-01-11 03:26",
+    96457
+   ],
+   "p2": [
+    "2026-01-25 18:38",
+    98087
+   ],
+   "res_px": 0.31
+  },
+  "rosa_tracejada": {
+   "cor": "rosa",
+   "estilo": "tracejada grossa",
+   "nota": "",
+   "p1": [
+    "2026-01-11 03:26",
+    96080
+   ],
+   "p2": [
+    "2026-01-25 15:16",
+    97796
+   ],
+   "res_px": 0.21
+  },
+  "verde_tracejada_grossa": {
+   "cor": "verde",
+   "estilo": "tracejada grossa",
+   "nota": "nova",
+   "p1": [
+    "2026-01-11 03:26",
+    94374
+   ],
+   "p2": [
+    "2026-01-25 23:42",
+    96537
+   ],
+   "res_px": 0.51
+  },
+  "ciano_pontilhada": {
+   "cor": "ciano",
+   "estilo": "pontilhada",
+   "nota": "nova; medida só em x 947-1274",
+   "p1": [
+    "2026-01-12 05:16",
+    91084
+   ],
+   "p2": [
+    "2026-01-25 21:44",
+    94811
+   ],
+   "res_px": 0.44
+  },
+  "alaranjada_pontilhada": {
+   "cor": "salmão",
+   "estilo": "pontilhada",
+   "nota": "",
+   "p1": [
+    "2026-01-11 03:26",
+    92547
+   ],
+   "p2": [
+    "2026-01-25 22:01",
+    93968
+   ],
+   "res_px": 0.44
+  },
+  "ciano": {
+   "cor": "ciano",
+   "estilo": "sólida",
+   "nota": "nova (Linha CIANO)",
+   "p1": [
+    "2026-01-11 03:26",
+    91902
+   ],
+   "p2": [
+    "2026-01-25 23:42",
+    93072
+   ],
+   "res_px": 0.26
+  },
+  "lilas": {
+   "cor": "lilás",
+   "estilo": "sólida",
+   "nota": "",
+   "p1": [
+    "2026-01-11 07:39",
+    90670
+   ],
+   "p2": [
+    "2026-01-25 23:42",
+    91353
+   ],
+   "res_px": 0.21
+  },
+  "azul_tracejada": {
+   "cor": "azul",
+   "estilo": "tracejada",
+   "nota": "7,21,77 - 2022-NOV e 2025-DEZ",
+   "p1": [
+    "2026-01-11 03:26",
+    89212
+   ],
+   "p2": [
+    "2026-01-25 22:51",
+    91185
+   ],
+   "res_px": 0.2
+  },
+  "amarela_tracejada": {
+   "cor": "amarela",
+   "estilo": "tracejada grossa",
+   "nota": "",
+   "p1": [
+    "2026-01-11 03:26",
+    90402
+   ],
+   "p2": [
+    "2026-01-25 23:42",
+    88250
+   ],
+   "res_px": 0.31
+  },
+  "vermelha": {
+   "cor": "vermelha",
+   "estilo": "sólida grossa",
+   "nota": "confirmados acima da Linha Vermelha?",
+   "p1": [
+    "2026-01-11 03:26",
+    88055
+   ],
+   "p2": [
+    "2026-01-25 23:42",
+    89565
+   ],
+   "res_px": 0.23
+  },
+  "ciano_tracejada": {
+   "cor": "ciano",
+   "estilo": "tracejada",
+   "nota": "nova",
+   "p1": [
+    "2026-01-11 03:26",
+    87543
+   ],
+   "p2": [
+    "2026-01-25 23:42",
+    89024
+   ],
+   "res_px": 0.18
+  },
+  "laranja_emas_2025": {
+   "cor": "laranja clara",
+   "estilo": "sólida fina",
+   "nota": "rótulo: EMAs 7,21,77 - 2025-JUN e 2025-DEZ (Linha das EMAs de 2025: dip nela)",
+   "p1": [
+    "2026-01-11 03:26",
+    88177
+   ],
+   "p2": [
+    "2026-01-25 06:51",
+    87063
+   ],
+   "res_px": 0.15
+  },
+  "verde_tracejada_fina": {
+   "cor": "verde",
+   "estilo": "tracejada fina",
+   "nota": "nova",
+   "p1": [
+    "2026-01-11 03:26",
+    87121
+   ],
+   "p2": [
+    "2026-01-25 21:10",
+    86481
+   ],
+   "res_px": 0.23
+  }
+ }
+}
