@@ -194,3 +194,26 @@ Quando o 343 fecha rompendo um nível (Linha Vermelha, fundo) com pavios longos 
 - Fora do trade, pavio que fura a MA21/EMA21 e fecha ABAIXO = "Bull trap na MA21? Fechamos ABAIXO!!".
 - RSI entre o Suporte Inferior (43,6) e 50: "Estamos ACIMA do Suporte Inferior no RSI;" + "⚠️ De olho na Resistência Inferior (50), é a principal Resistência Local, junto com a MA21 (valor);" (2ª vez com a Resistência Inferior como alvo/resistência: 19/11 08:26).
 - 08:26 de domingo: ele não deu "Bom dia" nem avisou do Semanal; post de 5 linhas + "Seguimos.".
+
+## FORMATO NOVO DA MENSAGEM (Augustus, 23/11 19:30) — SUBSTITUI as regras de formato anteriores onde conflitarem
+A decisão continua saindo só dos dados e da tabela de regras; muda só o que aparece na mensagem.
+1. Um bloco por timeframe que fechou (21:00: "Log N." na 1ª linha; ordem do maior para o menor; 686 e 343 juntos no título "686 e 343" quando os dois fecham). O 343 não fala de Diário/Semanal.
+2. Corpo de 3 a 5 linhas por timeframe, nesta ordem: evento do candle → preço x média-chave → RSI x nível-chave → Stoch → (trade/posição). Só o que MUDOU desde o último post; nível ou cruzamento já anunciado não se repete.
+3. TODA linha de dado termina com seta: ⬆️ (bullish), ⬇️ (bearish) ou ↔️ (neutro), aplicando as regras do método (preço acima/recuperou média = ⬆️, abaixo/perdeu = ⬇️; rejeição numa média = ⬇️; RSI acima da Média/recuperou nível = ⬆️; Stoch no teto ou cruzando para baixo = ⬇️; Stoch saindo do fundo/acordando = ⬆️; divergência de alta = ⬆️; Bilau/martelo = ⬆️).
+4. Linha de posição numa frase, SEM seta: "Fora por enquanto." / "Mantemos o trade: 🎯 X (valor), ❌ Y (valor)." / "Entrada aqui, stop na Y (valor)." / "Daqui pra baixo só compra, sem short novo." Alvo próprio (alvos.py) pode vir aqui: "Ganhando a MA49, 🎯 MA77 (66,6K)."
+5. Fecho de cada timeframe: "<TF>: BULLISH ⬆️" | "BEARISH ⬇️" | "NEUTRO ↔️", decidido pela tendência (preço x MA7 + RSI x Média do RSI); se Stoch ou setup apontar para o outro lado, ressalva curta entre parênteses: "(Stoch no teto pede cautela)", "(sinais de fundo)", "(abaixo da MA7, mas RSI e Stoch virando)".
+6. Números SÓ em entrada, stop, alvo e resistência/suporte imediato citado como tal. Nada de valor entre parênteses em toda média (substitui a regra de 11/11).
+7. Stoch sem "K" nem "D": falar como ele ("no teto", "na máxima", "cruzando para baixo/para cima", "acordando", "ABAIXO do Suporte Inferior", "zerado").
+8. Não usar "pavio": usar "tocamos na MAx", "rejeição na MAx" (tocou e fechou do outro lado), "martelo".
+9. Tom do Stoch: no teto = "cuidado com a alavancagem"; 🚨 só quando cruzou de fato.
+10. As linhas 📌, 🧭 e ⚖️ NÃO vão na mensagem: continuam calculadas e gravadas no arquivo do Log, dentro de "## Notas internas", para o placar.
+11. Despedida curta conforme o horário ("Até logo mais.", "Até a noite, senhores!", "Boa noite, senhores!"), depois o rodapé "_Estudo, não recomendação._".
+Exemplo (343 de 23/11 14:09):
+343
+Rejeição na MA49 e voltamos; ⬇️
+Seguimos ACIMA da MA7/EMA7, nosso suporte; ⬆️
+RSI de volta ACIMA da Resistência Inferior (50); ⬆️
+Stoch cruzando para baixo no teto, cuidado com a alavancagem! ⬇️
+Fora por enquanto. Ganhando a MA49, 🎯 MA77 (66,6K).
+343: BULLISH ⬆️ (Stoch no teto pede cautela)
+Até a noite, senhores!
