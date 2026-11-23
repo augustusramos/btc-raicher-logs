@@ -197,7 +197,7 @@ Quando o 343 fecha rompendo um nível (Linha Vermelha, fundo) com pavios longos 
 
 ## FORMATO NOVO DA MENSAGEM (Augustus, 23/11 19:30) — SUBSTITUI as regras de formato anteriores onde conflitarem
 A decisão continua saindo só dos dados e da tabela de regras; muda só o que aparece na mensagem.
-1. Um bloco por timeframe que fechou (21:00: "Log N." na 1ª linha; ordem do maior para o menor; 686 e 343 juntos no título "686 e 343" quando os dois fecham). O 343 não fala de Diário/Semanal.
+1. Um bloco por timeframe que fechou (21:00: "Log N." na 1ª linha; ordem do maior para o menor; "686 e 343" juntos SÓ às 21:00). Às 08:26 e 19:52 vai SÓ o bloco do 343, mesmo com o 686 fechando junto (Augustus, 23/11 ~20:10; Dollynho 4 de 4). O 343 não fala de Diário/Semanal.
 2. Corpo de 3 a 5 linhas por timeframe, nesta ordem: evento do candle → preço x média-chave → RSI x nível-chave → Stoch → (trade/posição). Só o que MUDOU desde o último post; nível ou cruzamento já anunciado não se repete.
 3. TODA linha de dado termina com seta: ⬆️ (bullish), ⬇️ (bearish) ou ↔️ (neutro), aplicando as regras do método (preço acima/recuperou média = ⬆️, abaixo/perdeu = ⬇️; rejeição numa média = ⬇️; RSI acima da Média/recuperou nível = ⬆️; Stoch no teto ou cruzando para baixo = ⬇️; Stoch saindo do fundo/acordando = ⬆️; divergência de alta = ⬆️; Bilau/martelo = ⬆️).
 4. Linha de posição numa frase, SEM seta: "Fora por enquanto." / "Mantemos o trade: 🎯 X (valor), ❌ Y (valor)." / "Entrada aqui, stop na Y (valor)." / "Daqui pra baixo só compra, sem short novo." Alvo próprio (alvos.py) pode vir aqui: "Ganhando a MA49, 🎯 MA77 (66,6K)."
@@ -217,3 +217,9 @@ Stoch cruzando para baixo no teto, cuidado com a alavancagem! ⬇️
 Fora por enquanto. Ganhando a MA49, 🎯 MA77 (66,6K).
 343: BULLISH ⬆️ (Stoch no teto pede cautela)
 Até a noite, senhores!
+
+## 23/11 19:52 (Augustus aprovou, 23/11 ~20:10) — VALE SEMPRE
+- 343 fechando ABAIXO da MA7/EMA7 (mesmo colado, por 0,0x%): "🚨 Perdemos a MA7/EMA7!!" com seta ⬇️, sem "por um triz". Veredito do bloco: "343: BEARISH ⬇️" quando perde a MA7/EMA7 com o Stoch descendo do teto; RSI ainda ACIMA da Média vira ressalva entre parênteses ("(RSI ainda ACIMA da Média)").
+- Stoch saindo do teto com K < D: "Stoch cruzando bearish!! CUIDADO!!" com seta ⬇️ (vale mesmo se o cruzamento K x D começou num candle anterior).
+- RSI que voltou a cair a partir do 50 depois de já ter sido rejeitado ali: "Rejeição (mais uma) da Resistência Inferior (a confirmar);" com seta ⬇️ (provisório, 1x).
+- Fecho do 19:52: "Até logo mais no Fechamento do Diário."
