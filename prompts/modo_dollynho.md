@@ -15,7 +15,7 @@ Escreva e envie AGORA o Log de BTC do Augustus no método Raicher/Dollynho, em p
    git clone --depth 1 --branch dados https://github.com/augustusramos/btc-raicher-logs dados
    git clone --depth 1 https://github.com/augustusramos/btc-raicher-logs repo
    Leia repo/logs/estado.json, repo/calibracao/dollynho/cronologia_trades.md, repo/calibracao/dollynho/estilo.md (OBRIGATÓRIO: é o formato a seguir), os 3 Logs mais recentes em repo/logs/ e os 2 posts mais recentes em repo/calibracao/dollynho/.
-4. Carregue a skill analise-btc-raicher (Skill tool) e siga o método e os níveis fixos dela.
+4. Leia repo/docs/METODO.md (documento-mestre: método, tabela de decisão, formato) e carregue a skill analise-btc-raicher (Skill tool).
 5. Timeframes que ACABARAM de fechar: em dados/latest.json, todo timeframe com "bar_close" nos últimos 20 minutos. Brasília: 343 fecha 02:43, 08:26, 14:09, 19:52, 21:00; 686 fecha 08:26, 19:52, 21:00; Diário 21:00; Semanal domingo 21:00. Se o esperado não fechou ainda, espere 1 min e refaça os passos 2-3 uma vez; se faltar, avise que atrasou.
 6. Para cada timeframe fechado, leia dados/<tf>.json e veja dados/charts/<tf>.png (eventos CONFIRMOU/ANULOU/ROMPEU/PERDEU, wick_touches, ma_crosses, níveis fixos do RSI e Stoch 20/50/80). Leia também 1D, 686m e 343m mesmo que não tenham fechado agora (para a linha 🧭).
 7. CONTINUIDADE DO TRADE (mesmas regras de antes):

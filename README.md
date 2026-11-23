@@ -1,5 +1,7 @@
 # btc-raicher-logs
 
+**Comece por [`docs/METODO.md`](docs/METODO.md)**: o documento-mestre com o método, as regras de decisão, a automação e a calibração.
+
 Indicadores automáticos de BTC no método do @raicher / @DollynhoCoin, para o Claude escrever o Log a cada fechamento.
 
 ## O que roda
