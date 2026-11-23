@@ -1,0 +1,60 @@
+{
+ "print": "G88yfPdWgAAKMb_",
+ "quando": "2025-12-24 14:11",
+ "erro_eixo_px": 0.55,
+ "erro_tempo_h": 0.21,
+ "conferencia_max_min": [
+  [
+   90536,
+   90530
+  ],
+  [
+   84398,
+   84390
+  ]
+ ],
+ "linhas": {
+  "alaranjada_pontilhada": {
+   "cor": "salmão",
+   "estilo": "pontilhada",
+   "nota": "alvo 🎯",
+   "p1": [
+    "2025-12-14 21:58",
+    89980
+   ],
+   "p2": [
+    "2025-12-26 08:24",
+    91048
+   ],
+   "res_px": 0.26
+  },
+  "vermelha": {
+   "cor": "vermelha",
+   "estilo": "sólida grossa",
+   "nota": "QED, dip na linha vermelha",
+   "p1": [
+    "2025-12-14 21:58",
+    85349
+   ],
+   "p2": [
+    "2025-12-26 11:41",
+    86488
+   ],
+   "res_px": 0.23
+  },
+  "laranja_desce": {
+   "cor": "laranja",
+   "estilo": "tracejada fina",
+   "nota": "BTFD",
+   "p1": [
+    "2025-12-14 21:58",
+    86087
+   ],
+   "p2": [
+    "2025-12-26 10:23",
+    83577
+   ],
+   "res_px": 0.33
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "print": "G80DrAbWUAADu-_",
+ "quando": "2025-12-22 21:32",
+ "erro_eixo_px": 0.52,
+ "erro_tempo_h": 0.08,
+ "conferencia_max_min": [
+  [
+   90536,
+   90530
+  ],
+  [
+   84398,
+   84394
+  ]
+ ],
+ "linhas": {
+  "vermelha": {
+   "cor": "vermelha",
+   "estilo": "sólida grossa",
+   "p1": [
+    "2025-12-13 16:04",
+    85227
+   ],
+   "p2": [
+    "2025-12-25 18:38",
+    86417
+   ],
+   "res_px": 0.19
+  },
+  "verde_tracejada": {
+   "cor": "verde",
+   "estilo": "tracejada fina",
+   "p1": [
+    "2025-12-13 16:04",
+    85413
+   ],
+   "p2": [
+    "2025-12-25 15:51",
+    86486
+   ],
+   "res_px": 0.23
+  },
+  "ciano_tracejada": {
+   "cor": "ciano",
+   "estilo": "tracejada grossa",
+   "p1": [
+    "2025-12-13 16:04",
+    84767
+   ],
+   "p2": [
+    "2025-12-25 13:04",
+    85914
+   ],
+   "res_px": 0.24
+  },
+  "laranja_desce": {
+   "cor": "laranja",
+   "estilo": "tracejada fina",
+   "nota": "rótulo: 7,21,77 - DOWN - 2025-SET e 2025-DEZ",
+   "p1": [
+    "2025-12-13 16:04",
+    86364
+   ],
+   "p2": [
+    "2025-12-25 18:38",
+    83720
+   ],
+   "res_px": 0.69
+  },
+  "alaranjada_pontilhada": {
+   "cor": "salmão/alaranjada",
+   "estilo": "pontilhada",
+   "nota": "rótulo: ALARANJADA PREVALECENDO (rejeitou a máxima 90.536)",
+   "p1": [
+    "2025-12-13 17:27",
+    89868
+   ],
+   "p2": [
+    "2025-12-25 18:38",
+    90994
+   ],
+   "res_px": 0.46
+  }
+ }
+}
