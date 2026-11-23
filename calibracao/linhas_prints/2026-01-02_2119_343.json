@@ -1,0 +1,112 @@
+{
+ "print": "G9sp9_zX0AA8vGJ",
+ "quando": "2026-01-02 21:19",
+ "erro_eixo_px": 0.55,
+ "erro_tempo_h": 0.28,
+ "conferencia_max_min": [
+  [
+   90925,
+   90914
+  ],
+  [
+   86363,
+   86353
+  ]
+ ],
+ "linhas": {
+  "magenta_pontilhada": {
+   "cor": "magenta",
+   "estilo": "pontilhada",
+   "p1": [
+    "2025-12-20 14:18",
+    94109
+   ],
+   "p2": [
+    "2026-01-05 02:15",
+    95789
+   ],
+   "res_px": 0.24
+  },
+  "rosa_tracejada": {
+   "cor": "rosa",
+   "estilo": "tracejada grossa",
+   "p1": [
+    "2025-12-20 11:36",
+    93832
+   ],
+   "p2": [
+    "2026-01-05 05:51",
+    95661
+   ],
+   "res_px": 0.37
+  },
+  "amarela_tracejada": {
+   "cor": "amarela",
+   "estilo": "tracejada grossa",
+   "nota": "desce; alvo 🎯 perto do cruzamento com a MA2744",
+   "p1": [
+    "2025-12-20 11:36",
+    93639
+   ],
+   "p2": [
+    "2026-01-05 07:40",
+    91267
+   ],
+   "res_px": 0.23
+  },
+  "alaranjada_pontilhada": {
+   "cor": "salmão",
+   "estilo": "pontilhada",
+   "p1": [
+    "2025-12-20 14:18",
+    90511
+   ],
+   "p2": [
+    "2026-01-05 05:51",
+    91981
+   ],
+   "res_px": 0.48
+  },
+  "lilas": {
+   "cor": "lilás/azul-violeta",
+   "estilo": "sólida",
+   "nota": "Linha Lilás: 3 rejeições marcadas; 'entre a Cruz e a Espada'",
+   "p1": [
+    "2025-12-20 11:36",
+    89662
+   ],
+   "p2": [
+    "2026-01-05 07:40",
+    90390
+   ],
+   "res_px": 0.23
+  },
+  "azul_tracejada": {
+   "cor": "azul",
+   "estilo": "tracejada",
+   "nota": "rótulo 7,21,77 - 2022-NOV e 20..",
+   "p1": [
+    "2025-12-20 11:36",
+    86405
+   ],
+   "p2": [
+    "2026-01-05 07:40",
+    88446
+   ],
+   "res_px": 0.27
+  },
+  "vermelha": {
+   "cor": "vermelha",
+   "estilo": "sólida grossa",
+   "p1": [
+    "2025-12-20 11:36",
+    85897
+   ],
+   "p2": [
+    "2026-01-05 07:40",
+    87466
+   ],
+   "res_px": 0.23
+  }
+ }
+}

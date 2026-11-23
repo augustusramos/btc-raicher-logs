@@ -1,0 +1,45 @@
+{
+ "print": "G9g6SYgWEAEEEEj",
+ "quando": "2025-12-31 14:30",
+ "erro_eixo_px": 0.87,
+ "erro_tempo_h": 0.03,
+ "conferencia_max_min": [
+  [
+   90307,
+   90304
+  ],
+  [
+   86363,
+   86348
+  ]
+ ],
+ "linhas": {
+  "vermelha": {
+   "cor": "vermelha",
+   "estilo": "sólida grossa",
+   "nota": "MAIS UM TESTE",
+   "p1": [
+    "2025-12-24 01:03",
+    86238
+   ],
+   "p2": [
+    "2026-01-02 04:44",
+    87148
+   ],
+   "res_px": 0.27
+  },
+  "alaranjada_pontilhada": {
+   "cor": "salmão",
+   "estilo": "pontilhada",
+   "p1": [
+    "2025-12-24 01:03",
+    90837
+   ],
+   "p2": [
+    "2026-01-01 23:29",
+    91684
+   ],
+   "res_px": 1.25
+  }
+ }
+}

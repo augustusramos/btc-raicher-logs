@@ -1,0 +1,59 @@
+{
+ "print": "G9YD0JXXsAAvypJ",
+ "quando": "2025-12-29 21:15",
+ "erro_eixo_px": 0.58,
+ "erro_tempo_h": 0.0,
+ "conferencia_max_min": [
+  [
+   90536,
+   90529
+  ],
+  [
+   84398,
+   84386
+  ]
+ ],
+ "linhas": {
+  "vermelha": {
+   "cor": "vermelha",
+   "estilo": "sólida grossa",
+   "nota": "testando (4 toques marcados, resistência acima)",
+   "p1": [
+    "2025-12-14 00:12",
+    85215
+   ],
+   "p2": [
+    "2026-01-01 19:23",
+    87118
+   ],
+   "res_px": 0.23
+  },
+  "alaranjada_pontilhada": {
+   "cor": "salmão",
+   "estilo": "pontilhada",
+   "p1": [
+    "2025-12-14 00:12",
+    89855
+   ],
+   "p2": [
+    "2026-01-01 17:15",
+    91650
+   ],
+   "res_px": 0.42
+  },
+  "laranja_desce": {
+   "cor": "laranja",
+   "estilo": "tracejada fina",
+   "nota": "BTFD",
+   "p1": [
+    "2025-12-14 00:12",
+    86388
+   ],
+   "p2": [
+    "2026-01-01 17:15",
+    82234
+   ],
+   "res_px": 0.31
+  }
+ }
+}

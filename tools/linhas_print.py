@@ -17,6 +17,9 @@ def data(B, x): return dt.datetime.fromtimestamp(B[0]*x+B[1])
 def xpara(B, d): return (dt.datetime.fromisoformat(d).timestamp() - B[1]) / B[0]
 
 def converte(spec):
+    if 'candles' in spec:  # sem eixo de datas: última vela (abertura) + 5 velas por dia
+        c = spec['candles']; t = dt.datetime.fromisoformat(c['ultima_abertura'])
+        spec['x'] = [[c['ultima_x'] - c['sp'] * 5 * k, (t - dt.timedelta(days=k)).isoformat()] for k in range(12)]
     A, B, ry, rx = calibra(spec['y'], spec['x'])
     chk = [[e, round(preco(A, y))] for y, e in spec.get('checks', [])]
     out = {'print': spec['print'], 'quando': spec['quando'], 'erro_eixo_px': round(ry, 2), 'erro_tempo_h': round(rx, 2), 'conferencia_max_min': chk, 'linhas': {}}
