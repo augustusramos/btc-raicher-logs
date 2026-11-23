@@ -1,0 +1,21 @@
+{
+  "_sobre": "Gabarito das linhas desenhadas pelo Dollynho no 343 (BTCUSD Bitstamp), extraídas dos prints. Cada linha = reta entre dois pontos (data/hora Brasília, preço). Fonte principal: print 343 de 23/11/2026 14:11 (eixo em escala log, erro de leitura ~0,1%); conferidas contra o print de 20/11/2026 20:19 (Vermelha, Ciano e Branca batem em ~0,1%).",
+  "tf": "343m",
+  "linhas": {
+    "vermelha":            {"p1": ["2026-11-13 20:05", 62718], "p2": ["2026-11-26 09:09", 61960], "tipo": "descendente", "papel": "alvo do short de 03/11 (atingido 15/11), depois suporte/resistência; citada como 'Linha Vermelha'"},
+    "ciano":               {"p1": ["2026-11-13 20:05", 62136], "p2": ["2026-11-26 09:09", 61411], "tipo": "descendente", "papel": "paralela abaixo da Vermelha; 'Linha Ciano'"},
+    "branca":              {"p1": ["2026-11-13 20:05", 58073], "p2": ["2026-11-26 09:09", 57489], "tipo": "descendente", "papel": "destino ~57K em 20/11 ('QED! Chegamos na Linha Branca')"},
+    "branca_pontilhada":   {"p1": ["2026-11-13 20:05", 58191], "p2": ["2026-11-26 09:09", 57652], "tipo": "descendente", "papel": "par da Branca"},
+    "verde_tracejada":     {"p1": ["2026-11-13 20:05", 56200], "p2": ["2026-11-26 09:09", 55162], "tipo": "descendente", "papel": "fundo de 21/11 ('Deixamos um fundo na Linha Verde Tracejada')"},
+    "amarela_tracejada":   {"p1": ["2026-11-13 20:05", 54940], "p2": ["2026-11-26 09:09", 53838], "tipo": "descendente", "papel": "abaixo do fundo; perto da rosquinha"},
+    "azul_pontilhada":     {"p1": ["2026-11-13 20:05", 67187], "p2": ["2026-11-26 09:09", 67432], "tipo": "quase horizontal", "papel": "alvo do short atingido 14/11 ('Azul Pontilhada')"},
+    "laranja_343":         {"p1": ["2026-11-13 20:05", 66861], "p2": ["2026-11-26 09:09", 66161], "tipo": "descendente", "papel": "linha laranja fina no 343 (sem nome no texto)"},
+    "branca_tracejada_topo": {"p1": ["2026-11-13 20:05", 70447], "p2": ["2026-11-26 09:09", 71135], "tipo": "ascendente", "papel": "tracejada branca acima (sem nome no texto)"}
+  },
+  "outras_citadas_sem_reta": {
+    "agulhada_2024": "faixa horizontal ~65.400-65.900 (Diário)",
+    "linha_laranja_agulhada_ago": "horizontal ~64.450 (Diário)",
+    "linha_laranja_686": "descendente ~59,3K em 18/11 (686)",
+    "linha_pink": "tocada em 12/11 (343), sem reta extraída ainda"
+  }
+}

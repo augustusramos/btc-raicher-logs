@@ -124,7 +124,7 @@ Primeiro post no formato atual: 21/12/2025 (SEMANAL, domingo). "Log 7" em 27/12/
 
 ## 12. Pendências
 
-- Detector de linhas desenhadas (topos/fundos e regiões antigas), calibrado contra os prints dele.
+- Detector de linhas (`raicher/linhas.py`, gabarito em `calibracao/linhas_dollynho.json`). Achado de 23/11: as linhas dele no 343 são linhas de tendência longas, em escala log, que ligam pivôs do Diário de meses ou anos atrás (Verde Tracejada: 6 pivôs desde jul/2025; Azul Pontilhada: topos jun–ago/2026; Branca: fundos jul–ago/2026). Com pivôs de 3 dias e tolerância de 0,6%, as 9 linhas dele aparecem entre ~127 candidatas, a até 0,2% do valor de hoje. Falta o critério de escolha: no top 15 do ranking atual só 2 batem. Próximo passo: mais exemplos (prints antigos dele) para aprender a seleção.
 - Varredura completa do histórico dele e do Raicher (texto + gráficos) desde 21/12/2025.
 - Registro de resultado (% de cada entrada/saída, dele e nossa) para medir lucratividade, não só concordância.
 - Detecção de divergência menos rígida (ele viu 10 que o nosso cálculo não marcou entre 21 e 23/11).
