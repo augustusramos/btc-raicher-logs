@@ -82,6 +82,9 @@ Gestão do trade (padrões dele):
 - Nunca declarar parcial nem mexer no stop sem a regra mandar.
 - Dois horizontes: trade alavancado no 343/686 e compras de longo prazo dele à vista (abaixo da EMA777 do 2D = "promoção"; ordens em degraus até a rosquinha).
 
+### 6.x Abaixo de todas as médias (24/11)
+Só projeta mais queda ("testar o fundo") se ainda há espaço: Stoch > ~30 e caindo, RSI abaixo da Média, sem divergência. Stoch zerado, RSI sobrevendido, divergência ou Traps segurando = perto do fundo, aguardar MA7/Média do RSI. Teste em 33 posts dele: 76% (83% fora de trade aberto). Detalhes em prompts/modo_dollynho.md.
+
 ## 7. Alvos
 
 - Alvos são as próximas médias/níveis na direção do trade, pulando as intermediárias quando há confluência forte adiante.
