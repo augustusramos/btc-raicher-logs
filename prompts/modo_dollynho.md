@@ -224,7 +224,7 @@ Até a noite, senhores!
 - RSI que voltou a cair a partir do 50 depois de já ter sido rejeitado ali: "Rejeição (mais uma) da Resistência Inferior (a confirmar);" com seta ⬇️ (provisório, 1x).
 - Fecho do 19:52: "Até logo mais no Fechamento do Diário."
 
-## 23/11 21:00 (Augustus aprovou, 23/11 ~21:30) — VALE SEMPRE
+## 23/11 21:00 (Augustus aprovou, 23/11 ~21:20) — VALE SEMPRE
 - 343 que perde SÓ a MA7 com a EMA7 segurando (preço ABAIXO da MA7 e ACIMA da EMA7): NÃO é "zona dúbia/NEUTRO". Escreva "🚨 Perdemos a MA7!" (⬇️) e, se quiser, "E a EMA7 segurou, deixando uma esperança;" (↔️). Veredito "343: BEARISH ⬇️ (EMA7 e Média do RSI ainda seguram)". "Zona dúbia" fica só para o 686/Diário ou quando o preço está ACIMA da MA7 e ABAIXO da EMA7.
 - "☠️ Combo da Morte" quando fecharem juntos: preço ABAIXO da MA7 + RSI rejeitando a Resistência Inferior (50) + Stoch descendo do teto. Linhas: "☠️ Estamos no Combo da Morte:" + "ABAIXO da MA7; ⬇️" "Rejeição da Resistência Inferior; ⬇️" "Stoch descendo do teto; ⬇️" + "Evite entrar alavancado!".
 - Linha de posição (fora do trade): traga o suporte imediato e o alvo do cenário de alta, com números: "Fora por enquanto. Suporte na MA21 (60,3K); 🎯 MA77 (66,2K)." Use o alvo que o Dollynho deu enquanto ele não for invalidado (estado.json alvos_dollynho; 🎯 MA77 do 343 dado em 23/11 14:09, mantido 21:00; invalida se o 343 fechar ABAIXO da MA21) e, sem alvo dele, o próximo cluster do alvos.py.
