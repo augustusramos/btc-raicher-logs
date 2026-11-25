@@ -129,7 +129,8 @@
   },
   "numeracao": {
     "ultimo_log_dollynho_conhecido": 338,
-    "obs": "23/11 21:00: Log 337 CONFIRMADO pelo post dele (DIÁRIO abriu o lote; ele não postou o 3D). | 23/11 21:00: nosso Log 337 (TRÊS DIAS abre o lote, com DIÁRIO; '686 e 343' em seguida); estimativa, corrigir se ele postar outro número. | 22/11 21:00: Log 336 CONFIRMADO pelo post dele (SEMANAL abriu o lote). | 22/11 21:00: nosso Log 336 (Semanal abre o lote, com 2D e Diário; '686 e 343' em seguida); estimativa, corrigir se ele postar outro número. | 21/11 21:00: Log 335 CONFIRMADO pelo post dele (Diário abriu o lote; '686 e 343' em seguida). | 20/11 21:00: Log 334 CONFIRMADO pelo post dele = TRÊS DIAS (3D abriu o lote; 2D e 3D fecharam juntos). | 20/11 21:00: nosso Log 334 (2D abre o lote; estimativa, corrigir se ele postar outro número). | 19/11 21:00: Log 333 CONFIRMADO pelo post dele ('Log 333 (Cabalístico!)'). 19/11 21:00: nosso Log 333 (Diário abre o lote; sem 2D). Post dele 18/11: Log 332. Ele NAO numera todo dia; sempre usar o número dele quando conhecido. Post dele 18/11: Log 332 = lote 18/11 (2D abre). Ele NAO numera todo dia (entre 14/11 e 17/11 houve um lote sem número). Sempre usar o número dele quando conhecido; próximo provável = 333 no próximo lote com Log."
+    "obs": "23/11 21:00: Log 337 CONFIRMADO pelo post dele (DIÁRIO abriu o lote; ele não postou o 3D). | 23/11 21:00: nosso Log 337 (TRÊS DIAS abre o lote, com DIÁRIO; '686 e 343' em seguida); estimativa, corrigir se ele postar outro número. | 22/11 21:00: Log 336 CONFIRMADO pelo post dele (SEMANAL abriu o lote). | 22/11 21:00: nosso Log 336 (Semanal abre o lote, com 2D e Diário; '686 e 343' em seguida); estimativa, corrigir se ele postar outro número. | 21/11 21:00: Log 335 CONFIRMADO pelo post dele (Diário abriu o lote; '686 e 343' em seguida). | 20/11 21:00: Log 334 CONFIRMADO pelo post dele = TRÊS DIAS (3D abriu o lote; 2D e 3D fecharam juntos). | 20/11 21:00: nosso Log 334 (2D abre o lote; estimativa, corrigir se ele postar outro número). | 19/11 21:00: Log 333 CONFIRMADO pelo post dele ('Log 333 (Cabalístico!)'). 19/11 21:00: nosso Log 333 (Diário abre o lote; sem 2D). Post dele 18/11: Log 332. Ele NAO numera todo dia; sempre usar o número dele quando conhecido. Post dele 18/11: Log 332 = lote 18/11 (2D abre). Ele NAO numera todo dia (entre 14/11 e 17/11 houve um lote sem número). Sempre usar o número dele quando conhecido; próximo provável = 333 no próximo lote com Log.",
+    "obs_2411": "Log 338 = DOIS DIAS de 24/11 21:00 (confirmado no post dele; nossa estimativa igual)"
   },
   "gatilho_long_343": {
     "regra": "BALIZA RSI 23.67 (Dollynho 13/11 08:26): RSI do 343 ABAIXO de 23.67 = não tem short (zona de long/realização); ACIMA de 23.67 = não tem long. Resposta de 12/11 ~13:36: long só se RSI < 23.67 OU 343 fechar ACIMA da MA7/EMA7.",
@@ -203,7 +204,8 @@
       "valor_2411_0243": 66027,
       "suporte_2411_0243": "MA21 343 (60.197) — testada 24/11 02:43 (mín 59.380) e segurou",
       "status": "INVALIDADO 24/11 08:26: 343 fechou 59.731 ABAIXO da MA21 (60.106); MA77 343 = 65.832"
-    }
+    },
+    "24/11 21:00 2D": "Rejeitamos a MA7 (2D); MA7 cruzando bearish a MA777 (2D); 'será que veremos o retorno do carro do ovo? Vai rolar uma rosquinha? Tenho ordens lá!' — rosquinha 53.375 no print (MA77 1M); RSI 2D colado no Bilau 25,78 ('Será que volta!?'); Stoch 2D chegando no 20,44; linhas abaixo ~48,7K/~47,2K (EMA1617/MA1372 2D)"
   },
   "viés_pos_bilau": "Dollynho 14/11 21:00: daqui pra baixo só long/sem short; 343: zerar short na Linha Vermelha ou stop MA7; 686: difícil manter short",
   "trade_dollynho": {
@@ -222,10 +224,10 @@
   "compras_longo_prazo_dollynho": {
     "fonte": "Log 333 dele (Diário) + 686 e 343, 19/11 21:00",
     "preenchidas": "21/11 08:26 (post dele: 'Mais uma ordem levada!'): ordem 57.050 PREENCHIDA (mín 55.081). | ordens limitadas no toque da MA1617 1D (~61,5K; mín 61.365) — 'Levou minhas ordens aí.'",
-    "abertas": "21/11 08:26: resta só a ordem 53.000 (rosquinha MA77 1M 53.245 / MA343 1W 52.583). Preço 'dentro do range do alvo no Semanal' (EMA343 1W 56.880 – MA343 1W 52.583). | 20/11 21:00 (post 343): ordens 'na casa dos 57k e nos 53k' mantidas (57.050 / 53.000); 'bastante bullish', compra sem alavancagem; alvo do Semanal 53K. | 20/11 ~16:26: 'Já comprei o suficiente' — restam só 2 ordens limitadas: 57.050 (= EMA77 1M 57.058 / EMA343 1W / EMA2401 1D) e 53.000 (= rosquinha MA77 1M ~53,3K / MA343 1W ~52,6K). Antes (19/11): ordens entre 58K e 53K.",
+    "abertas": "24/11 21:00: ordem 53.000 (rosquinha) CONFIRMADA aberta ('Tenho ordens lá!'). | 21/11 08:26: resta só a ordem 53.000 (rosquinha MA77 1M 53.245 / MA343 1W 52.583). Preço 'dentro do range do alvo no Semanal' (EMA343 1W 56.880 – MA343 1W 52.583). | 20/11 21:00 (post 343): ordens 'na casa dos 57k e nos 53k' mantidas (57.050 / 53.000); 'bastante bullish', compra sem alavancagem; alvo do Semanal 53K. | 20/11 ~16:26: 'Já comprei o suficiente' — restam só 2 ordens limitadas: 57.050 (= EMA77 1M 57.058 / EMA343 1W / EMA2401 1D) e 53.000 (= rosquinha MA77 1M ~53,3K / MA343 1W ~52,6K). Antes (19/11): ordens entre 58K e 53K.",
     "stop": "não declarado (acumulação de longo prazo, horizonte 2)",
     "nosso_tratamento": "linha à parte no Log (não muda a ⚖️ do trade 343/686, que segue FORA)",
     "previsao_dele": "intracandle 'tenebroso' nas 24h seguintes; 'candle belíssimo' no 2D que fecha 20/11 21:00",
-    "atualizado": "2026-11-21 08:54"
+    "atualizado": "2026-11-24 21:17"
   }
 }
