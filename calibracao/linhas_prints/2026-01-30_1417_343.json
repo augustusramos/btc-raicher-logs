@@ -1,0 +1,56 @@
+{
+ "print": "G_7WzphWkAAdX-q",
+ "quando": "2026-01-30 14:17",
+ "erro_eixo_px": 0.55,
+ "erro_tempo_h": 0.34,
+ "conferencia_max_min": [
+  [
+   81040,
+   81028
+  ]
+ ],
+ "linhas": {
+  "ciano_fina_2025jun": {
+   "cor": "azul-claro",
+   "estilo": "sólida fina",
+   "nota": "rótulo: 7,21,77 - 2025-JUN e 2025-DEZ",
+   "p1": [
+    "2026-01-14 04:32",
+    84956
+   ],
+   "p2": [
+    "2026-02-04 22:00",
+    83079
+   ],
+   "res_px": 0.31
+  },
+  "dourada_pontilhada_2025jul": {
+   "cor": "dourada",
+   "estilo": "pontilhada",
+   "nota": "rótulo: 7,21,77 - 2025-JUL e 2025-DEZ; Linha Dourada Pontilhada, suportou a vela",
+   "p1": [
+    "2026-01-14 04:32",
+    85106
+   ],
+   "p2": [
+    "2026-02-04 18:18",
+    81598
+   ],
+   "res_px": 0.58
+  },
+  "vermelha": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-01-14 04:32",
+    88361
+   ],
+   "p2": [
+    "2026-02-04 22:00",
+    90589
+   ],
+   "res_px": 0.29
+  }
+ }
+}
