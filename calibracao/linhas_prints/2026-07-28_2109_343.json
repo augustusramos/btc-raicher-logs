@@ -1,0 +1,42 @@
+{
+ "print": "HOWpcUDXIAEqm7T",
+ "quando": "2026-07-28 21:09",
+ "erro_eixo_px": 0.51,
+ "erro_tempo_h": 0.16,
+ "conferencia_max_min": [
+  [
+   62684,
+   62682
+  ]
+ ],
+ "linhas": {
+  "amarela_tracejada": {
+   "cor": "amarela",
+   "estilo": "tracejada grossa",
+   "nota": "",
+   "p1": [
+    "2026-07-21 06:59",
+    66268
+   ],
+   "p2": [
+    "2026-07-31 03:19",
+    65217
+   ],
+   "res_px": 0.55
+  },
+  "azul_pontilhada_sobe": {
+   "cor": "azul",
+   "estilo": "pontilhada",
+   "nota": "nova; seta 7,21,77 (agulhada)",
+   "p1": [
+    "2026-07-21 06:25",
+    63758
+   ],
+   "p2": [
+    "2026-07-31 03:19",
+    64037
+   ],
+   "res_px": 0.31
+  }
+ }
+}
