@@ -1,0 +1,46 @@
+{
+ "print": "HO_6dJHWkAAA0xe",
+ "quando": "2026-08-05 21:29",
+ "erro_eixo_px": 0.47,
+ "erro_tempo_h": 0.37,
+ "conferencia_max_min": [
+  [
+   65680,
+   65675
+  ],
+  [
+   62216,
+   62212
+  ]
+ ],
+ "linhas": {
+  "amarela_tracejada": {
+   "cor": "amarela",
+   "estilo": "tracejada grossa",
+   "nota": "ABAIXO DA AMARELA; segurando até aqui (registrou as máximas)",
+   "p1": [
+    "2026-07-27 18:22",
+    65648
+   ],
+   "p2": [
+    "2026-08-06 21:36",
+    64316
+   ],
+   "res_px": 0.28
+  },
+  "azul_pontilhada_sobe": {
+   "cor": "azul",
+   "estilo": "pontilhada",
+   "nota": "",
+   "p1": [
+    "2026-07-27 18:22",
+    63923
+   ],
+   "p2": [
+    "2026-08-06 22:11",
+    64281
+   ],
+   "res_px": 0.29
+  }
+ }
+}
