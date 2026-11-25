@@ -1,0 +1,154 @@
+{
+ "print": "HDtcJjAW4AAp60F",
+ "quando": "2026-03-18 14:28",
+ "erro_eixo_px": 0.47,
+ "erro_tempo_h": 0.25,
+ "conferencia_max_min": [
+  [
+   76013,
+   76006
+  ]
+ ],
+ "linhas": {
+  "magenta_2024abr": {
+   "cor": "magenta",
+   "estilo": "sólida",
+   "nota": "rótulo: 7,21,343 - 2024-ABR e 2024-JUL (= magenta_solida)",
+   "p1": [
+    "2026-03-04 04:41",
+    74885
+   ],
+   "p2": [
+    "2026-03-21 18:17",
+    75210
+   ],
+   "res_px": 0.22
+  },
+  "branca_2023mai": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-03-04 06:41",
+    73108
+   ],
+   "p2": [
+    "2026-03-21 19:17",
+    74280
+   ],
+   "res_px": 0.16
+  },
+  "ciano_grossa": {
+   "cor": "",
+   "estilo": "",
+   "nota": "mesma inclinação, mas ~0,23% acima da medida de 10/03 (as outras linhas batem): ele parece ter reposicionado a Ciano",
+   "p1": [
+    "2026-03-04 07:41",
+    71516
+   ],
+   "p2": [
+    "2026-03-21 18:17",
+    72318
+   ],
+   "res_px": 0.26
+  },
+  "ciano_fina_baixa": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-03-04 06:41",
+    72150
+   ],
+   "p2": [
+    "2026-03-21 19:17",
+    69336
+   ],
+   "res_px": 0.38
+  },
+  "laranja_solida_triangulo": {
+   "cor": "laranja",
+   "estilo": "sólida grossa",
+   "nota": "nova; borda de cima do triângulo (região azul)",
+   "p1": [
+    "2026-03-04 09:21",
+    73382
+   ],
+   "p2": [
+    "2026-03-21 18:57",
+    67648
+   ],
+   "res_px": 0.3
+  },
+  "azul_solida_baixa": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-03-04 04:41",
+    68955
+   ],
+   "p2": [
+    "2026-03-21 18:17",
+    66969
+   ],
+   "res_px": 0.21
+  },
+  "roxa_desce": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-03-04 06:41",
+    68294
+   ],
+   "p2": [
+    "2026-03-21 18:17",
+    66279
+   ],
+   "res_px": 0.34
+  },
+  "vermelha_tracejada": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-03-04 20:40",
+    71280
+   ],
+   "p2": [
+    "2026-03-21 18:17",
+    68355
+   ],
+   "res_px": 0.34
+  },
+  "laranja_tracejada": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-03-08 15:35",
+    69404
+   ],
+   "p2": [
+    "2026-03-21 18:17",
+    67103
+   ],
+   "res_px": 0.35
+  },
+  "laranja_pont_topo_alta": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-03-04 12:41",
+    77284
+   ],
+   "p2": [
+    "2026-03-21 13:17",
+    74758
+   ],
+   "res_px": 0.71
+  }
+ }
+}
