@@ -237,3 +237,6 @@ Até a noite, senhores!
 - Já num short aberto: vale a gestão de trade (só o stop fecha), mesmo com o Stoch zerado.
 Teste no histórico (tools/teste_espaco_queda.py, 33 casos dele): acerta 25 de 33 (76%); fora de trade aberto, 25 de 30 (83%). Erros: fim de dez/2025 com RSI colado na Média (ele esperou squeeze/agulhada) e Stoch alto no 686 com RSI ACIMA da Média (02/27).
 - Leitura de nível: RSI entre 40,54 e 43,6 (acabou de perder o Suporte Inferior) = "RSI na Região dos Traps!" ⬇️/↔️ conforme o resto.
+
+## 25/11 14:09 (aprendizado, provisório 1x): martelo contra o short = stop na MA7
+Short no lucro + candle forte contra (martelo, "candle extremamente bullish") fechando ABAIXO da MA7 e colado nela (< ~0,5%), com a MA7 já ABAIXO da entrada: ele mantém o short mas sobe o stop para a MA7 no mesmo fechamento ("Nosso stop passa a ser a MA7", ganho garantido). Linha de posição: "Apesar do candle bullish, mantemos o short: ❌ MA7 (valor); 🎯 RSI 23.67; 🎯 Verde Tracejada (valor)." RSI que volta à Região dos Traps depois de um mergulho = "RSI fechou na Região dos Traps, suspeito...;" (↔️). Stoch virando perto do 0 sem zerar = "🚨 Stoch não chegou a zerar, ensaiando um cruzamento." Fecho do 14:09: "Boa tarde, amiguinhos." também vale.
