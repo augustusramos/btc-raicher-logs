@@ -1,0 +1,102 @@
+{
+ "print": "HVhMRs_WEAEDRMw",
+ "quando": "2026-10-25 22:11",
+ "erro_eixo_px": 0.46,
+ "erro_tempo_h": 0.17,
+ "conferencia_max_min": [
+  [
+   80537,
+   80534
+  ],
+  [
+   79146,
+   79140
+  ]
+ ],
+ "linhas": {
+  "lilas": {
+   "cor": "lilás",
+   "estilo": "sólida fina",
+   "nota": "ABAIXO DA LILÁS",
+   "p1": [
+    "2026-10-19 04:01",
+    81789
+   ],
+   "p2": [
+    "2026-10-27 16:57",
+    83636
+   ],
+   "res_px": 0.21
+  },
+  "ciano_grossa": {
+   "cor": "ciano",
+   "estilo": "sólida grossa",
+   "nota": "",
+   "p1": [
+    "2026-10-19 04:01",
+    82545
+   ],
+   "p2": [
+    "2026-10-29 10:32",
+    83086
+   ],
+   "res_px": 0.27
+  },
+  "amarela_clara": {
+   "cor": "amarelo claro",
+   "estilo": "sólida",
+   "nota": "",
+   "p1": [
+    "2026-10-19 04:01",
+    82062
+   ],
+   "p2": [
+    "2026-10-29 10:32",
+    81831
+   ],
+   "res_px": 0.19
+  },
+  "magenta_baixo": {
+   "cor": "magenta",
+   "estilo": "sólida",
+   "nota": "",
+   "p1": [
+    "2026-10-19 04:38",
+    79253
+   ],
+   "p2": [
+    "2026-10-29 10:32",
+    79454
+   ],
+   "res_px": 0.2
+  },
+  "verde_pontilhada": {
+   "cor": "verde",
+   "estilo": "pontilhada",
+   "nota": "",
+   "p1": [
+    "2026-10-19 05:50",
+    79661
+   ],
+   "p2": [
+    "2026-10-28 03:48",
+    80108
+   ],
+   "res_px": 0.48
+  },
+  "amarela_magenta_topo": {
+   "cor": "amarela/magenta",
+   "estilo": "tracejada dupla",
+   "nota": "",
+   "p1": [
+    "2026-10-25 17:44",
+    83556
+   ],
+   "p2": [
+    "2026-10-29 10:20",
+    83295
+   ],
+   "res_px": 0.32
+  }
+ }
+}
