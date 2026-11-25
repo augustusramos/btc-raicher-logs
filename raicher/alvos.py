@@ -18,6 +18,7 @@ MANUAIS = [  # níveis desenhados/citados por ele (valor, nome); manter atualiza
     (61600, "Linha Ciano (dele, 343, descendente; ~61,6K em 19/11)"), (56902, "EMA2401 do Diário (print dele 19/11; não está nos dados)"),
     (67200, "Linha Azul Pontilhada (dele)"),
     (57600, "Linha Branca (dele, 343, descendente; ~57,7K em 20/11 19:52, tocada: mín 57.668; ~57,5-57,6K no print de 24/11 21:11; = MA686/EMA777 3D; 🎯 1 do short de 24/11 21:00)"),
+    (57850, "Linha Vinho (dele, 686, ASCENDENTE: a linha roxa/vinho abaixo da amarela; 🍷 no print de 24/11 21:41 em ~57,8-57,9K; segurou o fundo de 20-21/11 no 686; destino dele nas próximas horas)"),
     (55300, "Linha Verde Tracejada (dele, 343, descendente; ~55,6K em 21/11, ~55,3K no print de 24/11 21:11; 🎯 2 do short de 24/11 21:00)"),
     (50000, "MA42 do 2M (Raicher 19/11: '2 Month Double Bottom', ~50K, não tocada)"),
     (57500, "Trend das Agulhadas 03/03+16/10/2023 (Raicher 22/11, 686, ASCENDENTE ~+1,2K/mês; ~57,5K em 22/11; suporte do fundo)"),
