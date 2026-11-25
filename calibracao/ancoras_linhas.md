@@ -18,3 +18,9 @@ Base: 51 prints medidos (calibracao/linhas_prints), juntados em 61 linhas distin
 1. Histórico do 343 desde 2022 (dados de minuto da Bitstamp via GitHub Actions) para testar as agulhadas antigas.
 2. Ler os rótulos de cada linha nos prints (ele escreve as médias e as datas) e usar como gabarito das âncoras.
 3. Só depois treinar a escolha automática.
+
+## Atualização 25/11 (histórico do 343 desde 2021, branch `historico`)
+- Linha Branca confirmada pelo rótulo dele ("7,77,231 – 2023-MAI-03 e MAI-08"): cruzamentos MA7×MA77 do 343 em 03/05/2023 14:09 e 08/05/2023 02:43 → reproduz a linha com 0,09% de erro (o 2º melhor par do mês erra 0,9%).
+- Regra geral confirmada: as âncoras são CRUZAMENTOS DE MÉDIAS (sobretudo do 343; às vezes do Diário), e o rótulo dele diz quais médias e quais datas.
+- Mas, sem o rótulo, os dados não dizem quais cruzamentos ele escolheu: para quase toda linha existem de 10 a 250 pares de cruzamentos do mesmo tipo que reproduzem a linha com erro < 0,1% (só 3 de 61 têm par único). tools/ancoras_cruzamentos.py, resultado em calibracao/ancoras_candidatas.json.
+- Conclusão: reproduzir a ESCOLHA dele só com os dados não é viável hoje. Caminho prático: (1) manter as linhas dele registradas a partir dos prints (ele as mantém por meses); (2) para linhas novas, o sistema propõe candidatas com a mesma construção (cruzamentos do 343 que já foram tocados pelo preço) e ranqueia por toques; (3) ler os rótulos dos prints para ampliar o gabarito.

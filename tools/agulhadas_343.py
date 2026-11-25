@@ -1,6 +1,6 @@
 """Testa a hipótese: as linhas do Dollynho ligam duas AGULHADAS do gráfico de 343
 (momentos em que MA/EMA 7, 21 e 77 se encontram num ponto)."""
-import json, math, itertools
+import json, math, itertools, sys
 import numpy as np, pandas as pd
 
 def eventos(df, combos=((7, 21, 77), (7, 21, 343), (7, 77, 231)), lim=0.004):
@@ -28,7 +28,7 @@ def testa(L, E, tol_bp=15):
     return sorted(r)
 
 if __name__ == '__main__':
-    df = pd.read_csv('/tmp/343m.csv', index_col=0, parse_dates=True)
+    df = pd.read_csv(sys.argv[1] if len(sys.argv)>1 else '/tmp/343m.csv', index_col=0, parse_dates=True)
     E = eventos(df)
     print('agulhadas no 343 desde', df.index[0].date(), ':', len(E))
     G = json.load(open('calibracao/gabarito_linhas.json'))
