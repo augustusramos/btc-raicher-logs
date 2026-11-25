@@ -1,0 +1,74 @@
+{
+ "print": "HIicWj4WkAAsjUq",
+ "quando": "2026-05-17 14:35",
+ "erro_eixo_px": 14.05,
+ "erro_tempo_h": 0.0,
+ "conferencia_max_min": [
+  [
+   80537,
+   80555
+  ],
+  [
+   77614,
+   77612
+  ]
+ ],
+ "linhas": {
+  "verde_tracejada_alta": {
+   "cor": "verde",
+   "estilo": "tracejada grossa",
+   "nota": "",
+   "p1": [
+    "2026-05-06 08:34",
+    82241
+   ],
+   "p2": [
+    "2026-05-20 00:54",
+    81681
+   ],
+   "res_px": 0.25
+  },
+  "laranja_emas_2025": {
+   "cor": "laranja clara",
+   "estilo": "sólida fina",
+   "nota": "",
+   "p1": [
+    "2026-05-06 08:34",
+    79509
+   ],
+   "p2": [
+    "2026-05-20 03:15",
+    78532
+   ],
+   "res_px": 0.24
+  },
+  "branca_2023mai": {
+   "cor": "branca",
+   "estilo": "sólida fina",
+   "nota": "ABAIXO DA LINHA BRANCA",
+   "p1": [
+    "2026-05-06 08:34",
+    77364
+   ],
+   "p2": [
+    "2026-05-20 03:15",
+    78336
+   ],
+   "res_px": 0.43
+  },
+  "magenta_2024abr": {
+   "cor": "magenta",
+   "estilo": "sólida",
+   "nota": "",
+   "p1": [
+    "2026-05-06 08:34",
+    76069
+   ],
+   "p2": [
+    "2026-05-20 02:28",
+    76329
+   ],
+   "res_px": 0.21
+  }
+ }
+}
