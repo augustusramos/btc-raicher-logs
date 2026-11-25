@@ -24,3 +24,10 @@ Base: 51 prints medidos (calibracao/linhas_prints), juntados em 61 linhas distin
 - Regra geral confirmada: as âncoras são CRUZAMENTOS DE MÉDIAS (sobretudo do 343; às vezes do Diário), e o rótulo dele diz quais médias e quais datas.
 - Mas, sem o rótulo, os dados não dizem quais cruzamentos ele escolheu: para quase toda linha existem de 10 a 250 pares de cruzamentos do mesmo tipo que reproduzem a linha com erro < 0,1% (só 3 de 61 têm par único). tools/ancoras_cruzamentos.py, resultado em calibracao/ancoras_candidatas.json.
 - Conclusão: reproduzir a ESCOLHA dele só com os dados não é viável hoje. Caminho prático: (1) manter as linhas dele registradas a partir dos prints (ele as mantém por meses); (2) para linhas novas, o sistema propõe candidatas com a mesma construção (cruzamentos do 343 que já foram tocados pelo preço) e ranqueia por toques; (3) ler os rótulos dos prints para ampliar o gabarito.
+
+## Teste "o sistema propõe linhas no estilo dele" (25/11)
+tools/propor_linhas.py: em cada data de print, gera todas as retas que ligam dois cruzamentos do mesmo tipo no 343 (2º ponto no último ano, 1º até 3 anos antes), mantém as que estão a ±8% do preço, pontua por rejeições (pavio toca e fecha do mesmo lado) menos cruzamentos, e escolhe as 10 melhores e distintas.
+Acerto = linha dele a até 0,3% de uma linha do sistema, com a mesma inclinação (subindo/descendo).
+- Janela 90 dias, penalidade 0,5: 63/253 linhas dele (25%); escolhendo 10 ao acaso entre as mesmas candidatas: 58,6/253.
+- Janela 180 dias, penalidade 2: 65/253; acaso 58,6/253.
+Conclusão: o critério "linhas mais respeitadas" NÃO escolhe as linhas dele melhor que o acaso. Ele não escolhe as linhas por toques passados; a escolha dele não aparece nos dados.
