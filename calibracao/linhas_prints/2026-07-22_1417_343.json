@@ -1,0 +1,32 @@
+{
+ "print": "HN2SCvqXIAAIRc1",
+ "quando": "2026-07-22 14:17",
+ "erro_eixo_px": 0.53,
+ "erro_tempo_h": 0.15,
+ "conferencia_max_min": [
+  [
+   66921,
+   66915
+  ],
+  [
+   62470,
+   62466
+  ]
+ ],
+ "linhas": {
+  "amarela_tracejada": {
+   "cor": "amarela",
+   "estilo": "tracejada grossa",
+   "nota": "acima da EMA343; candle encostado na Amarela",
+   "p1": [
+    "2026-07-14 22:21",
+    66957
+   ],
+   "p2": [
+    "2026-07-24 14:52",
+    65912
+   ],
+   "res_px": 0.27
+  }
+ }
+}
