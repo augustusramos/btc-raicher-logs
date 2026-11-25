@@ -1,0 +1,70 @@
+{
+ "print": "HGH6lkIWQAA8JNc",
+ "quando": "2026-04-17 14:24",
+ "erro_eixo_px": 0.5,
+ "erro_tempo_h": 0.2,
+ "conferencia_max_min": [
+  [
+   70480,
+   70465
+  ]
+ ],
+ "linhas": {
+  "magenta_2024abr": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-04-07 14:34",
+    75527
+   ],
+   "p2": [
+    "2026-04-19 18:21",
+    75756
+   ],
+   "res_px": 0.22
+  },
+  "branca_2023mai": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-04-07 14:34",
+    75368
+   ],
+   "p2": [
+    "2026-04-19 19:02",
+    76207
+   ],
+   "res_px": 0.33
+  },
+  "ciano_grossa": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-04-07 15:15",
+    72929
+   ],
+   "p2": [
+    "2026-04-19 18:21",
+    73495
+   ],
+   "res_px": 0.25
+  },
+  "amarela_tracejada_grossa_alta": {
+   "cor": "amarela",
+   "estilo": "tracejada grossa",
+   "nota": "Ganhamos a Linha Amarela (ACIMA)",
+   "p1": [
+    "2026-04-07 14:34",
+    78556
+   ],
+   "p2": [
+    "2026-04-19 19:02",
+    77015
+   ],
+   "res_px": 0.24
+  }
+ }
+}
