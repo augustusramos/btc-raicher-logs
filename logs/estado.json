@@ -1,7 +1,7 @@
 {
   "_como_usar": "Estado dos trades carregado de um Log para o outro (estilo Dollynho). Cada execução lê, mantém ou atualiza e grava de volta. Reconstruído da cronologia dos posts do Dollynho de 25/10 a 09/11/2026.",
   "343m": {
-    "postura": "SHORT (seguindo o Dollynho: '🧸 Estamos de volta ao short. Não resisti.' no 343 de 24/11 21:00) — 343 ABAIXO de todas as médias, MA7 cruzando a MA21, Stoch perdendo o Suporte Inferior; 🎯 Linha Branca (~57,6K) e Verde Tracejada (~55,3K); stop: MA21 (60.070) — ele escreveu 'Suporte na MA21' (no short = resistência/stop); 'ajustem os stops e evitem alavancagem'. Nossa regra 1 pós-Bilau tinha vetado (RSI 2D 26,8 < Média 34,8): divergência no placar.",
+    "postura": "SHORT (seguindo o Dollynho: '🧸 Estamos de volta ao short. Não resisti.' no 343 de 24/11 21:00) — 343 ABAIXO de todas as médias, MA7 cruzando a MA21, Stoch perdendo o Suporte Inferior; 🎯 Verde Tracejada (~55,3K), Amarela Tracejada (~54K), RSI 23.67 (25/11 08:26); Linha Branca (~57,6K) = suporte intermediário; stop: MA21 (60.070) — ele escreveu 'Suporte na MA21' (no short = resistência/stop); 'ajustem os stops e evitem alavancagem'. Nossa regra 1 pós-Bilau tinha vetado (RSI 2D 26,8 < Média 34,8): divergência no placar.",
     "desde": "2026-11-24 21:00",
     "trade_anterior": {
       "lado": "long",
@@ -20,8 +20,9 @@
       }
     },
     "alvos": [
-      "Linha Branca (~57,6K; = MA686/EMA777 3D) + Linha Vinho do 686 (~57,8-57,9K, ascendente) = zona ~57,6-57,9K",
-      "Linha Verde Tracejada (~55,3K, descendente; fundo 55.081 logo abaixo)"
+      "Linha Verde Tracejada (~55,3K, descendente; fundo 55.081 logo abaixo) — 🎯 dele",
+      "Linha Amarela Tracejada (~53,9-54,0K, descendente) — 🍯 🎯 dele (25/11 08:26)",
+      "RSI 23.67 — 🎯 no print dele (25/11 08:26)"
     ],
     "stop": "fechamento ACIMA da MA21 do 343 (60.217 no fechamento de 25/11 08:26; 60.075 em 02:43; 60.070 em 24/11 21:00; ele: 'Suporte na MA21')",
     "historico_stop": [
@@ -86,7 +87,8 @@
     "postura_antes_short": {
       "postura": "FORA (24/11 21:00: 343 fechou 59.743 ABAIXO de TODAS as médias — 3ª rejeição seguida na MA21 (60.070; máx 60.006); ABAIXO da EMA7/MA7 (60.158/60.278); MA7 x MA21 cruzando bearish (gap 0,35%); RSI 42,10 < Média 46,57, Região dos Traps (rejeitado antes do 43,6); Stoch 26,5 < 33,6 descendo rumo ao 20; suporte Linha Laranja ~59,2K (mín do Diário 59.197 tocou), depois ~57,7K Linha Branca); regra 1 pós-Bilau (RSI 2D 26,8 < Média 34,8) = sem short",
       "desde": "2026-11-21 14:09"
-    }
+    },
+    "suporte_intermediario": "Linha Branca (~57,6K) + Linha Vinho 686 (~57,85K): 'deve oferecer algum suporte' (Dollynho 25/11 08:26) — não é mais 🎯; possível repique ali (Stoch 343 ~3)"
   },
   "686m": {
     "postura": "short; 🎯 MA539 CONFIRMADO ABAIXO 12/11 21:00 (sem novo alvo definido)",
@@ -234,13 +236,15 @@
     "quando": "24/11/2026 21:00",
     "preco": 59743.5,
     "preco_obs": "nosso fechamento 343; ele não deu preço (vela nova 59.507)",
-    "stop": "MA21 do 343 (~60.070) — 'Suporte na MA21'",
+    "stop": "MA21 do 343 (60.217 em 25/11 08:26) — 'Nosso Suporte segue sendo a MA21' (25/11 08:26)",
     "alvos": [
-      "Linha Branca (~57,6K)",
-      "Linha Verde Tracejada (~55,3K)"
+      "Linha Verde Tracejada (~55,3K)",
+      "Linha Amarela Tracejada (~53,9-54,0K) 🍯",
+      "RSI 23.67 (print)"
     ],
     "fonte": "post 343 dele, 24/11 21:00 (print 21:11, enviado pelo Augustus 21:28): '🧸 Estamos de volta ao short. Não resisti. 🫣' / 'Ajustem os stops e evitem alavancagem. Espero volatilidade nas próximas horas. Seguimos. 🐻'",
-    "nosso_status": "SEGUIMOS (regra Augustus 18/11: ele é a referência do trade); nosso Log das 21:00 estava FORA (regra 1 pós-Bilau vetou short)"
+    "nosso_status": "SEGUIMOS (regra Augustus 18/11: ele é a referência do trade); nosso Log das 21:00 estava FORA (regra 1 pós-Bilau vetou short)",
+    "alvos_hist": "24/11 21:00: Linha Branca (~57,6K) + Verde Tracejada (~55,3K); 25/11 08:26: Linha Branca virou suporte ('deve oferecer algum suporte'), entrou a Amarela Tracejada"
   },
   "compras_longo_prazo_dollynho": {
     "fonte": "Log 333 dele (Diário) + 686 e 343, 19/11 21:00",
