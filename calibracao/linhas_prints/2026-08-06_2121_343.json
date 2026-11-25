@@ -1,0 +1,32 @@
+{
+ "print": "HPFBHdDW4AADgSH",
+ "quando": "2026-08-06 21:21",
+ "erro_eixo_px": 0.5,
+ "erro_tempo_h": 0.18,
+ "conferencia_max_min": [
+  [
+   65340,
+   65336
+  ],
+  [
+   62216,
+   62214
+  ]
+ ],
+ "linhas": {
+  "azul_pontilhada_sobe": {
+   "cor": "azul",
+   "estilo": "pontilhada",
+   "nota": "",
+   "p1": [
+    "2026-07-28 22:36",
+    63975
+   ],
+   "p2": [
+    "2026-08-10 10:36",
+    64330
+   ],
+   "res_px": 0.29
+  }
+ }
+}
