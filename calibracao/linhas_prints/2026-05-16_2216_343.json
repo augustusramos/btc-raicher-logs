@@ -1,0 +1,102 @@
+{
+ "print": "HIe8-LIXQAAlFAY",
+ "quando": "2026-05-16 22:16",
+ "erro_eixo_px": 0.54,
+ "erro_tempo_h": 0.01,
+ "conferencia_max_min": [
+  [
+   82458,
+   82452
+  ],
+  [
+   77614,
+   77610
+  ]
+ ],
+ "linhas": {
+  "verde_tracejada_alta": {
+   "cor": "verde",
+   "estilo": "tracejada grossa",
+   "nota": "2 topos marcados",
+   "p1": [
+    "2026-05-08 05:47",
+    82161
+   ],
+   "p2": [
+    "2026-05-20 15:57",
+    81654
+   ],
+   "res_px": 0.3
+  },
+  "laranja_emas_2025": {
+   "cor": "laranja clara",
+   "estilo": "sólida fina",
+   "nota": "",
+   "p1": [
+    "2026-05-08 05:47",
+    79369
+   ],
+   "p2": [
+    "2026-05-20 17:22",
+    78487
+   ],
+   "res_px": 0.29
+  },
+  "branca_2023mai": {
+   "cor": "branca",
+   "estilo": "sólida fina",
+   "nota": "perdemos a Linha Branca",
+   "p1": [
+    "2026-05-08 05:47",
+    77496
+   ],
+   "p2": [
+    "2026-05-20 17:22",
+    78376
+   ],
+   "res_px": 0.23
+  },
+  "vermelha_grossa_desce": {
+   "cor": "vermelha",
+   "estilo": "sólida grossa",
+   "nota": "",
+   "p1": [
+    "2026-05-08 05:47",
+    76048
+   ],
+   "p2": [
+    "2026-05-20 17:22",
+    75093
+   ],
+   "res_px": 0.15
+  },
+  "ciano_grossa": {
+   "cor": "ciano",
+   "estilo": "sólida grossa",
+   "nota": "",
+   "p1": [
+    "2026-05-13 07:36",
+    74606
+   ],
+   "p2": [
+    "2026-05-20 16:39",
+    74957
+   ],
+   "res_px": 0.25
+  },
+  "magenta_2024abr": {
+   "cor": "magenta",
+   "estilo": "sólida",
+   "nota": "",
+   "p1": [
+    "2026-05-08 07:12",
+    76103
+   ],
+   "p2": [
+    "2026-05-20 16:39",
+    76336
+   ],
+   "res_px": 0.21
+  }
+ }
+}
