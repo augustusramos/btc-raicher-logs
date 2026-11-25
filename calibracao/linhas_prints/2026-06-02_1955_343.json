@@ -1,0 +1,84 @@
+{
+ "print": "HJ1_V7IWoAAkjOt",
+ "quando": "2026-06-02 19:55",
+ "erro_eixo_px": 0.48,
+ "erro_tempo_h": 0.2,
+ "conferencia_max_min": [
+  [
+   66303,
+   66348
+  ]
+ ],
+ "linhas": {
+  "vermelha_grossa": {
+   "cor": "vermelha",
+   "estilo": "sólida grossa",
+   "nota": "resistência acima",
+   "p1": [
+    "2026-05-26 23:35",
+    74618
+   ],
+   "p2": [
+    "2026-06-05 18:03",
+    73883
+   ],
+   "res_px": 0.16
+  },
+  "amarela_tracejada": {
+   "cor": "amarela",
+   "estilo": "tracejada grossa",
+   "nota": "MESMA Amarela Tracejada de dez/2025-jan/2026: o valor medido em janeiro, estendido até 26/05, bate em ~$15",
+   "p1": [
+    "2026-05-26 23:35",
+    72500
+   ],
+   "p2": [
+    "2026-06-05 13:04",
+    71384
+   ],
+   "res_px": 0.26
+  },
+  "ciano_pont_fina": {
+   "cor": "azul-claro",
+   "estilo": "pontilhada fina",
+   "nota": "",
+   "p1": [
+    "2026-05-27 03:27",
+    71250
+   ],
+   "p2": [
+    "2026-06-05 16:56",
+    70227
+   ],
+   "res_px": 0.19
+  },
+  "laranja_pontilhada": {
+   "cor": "laranja",
+   "estilo": "pontilhada",
+   "nota": "de olho (mão apontando) — alvo abaixo",
+   "p1": [
+    "2026-05-26 23:35",
+    65665
+   ],
+   "p2": [
+    "2026-06-05 15:50",
+    64439
+   ],
+   "res_px": 0.34
+  },
+  "verde_tracejada_jun": {
+   "cor": "verde",
+   "estilo": "tracejada grossa",
+   "nota": "",
+   "p1": [
+    "2026-05-26 23:35",
+    73528
+   ],
+   "p2": [
+    "2026-06-05 13:37",
+    72430
+   ],
+   "res_px": 0.55
+  }
+ }
+}
