@@ -1,0 +1,130 @@
+{
+ "print": "HBOGEkMXgAAZLS-",
+ "quando": "2026-02-15 15:55",
+ "erro_eixo_px": 0.47,
+ "erro_tempo_h": 0.53,
+ "conferencia_max_min": [
+  [
+   84599,
+   84553
+  ],
+  [
+   59930,
+   59896
+  ]
+ ],
+ "linhas": {
+  "branca_2023mai": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-01-30 01:20",
+    70895
+   ],
+   "p2": [
+    "2026-03-05 23:59",
+    72155
+   ],
+   "res_px": 0.64
+  },
+  "ciano_grossa": {
+   "cor": "ciano",
+   "estilo": "sólida grossa",
+   "nota": "atuação da linha (resistência)",
+   "p1": [
+    "2026-01-30 03:19",
+    69852
+   ],
+   "p2": [
+    "2026-03-05 23:59",
+    70736
+   ],
+   "res_px": 0.25
+  },
+  "magenta_solida": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-01-30 01:20",
+    74273
+   ],
+   "p2": [
+    "2026-03-05 23:59",
+    74638
+   ],
+   "res_px": 0.17
+  },
+  "amarela_trac_fina_alta": {
+   "cor": "amarela",
+   "estilo": "tracejada fina",
+   "nota": "nova",
+   "p1": [
+    "2026-01-30 03:19",
+    65444
+   ],
+   "p2": [
+    "2026-03-05 12:04",
+    61760
+   ],
+   "res_px": 0.24
+  },
+  "amarela_trac_fina_baixa": {
+   "cor": "amarela",
+   "estilo": "tracejada fina",
+   "nota": "nova; passa pela mínima 59.930 (05/02)",
+   "p1": [
+    "2026-01-30 01:20",
+    63550
+   ],
+   "p2": [
+    "2026-03-02 18:29",
+    56662
+   ],
+   "res_px": 0.21
+  },
+  "ciano_fina_baixa": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-01-30 01:20",
+    77830
+   ],
+   "p2": [
+    "2026-03-06 01:59",
+    74401
+   ],
+   "res_px": 0.19
+  },
+  "vermelha_tracejada": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-01-30 01:20",
+    77543
+   ],
+   "p2": [
+    "2026-03-05 16:02",
+    73860
+   ],
+   "res_px": 0.31
+  },
+  "laranja_tracejada": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-01-30 03:19",
+    76476
+   ],
+   "p2": [
+    "2026-03-06 01:59",
+    72678
+   ],
+   "res_px": 0.37
+  }
+ }
+}
