@@ -1,0 +1,64 @@
+{
+ "print": "HIZUn0jWsAAaBr2",
+ "quando": "2026-05-15 20:04",
+ "erro_eixo_px": 0.55,
+ "erro_tempo_h": 0.01,
+ "conferencia_max_min": [
+  [
+   82833,
+   82829
+  ],
+  [
+   78611,
+   78608
+  ],
+  [
+   80537,
+   80552
+  ]
+ ],
+ "linhas": {
+  "verde_tracejada_alta": {
+   "cor": "verde",
+   "estilo": "tracejada grossa",
+   "nota": "3 topos marcados com setas verdes (resistência)",
+   "p1": [
+    "2026-05-04 18:54",
+    82306
+   ],
+   "p2": [
+    "2026-05-18 01:41",
+    81762
+   ],
+   "res_px": 0.35
+  },
+  "laranja_emas_2025": {
+   "cor": "laranja clara",
+   "estilo": "sólida fina",
+   "nota": "ACIMA DA LINHA LARANJA (EMAs 2025), 3 setas de suporte",
+   "p1": [
+    "2026-05-04 19:40",
+    79618
+   ],
+   "p2": [
+    "2026-05-18 03:12",
+    78673
+   ],
+   "res_px": 0.25
+  },
+  "branca_2023mai": {
+   "cor": "branca",
+   "estilo": "sólida fina",
+   "nota": "",
+   "p1": [
+    "2026-05-04 18:54",
+    77249
+   ],
+   "p2": [
+    "2026-05-18 03:57",
+    78192
+   ],
+   "res_px": 0.15
+  }
+ }
+}
