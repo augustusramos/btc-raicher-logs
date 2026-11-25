@@ -1,0 +1,78 @@
+{
+ "print": "HIE-LoIXsAA-PPe",
+ "quando": "2026-05-11 21:13",
+ "erro_eixo_px": 0.48,
+ "erro_tempo_h": 0.01,
+ "conferencia_max_min": [
+  [
+   82833,
+   82827
+  ],
+  [
+   80537,
+   80535
+  ],
+  [
+   78082,
+   78071
+  ]
+ ],
+ "linhas": {
+  "amarela_tracejada_topo": {
+   "cor": "amarela",
+   "estilo": "tracejada grossa",
+   "nota": "nova (topo)",
+   "p1": [
+    "2026-05-03 01:25",
+    86693
+   ],
+   "p2": [
+    "2026-05-16 04:21",
+    87244
+   ],
+   "res_px": 0.26
+  },
+  "verde_tracejada_alta": {
+   "cor": "verde",
+   "estilo": "tracejada grossa",
+   "nota": "ABAIXO DA LINHA VERDE; confirmados entre a Verde Tracejada e a MA7",
+   "p1": [
+    "2026-05-03 01:25",
+    82378
+   ],
+   "p2": [
+    "2026-05-16 05:06",
+    81840
+   ],
+   "res_px": 0.39
+  },
+  "laranja_emas_2025": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-05-03 02:10",
+    79743
+   ],
+   "p2": [
+    "2026-05-16 05:51",
+    78813
+   ],
+   "res_px": 0.27
+  },
+  "branca_2023mai": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-05-03 01:25",
+    77127
+   ],
+   "p2": [
+    "2026-05-16 02:52",
+    78043
+   ],
+   "res_px": 0.19
+  }
+ }
+}
