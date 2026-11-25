@@ -1,0 +1,1952 @@
+[
+ {
+  "nome": "vermelha",
+  "s": 1.3295653762553174e-08,
+  "a": -12.122383625900845,
+  "res_bp": 0.8,
+  "n_prints": 13,
+  "primeiro": "2025-12-22",
+  "ultimo": "2026-01-30",
+  "cor": "vermelha",
+  "estilo": "sólida grossa",
+  "notas": [
+   "QED, dip na linha vermelha",
+   "testando (4 toques marcados, resistência acima)",
+   "MAIS UM TESTE"
+  ],
+  "t_ini": 1765641840.0,
+  "t_fim": 1770242400.0,
+  "ancoras": [
+   [
+    "2014-03-20",
+    "ma7x21",
+    -0.07
+   ],
+   [
+    "2019-04-20",
+    "ema7x343",
+    0.04
+   ],
+   [
+    "2019-05-03",
+    "ma7x21",
+    -0.17
+   ],
+   [
+    "2020-04-30",
+    "ema7x231",
+    0.03
+   ],
+   [
+    "2020-04-30",
+    "ema7x343",
+    0.03
+   ],
+   [
+    "2022-09-02",
+    "ma21x77",
+    0.21
+   ],
+   [
+    "2023-05-08",
+    "ema7x21",
+    -0.17
+   ],
+   [
+    "2024-01-23",
+    "fundo",
+    -0.16
+   ]
+  ],
+  "inclin_pct_dia": 0.1149
+ },
+ {
+  "nome": "verde_tracejada_1",
+  "s": 1.205018927619043e-08,
+  "a": -9.921064772945142,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2025-12-22",
+  "ultimo": "2025-12-22",
+  "cor": "verde",
+  "estilo": "tracejada fina",
+  "notas": [],
+  "t_ini": 1765641840.0,
+  "t_fim": 1766677860.0,
+  "ancoras": [
+   [
+    "2019-10-17",
+    "ma7x21",
+    -0.1
+   ],
+   [
+    "2020-02-01",
+    "ma7x231",
+    0.17
+   ],
+   [
+    "2020-06-01",
+    "topo",
+    0.14
+   ],
+   [
+    "2023-04-14",
+    "topo",
+    0.19
+   ],
+   [
+    "2024-02-09",
+    "ma21x77",
+    0.21
+   ]
+  ],
+  "inclin_pct_dia": 0.1041
+ },
+ {
+  "nome": "verde_tracejada_2",
+  "s": -5.809208380382184e-09,
+  "a": 21.64679164169439,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-11-07",
+  "ultimo": "2026-11-07",
+  "cor": "verde",
+  "estilo": "tracejada",
+  "notas": [
+   "ACIMA DA VERDE (suporte)"
+  ],
+  "t_ini": 1793461680.0,
+  "t_fim": 1794172560.0,
+  "ancoras": [],
+  "inclin_pct_dia": -0.0502
+ },
+ {
+  "nome": "ciano_tracejada",
+  "s": 1.3093905436968191e-08,
+  "a": -11.771485314929352,
+  "res_bp": 0.2,
+  "n_prints": 5,
+  "primeiro": "2025-12-22",
+  "ultimo": "2026-01-26",
+  "cor": "ciano",
+  "estilo": "tracejada grossa",
+  "notas": [
+   "nova"
+  ],
+  "t_ini": 1765641840.0,
+  "t_fim": 1769783460.0,
+  "ancoras": [
+   [
+    "2020-01-05",
+    "ema7x21",
+    -0.25
+   ],
+   [
+    "2025-12-01",
+    "fundo",
+    0.25
+   ]
+  ],
+  "inclin_pct_dia": 0.1131
+ },
+ {
+  "nome": "laranja_desce",
+  "s": -2.996057280970943e-08,
+  "a": 64.2662936828515,
+  "res_bp": 3.4,
+  "n_prints": 3,
+  "primeiro": "2025-12-22",
+  "ultimo": "2025-12-29",
+  "cor": "laranja",
+  "estilo": "tracejada fina",
+  "notas": [
+   "rótulo: 7,21,77 - DOWN - 2025-SET e 2025-DEZ",
+   "BTFD",
+   "BTFD"
+  ],
+  "t_ini": 1765641840.0,
+  "t_fim": 1767287700.0,
+  "ancoras": [
+   [
+    "2025-08-19",
+    "ema7x21",
+    -0.19
+   ],
+   [
+    "2025-08-20",
+    "ma7x21",
+    -0.07
+   ]
+  ],
+  "inclin_pct_dia": -0.2589
+ },
+ {
+  "nome": "alaranjada_pontilhada",
+  "s": 1.1976816412774706e-08,
+  "a": -9.740770684759081,
+  "res_bp": 0.8,
+  "n_prints": 13,
+  "primeiro": "2025-12-22",
+  "ultimo": "2026-01-26",
+  "cor": "salmão/alaranjada",
+  "estilo": "pontilhada",
+  "notas": [
+   "rótulo: ALARANJADA PREVALECENDO (rejeitou a máxima 90.536)",
+   "alvo 🎯",
+   "QED"
+  ],
+  "t_ini": 1765646820.0,
+  "t_fim": 1769776500.0,
+  "ancoras": [
+   [
+    "2019-11-16",
+    "ma21x77",
+    0.08
+   ],
+   [
+    "2024-01-02",
+    "ma7x21",
+    0.12
+   ],
+   [
+    "2024-01-16",
+    "ma7x21",
+    0.09
+   ]
+  ],
+  "inclin_pct_dia": 0.1035
+ },
+ {
+  "nome": "magenta_pontilhada",
+  "s": 1.3260825048284426e-08,
+  "a": -11.969623584366767,
+  "res_bp": 0.2,
+  "n_prints": 5,
+  "primeiro": "2026-01-02",
+  "ultimo": "2026-01-26",
+  "cor": "magenta",
+  "estilo": "pontilhada",
+  "notas": [
+   "alvo 🎯"
+  ],
+  "t_ini": 1766240280.0,
+  "t_fim": 1769773020.0,
+  "ancoras": [
+   [
+    "2020-01-10",
+    "ma7x343",
+    -0.14
+   ],
+   [
+    "2020-01-15",
+    "ema21x77",
+    0.13
+   ],
+   [
+    "2020-06-24",
+    "ema7x21",
+    -0.19
+   ],
+   [
+    "2022-06-26",
+    "topo",
+    -0.08
+   ]
+  ],
+  "inclin_pct_dia": 0.1146
+ },
+ {
+  "nome": "rosa_tracejada",
+  "s": 1.3168274286398695e-08,
+  "a": -11.809236935805671,
+  "res_bp": 7.5,
+  "n_prints": 5,
+  "primeiro": "2026-01-02",
+  "ultimo": "2026-01-26",
+  "cor": "rosa",
+  "estilo": "tracejada grossa",
+  "notas": [
+   "alvo 🎯"
+  ],
+  "t_ini": 1766230560.0,
+  "t_fim": 1769745120.0,
+  "ancoras": [
+   [
+    "2020-03-01",
+    "fundo",
+    0.02
+   ],
+   [
+    "2020-06-15",
+    "ema7x21",
+    0.02
+   ],
+   [
+    "2020-06-16",
+    "ema7x21",
+    0.02
+   ],
+   [
+    "2020-06-17",
+    "ema7x21",
+    -0.19
+   ],
+   [
+    "2020-09-25",
+    "ema7x77",
+    -0.13
+   ],
+   [
+    "2020-09-30",
+    "ema7x21",
+    0.24
+   ],
+   [
+    "2020-10-01",
+    "ema7x21",
+    -0.15
+   ],
+   [
+    "2022-08-14",
+    "ma21x77",
+    0.01
+   ],
+   [
+    "2023-12-29",
+    "fundo",
+    0.12
+   ]
+  ],
+  "inclin_pct_dia": 0.1138
+ },
+ {
+  "nome": "amarela_tracejada_1",
+  "s": -1.8805493953249364e-08,
+  "a": 44.66207446520137,
+  "res_bp": 0.2,
+  "n_prints": 15,
+  "primeiro": "2026-01-02",
+  "ultimo": "2026-08-10",
+  "cor": "amarela",
+  "estilo": "tracejada grossa",
+  "notas": [
+   "desce; alvo 🎯 perto do cruzamento com a MA2744",
+   "QED, perdida",
+   "MESMA Amarela Tracejada de dez/2025-jan/2026: o valor medido em janeiro, estendido até 26/05, bate em ~$15"
+  ],
+  "t_ini": 1766230560.0,
+  "t_fim": 1786829520.0,
+  "ancoras": [
+   [
+    "2025-07-30",
+    "ma7x21",
+    0.04
+   ],
+   [
+    "2025-08-09",
+    "ema7x21",
+    -0.19
+   ]
+  ],
+  "inclin_pct_dia": -0.1625
+ },
+ {
+  "nome": "amarela_tracejada_2",
+  "s": -2.3409965074309606e-08,
+  "a": 52.882982399359534,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-08-05",
+  "ultimo": "2026-08-05",
+  "cor": "amarela",
+  "estilo": "tracejada grossa",
+  "notas": [
+   "ABAIXO DA AMARELA; segurando até aqui (registrou as máximas)"
+  ],
+  "t_ini": 1785176520.0,
+  "t_fim": 1786052160.0,
+  "ancoras": [],
+  "inclin_pct_dia": -0.2023
+ },
+ {
+  "nome": "lilas_1",
+  "s": 5.937941285150176e-09,
+  "a": 0.9160028013635352,
+  "res_bp": 0.1,
+  "n_prints": 9,
+  "primeiro": "2026-01-02",
+  "ultimo": "2026-01-26",
+  "cor": "lilás/azul-violeta",
+  "estilo": "sólida",
+  "notas": [
+   "Linha Lilás: 3 rejeições marcadas; 'entre a Cruz e a Espada'",
+   "Dip na Lilás",
+   "acima da Linha Lilás (suporte)"
+  ],
+  "t_ini": 1766230560.0,
+  "t_fim": 1769783460.0,
+  "ancoras": [
+   [
+    "2021-06-15",
+    "ema7x21",
+    -0.24
+   ],
+   [
+    "2021-12-04",
+    "fundo",
+    -0.14
+   ],
+   [
+    "2025-12-16",
+    "ma7x21",
+    0.19
+   ]
+  ],
+  "inclin_pct_dia": 0.0513
+ },
+ {
+  "nome": "lilas_2",
+  "s": 3.02690430093737e-08,
+  "a": -42.94180373176631,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-10-25",
+  "ultimo": "2026-10-25",
+  "cor": "lilás",
+  "estilo": "sólida fina",
+  "notas": [
+   "ABAIXO DA LILÁS"
+  ],
+  "t_ini": 1792382460.0,
+  "t_fim": 1793120220.0,
+  "ancoras": [
+   [
+    "2026-07-08",
+    "ema7x21",
+    0.09
+   ],
+   [
+    "2026-07-09",
+    "ema7x21",
+    0.07
+   ],
+   [
+    "2026-09-15",
+    "fundo",
+    0.02
+   ]
+  ],
+  "inclin_pct_dia": 0.2615
+ },
+ {
+  "nome": "azul_tracejada",
+  "s": 1.710236341059217e-08,
+  "a": -18.839945740286648,
+  "res_bp": 0.2,
+  "n_prints": 9,
+  "primeiro": "2026-01-02",
+  "ultimo": "2026-01-26",
+  "cor": "azul",
+  "estilo": "tracejada",
+  "notas": [
+   "rótulo 7,21,77 - 2022-NOV e 20..",
+   "7,21,77 - 2022-NOV e 2025-DEZ",
+   "7,21,77 - 2022-NOV e 2025-DEZ"
+  ],
+  "t_ini": 1766230560.0,
+  "t_fim": 1769783460.0,
+  "ancoras": [
+   [
+    "2015-03-09",
+    "ma21x77",
+    -0.04
+   ],
+   [
+    "2016-04-24",
+    "topo",
+    -0.24
+   ],
+   [
+    "2022-12-01",
+    "ma7x21",
+    -0.23
+   ],
+   [
+    "2023-01-12",
+    "ema7x77",
+    -0.07
+   ],
+   [
+    "2023-01-14",
+    "ema21x77",
+    -0.0
+   ],
+   [
+    "2025-12-01",
+    "fundo",
+    -0.24
+   ]
+  ],
+  "inclin_pct_dia": 0.1478
+ },
+ {
+  "nome": "laranja_pontilhada_desce",
+  "s": -3.46390617093785e-08,
+  "a": 72.63585723193991,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-01-11",
+  "ultimo": "2026-01-11",
+  "cor": "laranja",
+  "estilo": "pontilhada",
+  "notas": [
+   "nova; desce até o rótulo 343"
+  ],
+  "t_ini": 1767867660.0,
+  "t_fim": 1768384620.0,
+  "ancoras": [
+   [
+    "2025-10-18",
+    "ema21x77",
+    -0.12
+   ]
+  ],
+  "inclin_pct_dia": -0.2993
+ },
+ {
+  "nome": "verde_tracejada_grossa",
+  "s": 1.7673103723438517e-08,
+  "a": -19.792813387267877,
+  "res_bp": 0.3,
+  "n_prints": 5,
+  "primeiro": "2026-01-16",
+  "ultimo": "2026-01-26",
+  "cor": "verde",
+  "estilo": "tracejada grossa",
+  "notas": [
+   "acima da MA7; suporte",
+   "nova"
+  ],
+  "t_ini": 1767832020.0,
+  "t_fim": 1769783460.0,
+  "ancoras": [
+   [
+    "2015-04-22",
+    "topo",
+    0.05
+   ],
+   [
+    "2015-07-17",
+    "fundo",
+    0.11
+   ],
+   [
+    "2015-11-26",
+    "ema7x21",
+    0.03
+   ],
+   [
+    "2022-12-01",
+    "ma7x21",
+    -0.25
+   ],
+   [
+    "2023-01-14",
+    "ema21x77",
+    -0.24
+   ],
+   [
+    "2023-09-01",
+    "fundo",
+    0.2
+   ],
+   [
+    "2023-10-15",
+    "ma7x21",
+    0.13
+   ]
+  ],
+  "inclin_pct_dia": 0.1527
+ },
+ {
+  "nome": "ciano",
+  "s": 9.886261962340787e-09,
+  "a": -6.051438937101288,
+  "res_bp": 0.2,
+  "n_prints": 4,
+  "primeiro": "2026-01-20",
+  "ultimo": "2026-01-26",
+  "cor": "",
+  "estilo": "",
+  "notas": [
+   "nova (Linha CIANO)"
+  ],
+  "t_ini": 1767836100.0,
+  "t_fim": 1769783460.0,
+  "ancoras": [
+   [
+    "2019-08-06",
+    "topo",
+    -0.21
+   ],
+   [
+    "2024-08-22",
+    "ma7x21",
+    -0.11
+   ],
+   [
+    "2024-09-29",
+    "ma21x77",
+    0.24
+   ],
+   [
+    "2025-12-22",
+    "topo",
+    0.18
+   ]
+  ],
+  "inclin_pct_dia": 0.0854
+ },
+ {
+  "nome": "laranja_emas_2025",
+  "s": -1.0393827177971723e-08,
+  "a": 29.76444593141135,
+  "res_bp": 0.5,
+  "n_prints": 13,
+  "primeiro": "2026-01-20",
+  "ultimo": "2026-05-17",
+  "cor": "",
+  "estilo": "",
+  "notas": [
+   "rótulo: EMAs 7,21,77 - 2025-JUN e 2025-DEZ (Linha das EMAs de 2025: dip nela)",
+   "rótulo EMAs 7,21,77 - 2025-JUN e 2025-DEZ; alvo 🎯",
+   "EMAs 7,21,77 - 2025-JUN e 2025-DEZ (Linha Dourada das EMAs, recuperada)"
+  ],
+  "t_ini": 1767832020.0,
+  "t_fim": 1779297720.0,
+  "ancoras": [
+   [
+    "2026-01-03",
+    "ema7x21",
+    0.23
+   ]
+  ],
+  "inclin_pct_dia": -0.0898
+ },
+ {
+  "nome": "verde_tracejada_fina",
+  "s": -5.786341274500765e-09,
+  "a": 21.60589014458202,
+  "res_bp": 0.2,
+  "n_prints": 4,
+  "primeiro": "2026-01-20",
+  "ultimo": "2026-01-26",
+  "cor": "",
+  "estilo": "",
+  "notas": [
+   "nova"
+  ],
+  "t_ini": 1767832020.0,
+  "t_fim": 1769776500.0,
+  "ancoras": [],
+  "inclin_pct_dia": -0.05
+ },
+ {
+  "nome": "ciano_pontilhada",
+  "s": 3.391455129762484e-08,
+  "a": -48.54800123847313,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-01-21",
+  "ultimo": "2026-01-21",
+  "cor": "ciano",
+  "estilo": "pontilhada",
+  "notas": [
+   "nova; medida só em x 947-1274"
+  ],
+  "t_ini": 1768194960.0,
+  "t_fim": 1769377440.0,
+  "ancoras": [
+   [
+    "2026-01-03",
+    "ema7x21",
+    0.23
+   ]
+  ],
+  "inclin_pct_dia": 0.293
+ },
+ {
+  "nome": "ciano_fina_2025jun",
+  "s": -1.1907441774433972e-08,
+  "a": 32.40659340086576,
+  "res_bp": 0.1,
+  "n_prints": 2,
+  "primeiro": "2026-01-30",
+  "ultimo": "2026-02-05",
+  "cor": "azul-claro",
+  "estilo": "sólida fina",
+  "notas": [
+   "rótulo: 7,21,77 - 2025-JUN e 2025-DEZ"
+  ],
+  "t_ini": 1768365120.0,
+  "t_fim": 1770588780.0,
+  "ancoras": [
+   [
+    "2025-06-18",
+    "ma7x21",
+    0.19
+   ]
+  ],
+  "inclin_pct_dia": -0.1029
+ },
+ {
+  "nome": "dourada_pontilhada_2025jul",
+  "s": -2.258245161702898e-08,
+  "a": 51.28567258100562,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-01-30",
+  "ultimo": "2026-01-30",
+  "cor": "dourada",
+  "estilo": "pontilhada",
+  "notas": [
+   "rótulo: 7,21,77 - 2025-JUL e 2025-DEZ; Linha Dourada Pontilhada, suportou a vela"
+  ],
+  "t_ini": 1768365120.0,
+  "t_fim": 1770229080.0,
+  "ancoras": [
+   [
+    "2025-07-30",
+    "ma7x21",
+    0.11
+   ],
+   [
+    "2025-08-09",
+    "ema7x21",
+    0.21
+   ]
+  ],
+  "inclin_pct_dia": -0.1951
+ },
+ {
+  "nome": "branca_2023mai",
+  "s": 1.0497181105075406e-08,
+  "a": -7.408390101232375,
+  "res_bp": 0.7,
+  "n_prints": 20,
+  "primeiro": "2026-02-05",
+  "ultimo": "2026-05-17",
+  "cor": "branca",
+  "estilo": "sólida fina",
+  "notas": [
+   "rótulo: BRANCA - 7,77,231 - 2023-MAI-03 e 2023-MAI-08",
+   "perdemos a Linha Branca",
+   "ABAIXO DA LINHA BRANCA"
+  ],
+  "t_ini": 1769464620.0,
+  "t_fim": 1779297720.0,
+  "ancoras": [
+   [
+    "2018-10-26",
+    "ma7x21",
+    0.18
+   ],
+   [
+    "2023-07-11",
+    "ma7x21",
+    -0.25
+   ],
+   [
+    "2023-07-13",
+    "ma7x21",
+    0.25
+   ]
+  ],
+  "inclin_pct_dia": 0.0907
+ },
+ {
+  "nome": "ciano_grossa",
+  "s": 7.368064618944007e-09,
+  "a": -1.885322652703745,
+  "res_bp": 0.5,
+  "n_prints": 16,
+  "primeiro": "2026-02-05",
+  "ultimo": "2026-10-25",
+  "cor": "ciano",
+  "estilo": "sólida grossa",
+  "notas": [
+   "dip nela (suporte)",
+   "atuação da linha (resistência)",
+   "rejeição na Ciano (máx 70.937)"
+  ],
+  "t_ini": 1769467260.0,
+  "t_fim": 1793269920.0,
+  "ancoras": [
+   [
+    "2024-01-02",
+    "ma7x21",
+    -0.01
+   ],
+   [
+    "2024-01-30",
+    "topo",
+    -0.05
+   ],
+   [
+    "2024-08-05",
+    "fundo",
+    0.25
+   ]
+  ],
+  "inclin_pct_dia": 0.0637
+ },
+ {
+  "nome": "magenta_solida",
+  "s": 2.8605778360876214e-09,
+  "a": 6.153047091060331,
+  "res_bp": 0.2,
+  "n_prints": 6,
+  "primeiro": "2026-02-05",
+  "ultimo": "2026-03-10",
+  "cor": "magenta",
+  "estilo": "sólida fina",
+  "notas": [],
+  "t_ini": 1769464620.0,
+  "t_fim": 1773375360.0,
+  "ancoras": [
+   [
+    "2024-04-30",
+    "ma7x77",
+    -0.09
+   ],
+   [
+    "2024-07-20",
+    "ma7x77",
+    -0.06
+   ]
+  ],
+  "inclin_pct_dia": 0.0247
+ },
+ {
+  "nome": "vermelha_tracejada",
+  "s": -2.86855145575449e-08,
+  "a": 62.023971571676235,
+  "res_bp": 0.5,
+  "n_prints": 11,
+  "primeiro": "2026-02-05",
+  "ultimo": "2026-04-04",
+  "cor": "vermelha",
+  "estilo": "tracejada fina",
+  "notas": [
+   "Dip perfeito na Linha Vermelha Tracejada; BTFD"
+  ],
+  "t_ini": 1769467260.0,
+  "t_fim": 1775504700.0,
+  "ancoras": [
+   [
+    "2025-08-19",
+    "ema7x21",
+    0.2
+   ]
+  ],
+  "inclin_pct_dia": -0.2478
+ },
+ {
+  "nome": "laranja_tracejada",
+  "s": -2.9774435920921258e-08,
+  "a": 63.93732840611207,
+  "res_bp": 0.4,
+  "n_prints": 10,
+  "primeiro": "2026-02-05",
+  "ultimo": "2026-04-04",
+  "cor": "laranja",
+  "estilo": "tracejada fina",
+  "notas": [],
+  "t_ini": 1769464620.0,
+  "t_fim": 1775513280.0,
+  "ancoras": [
+   [
+    "2025-08-19",
+    "ema7x21",
+    0.03
+   ],
+   [
+    "2025-08-20",
+    "ma7x21",
+    0.14
+   ]
+  ],
+  "inclin_pct_dia": -0.2573
+ },
+ {
+  "nome": "ciano_fina_baixa",
+  "s": -2.6270701873201684e-08,
+  "a": 57.75416598613788,
+  "res_bp": 0.4,
+  "n_prints": 11,
+  "primeiro": "2026-02-05",
+  "ultimo": "2026-04-04",
+  "cor": "azul-claro",
+  "estilo": "sólida fina",
+  "notas": [
+   "provável Linha Azul do post (perdemos)",
+   "topo na linha Azul (provável)",
+   "ACIMA da Linha Azul (provável)"
+  ],
+  "t_ini": 1769464620.0,
+  "t_fim": 1775513280.0,
+  "ancoras": [
+   [
+    "2025-07-30",
+    "ma7x21",
+    0.14
+   ]
+  ],
+  "inclin_pct_dia": -0.227
+ },
+ {
+  "nome": "amarela_trac_fina_alta",
+  "s": -3.4394090684991474e-08,
+  "a": 71.95711546529894,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-02-15",
+  "ultimo": "2026-02-15",
+  "cor": "amarela",
+  "estilo": "tracejada fina",
+  "notas": [
+   "nova"
+  ],
+  "t_ini": 1769727420.0,
+  "t_fim": 1771411980.0,
+  "ancoras": [
+   [
+    "2025-07-25",
+    "fundo",
+    -0.05
+   ],
+   [
+    "2025-11-21",
+    "fundo",
+    0.11
+   ]
+  ],
+  "inclin_pct_dia": -0.2972
+ },
+ {
+  "nome": "amarela_trac_fina_baixa",
+  "s": -7.379311591324666e-08,
+  "a": 141.65298183961562,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-02-15",
+  "ultimo": "2026-02-15",
+  "cor": "amarela",
+  "estilo": "tracejada fina",
+  "notas": [
+   "nova; passa pela mínima 59.930 (05/02)"
+  ],
+  "t_ini": 1769723340.0,
+  "t_fim": 1771278000.0,
+  "ancoras": [],
+  "inclin_pct_dia": -0.6376
+ },
+ {
+  "nome": "verde_pontilhada",
+  "s": 7.2724165323922415e-09,
+  "a": -1.7494718911789,
+  "res_bp": 1.0,
+  "n_prints": 2,
+  "primeiro": "2026-03-02",
+  "ultimo": "2026-10-25",
+  "cor": "verde",
+  "estilo": "pontilhada",
+  "notas": [
+   "ABAIXO DA LINHA VERDE; medição com ruído (res 1px)"
+  ],
+  "t_ini": 1770786660.0,
+  "t_fim": 1793159280.0,
+  "ancoras": [],
+  "inclin_pct_dia": 0.0628
+ },
+ {
+  "nome": "roxa_desce",
+  "s": -1.9815724795763692e-08,
+  "a": 46.257077117603274,
+  "res_bp": 0.4,
+  "n_prints": 9,
+  "primeiro": "2026-03-02",
+  "ultimo": "2026-04-04",
+  "cor": "roxa",
+  "estilo": "sólida",
+  "notas": [
+   "nova"
+  ],
+  "t_ini": 1770378540.0,
+  "t_fim": 1775511120.0,
+  "ancoras": [
+   [
+    "2025-06-12",
+    "ma7x21",
+    -0.19
+   ]
+  ],
+  "inclin_pct_dia": -0.1712
+ },
+ {
+  "nome": "laranja_pont_topo",
+  "s": -3.456107252583338e-08,
+  "a": 72.49775025951564,
+  "res_bp": 0.8,
+  "n_prints": 3,
+  "primeiro": "2026-03-02",
+  "ultimo": "2026-03-05",
+  "cor": "laranja",
+  "estilo": "pontilhada",
+  "notas": [
+   "possivelmente a dourada pontilhada 2025-JUL"
+  ],
+  "t_ini": 1771778460.0,
+  "t_fim": 1772993940.0,
+  "ancoras": [
+   [
+    "2025-10-18",
+    "ema21x77",
+    -0.04
+   ],
+   [
+    "2026-01-08",
+    "fundo",
+    0.05
+   ]
+  ],
+  "inclin_pct_dia": -0.2986
+ },
+ {
+  "nome": "laranja_pont_topo_alta",
+  "s": -2.2546944861781576e-08,
+  "a": 51.22265426839891,
+  "res_bp": 0.9,
+  "n_prints": 3,
+  "primeiro": "2026-03-05",
+  "ultimo": "2026-03-19",
+  "cor": "laranja",
+  "estilo": "pontilhada",
+  "notas": [
+   "nova (acima)"
+  ],
+  "t_ini": 1772061180.0,
+  "t_fim": 1774131720.0,
+  "ancoras": [
+   [
+    "2025-07-30",
+    "ma7x21",
+    0.19
+   ]
+  ],
+  "inclin_pct_dia": -0.1948
+ },
+ {
+  "nome": "azul_solida_baixa",
+  "s": -1.9259796488003894e-08,
+  "a": 45.281148987154836,
+  "res_bp": 0.3,
+  "n_prints": 6,
+  "primeiro": "2026-03-10",
+  "ultimo": "2026-04-04",
+  "cor": "azul",
+  "estilo": "sólida",
+  "notas": [
+   "nova",
+   "rótulo: AZUL DAS EMAs (2 toques marcados)"
+  ],
+  "t_ini": 1772236800.0,
+  "t_fim": 1775511120.0,
+  "ancoras": [
+   [
+    "2025-06-12",
+    "ma7x21",
+    0.13
+   ],
+   [
+    "2026-02-15",
+    "topo",
+    0.05
+   ]
+  ],
+  "inclin_pct_dia": -0.1664
+ },
+ {
+  "nome": "magenta_2024abr",
+  "s": 2.8675533601175926e-09,
+  "a": 6.140672207149962,
+  "res_bp": 0.2,
+  "n_prints": 10,
+  "primeiro": "2026-03-18",
+  "ultimo": "2026-05-17",
+  "cor": "magenta",
+  "estilo": "sólida",
+  "notas": [
+   "rótulo: 7,21,343 - 2024-ABR e 2024-JUL (= magenta_solida)"
+  ],
+  "t_ini": 1772232120.0,
+  "t_fim": 1779295140.0,
+  "ancoras": [
+   [
+    "2024-04-30",
+    "ma7x77",
+    -0.05
+   ],
+   [
+    "2024-07-20",
+    "ma7x77",
+    -0.03
+   ],
+   [
+    "2024-08-03",
+    "ma7x21",
+    -0.24
+   ],
+   [
+    "2024-08-03",
+    "ma7x77",
+    -0.24
+   ],
+   [
+    "2024-08-25",
+    "topo",
+    -0.23
+   ]
+  ],
+  "inclin_pct_dia": 0.0248
+ },
+ {
+  "nome": "laranja_solida_triangulo",
+  "s": -5.416320688467153e-08,
+  "a": 107.21416476469918,
+  "res_bp": 1.2,
+  "n_prints": 5,
+  "primeiro": "2026-03-18",
+  "ultimo": "2026-04-04",
+  "cor": "laranja",
+  "estilo": "sólida grossa",
+  "notas": [
+   "nova; borda de cima do triângulo (região azul)",
+   "BTFD",
+   "seta: dip nela"
+  ],
+  "t_ini": 1772616060.0,
+  "t_fim": 1775195400.0,
+  "ancoras": [],
+  "inclin_pct_dia": -0.468
+ },
+ {
+  "nome": "branca_fina_desce",
+  "s": -2.932830021105378e-08,
+  "a": 63.213087729117014,
+  "res_bp": 0.2,
+  "n_prints": 4,
+  "primeiro": "2026-03-30",
+  "ultimo": "2026-04-13",
+  "cor": "branca",
+  "estilo": "sólida fina",
+  "notas": [
+   "nova"
+  ],
+  "t_ini": 1773838860.0,
+  "t_fim": 1776153960.0,
+  "ancoras": [],
+  "inclin_pct_dia": -0.2534
+ },
+ {
+  "nome": "amarela_tracejada_grossa_alta",
+  "s": -1.8670958667010996e-08,
+  "a": 44.42319843706874,
+  "res_bp": 1.4,
+  "n_prints": 6,
+  "primeiro": "2026-04-10",
+  "ultimo": "2026-04-29",
+  "cor": "amarela",
+  "estilo": "tracejada grossa",
+  "notas": [
+   "nova",
+   "Ganhamos a Linha Amarela (ACIMA)",
+   "ABAIXO da Amarela"
+  ],
+  "t_ini": 1775104560.0,
+  "t_fim": 1777720980.0,
+  "ancoras": [
+   [
+    "2025-08-09",
+    "ema7x21",
+    0.09
+   ],
+   [
+    "2025-10-17",
+    "fundo",
+    -0.16
+   ]
+  ],
+  "inclin_pct_dia": -0.1613
+ },
+ {
+  "nome": "verde_tracejada_alta",
+  "s": -5.783263878395947e-09,
+  "a": 21.600379888248067,
+  "res_bp": 0.1,
+  "n_prints": 7,
+  "primeiro": "2026-05-04",
+  "ultimo": "2026-05-17",
+  "cor": "verde",
+  "estilo": "tracejada grossa",
+  "notas": [
+   "nova; alvo 🎯",
+   "ABAIXO DA LINHA VERDE; confirmados entre a Verde Tracejada e a MA7",
+   "perdemos a Linha Verde (3ª vez acima dela)"
+  ],
+  "t_ini": 1777314480.0,
+  "t_fim": 1779292620.0,
+  "ancoras": [],
+  "inclin_pct_dia": -0.05
+ },
+ {
+  "nome": "vermelha_grossa_desce",
+  "s": -1.1747448963621872e-08,
+  "a": 32.128683198505556,
+  "res_bp": 0.2,
+  "n_prints": 2,
+  "primeiro": "2026-05-04",
+  "ultimo": "2026-05-16",
+  "cor": "vermelha",
+  "estilo": "sólida grossa",
+  "notas": [
+   "nova"
+  ],
+  "t_ini": 1777368600.0,
+  "t_fim": 1779297720.0,
+  "ancoras": [
+   [
+    "2025-06-18",
+    "ema7x21",
+    0.08
+   ],
+   [
+    "2025-06-18",
+    "ma7x21",
+    -0.02
+   ]
+  ],
+  "inclin_pct_dia": -0.1015
+ },
+ {
+  "nome": "amarela_tracejada_topo",
+  "s": 5.5881742698979035e-09,
+  "a": 1.4356314672736992,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-05-11",
+  "ultimo": "2026-05-11",
+  "cor": "amarela",
+  "estilo": "tracejada grossa",
+  "notas": [
+   "nova (topo)"
+  ],
+  "t_ini": 1777771500.0,
+  "t_fim": 1778905260.0,
+  "ancoras": [
+   [
+    "2022-04-11",
+    "ema7x77",
+    0.16
+   ],
+   [
+    "2024-03-05",
+    "fundo",
+    0.12
+   ],
+   [
+    "2024-07-25",
+    "fundo",
+    -0.04
+   ],
+   [
+    "2024-08-03",
+    "ema7x21",
+    0.15
+   ],
+   [
+    "2024-08-03",
+    "ema7x77",
+    0.15
+   ],
+   [
+    "2024-11-04",
+    "fundo",
+    0.22
+   ]
+  ],
+  "inclin_pct_dia": 0.0483
+ },
+ {
+  "nome": "vermelha_grossa",
+  "s": -1.1727566193533032e-08,
+  "a": 32.09331086649868,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-06-02",
+  "ultimo": "2026-06-02",
+  "cor": "vermelha",
+  "estilo": "sólida grossa",
+  "notas": [
+   "resistência acima"
+  ],
+  "t_ini": 1779838500.0,
+  "t_fim": 1780682580.0,
+  "ancoras": [
+   [
+    "2025-06-18",
+    "ema7x21",
+    0.14
+   ],
+   [
+    "2025-06-18",
+    "ma7x21",
+    0.03
+   ]
+  ],
+  "inclin_pct_dia": -0.1013
+ },
+ {
+  "nome": "ciano_pont_fina",
+  "s": -1.750546720641232e-08,
+  "a": 42.33109826869448,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-06-02",
+  "ultimo": "2026-06-02",
+  "cor": "azul-claro",
+  "estilo": "pontilhada fina",
+  "notas": [],
+  "t_ini": 1779852420.0,
+  "t_fim": 1780678560.0,
+  "ancoras": [],
+  "inclin_pct_dia": -0.1512
+ },
+ {
+  "nome": "laranja_pontilhada",
+  "s": -2.2603491622220396e-08,
+  "a": 51.3229104561038,
+  "res_bp": 0.3,
+  "n_prints": 3,
+  "primeiro": "2026-06-02",
+  "ultimo": "2026-07-13",
+  "cor": "laranja",
+  "estilo": "pontilhada",
+  "notas": [
+   "de olho (mão apontando) — alvo abaixo",
+   "ABAIXO DA LARANJA PONTILHADA; topo confirmado nela (2 setas)",
+   "(mesma Laranja Pontilhada de junho?)"
+  ],
+  "t_ini": 1779838500.0,
+  "t_fim": 1784091240.0,
+  "ancoras": [
+   [
+    "2025-07-30",
+    "ma7x21",
+    0.08
+   ],
+   [
+    "2025-08-09",
+    "ema7x21",
+    0.18
+   ],
+   [
+    "2025-08-29",
+    "ema7x77",
+    0.24
+   ]
+  ],
+  "inclin_pct_dia": -0.1953
+ },
+ {
+  "nome": "verde_tracejada_jun",
+  "s": -1.8168511627019317e-08,
+  "a": 43.54243804650458,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-06-02",
+  "ultimo": "2026-06-02",
+  "cor": "verde",
+  "estilo": "tracejada grossa",
+  "notas": [],
+  "t_ini": 1779838500.0,
+  "t_fim": 1780666620.0,
+  "ancoras": [
+   [
+    "2025-08-09",
+    "ema7x21",
+    0.0
+   ]
+  ],
+  "inclin_pct_dia": -0.157
+ },
+ {
+  "nome": "azul_solida",
+  "s": -1.9273804080403754e-08,
+  "a": 45.306075927906875,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-06-08",
+  "ultimo": "2026-06-08",
+  "cor": "azul",
+  "estilo": "sólida",
+  "notas": [
+   "nova"
+  ],
+  "t_ini": 1780206600.0,
+  "t_fim": 1781338260.0,
+  "ancoras": [
+   [
+    "2025-06-12",
+    "ma7x21",
+    0.09
+   ],
+   [
+    "2026-02-15",
+    "topo",
+    0.04
+   ]
+  ],
+  "inclin_pct_dia": -0.1665
+ },
+ {
+  "nome": "branca_fina",
+  "s": -2.933940243900886e-08,
+  "a": 63.232976739642474,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-06-08",
+  "ultimo": "2026-06-08",
+  "cor": "branca",
+  "estilo": "sólida fina",
+  "notas": [
+   "nova"
+  ],
+  "t_ini": 1780209300.0,
+  "t_fim": 1781338260.0,
+  "ancoras": [
+   [
+    "2025-09-25",
+    "ema7x77",
+    0.23
+   ]
+  ],
+  "inclin_pct_dia": -0.2535
+ },
+ {
+  "nome": "ciano_solida",
+  "s": -2.6284463428788322e-08,
+  "a": 57.778622824544925,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-06-08",
+  "ultimo": "2026-06-08",
+  "cor": "ciano",
+  "estilo": "sólida",
+  "notas": [
+   "nova"
+  ],
+  "t_ini": 1780203900.0,
+  "t_fim": 1781338260.0,
+  "ancoras": [
+   [
+    "2025-07-30",
+    "ma7x21",
+    0.1
+   ]
+  ],
+  "inclin_pct_dia": -0.2271
+ },
+ {
+  "nome": "roxa_solida",
+  "s": -1.9819570420213254e-08,
+  "a": 46.26383788038996,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-06-08",
+  "ultimo": "2026-06-08",
+  "cor": "roxa",
+  "estilo": "sólida",
+  "notas": [
+   "nova"
+  ],
+  "t_ini": 1780203900.0,
+  "t_fim": 1781338260.0,
+  "ancoras": [
+   [
+    "2025-06-12",
+    "ma7x21",
+    -0.19
+   ]
+  ],
+  "inclin_pct_dia": -0.1712
+ },
+ {
+  "nome": "downtrend_verde",
+  "s": -4.2364651990504824e-08,
+  "a": 86.58897748649548,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-07-13",
+  "ultimo": "2026-07-13",
+  "cor": "verde claro",
+  "estilo": "sólida fina",
+  "notas": [
+   "ACIMA DA DOWNTREND VERDE; alvo 🎯 (60,6K)"
+  ],
+  "t_ini": 1783167240.0,
+  "t_fim": 1784187780.0,
+  "ancoras": [
+   [
+    "2026-06-15",
+    "topo",
+    0.09
+   ]
+  ],
+  "inclin_pct_dia": -0.366
+ },
+ {
+  "nome": "azul_pontilhada_sobe_1",
+  "s": 5.1238847354526795e-09,
+  "a": 1.9186836062219275,
+  "res_bp": 0.1,
+  "n_prints": 5,
+  "primeiro": "2026-07-28",
+  "ultimo": "2026-11-13",
+  "cor": "azul",
+  "estilo": "pontilhada",
+  "notas": [
+   "nova; seta 7,21,77 (agulhada)",
+   "dip nela (mão)",
+   "ACIMA DA AZUL PONTILHADA (suporte, alvo atingido no RSI 23,67)"
+  ],
+  "t_ini": 1784615100.0,
+  "t_fim": 1794940680.0,
+  "ancoras": [
+   [
+    "2026-06-24",
+    "ma7x21",
+    0.09
+   ]
+  ],
+  "inclin_pct_dia": 0.0443
+ },
+ {
+  "nome": "azul_pontilhada_sobe_2",
+  "s": 6.362776748181637e-09,
+  "a": -0.29324513984992395,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-08-05",
+  "ultimo": "2026-08-05",
+  "cor": "azul",
+  "estilo": "pontilhada",
+  "notas": [],
+  "t_ini": 1785176520.0,
+  "t_fim": 1786054260.0,
+  "ancoras": [
+   [
+    "2018-02-20",
+    "topo",
+    0.15
+   ]
+  ],
+  "inclin_pct_dia": 0.055
+ },
+ {
+  "nome": "pink",
+  "s": 1.1383393811082417e-08,
+  "a": -9.24906713851773,
+  "res_bp": 0.1,
+  "n_prints": 3,
+  "primeiro": "2026-08-08",
+  "ultimo": "2026-11-13",
+  "cor": "pink/magenta",
+  "estilo": "sólida",
+  "notas": [
+   "Linha Pink: linha de agulhadas 7,21,231 (texto do post); ABAIXO DA PINK",
+   "ABAIXO DA PINK",
+   "ABAIXO DA PINK"
+  ],
+  "t_ini": 1785307860.0,
+  "t_fim": 1794953280.0,
+  "ancoras": [
+   [
+    "2022-12-05",
+    "topo",
+    0.13
+   ],
+   [
+    "2026-07-29",
+    "ma7x21",
+    -0.24
+   ]
+  ],
+  "inclin_pct_dia": 0.0984
+ },
+ {
+  "nome": "branca_tracejada",
+  "s": 9.733719307713065e-09,
+  "a": -6.306042671457593,
+  "res_bp": 0.1,
+  "n_prints": 2,
+  "primeiro": "2026-08-08",
+  "ultimo": "2026-08-10",
+  "cor": "branca",
+  "estilo": "tracejada",
+  "notas": [
+   "nova"
+  ],
+  "t_ini": 1785307860.0,
+  "t_fim": 1786814700.0,
+  "ancoras": [
+   [
+    "2020-09-16",
+    "ema7x77",
+    0.25
+   ],
+   [
+    "2020-09-30",
+    "ema7x21",
+    -0.05
+   ],
+   [
+    "2023-02-12",
+    "ema7x21",
+    -0.19
+   ],
+   [
+    "2023-03-14",
+    "ema7x21",
+    0.02
+   ],
+   [
+    "2023-03-14",
+    "ema7x231",
+    0.02
+   ],
+   [
+    "2023-10-01",
+    "ema7x231",
+    0.13
+   ],
+   [
+    "2023-10-01",
+    "ema7x343",
+    0.13
+   ],
+   [
+    "2023-10-12",
+    "ema7x77",
+    -0.01
+   ],
+   [
+    "2023-10-17",
+    "ema21x77",
+    -0.05
+   ],
+   [
+    "2026-07-29",
+    "ma7x21",
+    -0.02
+   ]
+  ],
+  "inclin_pct_dia": 0.0841
+ },
+ {
+  "nome": "branca_solida_baixo",
+  "s": -8.580338573018985e-09,
+  "a": 26.367165082117715,
+  "res_bp": 0.0,
+  "n_prints": 2,
+  "primeiro": "2026-08-08",
+  "ultimo": "2026-08-10",
+  "cor": "branca",
+  "estilo": "sólida",
+  "notas": [
+   "nova (suporte abaixo)"
+  ],
+  "t_ini": 1785307860.0,
+  "t_fim": 1786450380.0,
+  "ancoras": [
+   [
+    "2025-04-29",
+    "ma21x77",
+    -0.16
+   ],
+   [
+    "2026-02-15",
+    "topo",
+    -0.05
+   ],
+   [
+    "2026-06-20",
+    "ma7x21",
+    -0.04
+   ]
+  ],
+  "inclin_pct_dia": -0.0741
+ },
+ {
+  "nome": "amarela_clara",
+  "s": -3.1763845196367503e-09,
+  "a": 17.008526237322037,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-10-25",
+  "ultimo": "2026-10-25",
+  "cor": "amarelo claro",
+  "estilo": "sólida",
+  "notas": [],
+  "t_ini": 1792382460.0,
+  "t_fim": 1793269920.0,
+  "ancoras": [
+   [
+    "2024-12-22",
+    "ema7x21",
+    -0.04
+   ],
+   [
+    "2024-12-23",
+    "ma7x21",
+    -0.12
+   ],
+   [
+    "2025-01-27",
+    "fundo",
+    0.21
+   ],
+   [
+    "2026-01-03",
+    "ema7x21",
+    0.18
+   ],
+   [
+    "2026-09-28",
+    "fundo",
+    0.03
+   ]
+  ],
+  "inclin_pct_dia": -0.0274
+ },
+ {
+  "nome": "magenta_baixo",
+  "s": 2.861338071643281e-09,
+  "a": 6.151782021998474,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-10-25",
+  "ultimo": "2026-10-25",
+  "cor": "magenta",
+  "estilo": "sólida",
+  "notas": [],
+  "t_ini": 1792384680.0,
+  "t_fim": 1793269920.0,
+  "ancoras": [
+   [
+    "2024-04-30",
+    "ma7x77",
+    -0.1
+   ],
+   [
+    "2024-07-20",
+    "ma7x77",
+    -0.07
+   ],
+   [
+    "2026-09-11",
+    "ma7x21",
+    0.02
+   ],
+   [
+    "2026-09-20",
+    "ma7x21",
+    -0.24
+   ],
+   [
+    "2026-09-20",
+    "ma7x343",
+    -0.24
+   ]
+  ],
+  "inclin_pct_dia": 0.0247
+ },
+ {
+  "nome": "amarela_magenta_topo",
+  "s": -9.808572820181647e-09,
+  "a": 28.9195553367327,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-10-25",
+  "ultimo": "2026-10-25",
+  "cor": "amarela/magenta",
+  "estilo": "tracejada dupla",
+  "notas": [],
+  "t_ini": 1792950240.0,
+  "t_fim": 1793269200.0,
+  "ancoras": [
+   [
+    "2025-10-03",
+    "ma7x21",
+    -0.02
+   ],
+   [
+    "2025-10-03",
+    "ma7x77",
+    -0.02
+   ],
+   [
+    "2025-10-24",
+    "ma21x77",
+    0.01
+   ]
+  ],
+  "inclin_pct_dia": -0.0847
+ },
+ {
+  "nome": "magenta_drawn",
+  "s": 2.874312613011613e-09,
+  "a": 6.128510037608301,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-11-07",
+  "ultimo": "2026-11-07",
+  "cor": "magenta",
+  "estilo": "sólida",
+  "notas": [],
+  "t_ini": 1793459940.0,
+  "t_fim": 1794172560.0,
+  "ancoras": [
+   [
+    "2024-04-30",
+    "ma7x77",
+    0.01
+   ],
+   [
+    "2024-07-20",
+    "ma7x77",
+    0.03
+   ],
+   [
+    "2024-08-03",
+    "ma7x21",
+    -0.18
+   ],
+   [
+    "2024-08-03",
+    "ma7x77",
+    -0.18
+   ],
+   [
+    "2024-08-25",
+    "topo",
+    -0.18
+   ],
+   [
+    "2026-09-11",
+    "ma7x21",
+    0.03
+   ],
+   [
+    "2026-09-20",
+    "ma7x21",
+    -0.24
+   ],
+   [
+    "2026-09-20",
+    "ma7x343",
+    -0.24
+   ]
+  ],
+  "inclin_pct_dia": 0.0248
+ },
+ {
+  "nome": "verde_pont_topo",
+  "s": 7.253448800233701e-09,
+  "a": -1.7154447191357847,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-11-07",
+  "ultimo": "2026-11-07",
+  "cor": "verde",
+  "estilo": "pontilhada",
+  "notas": [],
+  "t_ini": 1793465160.0,
+  "t_fim": 1794170820.0,
+  "ancoras": [
+   [
+    "2026-03-06",
+    "ema7x21",
+    -0.2
+   ],
+   [
+    "2026-03-22",
+    "ema7x21",
+    0.25
+   ],
+   [
+    "2026-03-24",
+    "ma7x21",
+    0.12
+   ],
+   [
+    "2026-03-26",
+    "ema7x21",
+    0.17
+   ]
+  ],
+  "inclin_pct_dia": 0.0627
+ },
+ {
+  "nome": "laranja_fina_desce",
+  "s": -1.0412239127093503e-08,
+  "a": 29.7974280126084,
+  "res_bp": 0.0,
+  "n_prints": 1,
+  "primeiro": "2026-11-13",
+  "ultimo": "2026-11-13",
+  "cor": "laranja",
+  "estilo": "sólida fina",
+  "notas": [],
+  "t_ini": 1793660340.0,
+  "t_fim": 1794953280.0,
+  "ancoras": [
+   [
+    "2025-06-26",
+    "ema7x21",
+    0.18
+   ],
+   [
+    "2025-07-02",
+    "fundo",
+    0.21
+   ],
+   [
+    "2026-01-03",
+    "ema7x21",
+    0.19
+   ],
+   [
+    "2026-05-18",
+    "ema7x21",
+    -0.12
+   ],
+   [
+    "2026-08-23",
+    "ma7x231",
+    -0.01
+   ]
+  ],
+  "inclin_pct_dia": -0.09
+ }
+]
