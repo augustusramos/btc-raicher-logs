@@ -1,0 +1,26 @@
+name: historico-343
+on:
+  workflow_dispatch:
+    inputs:
+      inicio:
+        description: data inicial (AAAA-MM-DD)
+        default: '2021-01-01'
+permissions:
+  contents: write
+jobs:
+  montar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -q pandas requests
+      - name: Baixar minutos e montar 343/686
+        run: python tools/historico_343.py saida ${{ inputs.inicio }}
+      - name: Publicar na branch historico
+        run: |
+          cd saida
+          git init -q -b historico && git config user.name "github-actions" && git config user.email "actions@github.com"
+          git add -A && git commit -qm "historico 343/686 desde ${{ inputs.inicio }}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" historico
