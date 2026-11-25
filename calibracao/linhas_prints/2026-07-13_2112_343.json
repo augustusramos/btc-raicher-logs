@@ -1,0 +1,46 @@
+{
+ "print": "HNJaiSEW4AEEsHY",
+ "quando": "2026-07-13 21:12",
+ "erro_eixo_px": 1.0,
+ "erro_tempo_h": 0.12,
+ "conferencia_max_min": [
+  [
+   64657,
+   64650
+  ],
+  [
+   61246,
+   61241
+  ]
+ ],
+ "linhas": {
+  "downtrend_verde": {
+   "cor": "verde claro",
+   "estilo": "sólida fina",
+   "nota": "ACIMA DA DOWNTREND VERDE; alvo 🎯 (60,6K)",
+   "p1": [
+    "2026-07-04 12:14",
+    62675
+   ],
+   "p2": [
+    "2026-07-16 07:43",
+    60023
+   ],
+   "res_px": 0.18
+  },
+  "laranja_pontilhada": {
+   "cor": "laranja",
+   "estilo": "pontilhada",
+   "nota": "(mesma Laranja Pontilhada de junho?)",
+   "p1": [
+    "2026-07-04 12:14",
+    60909
+   ],
+   "p2": [
+    "2026-07-15 04:54",
+    59647
+   ],
+   "res_px": 0.48
+  }
+ }
+}
