@@ -1,0 +1,84 @@
+{
+ "print": "HFlDCbmXEAENP_-",
+ "quando": "2026-04-10 19:52",
+ "erro_eixo_px": 0.51,
+ "erro_tempo_h": 0.28,
+ "conferencia_max_min": [
+  [
+   73465,
+   73457
+  ]
+ ],
+ "linhas": {
+  "magenta_2024abr": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-04-02 04:36",
+    75424
+   ],
+   "p2": [
+    "2026-04-14 09:29",
+    75653
+   ],
+   "res_px": 0.23
+  },
+  "branca_2023mai": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-04-02 04:36",
+    75000
+   ],
+   "p2": [
+    "2026-04-14 10:11",
+    75838
+   ],
+   "res_px": 0.16
+  },
+  "ciano_grossa": {
+   "cor": "ciano",
+   "estilo": "sólida grossa",
+   "nota": "ABAIXO DA CIANO (3 setas, resistência)",
+   "p1": [
+    "2026-04-02 05:18",
+    72680
+   ],
+   "p2": [
+    "2026-04-14 09:29",
+    73246
+   ],
+   "res_px": 0.24
+  },
+  "amarela_tracejada_grossa_alta": {
+   "cor": "amarela",
+   "estilo": "tracejada grossa",
+   "nota": "nova",
+   "p1": [
+    "2026-04-02 04:36",
+    79248
+   ],
+   "p2": [
+    "2026-04-14 10:11",
+    77687
+   ],
+   "res_px": 0.23
+  },
+  "branca_fina_desce": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-04-02 05:18",
+    69718
+   ],
+   "p2": [
+    "2026-04-14 08:06",
+    67608
+   ],
+   "res_px": 0.23
+  }
+ }
+}
