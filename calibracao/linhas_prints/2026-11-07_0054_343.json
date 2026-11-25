@@ -1,0 +1,56 @@
+{
+ "print": "HWfj2BaXsAAnRUy",
+ "quando": "2026-11-07 00:54",
+ "erro_eixo_px": 0.53,
+ "erro_tempo_h": 0.11,
+ "conferencia_max_min": [
+  [
+   74762,
+   74758
+  ]
+ ],
+ "linhas": {
+  "verde_tracejada": {
+   "cor": "verde",
+   "estilo": "tracejada",
+   "nota": "ACIMA DA VERDE (suporte)",
+   "p1": [
+    "2026-10-31 15:48",
+    75222
+   ],
+   "p2": [
+    "2026-11-08 21:16",
+    74912
+   ],
+   "res_px": 0.28
+  },
+  "magenta_drawn": {
+   "cor": "magenta",
+   "estilo": "sólida",
+   "nota": "",
+   "p1": [
+    "2026-10-31 15:19",
+    79497
+   ],
+   "p2": [
+    "2026-11-08 21:16",
+    79660
+   ],
+   "res_px": 0.21
+  },
+  "verde_pont_topo": {
+   "cor": "verde",
+   "estilo": "pontilhada",
+   "nota": "",
+   "p1": [
+    "2026-10-31 16:46",
+    80287
+   ],
+   "p2": [
+    "2026-11-08 20:47",
+    80699
+   ],
+   "res_px": 0.46
+  }
+ }
+}
