@@ -1,0 +1,144 @@
+{
+ "print": "HCcfOcGXEAEdAQK",
+ "quando": "2026-03-02 21:13",
+ "erro_eixo_px": 0.55,
+ "erro_tempo_h": 0.87,
+ "conferencia_max_min": [
+  [
+   70937,
+   70928
+  ],
+  [
+   62525,
+   62508
+  ]
+ ],
+ "linhas": {
+  "magenta_solida": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-02-11 06:34",
+    74497
+   ],
+   "p2": [
+    "2026-03-07 07:44",
+    74941
+   ],
+   "res_px": 0.19
+  },
+  "ciano_fina_baixa": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-02-11 05:11",
+    75680
+   ],
+   "p2": [
+    "2026-03-07 09:07",
+    71648
+   ],
+   "res_px": 0.16
+  },
+  "vermelha_tracejada": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-02-11 06:34",
+    75192
+   ],
+   "p2": [
+    "2026-03-06 23:28",
+    70910
+   ],
+   "res_px": 0.2
+  },
+  "laranja_tracejada": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-02-11 05:11",
+    74091
+   ],
+   "p2": [
+    "2026-03-07 09:07",
+    69635
+   ],
+   "res_px": 0.21
+  },
+  "branca_2023mai": {
+   "cor": "",
+   "estilo": "",
+   "nota": "",
+   "p1": [
+    "2026-02-11 05:11",
+    71676
+   ],
+   "p2": [
+    "2026-03-07 11:52",
+    73268
+   ],
+   "res_px": 0.15
+  },
+  "ciano_grossa": {
+   "cor": "ciano",
+   "estilo": "sólida grossa",
+   "nota": "rejeição na Ciano (máx 70.937)",
+   "p1": [
+    "2026-02-11 06:34",
+    70405
+   ],
+   "p2": [
+    "2026-03-07 10:29",
+    71494
+   ],
+   "res_px": 0.24
+  },
+  "verde_pontilhada": {
+   "cor": "verde",
+   "estilo": "pontilhada",
+   "nota": "ABAIXO DA LINHA VERDE; medição com ruído (res 1px)",
+   "p1": [
+    "2026-02-11 05:11",
+    68092
+   ],
+   "p2": [
+    "2026-03-07 03:36",
+    69097
+   ],
+   "res_px": 1.0
+  },
+  "roxa_desce": {
+   "cor": "roxa",
+   "estilo": "sólida",
+   "nota": "nova",
+   "p1": [
+    "2026-02-11 09:19",
+    70779
+   ],
+   "p2": [
+    "2026-03-07 10:29",
+    67929
+   ],
+   "res_px": 0.34
+  },
+  "laranja_pont_topo": {
+   "cor": "laranja",
+   "estilo": "pontilhada",
+   "nota": "possivelmente a dourada pontilhada 2025-JUL",
+   "p1": [
+    "2026-02-22 16:41",
+    77904
+   ],
+   "p2": [
+    "2026-03-07 10:29",
+    74998
+   ],
+   "res_px": 0.52
+  }
+ }
+}
