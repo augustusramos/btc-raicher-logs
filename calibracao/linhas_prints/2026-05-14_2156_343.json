@@ -1,0 +1,60 @@
+{
+ "print": "HIUk1iwXcAAicwP",
+ "quando": "2026-05-14 21:56",
+ "erro_eixo_px": 0.59,
+ "erro_tempo_h": 0.0,
+ "conferencia_max_min": [
+  [
+   82458,
+   82452
+  ],
+  [
+   78704,
+   78696
+  ]
+ ],
+ "linhas": {
+  "verde_tracejada_alta": {
+   "cor": "verde",
+   "estilo": "tracejada grossa",
+   "nota": "perdemos a Linha Verde (3ª vez acima dela)",
+   "p1": [
+    "2026-05-07 12:22",
+    82194
+   ],
+   "p2": [
+    "2026-05-17 17:12",
+    81776
+   ],
+   "res_px": 0.29
+  },
+  "laranja_emas_2025": {
+   "cor": "laranja clara",
+   "estilo": "sólida fina",
+   "nota": "",
+   "p1": [
+    "2026-05-07 12:22",
+    79426
+   ],
+   "p2": [
+    "2026-05-17 13:08",
+    78714
+   ],
+   "res_px": 0.26
+  },
+  "branca_2023mai": {
+   "cor": "branca",
+   "estilo": "sólida fina",
+   "nota": "",
+   "p1": [
+    "2026-05-07 12:22",
+    77439
+   ],
+   "p2": [
+    "2026-05-17 18:22",
+    78162
+   ],
+   "res_px": 0.15
+  }
+ }
+}
