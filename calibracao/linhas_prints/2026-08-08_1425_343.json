@@ -1,0 +1,88 @@
+{
+ "print": "HPN2cQ1WMAAWvQz",
+ "quando": "2026-08-08 14:25",
+ "erro_eixo_px": 1.38,
+ "erro_tempo_h": 0.27,
+ "conferencia_max_min": [
+  [
+   65340,
+   65339
+  ],
+  [
+   62216,
+   62217
+  ]
+ ],
+ "linhas": {
+  "pink": {
+   "cor": "pink/magenta",
+   "estilo": "sólida",
+   "nota": "Linha Pink: linha de agulhadas 7,21,231 (texto do post); ABAIXO DA PINK",
+   "p1": [
+    "2026-07-30 02:33",
+    64511
+   ],
+   "p2": [
+    "2026-08-11 13:42",
+    65307
+   ],
+   "res_px": 0.2
+  },
+  "branca_tracejada": {
+   "cor": "branca",
+   "estilo": "tracejada",
+   "nota": "nova",
+   "p1": [
+    "2026-07-30 02:33",
+    64365
+   ],
+   "p2": [
+    "2026-08-10 22:51",
+    65009
+   ],
+   "res_px": 0.19
+  },
+  "amarela_tracejada": {
+   "cor": "amarela",
+   "estilo": "tracejada grossa",
+   "nota": "ACIMA DA AMARELA",
+   "p1": [
+    "2026-07-30 02:33",
+    65325
+   ],
+   "p2": [
+    "2026-08-11 16:40",
+    64002
+   ],
+   "res_px": 0.3
+  },
+  "azul_pontilhada_sobe": {
+   "cor": "azul",
+   "estilo": "pontilhada",
+   "nota": "",
+   "p1": [
+    "2026-07-30 02:33",
+    64007
+   ],
+   "p2": [
+    "2026-08-11 14:27",
+    64362
+   ],
+   "res_px": 0.32
+  },
+  "branca_solida_baixo": {
+   "cor": "branca",
+   "estilo": "sólida",
+   "nota": "nova (suporte abaixo)",
+   "p1": [
+    "2026-07-30 02:33",
+    62819
+   ],
+   "p2": [
+    "2026-08-11 12:13",
+    62244
+   ],
+   "res_px": 0.34
+  }
+ }
+}
