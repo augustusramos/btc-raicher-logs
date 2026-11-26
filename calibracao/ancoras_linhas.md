@@ -40,3 +40,9 @@ Textos que dizem de onde a linha sai:
 Conferência: agulhadas MA 7/21/77 do 343 em 29/07/2025 08:26 (spread 0,13%) e 07/09/2025 19:52 (0,04%) → reta dá 54.795 em 22/11/2026; Raicher marcou ~55,0K (mín. tocada 55.081). Erro 0,4% em 16 meses: CONFIRMADO para o Raicher.
 Teste geral (tools/agulhadas_consecutivas.py): ligar agulhadas (vizinhas ou quaisquer) reproduz de 1% a 64% das linhas do Dollynho, sempre perto do que daria ao acaso (melhor caso: EMA 7/21/77 com até 3 vizinhas, 10% contra 4% ao acaso).
 Conclusão: linhas de agulhadas são uma ferramenta real (Raicher usa e diz quais), mas não explicam a maioria das linhas do Dollynho. Útil como recurso próprio do sistema: "linha das agulhadas" automática, no estilo Raicher.
+
+## Backtest das linhas de agulhadas (26/11) — DESCARTADO
+tools/teste_linhas_agulhadas.py, 343 desde 2021. Toque = vela cujo range atravessa a linha; rejeição = fecha do lado de onde veio.
+- Todas as linhas (pares vizinhos, MA 7/21/77): rejeição 52% em 736–1.809 toques; linhas de controle (mesma inclinação, deslocadas 1–8%): 52–54%.
+- Só os 3 primeiros toques: MA lim 0,2% 59% (n=75) x controle 55%; EMA 0,2% 61% (n=79) x 52%; com lim 0,3% some (50–56%). Amostra pequena, diferença dentro do erro.
+Conclusão: o preço não respeita essas linhas mais do que linhas quaisquer. Não entram nos Logs (combinado com o Augustus: testar antes; se não funcionar, descartar).
