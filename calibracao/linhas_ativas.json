@@ -6,15 +6,15 @@
    "autor": "dollynho",
    "tf": "343m",
    "p1": [
-    "2026-11-13 20:05",
-    62718
+    "2026-11-19 20:32",
+    62349
    ],
    "p2": [
-    "2026-11-26 09:09",
-    61960
+    "2026-11-28 10:36",
+    61808
    ],
-   "visto_em": "2026-11-25",
-   "fonte": "print 343 de 23/11/2026 14:11 (medido por pixel, ~0,1%)",
+   "visto_em": "2026-11-26",
+   "fonte": "print 343 de 26/11/2026 14:10 (post 2126000904486732052, HYESSFFWoAAlOOq; medido por pixel no Chrome, eixo 0,54 px, conferência preço atual 60.530 x 60.529)",
    "papel": "alvo do short de 03/11 (atingido 15/11), depois suporte/resistência; citada como 'Linha Vermelha'"
   },
   {
@@ -22,15 +22,15 @@
    "autor": "dollynho",
    "tf": "343m",
    "p1": [
-    "2026-11-13 20:05",
-    62136
+    "2026-11-19 21:02",
+    61772
    ],
    "p2": [
-    "2026-11-26 09:09",
-    61411
+    "2026-11-28 10:36",
+    61231
    ],
-   "visto_em": "2026-11-25",
-   "fonte": "print 343 de 23/11/2026 14:11 (medido por pixel, ~0,1%)",
+   "visto_em": "2026-11-26",
+   "fonte": "print 343 de 26/11/2026 14:10 (post 2126000904486732052, HYESSFFWoAAlOOq; medido por pixel no Chrome, eixo 0,54 px, conferência preço atual 60.530 x 60.529)",
    "papel": "paralela abaixo da Vermelha; 'Linha Ciano'"
   },
   {
@@ -38,15 +38,15 @@
    "autor": "dollynho",
    "tf": "343m",
    "p1": [
-    "2026-11-13 20:05",
-    58073
+    "2026-11-19 20:02",
+    57786
    ],
    "p2": [
-    "2026-11-26 09:09",
-    57489
+    "2026-11-28 10:36",
+    57419
    ],
-   "visto_em": "2026-11-25",
-   "fonte": "print 343 de 23/11/2026 14:11 (medido por pixel, ~0,1%)",
+   "visto_em": "2026-11-26",
+   "fonte": "print 343 de 26/11/2026 14:10 (post 2126000904486732052, HYESSFFWoAAlOOq; medido por pixel no Chrome, eixo 0,54 px, conferência preço atual 60.530 x 60.529)",
    "papel": "destino ~57K em 20/11 ('QED! Chegamos na Linha Branca'); 🎯 1 do short de 24/11; suporte intermediário desde 25/11 08:26"
   },
   {
@@ -176,6 +176,54 @@
    "visto_em": "2026-11-22",
    "fonte": "agulhada MA7/21/77 do 686 + valor citado por ele em 22/11 (~57,5K)",
    "papel": "ascendente, suporte do fundo"
+  },
+  {
+   "nome": "Linha Vinho",
+   "autor": "dollynho",
+   "tf": "686m",
+   "p1": [
+    "2026-11-07 13:24",
+    57075
+   ],
+   "p2": [
+    "2026-12-02 22:27",
+    58048
+   ],
+   "visto_em": "2026-11-25",
+   "fonte": "print 686 de 25/11/2026 21:03 (post 2125746347126948332 '🍷 QED, tocamos na Linha Vinho', HYAqv85WcAAtQeX; medido por pixel no Chrome, eixo 0,63 px, conferência preço atual 60.361 x 60.349)",
+   "papel": "roxo/vinho ascendente no 686; tocada em 25/11 ('QED, tocamos na Linha Vinho!!'); ~57,8K em 25/11. Obs.: fica a ~0,1% da 'Trend das Agulhadas 03/03+16/10/2023 (Raicher)' do 686 — provável a mesma reta; confirmar com o Augustus antes de fundir"
+  },
+  {
+   "nome": "Linha Laranja (686)",
+   "autor": "dollynho",
+   "tf": "686m",
+   "p1": [
+    "2026-11-07 13:24",
+    59612
+   ],
+   "p2": [
+    "2026-12-02 22:27",
+    58500
+   ],
+   "visto_em": "2026-11-25",
+   "fonte": "print 686 de 25/11/2026 21:03 (post 2125746347126948332 '🍷 QED, tocamos na Linha Vinho', HYAqv85WcAAtQeX; medido por pixel no Chrome, eixo 0,63 px, conferência preço atual 60.361 x 60.349)",
+   "papel": "linha laranja descendente no 686 logo acima da Vinho (sem nome no texto)"
+  },
+  {
+   "nome": "Linha Amarela (686)",
+   "autor": "dollynho",
+   "tf": "686m",
+   "p1": [
+    "2026-11-07 14:53",
+    59227
+   ],
+   "p2": [
+    "2026-12-02 22:27",
+    58114
+   ],
+   "visto_em": "2026-11-25",
+   "fonte": "print 686 de 25/11/2026 21:03 (post 2125746347126948332 '🍷 QED, tocamos na Linha Vinho', HYAqv85WcAAtQeX; medido por pixel no Chrome, eixo 0,63 px, conferência preço atual 60.361 x 60.349)",
+   "papel": "linha amarela descendente no 686 logo acima da Vinho (sem nome no texto)"
   }
  ]
 }
