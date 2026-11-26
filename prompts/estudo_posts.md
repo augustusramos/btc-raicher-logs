@@ -22,7 +22,12 @@ Os Logs automáticos (que têm acesso ao repositório) juntam esses arquivos ao 
 4. Junte os posts novos (id maior que o ultimo_lido, considerando também os arquivos já existentes em calibracao/historico/novos/) e o novo ultimo_lido no JSON desta execução.
 5. Para cada post novo de análise (começa com 343, 686, "686 e 343", Log, Diário, Semanal, DOIS DIAS, ou tem gráfico):
    a. Placar: compare com o nosso Log do mesmo fechamento (logs/ e calibracao/placar.md) e escreva no JSON UMA linha de placar no formato das anteriores (igual / divergente / o que aprender). Não crie regra nova; 2ª ocorrência de algo = escreva "proposta ao Augustus" na linha.
-   b. Linhas: abra a imagem original (https://pbs.twimg.com/media/<arquivo>?format=jpg&name=orig) e meça as linhas desenhadas por ele com o método de calibracao/linhas_prints (tools/linhas_print.py, tools/salva_print.py: escala de preço lida por pixel nos rótulos do eixo, datas lidas no eixo de baixo, reta ajustada por cor). Só use a medição se a máxima/mínima marcada no print bater com os dados com erro <= 0,15%.
+   b. Linhas: a imagem NÃO chega ao ambiente da tarefa (pbs.twimg.com é bloqueado lá). Meça DENTRO do Chrome:
+      - abra https://pbs.twimg.com/media/<arquivo>?format=jpg&name=orig numa aba;
+      - cole o conteúdo de tools/medir_no_navegador.js num javascript_exec (cria window.L com fit, bands, eixoX);
+      - veja a imagem com zoom (computer zoom em faixas: redimensione o <img> para 445 px de largura e role com style.top) para ler os rótulos de preço e datas e as cores das linhas;
+      - leia por pixel: L.bands(...) nos rótulos do eixo de preço (pares [y_px, preço]), L.eixoX() nas datas (pares [x_px, data]) e L.fit(ponto_a, ponto_b, cor) em cada linha desenhada (m, c, res em px);
+      - devolva esses números ao ambiente e converta com tools/linhas_print.py (spec com "y", "x", "checks" e "linhas"), igual a calibracao/linhas_prints/*.medidas.json. Só use a medição se a máxima/mínima marcada no print bater com os dados com erro <= 0,15%.
       - Linha que já existe em calibracao/linhas_ativas.json (mesma cor/nome e valor a até 0,5%): registre no JSON como "atualizar" (p1/p2 novos e visto_em).
       - Linha nova: registre como "nova" (nome pela cor/rótulo dele, autor, tf, p1, p2, visto_em, fonte, papel).
       - NUNCA remova linhas (regra de remoção ainda em discussão com o Augustus).
