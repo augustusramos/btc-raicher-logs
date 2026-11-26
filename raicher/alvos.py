@@ -14,8 +14,8 @@ PESO = {"manual": 2, "343m": 1, "686m": 1, "1D": 2, "2D": 2, "3D": 2, "1W": 3, "
 RSI_LINHAS = [23.67, 13.53, 6.23]  # 23.67 Suporte Histórico; 13.53 (2022) e 6.23 (2023 ATL) = linhas do print dele
 MANUAIS = [  # níveis desenhados/citados por ele (valor, nome); manter atualizado ao receber prints
     (65900, "Região da Agulhada ago/2024 (topo)"), (65400, "Região da Agulhada ago/2024 (base)"),
-    (64450, "Linha laranja da Agulhada ago/2024"), (62600, "Linha Vermelha (dele, descendente: 62,8K em 13/11; 62,4K em 14/11)"), (59200,"Linha Laranja (dele, ~59,2K em 19/11; fundo de jul/2025; 🎯 do 686)"),
-    (61600, "Linha Ciano (dele, 343, descendente; ~61,6K em 19/11)"), (56918, "EMA2401 do Diário (print dele 25/11: 'ACIMA DA EMA2401' = suporte; nos dados a partir de 26/11)"),
+    (64450, "Linha laranja da Agulhada ago/2024"), (61800, "Linha Vermelha (dele, descendente: 62,8K em 13/11; 62,4K em 14/11; ~61,8K no print do 343 de 25/11 21:02)"), (59200,"Linha Laranja (dele, ~59,2K em 19/11; fundo de jul/2025; 🎯 do 686)"),
+    (61400, "Linha Ciano (dele, 343, descendente; ~61,6K em 19/11; ~61,4K em 25/11 21:02, com a MA49 do 343 chegando nela)"), (56918, "EMA2401 do Diário (print dele 25/11: 'ACIMA DA EMA2401' = suporte; nos dados a partir de 26/11)"),
     (67200, "Linha Azul Pontilhada (dele)"),
     (57600, "Linha Branca (dele, 343, descendente; ~57,7K em 20/11 19:52, tocada: mín 57.668; ~57,5-57,6K no print de 24/11 21:11; = MA686/EMA777 3D; 🎯 1 do short de 24/11 21:00; rebaixada a SUPORTE intermediário em 25/11 08:26: deve oferecer algum suporte)"),
     (57850, "Linha Vinho (dele, 686, ASCENDENTE: a linha roxa/vinho abaixo da amarela; 🍷 no print de 24/11 21:41 em ~57,8-57,9K; segurou o fundo de 20-21/11 no 686; destino dele nas próximas horas)"),
