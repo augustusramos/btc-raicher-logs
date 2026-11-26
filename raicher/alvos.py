@@ -12,7 +12,7 @@ import math
 from pathlib import Path
 
 LINHAS_ATIVAS = Path(__file__).resolve().parents[1] / "calibracao" / "linhas_ativas.json"
-VALIDADE_DIAS = 60  # linha que não aparece em print há mais que isso sai dos alvos
+VALIDADE_DIAS = None  # sem remoção automática por enquanto (Augustus 26/11: decidir depois)
 
 
 def linhas_inclinadas(quando=None):
@@ -22,7 +22,7 @@ def linhas_inclinadas(quando=None):
     agora = quando or (dt.datetime.now(dt.timezone.utc).replace(tzinfo=None) - dt.timedelta(hours=3))
     out = []
     for L in json.loads(LINHAS_ATIVAS.read_text())["linhas"]:
-        if (agora - dt.datetime.fromisoformat(L["visto_em"])).days > VALIDADE_DIAS:
+        if VALIDADE_DIAS and (agora - dt.datetime.fromisoformat(L["visto_em"])).days > VALIDADE_DIAS:
             continue
         (a, pa), (b, pb) = L["p1"], L["p2"]
         ta, tb = dt.datetime.fromisoformat(a), dt.datetime.fromisoformat(b)

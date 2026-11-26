@@ -1,5 +1,5 @@
 {
- "_sobre": "Linhas inclinadas ATIVAS (desenhadas pelo Dollynho/Raicher). Cada linha = reta em escala log entre p1 e p2 (data/hora Brasília, preço). O valor de hoje é calculado a cada Log por raicher/alvos.py. Ao receber print novo: atualizar p1/p2 (medir 2 pontos da linha) e visto_em. Linha sem aparecer em print há mais de 60 dias sai dos alvos.",
+ "_sobre": "Linhas inclinadas ATIVAS (desenhadas pelo Dollynho/Raicher). Cada linha = reta em escala log entre p1 e p2 (data/hora Brasília, preço). O valor de hoje é calculado a cada Log por raicher/alvos.py. Ao receber print novo: atualizar p1/p2 (medir 2 pontos da linha) e visto_em. Nenhuma linha é removida automaticamente (regra de remoção em discussão, 26/11).",
  "linhas": [
   {
    "nome": "Linha Vermelha",
