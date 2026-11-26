@@ -263,3 +263,7 @@ Base: estudo de 123 frases dele (calibracao/estudo_stoch_e_stop_ma7.md). Use os 
 - Ainda NÃO cruzou, mas K está a até ~4 pontos da D e indo na direção dela → "Stoch ensaiando um cruzamento bearish|bullish" (ele usa "ensaiando/ameaçando/querendo cruzar" antes do cruzamento em 72% dos casos).
 - Longe de cruzar → "Stoch segue no teto" / "segue no fundo" / "subindo" / "descendo".
 Não usar a leitura dele na vela em formação; divergência de redação vai só para o placar.
+
+
+## Linhas inclinadas sempre atualizadas (Augustus aprovou, 26/11 ~16:00) — VALE SEMPRE
+As linhas desenhadas por ele (e as trends de agulhadas do Raicher) ficam em calibracao/linhas_ativas.json como RETAS (p1 e p2 = data/hora Brasília + preço, escala log), não como número fixo. O raicher/alvos.py calcula o valor de cada uma NO HORÁRIO DO LOG; use esse valor (nunca um número antigo de print). Ao receber print novo: meça 2 pontos da linha e atualize p1/p2 e visto_em; linha nova = nova entrada; linha que ele apagou = remova. Linha sem aparecer em print há mais de 60 dias sai sozinha dos alvos. Horizontais (Agulhada 2024, EMA2401 etc.) seguem no MANUAIS do alvos.py. Linha Vinho (686, ascendente) ainda é número fixo: medir a inclinação no próximo print e passar para o JSON.

@@ -1,0 +1,181 @@
+{
+ "_sobre": "Linhas inclinadas ATIVAS (desenhadas pelo Dollynho/Raicher). Cada linha = reta em escala log entre p1 e p2 (data/hora Brasília, preço). O valor de hoje é calculado a cada Log por raicher/alvos.py. Ao receber print novo: atualizar p1/p2 (medir 2 pontos da linha) e visto_em. Linha sem aparecer em print há mais de 60 dias sai dos alvos.",
+ "linhas": [
+  {
+   "nome": "Linha Vermelha",
+   "autor": "dollynho",
+   "tf": "343m",
+   "p1": [
+    "2026-11-13 20:05",
+    62718
+   ],
+   "p2": [
+    "2026-11-26 09:09",
+    61960
+   ],
+   "visto_em": "2026-11-25",
+   "fonte": "print 343 de 23/11/2026 14:11 (medido por pixel, ~0,1%)",
+   "papel": "alvo do short de 03/11 (atingido 15/11), depois suporte/resistência; citada como 'Linha Vermelha'"
+  },
+  {
+   "nome": "Linha Ciano",
+   "autor": "dollynho",
+   "tf": "343m",
+   "p1": [
+    "2026-11-13 20:05",
+    62136
+   ],
+   "p2": [
+    "2026-11-26 09:09",
+    61411
+   ],
+   "visto_em": "2026-11-25",
+   "fonte": "print 343 de 23/11/2026 14:11 (medido por pixel, ~0,1%)",
+   "papel": "paralela abaixo da Vermelha; 'Linha Ciano'"
+  },
+  {
+   "nome": "Linha Branca",
+   "autor": "dollynho",
+   "tf": "343m",
+   "p1": [
+    "2026-11-13 20:05",
+    58073
+   ],
+   "p2": [
+    "2026-11-26 09:09",
+    57489
+   ],
+   "visto_em": "2026-11-25",
+   "fonte": "print 343 de 23/11/2026 14:11 (medido por pixel, ~0,1%)",
+   "papel": "destino ~57K em 20/11 ('QED! Chegamos na Linha Branca'); 🎯 1 do short de 24/11; suporte intermediário desde 25/11 08:26"
+  },
+  {
+   "nome": "Linha Branca Pontilhada",
+   "autor": "dollynho",
+   "tf": "343m",
+   "p1": [
+    "2026-11-13 20:05",
+    58191
+   ],
+   "p2": [
+    "2026-11-26 09:09",
+    57652
+   ],
+   "visto_em": "2026-11-25",
+   "fonte": "print 343 de 23/11/2026 14:11 (medido por pixel, ~0,1%)",
+   "papel": "par da Branca"
+  },
+  {
+   "nome": "Linha Verde Tracejada",
+   "autor": "dollynho",
+   "tf": "343m",
+   "p1": [
+    "2026-11-13 20:05",
+    56200
+   ],
+   "p2": [
+    "2026-11-26 09:09",
+    55162
+   ],
+   "visto_em": "2026-11-25",
+   "fonte": "print 343 de 23/11/2026 14:11 (medido por pixel, ~0,1%)",
+   "papel": "fundo de 21/11 ('Deixamos um fundo na Linha Verde Tracejada'); 🎯 2 do short de 24/11 21:00"
+  },
+  {
+   "nome": "Linha Amarela Tracejada",
+   "autor": "dollynho",
+   "tf": "343m",
+   "p1": [
+    "2026-11-13 20:05",
+    54940
+   ],
+   "p2": [
+    "2026-11-26 09:09",
+    53838
+   ],
+   "visto_em": "2026-11-25",
+   "fonte": "print 343 de 23/11/2026 14:11 (medido por pixel, ~0,1%)",
+   "papel": "abaixo do fundo; perto da rosquinha; 🎯 3 do short de 24/11 21:00"
+  },
+  {
+   "nome": "Linha Azul Pontilhada",
+   "autor": "dollynho",
+   "tf": "343m",
+   "p1": [
+    "2026-11-13 20:05",
+    67187
+   ],
+   "p2": [
+    "2026-11-26 09:09",
+    67432
+   ],
+   "visto_em": "2026-11-25",
+   "fonte": "print 343 de 23/11/2026 14:11 (medido por pixel, ~0,1%)",
+   "papel": "alvo do short atingido 14/11 ('Azul Pontilhada')"
+  },
+  {
+   "nome": "Linha Laranja fina (343)",
+   "autor": "dollynho",
+   "tf": "343m",
+   "p1": [
+    "2026-11-13 20:05",
+    66861
+   ],
+   "p2": [
+    "2026-11-26 09:09",
+    66161
+   ],
+   "visto_em": "2026-11-25",
+   "fonte": "print 343 de 23/11/2026 14:11 (medido por pixel, ~0,1%)",
+   "papel": "linha laranja fina no 343 (sem nome no texto)"
+  },
+  {
+   "nome": "Linha Branca Tracejada (topo)",
+   "autor": "dollynho",
+   "tf": "343m",
+   "p1": [
+    "2026-11-13 20:05",
+    70447
+   ],
+   "p2": [
+    "2026-11-26 09:09",
+    71135
+   ],
+   "visto_em": "2026-11-25",
+   "fonte": "print 343 de 23/11/2026 14:11 (medido por pixel, ~0,1%)",
+   "papel": "tracejada branca acima (sem nome no texto)"
+  },
+  {
+   "nome": "Trend das Agulhadas 29/07+07/09/2025 (Raicher)",
+   "autor": "raicher",
+   "tf": "343m",
+   "p1": [
+    "2025-07-29 14:09",
+    118273
+   ],
+   "p2": [
+    "2026-11-22 21:00",
+    55000
+   ],
+   "visto_em": "2026-11-22",
+   "fonte": "agulhada MA7/21/77 do 343 + toque citado por ele em 22/11 (~55,0K; mín 55.081)",
+   "papel": "suporte do fundo de 22/11"
+  },
+  {
+   "nome": "Trend das Agulhadas 03/03+16/10/2023 (Raicher)",
+   "autor": "raicher",
+   "tf": "686m",
+   "p1": [
+    "2023-03-03 08:26",
+    23317
+   ],
+   "p2": [
+    "2026-11-22 21:00",
+    57500
+   ],
+   "visto_em": "2026-11-22",
+   "fonte": "agulhada MA7/21/77 do 686 + valor citado por ele em 22/11 (~57,5K)",
+   "papel": "ascendente, suporte do fundo"
+  }
+ ]
+}

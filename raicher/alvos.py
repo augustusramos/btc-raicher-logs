@@ -6,24 +6,41 @@ Uso: python -m raicher.alvos --dados dados [--lado short|long] [--preco 68750]
 Não é recomendação: é a escada de médias do método. Só vale no fechamento.
 """
 import argparse
+import datetime as dt
 import json
+import math
 from pathlib import Path
+
+LINHAS_ATIVAS = Path(__file__).resolve().parents[1] / "calibracao" / "linhas_ativas.json"
+VALIDADE_DIAS = 60  # linha que não aparece em print há mais que isso sai dos alvos
+
+
+def linhas_inclinadas(quando=None):
+    """Valor ATUAL (escala log) de cada linha inclinada registrada em calibracao/linhas_ativas.json."""
+    if not LINHAS_ATIVAS.exists():
+        return []
+    agora = quando or (dt.datetime.now(dt.timezone.utc).replace(tzinfo=None) - dt.timedelta(hours=3))
+    out = []
+    for L in json.loads(LINHAS_ATIVAS.read_text())["linhas"]:
+        if (agora - dt.datetime.fromisoformat(L["visto_em"])).days > VALIDADE_DIAS:
+            continue
+        (a, pa), (b, pb) = L["p1"], L["p2"]
+        ta, tb = dt.datetime.fromisoformat(a), dt.datetime.fromisoformat(b)
+        f = (agora - ta).total_seconds() / (tb - ta).total_seconds()
+        val = round(pa * math.exp(math.log(pb / pa) * f))
+        por_dia = round(val * math.log(pb / pa) / ((tb - ta).total_seconds() / 86400))
+        out.append((val, f"{L['nome']} ({L['tf']}, {'+' if por_dia >= 0 else ''}{por_dia}/dia, visto {L['visto_em']}; {L['papel']})"))
+    return out
 
 TFS = ["343m", "686m", "1D", "2D", "3D", "1W", "1M"]
 PESO = {"manual": 2, "343m": 1, "686m": 1, "1D": 2, "2D": 2, "3D": 2, "1W": 3, "1M": 4}
 RSI_LINHAS = [23.67, 13.53, 6.23]  # 23.67 Suporte Histórico; 13.53 (2022) e 6.23 (2023 ATL) = linhas do print dele
 MANUAIS = [  # níveis desenhados/citados por ele (valor, nome); manter atualizado ao receber prints
     (65900, "Região da Agulhada ago/2024 (topo)"), (65400, "Região da Agulhada ago/2024 (base)"),
-    (64450, "Linha laranja da Agulhada ago/2024"), (61800, "Linha Vermelha (dele, descendente: 62,8K em 13/11; 62,4K em 14/11; ~61,8K no print do 343 de 25/11 21:02)"), (59200,"Linha Laranja (dele, ~59,2K em 19/11; fundo de jul/2025; 🎯 do 686)"),
-    (61400, "Linha Ciano (dele, 343, descendente; ~61,6K em 19/11; ~61,4K em 25/11 21:02, com a MA49 do 343 chegando nela)"), (56918, "EMA2401 do Diário (print dele 25/11: 'ACIMA DA EMA2401' = suporte; nos dados a partir de 26/11)"),
-    (67200, "Linha Azul Pontilhada (dele)"),
-    (57600, "Linha Branca (dele, 343, descendente; ~57,7K em 20/11 19:52, tocada: mín 57.668; ~57,5-57,6K no print de 24/11 21:11; = MA686/EMA777 3D; 🎯 1 do short de 24/11 21:00; rebaixada a SUPORTE intermediário em 25/11 08:26: deve oferecer algum suporte)"),
+    (64450, "Linha laranja da Agulhada ago/2024"), (59200,"Linha Laranja (dele, ~59,2K em 19/11; fundo de jul/2025; 🎯 do 686)"),
+    (56918, "EMA2401 do Diário (print dele 25/11: 'ACIMA DA EMA2401' = suporte; nos dados a partir de 26/11)"),
     (57850, "Linha Vinho (dele, 686, ASCENDENTE: a linha roxa/vinho abaixo da amarela; 🍷 no print de 24/11 21:41 em ~57,8-57,9K; segurou o fundo de 20-21/11 no 686; destino dele nas próximas horas)"),
-    (55300, "Linha Verde Tracejada (dele, 343, descendente; ~55,6K em 21/11, ~55,3K no print de 24/11 21:11; 🎯 2 do short de 24/11 21:00)"),
-    (53950, "Linha Amarela Tracejada (dele, 343, descendente; ~53,9-54,0K no print de 25/11 08:31; 🍯 🎯 3 do short de 24/11 21:00)"),
     (50000, "MA42 do 2M (Raicher 19/11: '2 Month Double Bottom', ~50K, não tocada)"),
-    (57500, "Trend das Agulhadas 03/03+16/10/2023 (Raicher 22/11, 686, ASCENDENTE ~+1,2K/mês; ~57,5K em 22/11; suporte do fundo)"),
-    (55000, "Trend das Agulhadas 29/07+07/09/2025 (Raicher 22/11, 343, DESCENDENTE ~-80/dia; ~55,0K em 22/11; tocada no fundo 55.081)"),
 ]
 COLADO = 0.25   # % -> nível "colado" no preço (já testando/perdido agora)
 AGRUPA = 1.0    # % -> níveis a até 1% um do outro formam um cluster
@@ -48,7 +65,7 @@ def niveis(d: dict, preco: float, lado: str):
             dist = (val / preco - 1) * 100
             if (lado == "short" and dist < 0) or (lado == "long" and dist > 0):
                 res.append({"tf": tf, "nome": nome.upper(), "valor": round(val), "dist_pct": round(dist, 2)})
-    for val, nome in MANUAIS:
+    for val, nome in MANUAIS + linhas_inclinadas():
         dist = (val / preco - 1) * 100
         if (lado == "short" and dist < 0) or (lado == "long" and dist > 0):
             res.append({"tf": "manual", "nome": nome.upper(), "valor": val, "dist_pct": round(dist, 2)})
