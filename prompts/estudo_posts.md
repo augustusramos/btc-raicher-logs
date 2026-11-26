@@ -34,5 +34,5 @@ Os Logs automáticos (que têm acesso ao repositório) juntam esses arquivos ao 
       - NUNCA remova linhas (regra de remoção ainda em discussão com o Augustus).
       - Médias móveis (MA/EMA rotuladas) não são linhas desenhadas: ignore.
       - Se a medição não for confiável, anote em "pendencias" (data, post, motivo) e siga.
-6. Salve o JSON pelo GitHub no Chrome (ver "Atenção" acima) — só se houver post novo. Feche as abas que você abriu.
-7. Se houve post novo de análise, mande ao Augustus com SendUserMessage um resumo de no máximo 4 linhas em português: quantos posts, se a posição dele bateu com a nossa, linhas atualizadas/novas. Sem post novo: não mande mensagem.
+6. Salve o JSON pelo GitHub no Chrome (ver "Atenção" acima) se houver post novo OU qualquer linha medida (inclusive das pendentes) OU pendência nova. Só termine sem salvar se não houve nada disso. Feche as abas que você abriu.
+7. Se houve post novo de análise ou linhas medidas, mande ao Augustus com SendUserMessage um resumo de no máximo 4 linhas em português: quantos posts, se a posição dele bateu com a nossa, linhas atualizadas/novas. Sem post novo: não mande mensagem.
