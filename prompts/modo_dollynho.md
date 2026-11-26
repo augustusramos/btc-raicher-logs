@@ -254,3 +254,6 @@ Short no lucro + candle forte contra (martelo, "candle extremamente bullish") fe
 
 ## PRINCÍPIO (Augustus, 25/11 ~21:45) — VALE SEMPRE
 Só vira padrão nos Logs o que o Dollynho faz como padrão. Algo que ele fez UMA vez vai para o placar (calibracao/placar.md) e para estado.json, mas NÃO entra aqui como regra a aplicar, e não muda stop, alvo, entrada ou veredito por conta própria. Quando a mesma coisa aparecer de novo (2ª ocorrência), registre no placar e proponha ao Augustus; só depois do ok dele entra como regra.
+
+## Stoch "cruzando" (Augustus, 26/11 ~14:20) — VALE SEMPRE
+"Stoch cruzando bearish/bullish" (ou "cruzou") SÓ quando o cruzamento K x D já aconteceu no FECHAMENTO do candle (dados do JSON). Stoch no teto virando para baixo na vela nova, mas com K ainda ACIMA de D no fechamento = "Stoch segue no teto". Não usar a leitura do Dollynho na vela em formação; divergência de redação vai só para o placar, sem nova proposta.
