@@ -118,7 +118,7 @@
       "próximo: MA1617 1D (61.432) em confluência com MA231 1W (61.316)/MA539 3D (61.485)"
     ],
     "stop": "ajustado para ponto de ganho (valor não informado); referência do método: fechamento diário ACIMA da MA343 (~75.163) / MA7 (~73.281)",
-    "atualizado": "2026-11-25 21:00",
+    "atualizado": "2026-11-25 21:18 (post dele)",
     "observacao": "25/11 21:00: Log 339 (Diário abre o lote; nossa contagem). 59.743→60.382 (+1,07%), máx 60.481, mín 57.209. | 21/11 21:00: Log 335 (Diário abre o lote; nossa contagem). 58.808→60.078 (+2,15%), máx 60.883, mín 55.081. RSI 22,54 < Média 26,58. Stoch K 9,39 > D 7,52 cruzou bullish (confirma/anula 22/11). | 20/11 21:00: Log 334 (2D abre o lote; nossa contagem). | 19/11 21:00: Log 333 (Diário abre o lote; nossa contagem). | 18/11 21:00: Log 333 (2D abre o lote; nossa contagem). | 17/11 21:00: Log 332 (Diário abre o lote; nossa contagem). | 15/11 21:00: Log 330 (Semanal abre o lote). | 14/11 21:00: RSI 19.91 < Média 35.42, PERDEU o 23.67 (confirma/anula 15/11). Stoch 0.00/D 1.27 totalmente arrefecido. Log 329 = lote 14/11 (2D abre). | 13/11 21:00: RSI 24.68 < Média 36.53, CONFIRMOU ABAIXO dos 30. Stoch 1.91/D 4.37 não zerou. Log 328 = Diário 13/11. | 12/11 21:00: RSI 29.75 < Média 37.22, PERDEU os 30 (confirma/anula 13/11). Stoch 1.91/D 7.18 ZERADO. Log 327 = Diário 12/11. | 11/11 21:00: fechou 73.915 (+0,29%). RSI 35.15 < Média 37.66, CONFIRMOU ABAIXO dos Dips (35.74). Stoch 9.29 ABAIXO de 20, ainda não zerou. | Nosso Log de 10/11 21:00 liquidou o trade; ele realizou parciais e manteve. Stoch do Diário quase zerado: 'cuidado aos comprados'.",
     "entrada": {
       "lado": "short",
@@ -127,7 +127,8 @@
       "preco": null
     },
     "rsi_atl": 9.63,
-    "suportes_ciclo_dollynho": "EMA2401 ~56,9K → MA2401 ~52,7K (fundo do último ciclo) → MA2744 ~47,3K (24/11 21:00)"
+    "suportes_ciclo_dollynho": "EMA2401 ~56,9K → MA2401 ~52,7K (fundo do último ciclo) → MA2744 ~47,3K (24/11 21:00)",
+    "dollynho_25_11": "DIÁRIO 25/11 21:00: 'Seguimos ABAIXO da MA7, mas deixamos um candle extremamente bullish, acima de outro já mais bullish ainda!!'; 'bounce na Média do RSI'; 'StochRSI segue indo testar a Resistência Superior'; 'o parâmetro segue sendo a MA7/EMA7. Abaixo delas seguimos bearish.' Print: ACIMA da EMA2401 (56.918) = suporte; RSI Suporte Inferior do Diário marcado em 41,86."
   },
   "1W": {
     "postura": "sem trade",
