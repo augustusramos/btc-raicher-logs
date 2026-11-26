@@ -31,3 +31,12 @@ Acerto = linha dele a até 0,3% de uma linha do sistema, com a mesma inclinaçã
 - Janela 90 dias, penalidade 0,5: 63/253 linhas dele (25%); escolhendo 10 ao acaso entre as mesmas candidatas: 58,6/253.
 - Janela 180 dias, penalidade 2: 65/253; acaso 58,6/253.
 Conclusão: o critério "linhas mais respeitadas" NÃO escolhe as linhas dele melhor que o acaso. Ele não escolhe as linhas por toques passados; a escolha dele não aparece nos dados.
+
+## Rótulos nos textos e teste das agulhadas (26/11)
+Textos que dizem de onde a linha sai:
+- Raicher 06/12/2025: "linha Amarela (que conecta a agulhada de 7 Set com 2 Dez)".
+- Raicher 22/11/2026: "a trend que tocamos (perfeitamente) é a linha da Agulhada de 29 de Julho de 2025 com a de 7 de Setembro de 2025"; outra une "a Agulhada de 3 de Março de 2023 com a única agulhada quádrupla e quíntupla desse intervalo".
+- Dollynho 31/01/2026: "linha das Agulhadas de 2025-SET e 2025-DEZ" (~77.250).
+Conferência: agulhadas MA 7/21/77 do 343 em 29/07/2025 08:26 (spread 0,13%) e 07/09/2025 19:52 (0,04%) → reta dá 54.795 em 22/11/2026; Raicher marcou ~55,0K (mín. tocada 55.081). Erro 0,4% em 16 meses: CONFIRMADO para o Raicher.
+Teste geral (tools/agulhadas_consecutivas.py): ligar agulhadas (vizinhas ou quaisquer) reproduz de 1% a 64% das linhas do Dollynho, sempre perto do que daria ao acaso (melhor caso: EMA 7/21/77 com até 3 vizinhas, 10% contra 4% ao acaso).
+Conclusão: linhas de agulhadas são uma ferramenta real (Raicher usa e diz quais), mas não explicam a maioria das linhas do Dollynho. Útil como recurso próprio do sistema: "linha das agulhadas" automática, no estilo Raicher.
