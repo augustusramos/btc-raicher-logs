@@ -238,9 +238,11 @@ Até a noite, senhores!
 Teste no histórico (tools/teste_espaco_queda.py, 33 casos dele): acerta 25 de 33 (76%); fora de trade aberto, 25 de 30 (83%). Erros: fim de dez/2025 com RSI colado na Média (ele esperou squeeze/agulhada) e Stoch alto no 686 com RSI ACIMA da Média (02/27).
 - Leitura de nível: RSI entre 40,54 e 43,6 (acabou de perder o Suporte Inferior) = "RSI na Região dos Traps!" ⬇️/↔️ conforme o resto.
 
-## 25/11 14:09 (SUSPENSA — Augustus 25/11 ~21:45: NÃO aplicar; só vira regra se ele repetir): martelo contra o short = stop na MA7
-NÃO suba o stop por conta própria com base nesta seção. Se ele voltar a fazer isso, registre no placar como 2ª ocorrência e pergunte ao Augustus.
-Short no lucro + candle forte contra (martelo, "candle extremamente bullish") fechando ABAIXO da MA7 e colado nela (< ~0,5%), com a MA7 já ABAIXO da entrada: ele mantém o short mas sobe o stop para a MA7 no mesmo fechamento ("Nosso stop passa a ser a MA7", ganho garantido). Linha de posição: "Apesar do candle bullish, mantemos o short: ❌ MA7 (valor); 🎯 RSI 23.67; 🎯 Verde Tracejada (valor)." RSI que volta à Região dos Traps depois de um mergulho = "RSI fechou na Região dos Traps, suspeito...;" (↔️). Stoch virando perto do 0 sem zerar = "🚨 Stoch não chegou a zerar, ensaiando um cruzamento." Fecho do 14:09: "Boa tarde, amiguinhos." também vale.
+## Stop na MA7 no lucro (Augustus aprovou, 26/11 ~15:50) — VALE SEMPRE (substitui a regra suspensa do "martelo")
+Base: 10 casos dele com candle forte contra o short fechando colado à MA7 (calibracao/estudo_stoch_e_stop_ma7.md). O gatilho é o LUCRO, não o formato do candle:
+- Short no lucro (MA7 já abaixo da entrada, ou alvo já atingido) → stop na MA7 (/EMA7), garantindo ganho. Ele fez isso nas 5 vezes em que estava no lucro.
+- Short recém-aberto / sem lucro → stop segue na MA21 (ou na média de stop declarada), mesmo com candle forte contra. Ele manteve nas 5 vezes.
+- Long: espelho (no lucro, stop na MA7 abaixo do preço).
 
 ## 25/11 21:00 (Augustus aprovou, 25/11 ~21:30) — VALE SEMPRE
 1. **2D aberto na véspera do fechamento.** Às 21:00 de dia SEM fechamento do 2D (o 2D fecha em dias alternados: 24/11, 26/11, 28/11...), o lote abre com "Log N." + "DOIS DIAS" sobre o candle 2D ainda ABERTO (fecha amanhã às 21:00), antes do "DIÁRIO" e do "686 e 343". Rode `python tools/bilau_intracandle.py --dados dados` (RSI/Stoch do 2D aberto na mínima, no fechamento e na máxima do dia). Linhas no estilo dele: "Temos 24 horas para fechar esse candle;" + o que o 2D aberto mostra (RSI x Bilau 25,78, Stoch x 20,44, MA7/MA777 do 2D) + "Amanhã o dia será decisivo!". Se "bbb_durante_o_dia" = true e o RSI voltou acima de 25,78: "O BBB foi tocado durante o dia (RSI 2D 24,6 na mínima) e já voltou;" ⬆️. Em dia de fechamento do 2D vale a regra antiga (2D fechado abre o lote).
@@ -255,5 +257,9 @@ Short no lucro + candle forte contra (martelo, "candle extremamente bullish") fe
 ## PRINCÍPIO (Augustus, 25/11 ~21:45) — VALE SEMPRE
 Só vira padrão nos Logs o que o Dollynho faz como padrão. Algo que ele fez UMA vez vai para o placar (calibracao/placar.md) e para estado.json, mas NÃO entra aqui como regra a aplicar, e não muda stop, alvo, entrada ou veredito por conta própria. Quando a mesma coisa aparecer de novo (2ª ocorrência), registre no placar e proponha ao Augustus; só depois do ok dele entra como regra.
 
-## Stoch "cruzando" (Augustus, 26/11 ~14:20) — VALE SEMPRE
-"Stoch cruzando bearish/bullish" (ou "cruzou") SÓ quando o cruzamento K x D já aconteceu no FECHAMENTO do candle (dados do JSON). Stoch no teto virando para baixo na vela nova, mas com K ainda ACIMA de D no fechamento = "Stoch segue no teto". Não usar a leitura do Dollynho na vela em formação; divergência de redação vai só para o placar, sem nova proposta.
+## Stoch "cruzando" (Augustus, 26/11 ~14:20; ampliada 26/11 ~15:50) — VALE SEMPRE
+Base: estudo de 123 frases dele (calibracao/estudo_stoch_e_stop_ma7.md). Use os dados do JSON no FECHAMENTO:
+- K x D cruzou no fechamento (ou já está cruzado) → "Stoch cruzando/cruzou bearish|bullish" (ele: "cruzou" = 94% confirmado).
+- Ainda NÃO cruzou, mas K está a até ~4 pontos da D e indo na direção dela → "Stoch ensaiando um cruzamento bearish|bullish" (ele usa "ensaiando/ameaçando/querendo cruzar" antes do cruzamento em 72% dos casos).
+- Longe de cruzar → "Stoch segue no teto" / "segue no fundo" / "subindo" / "descendo".
+Não usar a leitura dele na vela em formação; divergência de redação vai só para o placar.

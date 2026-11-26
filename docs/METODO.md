@@ -132,3 +132,8 @@ Primeiro post no formato atual: 21/12/2025 (SEMANAL, domingo). "Log 7" em 27/12/
 - Registro de resultado (% de cada entrada/saída, dele e nossa) para medir lucratividade, não só concordância.
 - Detecção de divergência menos rígida (ele viu 10 que o nosso cálculo não marcou entre 21 e 23/11).
 - Plataforma: página automática no GitHub, Logs gerados via API, canal no Telegram; marca própria e consulta jurídica (CVM) antes de cobrar.
+
+
+### Atualização 26/11
+- Stoch: "cruzou/cruzando" só com cruzamento no fechamento; quase encostando (≤ ~4 pontos e convergindo) = "ensaiando um cruzamento".
+- Stop: no lucro (MA7 além da entrada ou alvo atingido) → stop na MA7; trade sem lucro → stop segue na MA21 mesmo com candle forte contra.
