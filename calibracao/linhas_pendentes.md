@@ -1,0 +1,2 @@
+- 2026-11-26: medição das linhas não feita nesta execução — o ambiente da tarefa não alcança pbs.twimg.com (bloqueado pelo proxy) e o Chrome não passa a imagem para o ambiente; imagens a medir: Log 337/338/339 e posts de 24-26/11 com gráfico (arquivos em posts.dollynho[*][3]). Medir no próximo Log com acesso.
+- 2026-11-26: Raicher — 3 posts novos sem gráfico ("A linha do 686 é muito mais importante...", "Precisamos ganhar a MA231 nesta semana...", Thanksgiving); textos aparecem truncados ("Mostrar mais") na busca — conferir o texto completo se for usar no placar.
