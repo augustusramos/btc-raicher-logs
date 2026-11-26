@@ -238,7 +238,8 @@ Até a noite, senhores!
 Teste no histórico (tools/teste_espaco_queda.py, 33 casos dele): acerta 25 de 33 (76%); fora de trade aberto, 25 de 30 (83%). Erros: fim de dez/2025 com RSI colado na Média (ele esperou squeeze/agulhada) e Stoch alto no 686 com RSI ACIMA da Média (02/27).
 - Leitura de nível: RSI entre 40,54 e 43,6 (acabou de perder o Suporte Inferior) = "RSI na Região dos Traps!" ⬇️/↔️ conforme o resto.
 
-## 25/11 14:09 (aprendizado, provisório 1x): martelo contra o short = stop na MA7
+## 25/11 14:09 (SUSPENSA — Augustus 25/11 ~21:45: NÃO aplicar; só vira regra se ele repetir): martelo contra o short = stop na MA7
+NÃO suba o stop por conta própria com base nesta seção. Se ele voltar a fazer isso, registre no placar como 2ª ocorrência e pergunte ao Augustus.
 Short no lucro + candle forte contra (martelo, "candle extremamente bullish") fechando ABAIXO da MA7 e colado nela (< ~0,5%), com a MA7 já ABAIXO da entrada: ele mantém o short mas sobe o stop para a MA7 no mesmo fechamento ("Nosso stop passa a ser a MA7", ganho garantido). Linha de posição: "Apesar do candle bullish, mantemos o short: ❌ MA7 (valor); 🎯 RSI 23.67; 🎯 Verde Tracejada (valor)." RSI que volta à Região dos Traps depois de um mergulho = "RSI fechou na Região dos Traps, suspeito...;" (↔️). Stoch virando perto do 0 sem zerar = "🚨 Stoch não chegou a zerar, ensaiando um cruzamento." Fecho do 14:09: "Boa tarde, amiguinhos." também vale.
 
 ## 25/11 21:00 (Augustus aprovou, 25/11 ~21:30) — VALE SEMPRE
@@ -250,3 +251,6 @@ Short no lucro + candle forte contra (martelo, "candle extremamente bullish") fe
    - 343: baliza = Resistência Inferior do RSI (50) (estado.json 343m.baliza; Dollynho 25/11 21:00: "Nossa baliza aqui é a Resistência Inferior... Abaixo dela, seguimos bearish"). RSI ABAIXO de 50 = BEARISH ⬇️ mesmo ACIMA da MA21 (ressalva: "(ACIMA da MA21, mas ABAIXO da Resistência Inferior)"); RSI ACIMA de 50 com o 343 ACIMA da MA21 = BULLISH ⬆️ e gatilho de long. Troque a baliza quando ele declarar outra.
 4. **Suporte do Diário: EMA2401.** A partir de 26/11 a MA2401/EMA2401 estão nos dados (config). Quando o preço estiver entre a MA1617 e a EMA2401, o suporte do Diário na linha de posição é a EMA2401 (valor do JSON 1D; 56,9K em 25/11), como no print dele ("ACIMA DA EMA2401"). Abaixo dela, os suportes de ciclo dele: MA2401 (~52,8K, fundo do último ciclo) → MA2744 (~47,3K).
 5. **Bear trap na Média do RSI.** Se o RSI do timeframe fechou ABAIXO da Média num dos 3 fechamentos anteriores (ver Logs/estado.json) e agora fechou de volta ACIMA dela, escreva "👀 Belo bear trap na Média do RSI;" ⬆️ (no lugar de "RSI ACIMA da Média"). O inverso (fechou acima e voltou abaixo) = "Bull trap na Média do RSI;" ⬇️. Vale para 343, 686 e Diário.
+
+## PRINCÍPIO (Augustus, 25/11 ~21:45) — VALE SEMPRE
+Só vira padrão nos Logs o que o Dollynho faz como padrão. Algo que ele fez UMA vez vai para o placar (calibracao/placar.md) e para estado.json, mas NÃO entra aqui como regra a aplicar, e não muda stop, alvo, entrada ou veredito por conta própria. Quando a mesma coisa aparecer de novo (2ª ocorrência), registre no placar e proponha ao Augustus; só depois do ok dele entra como regra.
