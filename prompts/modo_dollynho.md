@@ -274,3 +274,10 @@ A tarefa "Estudo dos posts" roda no computador do Augustus e grava em calibracao
 
 ## MA7 x MA21 do 343 cruzando (Augustus aprovou, 26/11 ~20:10) — VALE SEMPRE
 Base: 4 citações dele (22/11 14:09, 24/11 19:52, 24/11 21:00, 26/11 19:52). Quando o 343m.json trouxer em `ma_crosses` o par "MA7 x MA21" com "cruzando": true e gap < ~1% (ainda sem cruzar), o bloco do 343 ganha a linha "👀 MA7 está cruzando bullish|bearish a MA21; a confirmar." (direção = campo "direcao"; seta ⬆️ se bullish, ⬇️ se bearish). Entra logo depois da linha de preço x média. Não repetir no fechamento seguinte se o gap só mudou um pouco e nada cruzou. É leitura, não gatilho: não muda a ⚖️, o stop nem a entrada.
+
+## BILAU ENCERRADO (Augustus, 26/11 ~21:15) — VALE SEMPRE, substitui tudo sobre o Bilau acima
+"Esqueça o Bilau, ele já passou, foi apenas um ponto de compra que já foi." O BBB do 2D (14/11, 18/11; tocado intracandle 25/11) foi um PONTO DE COMPRA, não um regime. A partir de 26/11 21:00:
+- A regra 1 da tabela de decisão (Bilau 2D ativo = sem short novo), a regra C da DECISÃO DE POSIÇÃO e as frases "daqui pra baixo só compra / sem short novo" NÃO valem mais. Não citar o Bilau como veto de short nem como viés nas linhas de posição, 🧭 ou ⚖️.
+- Shorts voltam a seguir o padrão normal (rejeição/perda da MA7/EMA7 + RSI + Stoch) e, principalmente, os gatilhos que ele declarar: 26/11 21:00 "Shortarei se perdermos a MA21" (343, estado.json 343m.gatilho_short_dollynho) e "Shortarei perdendo a MA7" (686, 686m.gatilho_short_dollynho); 14:09 "A perda da MA7/EMA7 enseja novo short". Fechou além do gatilho dele → ⚖️ ABRIR SHORT no fechamento, stop na média recuperada acima (MA7/EMA7 no 686; MA7/EMA7 ou EMA21 no 343, o que ele indicar), e o Log diz a entrada.
+- O Bilau só volta a ser citado se um NOVO BBB se formar no 2D (preço < MA200 2D + RSI 2D < 25,78 + Stoch 2D < 20,44) — aí é ponto de compra de longo prazo, uma linha no bloco do 2D.
+- Compras de longo prazo dele (ex.: 26/11 "boa entrada qualquer ponto ABAIXO da MA7 do 2D") podem aparecer numa linha do 2D, sem mudar a ⚖️ do trade 343/686.

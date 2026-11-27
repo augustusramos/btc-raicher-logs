@@ -64,7 +64,7 @@ Limites conhecidos: a sessão não acessa a Bitstamp direto (proxy); os dados v�
 
 Aplicada só aos números do JSON e ao `estado.json`, nesta ordem:
 
-1. **Bilau 2D ativo** (vale até o RSI 2D voltar acima da Média do RSI 2D): viés de compra, sem short novo; short aberto só vai até o alvo ou o stop.
+1. ~~Bilau 2D ativo = sem short novo~~ — ENCERRADO em 26/11 (Augustus: o Bilau foi um ponto de compra, não um regime). Só volta a ser citado se um novo BBB se formar no 2D.
 2. **RSI do timeframe abaixo de 23,67:** sem short novo.
 3. **Stoch cruzando para cima abaixo de 20 com RSI abaixo de 30:** esgotamento da queda.
 4. **Long:** 343 fechando acima da MA7/EMA7 com RSI acima do Suporte Inferior (~43,6), Stoch fora do teto e 686 do mesmo lado da MA7. Alternativa preferida: recuo do RSI à Média/23,67 com divergência de alta. Com a MA21 do 343 a menos de ~2% acima, exige fechar acima da MA21.
