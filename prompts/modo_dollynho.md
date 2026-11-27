@@ -317,3 +317,6 @@ Entradas aqui são bastante arriscadas. Perdendo a MA21 (60,3K), entrada short.
 343: BEARISH ⬇️ (EMA7 e MA21 seguraram)
 
 Boa noite, senhores!
+
+## Entrada no recuo com Stoch na Máxima (Augustus aprovou, 27/11 ~09:00) — VALE SEMPRE
+Base: 2 ocorrências dele (26/11 08:26 "Seguimos fora, considerando possível entrada na MA7."; 27/11 08:26 "Possível entrada na MA7/MA49."). Quando o gatilho de long pela baliza fechou (343: RSI ACIMA de 50 + ACIMA da MA21) mas a ⚖️ é FICAR DE FORA por causa do Stoch na Máxima, a linha de ação do bloco diz ONDE fica a entrada no recuo, no lugar do 🎯: "Seguimos fora. Possível entrada na MA7/MA49 (60,9K)." Médias = as que estão logo abaixo do preço servindo de suporte (MA7, ou MA7 + MA49/EMA7 quando coladas, <= ~0,3%); 1 número só (valor da média, ou o meio do grupo, do JSON do 343). O 🎯 continua só nas notas internas. Espelho para short (gatilho de short fechado com Stoch zerado): "Seguimos fora. Possível entrada short na MA7 (valor)." Não muda a ⚖️, o stop nem a entrada registrada em estado.json.
