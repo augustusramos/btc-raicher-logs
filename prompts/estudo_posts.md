@@ -20,7 +20,7 @@ Os Logs automáticos (que têm acesso ao repositório) juntam esses arquivos ao 
    - texto = innerText do article (sem contadores); imagens = arquivos de pbs.twimg.com/media/<arquivo> (+ extensão do format=).
    Guarde só os posts com id MAIOR que o ultimo_id. Se aparecer "Algo deu errado" (limite do X), espere 60 s e tente uma vez.
 4. Junte os posts novos (id maior que o ultimo_lido, considerando também os arquivos já existentes em calibracao/historico/novos/) e o novo ultimo_lido no JSON desta execução.
-5. Antes, meça também as imagens PENDENTES de calibracao/linhas_pendentes.md (as que ainda não foram medidas), do jeito do item 5b; ao medir, escreva no JSON em "resolvidas" quais pendências foram resolvidas.
+5. Pendentes (calibracao/linhas_pendentes.md): NUNCA apague nada da lista. Em cada execução, depois dos posts novos, meça até 2 imagens pendentes, primeiro as de Diário/2D/3D/Semanal (podem ter linhas que ainda não temos); um 343/686 antigo cujas linhas já foram medidas num print mais novo pode ficar para o fim, mas continua na lista. Ao medir, confira se cada linha ainda faz sentido (bate com linhas_ativas.json? ainda aparece nos prints novos?) e escreva em "resolvidas" o que foi medido e o que viu.
    Para cada post novo de análise (começa com 343, 686, "686 e 343", Log, Diário, Semanal, DOIS DIAS, ou tem gráfico):
    a. Placar: compare com o nosso Log do mesmo fechamento (logs/ e calibracao/placar.md) e escreva no JSON UMA linha de placar no formato das anteriores (igual / divergente / o que aprender). Não crie regra nova; 2ª ocorrência de algo = escreva "proposta ao Augustus" na linha.
    b. Linhas: a imagem NÃO chega ao ambiente da tarefa (pbs.twimg.com é bloqueado lá). Meça DENTRO do Chrome:
