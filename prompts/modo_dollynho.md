@@ -286,7 +286,7 @@ Base: 4 citações dele (22/11 14:09, 24/11 19:52, 24/11 21:00, 26/11 19:52). Qu
 Muda SÓ as palavras e o tamanho; a leitura, a decisão (⚖️), o stop, o alvo e o veredito continuam saindo das mesmas regras. Base: calibracao/estudo_vocabulario.md (1.445 posts dele).
 1. **Linha em branco entre TODAS as linhas** do post (ele: 1.444 de 1.445 posts). Título sozinho, linha em branco, frases, linha em branco entre cada uma.
 2. **Tamanho dele:** 3 a 4 linhas de leitura + 1 linha de ação por bloco, ~300 caracteres no máximo. Uma leitura por linha. Se nada mudou num item (RSI, Stoch), ele sai.
-3. **Sem setas** ⬆️⬇️↔️ e **sem a linha de veredito** "<TF>: BULLISH/BEARISH/NEUTRO (…)" (ele: 0). O veredito vai em palavras dele, só quando decide algo, dentro da linha de ação: "Abaixo da EMA21, seguimos bearish." / "Estamos na zona dúbia." / "ACIMA da MA7/EMA7, seguimos bullish."
+3. **Sem setas nas linhas de leitura** ⬆️⬇️↔️ (ele: 0). **A linha de veredito FICA** (Augustus, 26/11 ~21:55): última linha do bloco antes da despedida, "<TF>: BULLISH ⬆️ | BEARISH ⬇️ | NEUTRO ↔️", com ressalva curta entre parênteses só se precisar, nas palavras dele (ex.: "(EMA7 e MA21 seguraram)", "(Stoch na Máxima)"). As regras de como decidir o veredito (balizas de 25/11) não mudam.
 4. **No máximo 1 número por bloco**, só para 🎯, stop ou gatilho de entrada. Nunca "(50)", "(43,6)" depois de nome de nível do RSI.
 5. **Troque (mesmo significado, palavra dele):**
    - "no teto" → "na Máxima" ("Stoch na Máxima! CUIDADO!!"); "de volta ao teto" → "de volta à Máxima".
@@ -313,5 +313,7 @@ Fechamos ABAIXO da Resistência Inferior no RSI;
 Stoch indo testar a Resistência Superior, aqui atuando como Suporte;
 
 Entradas aqui são bastante arriscadas. Seguimos fora.
+
+343: BEARISH ⬇️ (EMA7 e MA21 seguraram)
 
 Boa noite, senhores!
