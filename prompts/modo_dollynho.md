@@ -281,3 +281,37 @@ Base: 4 citações dele (22/11 14:09, 24/11 19:52, 24/11 21:00, 26/11 19:52). Qu
 - Shorts voltam a seguir o padrão normal (rejeição/perda da MA7/EMA7 + RSI + Stoch) e, principalmente, os gatilhos que ele declarar: 26/11 21:00 "Shortarei se perdermos a MA21" (343, estado.json 343m.gatilho_short_dollynho) e "Shortarei perdendo a MA7" (686, 686m.gatilho_short_dollynho); 14:09 "A perda da MA7/EMA7 enseja novo short". Fechou além do gatilho dele → ⚖️ ABRIR SHORT no fechamento, stop na média recuperada acima (MA7/EMA7 no 686; MA7/EMA7 ou EMA21 no 343, o que ele indicar), e o Log diz a entrada.
 - O Bilau só volta a ser citado se um NOVO BBB se formar no 2D (preço < MA200 2D + RSI 2D < 25,78 + Stoch 2D < 20,44) — aí é ponto de compra de longo prazo, uma linha no bloco do 2D.
 - Compras de longo prazo dele (ex.: 26/11 "boa entrada qualquer ponto ABAIXO da MA7 do 2D") podem aparecer numa linha do 2D, sem mudar a ⚖️ do trade 343/686.
+
+## VOCABULÁRIO E FORMATO DO DOLLYNHO (Augustus, 26/11 ~21:45) — VALE SEMPRE; SUBSTITUI o formato de 23/11 onde conflitar
+Muda SÓ as palavras e o tamanho; a leitura, a decisão (⚖️), o stop, o alvo e o veredito continuam saindo das mesmas regras. Base: calibracao/estudo_vocabulario.md (1.445 posts dele).
+1. **Linha em branco entre TODAS as linhas** do post (ele: 1.444 de 1.445 posts). Título sozinho, linha em branco, frases, linha em branco entre cada uma.
+2. **Tamanho dele:** 3 a 4 linhas de leitura + 1 linha de ação por bloco, ~300 caracteres no máximo. Uma leitura por linha. Se nada mudou num item (RSI, Stoch), ele sai.
+3. **Sem setas** ⬆️⬇️↔️ e **sem a linha de veredito** "<TF>: BULLISH/BEARISH/NEUTRO (…)" (ele: 0). O veredito vai em palavras dele, só quando decide algo, dentro da linha de ação: "Abaixo da EMA21, seguimos bearish." / "Estamos na zona dúbia." / "ACIMA da MA7/EMA7, seguimos bullish."
+4. **No máximo 1 número por bloco**, só para 🎯, stop ou gatilho de entrada. Nunca "(50)", "(43,6)" depois de nome de nível do RSI.
+5. **Troque (mesmo significado, palavra dele):**
+   - "no teto" → "na Máxima" ("Stoch na Máxima! CUIDADO!!"); "de volta ao teto" → "de volta à Máxima".
+   - Stoch acima de 80 descendo → "Stoch indo testar a Resistência Superior, aqui atuando como Suporte"; perdeu o 80 → "Stoch perdeu a Resistência Superior".
+   - "acordando/subindo" → "Stoch indo testar a Resistência Superior" (se mira o 80) / "Stoch de volta ACIMA do Suporte Inferior" / "ensaia recuperar o Suporte Inferior".
+   - "descendo" → "perdendo o <nível>" / "indo testar o <nível>".
+   - "martelo" → "Tocamos na <média/linha> e voltamos!" ("pavio" segue proibido, decisão de 23/11).
+   - "Rejeição na" → "Rejeição da" / "Rejeitamos a".
+   - "Fora por enquanto." → "Seguimos fora." / "Aguardemos." / "Estamos de fora."
+   - "suporte imediato" → "nosso suporte"; "resistência imediata" → "principal Resistência aqui".
+   - "cuidado com a alavancagem" / "Evite entrar alavancado" / "pede cautela" → "CUIDADO!!" / "Entradas aqui são bastante arriscadas!".
+   - "Combo da Morte" (ele: 0 em 1.445) → não usar; escrever as leituras normais (ABAIXO da MA7; ABAIXO da Resistência Inferior; Stoch indo testar a Resistência Superior).
+   - "a confirmar" pode; "confirma/anula" não.
+   - "sem short novo" / "daqui pra baixo só compra" → não usar (Bilau encerrado).
+6. Verbos e marcas dele: Fechamos ACIMA/ABAIXO, Confirmamos, Perdemos, Recuperamos, Seguimos ACIMA/ABAIXO, Tocamos na, Rejeitamos, de volta, logo ABAIXO/ACIMA, "Vejam", QED, 👀 🚨 🎯 (início da linha), "!!" para ênfase.
+7. Despedida e rodapé: iguais ("Seguimos!", "Até logo mais.", "Boa noite, senhores!"; rodapé "_Estudo, não recomendação._" fica, é nosso).
+Exemplo (mesmo fechamento de 26/11 21:00, mesma decisão):
+343
+
+👀 Fechamos ABAIXO da MA7, mas a EMA7 e a MA21 seguraram;
+
+Fechamos ABAIXO da Resistência Inferior no RSI;
+
+Stoch indo testar a Resistência Superior, aqui atuando como Suporte;
+
+Entradas aqui são bastante arriscadas. Seguimos fora.
+
+Boa noite, senhores!
