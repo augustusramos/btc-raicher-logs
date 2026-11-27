@@ -224,6 +224,22 @@
    "visto_em": "2026-11-26",
    "fonte": "print 686 de 26/11/2026 21:02 (post 2126106065242898551, HYFx1tXXAAECX4k; medido por pixel no Chrome, eixo 0.5 px, conferência preço atual 60599 x 60600)",
    "papel": "linha amarela descendente no 686 logo acima da Vinho (sem nome no texto)"
+  },
+  {
+   "nome": "Linha Vermelha do Diário",
+   "autor": "dollynho",
+   "tf": "1D",
+   "p1": [
+    "2026-10-22 03:24",
+    56237
+   ],
+   "p2": [
+    "2026-12-06 09:10",
+    51700
+   ],
+   "visto_em": "2026-11-26",
+   "fonte": "prints Diário 23/11 e 24/11/2026 medidos por pixel (batem em $1); aparece também em 25/11 e 26/11",
+   "papel": "descendente abaixo da EMA2401; ~52,8K no fim de nov, cruzando EMA2744/MA2401 (região de fundo)"
   }
  ]
 }

@@ -1,0 +1,42 @@
+{
+ "print": "HX7gxAtW8AAfX-G",
+ "quando": "2026-11-24 21:21",
+ "erro_eixo_px": 0.46,
+ "erro_tempo_h": 0.57,
+ "conferencia_max_min": [
+  [
+   55081,
+   55074
+  ]
+ ],
+ "linhas": {
+  "vermelha_baixo_1D": {
+   "cor": "vermelha",
+   "estilo": "sólida grossa",
+   "nota": "Diário; desce; passa ~52,8K no fim do print, cruzando EMA2744/MA2744",
+   "p1": [
+    "2026-10-22 03:24",
+    56237
+   ],
+   "p2": [
+    "2026-12-06 09:10",
+    51700
+   ],
+   "res_px": 0.26
+  },
+  "laranja_horizontal_1D": {
+   "cor": "laranja",
+   "estilo": "sólida",
+   "nota": "ABAIXO DA LINHA LARANJA",
+   "p1": [
+    "2026-10-22 03:24",
+    64402
+   ],
+   "p2": [
+    "2026-12-06 09:10",
+    64369
+   ],
+   "res_px": 0.18
+  }
+ }
+}

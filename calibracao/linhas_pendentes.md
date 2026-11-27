@@ -6,3 +6,4 @@
 - 2026-11-26 21:55: conferência pelo preço atual (caixa: topo + 8,5 px) em vez de máx/mín marcada; erros 0,00% (343: 60.589 x 60.588; 686: 60.599 x 60.600).
 - 2026-11-26 21:55: busca from:raicher since:2026-11-26 mostrou só 1 post (antigo); nenhum post novo do Raicher.
 - RESOLVIDO: 2026-11-26 21:02: medidos os prints 343 (HYFzKOgXYAEMAsj: Vermelha, Ciano, Branca) e 686 (HYFx1tXXAAECX4k: Laranja, Amarela, Vinho) do fechamento de 26/11 21:00; todos batem com linhas_ativas.json (diferença <= 0,01% no p2 anterior)
+- RESOLVIDO 27/11 (Claude, Chrome do Augustus): Diário 23/11 (Log 337), 24/11, 25/11 e 26/11 → linhas desenhadas = Linha Laranja horizontal (~64,4K, já no MANUAIS como Linha laranja da Agulhada ago/2024) e Linha Vermelha do Diário (descendente, nova em linhas_ativas). 2D (Logs 338-340), 3D e Semanal de 25/11: só médias móveis (EMA777, MA686, MA2401/EMA2401/EMA2744, rosquinha MA77 1M 53.375), nenhuma linha desenhada.
