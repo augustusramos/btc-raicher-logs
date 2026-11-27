@@ -286,7 +286,7 @@ Base: 4 citações dele (22/11 14:09, 24/11 19:52, 24/11 21:00, 26/11 19:52). Qu
 Muda SÓ as palavras e o tamanho; a leitura, a decisão (⚖️), o stop, o alvo e o veredito continuam saindo das mesmas regras. Base: calibracao/estudo_vocabulario.md (1.445 posts dele).
 1. **Linha em branco entre TODAS as linhas** do post (ele: 1.444 de 1.445 posts). Título sozinho, linha em branco, frases, linha em branco entre cada uma.
 2. **Tamanho dele:** 3 a 4 linhas de leitura + 1 linha de ação por bloco, ~300 caracteres no máximo. Uma leitura por linha. Se nada mudou num item (RSI, Stoch), ele sai.
-3. **Sem setas nas linhas de leitura** ⬆️⬇️↔️ (ele: 0). **A linha de veredito FICA** (Augustus, 26/11 ~21:55): última linha do bloco antes da despedida, "<TF>: BULLISH ⬆️ | BEARISH ⬇️ | NEUTRO ↔️", com ressalva curta entre parênteses só se precisar, nas palavras dele (ex.: "(EMA7 e MA21 seguraram)", "(Stoch na Máxima)"). As regras de como decidir o veredito (balizas de 25/11) não mudam.
+3. **Seta ao lado de cada dado FICA** (Augustus, 26/11 ~22:05): toda linha de leitura termina com ⬆️ (bullish), ⬇️ (bearish) ou ↔️ (neutro), pelas regras de 23/11. A linha de ação (posição) NÃO leva seta. **A linha de veredito também FICA** (26/11 ~21:55): última linha do bloco antes da despedida, "<TF>: BULLISH ⬆️ | BEARISH ⬇️ | NEUTRO ↔️", ressalva curta entre parênteses só se precisar, nas palavras dele. As regras de como decidir setas e veredito não mudam.
 4. **No máximo 1 número por bloco**, só para 🎯, stop ou gatilho de entrada. Nunca "(50)", "(43,6)" depois de nome de nível do RSI.
 5. **Troque (mesmo significado, palavra dele):**
    - "no teto" → "na Máxima" ("Stoch na Máxima! CUIDADO!!"); "de volta ao teto" → "de volta à Máxima".
@@ -306,13 +306,13 @@ Muda SÓ as palavras e o tamanho; a leitura, a decisão (⚖️), o stop, o alvo
 Exemplo (mesmo fechamento de 26/11 21:00, mesma decisão):
 343
 
-👀 Fechamos ABAIXO da MA7, mas a EMA7 e a MA21 seguraram;
+👀 Fechamos ABAIXO da MA7, mas a EMA7 e a MA21 seguraram; ↔️
 
-Fechamos ABAIXO da Resistência Inferior no RSI;
+Fechamos ABAIXO da Resistência Inferior no RSI; ⬇️
 
-Stoch indo testar a Resistência Superior, aqui atuando como Suporte;
+Stoch indo testar a Resistência Superior, aqui atuando como Suporte; ⬇️
 
-Entradas aqui são bastante arriscadas. Seguimos fora.
+Entradas aqui são bastante arriscadas. Perdendo a MA21 (60,3K), entrada short.
 
 343: BEARISH ⬇️ (EMA7 e MA21 seguraram)
 
