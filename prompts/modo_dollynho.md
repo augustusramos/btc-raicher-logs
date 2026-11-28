@@ -323,3 +323,10 @@ Base: 2 ocorrências dele (26/11 08:26 "Seguimos fora, considerando possível en
 
 ## Trade próprio quando o Dollynho fica de fora (Augustus, 27/11 ~14:30)
 "Você não precisa fazer 100% igual a ele." O short do Log de 27/11 14:09 (59.863, gatilho da perda da MA21) é trade NOSSO: o Augustus entrou junto e ele continua aberto mesmo com o Dollynho fora. Gestão normal: stop = fechamento ACIMA da MA21/EMA21 do 343 (valor do JSON a cada fechamento; intracandle não stopa); no lucro, stop na MA7/EMA7; 🎯 em estado.json. Nos Logs: "Mantemos o trade..." na linha de ação. A posição dele vai para o placar como comparação, não fecha nem anula o nosso trade.
+
+## Gatilho de long dele com o nosso short aberto (Augustus, 28/11 ~14:30: "vamos seguir a linha dele")
+Dollynho 28/11 14:09: "Recuperando a MA7, a gente entra na confirmação. Mantendo abaixo, aguardemos um arrefecimento total do StochRSI." (estado.json 343m.gatilho_long_dollynho). Para o short aberto em 27/11 14:09:
+- Stop do short passa a ser o fechamento do 343 ACIMA da MA7 (valor do JSON a cada fechamento; intracandle não stopa). Fechou ACIMA → ⚖️ ZERAR SHORT, Log escreve "Recuperamos a MA7! Fechamos o trade." e a linha de ação "Gatilho de long dele: entrada na confirmação ACIMA da MA7 (valor)." Não abre long nesse mesmo fechamento.
+- Long na confirmação = fechamento seguinte que CONFIRMA ACIMA da MA7 (evento CONFIRMOU no JSON) → ⚖️ ABRIR LONG no fechamento, stop = fechamento de volta ABAIXO da MA7; grave "entrada" long em estado.json. Se voltar ABAIXO antes de confirmar = "Bull trap na MA7;" → fora.
+- Enquanto seguir ABAIXO da MA7: mantém o short; linha de ação traz o stop "fechamento ACIMA da MA7 (valor)".
+- Se ele postar outra coisa (entrou antes, desistiu, outro nível), os Logs seguem o que ele disser (regra 18/11 ~22:10: quando ele anuncia entrada/saída, seguimos a decisão dele).

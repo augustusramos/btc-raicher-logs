@@ -28,7 +28,7 @@
       }
     },
     "alvos": "['🎯 Linha Laranja/Amarela 686 ~58,5K (58.690/58.302 em 28/11 14:09; mín 58.895 não tocou) → cluster ~57,7K (Linha Branca/Vinho/Trend Agulhadas 2023/MA686 3D) → ~56,9K (EMA2401 1D/EMA343 1W/EMA77 1M)']",
-    "stop": "fechamento do 343 ACIMA da MA21/EMA21 (14:09: 60.045/60.170; na mensagem 60,2K). Intracandle não stopa. No lucro (MA7 abaixo da entrada 59.863) passa para a MA7/EMA7 (regra 26/11). | anterior 08:26: 60.055/60.234",
+    "stop": "fechamento do 343 ACIMA da MA7 (14:09: 59.935) — Augustus 28/11 ~14:30 'vamos seguir a linha dele' (gatilho de long do Dollynho: 'Recuperando a MA7, a gente entra na confirmação'). Fechou ACIMA = zera o short; long no fechamento seguinte que confirmar ACIMA da MA7. Intracandle não stopa. | anterior: MA21/EMA21 (14:09: 60.045/60.170)",
     "historico_stop": [
       "MA7/EMA7 (09/11 08:26)",
       "EMA21 (09/11 14:09, após o pavio tocar a MA21)",
@@ -67,7 +67,8 @@
       "MA21/EMA21 (27/11 14:09, short aberto na perda da MA21: 60.343/60.521)",
       "ANULADO (27/11 14:09: Dollynho ficou de fora; sem trade)",
       "MA21/EMA21 restaurado (27/11 ~14:30, Augustus posicionado; trade nosso, Dollynho fora)",
-      "MA21/EMA21 mantida (28/11 14:09: fechou 59.529 ABAIXO de 60.045/60.170; sem lucro pela regra, MA7 59.935 > entrada 59.863)"
+      "MA21/EMA21 mantida (28/11 14:09: fechou 59.529 ABAIXO de 60.045/60.170; sem lucro pela regra, MA7 59.935 > entrada 59.863)",
+      "MA7 (28/11 ~14:30: Augustus \"vamos seguir a linha dele\" — gatilho de long do Dollynho na MA7; MA7 14:09 = 59.935)"
     ],
     "proxima_entrada": "(em short desde 27/11 14:09, trade nosso) stop: fechamento ACIMA da MA21/EMA21 (~60,52K na projeção p/ 19:52). Dollynho fora: short só com stop razoável / RSI perdendo o 43,6. | Dollynho 27/11 14:09: fora; short 'não racional' (stop longe), long 'cedo demais'; espera o Stoch arrefecer. Short só com stop razoável (reteste/rejeição da MA21/EMA21–MA7 ~60,3-60,8K) ou RSI perdendo o 43,6 (novo fundo); long só depois do Stoch arrefecido. | (em short desde 27/11 14:09) stop: fechamento ACIMA da MA21/EMA21; 686 confirma alinhamento se fechar ABAIXO da MA7 às 19:52 (gatilho dele no 686). | anterior: Dollynho 27/11 08:26: LONG possível no recuo à MA7/MA49 do 343 (60.904/60.949 no fechamento 08:26). | 27/11 08:26: long no recuo com o 343 ACIMA da MA21 (60.410) e RSI > 50 quando o Stoch sair da Máxima (reteste MA7/EMA7/MA49 ~60,9K); 686 A",
     "observacao": "28/11 14:09: 59.205→59.529 (+0,55%), máx 59.621, mín 58.895; ABAIXO de todas as médias; MA7 x MA21 cruzou bearish; RSI 43,54 < Média 48,49; Stoch 10,84 < 19,42. MANTER SHORT. | 28/11 08:26: 59.712→59.205 (−0,85%), máx 59.843, mín 59.003; rejeição da EMA7 59.916; ABAIXO de MA21 60.055/EMA21 60.234/MA7 60.242; RSI 40,60 < Média 48,75 (perdeu 43,6); Stoch 17,99 < 27,99 (perdeu 20). MANTER SHORT. | 28/11 02:43: 59.865→59.713 (−0,27%), máx 60.200, mín 59.637; rejeição da MA21 60.123/EMA7 60.153; ABAIXO de EMA21 60.337/MA7 60.426/MA49 60.559; RSI 43,93 < Média 48,80 (> 43,6 por 0,3); Stoch 29,43 < 40,64. MANTER SHORT. | 27/11 21:00: 59.767→59.872 (+0,18%), máx 59.873, mín 59.677; ABAIXO de MA21 60.194/EMA7 60.300/EMA21 60.400/MA7 60.551/MA49 60.650; RSI 45,01 < Média 48,30 (> 43,6); Stoch 36,55 < 56,77 perdeu o 50. MANTER SHORT. | 27/11 19:52: 59.863→59.767 (−0,16%), máx 59.992, mín 59.450; ABAIXO de MA21 60.250/EMA7 60.443/EMA21 60.452/MA7 60.642/MA49 60.747; RSI 44,18 < Média 47,80 (> 43,6); Stoch 55,93 < 75,72. MANTER SHORT. | 27/11 14:09: 61.595→59.863 (−2,81%), máx 61.749, mín 58.718 (Linha Laranja 686); ABAIXO de MA21 60.343/EMA21 60.521/EMA7 60.668/MA7 60.764/MA49 60.851; RSI 44,75 < Média 47,66; Stoch 77,82 < 87,32. ABRIR SHORT. | 27/11 08:26: 61.681→61.595 (−0,14%), máx 62.125, mín 61.413; ACIMA de MA7/EMA7/MA49 (60.904/60.936/60.949), MA21 60.410; Linha Vermelha ~61.875 rejeitada 2x; RSI 57,32 > Média 47,53; Stoch 93,39 > 89,98. FICAR DE FORA. | 27/11 02:43: 60.492→61.681 (+1,97%), máx 61.875 (Linha Vermelha a 0,03%, EMA49 61.774 rejeitada), mín 60.393 (MA21 60.408 segurou); RSI 58,08 > Média 46,38; Stoch 90,75 > 88,16. FICAR DE FORA. | 26/11 19:52: 60.515→60.582 (+0,11%), máx 60.915, mín 60.321 (toque na MA7 60.327); MA49 61.138 resistência; RSI 50,30 > Média 44,93, de volta ACIMA do 50; Stoch 87,94 < 90,43 cruzou be",
@@ -115,7 +116,7 @@
       "texto": "Recuperando a MA7, a gente entra na confirmação.",
       "onde": "343 fechando ACIMA da MA7 (59.935 em 14:09), entrada na confirmação",
       "alternativa": "mantendo abaixo, aguarda arrefecimento total do StochRSI",
-      "conflito": "nosso short (stop MA21/EMA21 60.045/60.170) não fecha só com a MA7 recuperada; pendente decisão do Augustus"
+      "conflito": "resolvido 28/11 ~14:30 (Augustus: 'vamos seguir a linha dele'): stop do short = fechamento ACIMA da MA7; long na confirmação ACIMA da MA7"
     }
   },
   "686m": {
