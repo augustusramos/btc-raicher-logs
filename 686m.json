@@ -1,0 +1,447 @@
+{
+ "tf": "686m",
+ "bar_open": "2026-11-28T00:00:00+00:00",
+ "bar_close": "2026-11-28T11:26:00+00:00",
+ "open": 59865.0,
+ "high": 60199.94,
+ "low": 59003.02,
+ "close": 59205.04,
+ "change_pct": -1.11,
+ "bars_available": 2101,
+ "mas": {
+  "ma7": {
+   "value": 60305.23,
+   "dist_pct": -1.82,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma21": {
+   "value": 60347.56,
+   "dist_pct": -1.89,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma49": {
+   "value": 62907.46,
+   "dist_pct": -5.89,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma77": {
+   "value": 67670.13,
+   "dist_pct": -12.51,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma200": {
+   "value": 76741.45,
+   "dist_pct": -22.85,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma231": {
+   "value": 77092.77,
+   "dist_pct": -23.2,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma343": {
+   "value": 75747.45,
+   "dist_pct": -21.84,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma539": {
+   "value": 71250.54,
+   "dist_pct": -16.91,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma686": {
+   "value": 72559.64,
+   "dist_pct": -18.41,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma777": {
+   "value": 72245.41,
+   "dist_pct": -18.05,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma1372": {
+   "value": 81764.35,
+   "dist_pct": -27.59,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ma1617": {
+   "value": 86462.21,
+   "dist_pct": -31.52,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema7": {
+   "value": 60020.71,
+   "dist_pct": -1.36,
+   "touched_wick": true,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema21": {
+   "value": 60660.29,
+   "dist_pct": -2.4,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema49": {
+   "value": 63547.0,
+   "dist_pct": -6.83,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema77": {
+   "value": 66423.26,
+   "dist_pct": -10.87,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema231": {
+   "value": 72789.9,
+   "dist_pct": -18.66,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema343": {
+   "value": 73468.05,
+   "dist_pct": -19.41,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema686": {
+   "value": 74815.11,
+   "dist_pct": -20.86,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema777": {
+   "value": 75371.85,
+   "dist_pct": -21.45,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema1372": {
+   "value": 81094.81,
+   "dist_pct": -26.99,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "ema1617": {
+   "value": 83970.61,
+   "dist_pct": -29.49,
+   "touched_wick": false,
+   "pos": "ABAIXO",
+   "event": null
+  }
+ },
+ "support_mas": [],
+ "resistance_mas": [
+  "ema7",
+  "ma7",
+  "ma21"
+ ],
+ "ladder_below": [],
+ "ladder_above": [
+  [
+   "ema7",
+   60020.71
+  ],
+  [
+   "ma7",
+   60305.23
+  ],
+  [
+   "ma21",
+   60347.56
+  ],
+  [
+   "ema21",
+   60660.29
+  ],
+  [
+   "ma49",
+   62907.46
+  ],
+  [
+   "ema49",
+   63547.0
+  ],
+  [
+   "ema77",
+   66423.26
+  ],
+  [
+   "ma77",
+   67670.13
+  ],
+  [
+   "ma539",
+   71250.54
+  ],
+  [
+   "ma777",
+   72245.41
+  ],
+  [
+   "ma686",
+   72559.64
+  ],
+  [
+   "ema231",
+   72789.9
+  ],
+  [
+   "ema343",
+   73468.05
+  ],
+  [
+   "ema686",
+   74815.11
+  ],
+  [
+   "ema777",
+   75371.85
+  ],
+  [
+   "ma343",
+   75747.45
+  ],
+  [
+   "ma200",
+   76741.45
+  ],
+  [
+   "ma231",
+   77092.77
+  ],
+  [
+   "ema1372",
+   81094.81
+  ],
+  [
+   "ma1372",
+   81764.35
+  ],
+  [
+   "ema1617",
+   83970.61
+  ],
+  [
+   "ma1617",
+   86462.21
+  ]
+ ],
+ "wick_touches": [
+  "ema7"
+ ],
+ "ma_crosses": [
+  {
+   "par": "MA7 x MA21",
+   "event": "PERDEU (confirma/anula na proxima vela)",
+   "ma7_pos": "ABAIXO",
+   "gap_pct": -0.07,
+   "cruzando": false,
+   "direcao": "bearish"
+  }
+ ],
+ "rsi": {
+  "value": 38.62,
+  "ma": 39.96,
+  "vs_ma": {
+   "pos": "ABAIXO",
+   "event": "PERDEU (confirma/anula na proxima vela)"
+  },
+  "vs_50": {
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "levels_auto": [
+   {
+    "value": 31.98,
+    "strength": 0.159,
+    "name": "Suporte Inferior"
+   },
+   {
+    "value": 36.69,
+    "strength": 0.159,
+    "name": "Suporte Inferior"
+   },
+   {
+    "value": 42.34,
+    "strength": 0.157,
+    "name": "Resistencia Inferior"
+   },
+   {
+    "value": 50.51,
+    "strength": 0.196,
+    "name": "Resistencia Superior"
+   },
+   {
+    "value": 57.35,
+    "strength": 0.171,
+    "name": "Resistencia Superior"
+   },
+   {
+    "value": 62.27,
+    "strength": 0.157,
+    "name": "Resistencia Superior"
+   }
+  ],
+  "levels_known": {
+   "72.86": 72.86,
+   "Resistencia Superior": 70.0,
+   "Linha 50": 50.0,
+   "Suporte Inferior (aprox)": 43.6,
+   "Regiao dos Traps": 40.54,
+   "Dips historicos": 35.74,
+   "30": 30.0,
+   "23.67": 23.67
+  },
+  "level_events": {
+   "31.98": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "36.69": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "42.34": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "50.51": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "57.35": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "62.27": {
+    "pos": "ABAIXO",
+    "event": null
+   }
+  },
+  "nearest_above": {
+   "value": 42.34,
+   "strength": 0.157,
+   "name": "Resistencia Inferior"
+  },
+  "nearest_below": {
+   "value": 36.69,
+   "strength": 0.159,
+   "name": "Suporte Inferior"
+  },
+  "reset_level": 31.98,
+  "bars_since_reset": 9,
+  "calibration": [],
+  "known_level_events": {
+   "72.86": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "Resistencia Superior": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "Linha 50": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "Suporte Inferior (aprox)": {
+    "pos": "ABAIXO",
+    "event": null
+   },
+   "Regiao dos Traps": {
+    "pos": "ABAIXO",
+    "event": "PERDEU (confirma/anula na proxima vela)"
+   },
+   "Dips historicos": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "30": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "23.67": {
+    "pos": "ACIMA",
+    "event": null
+   }
+  },
+  "known_nearest_above": [
+   "Regiao dos Traps",
+   40.54
+  ],
+  "known_nearest_below": [
+   "Dips historicos",
+   35.74
+  ],
+  "in_traps_zone": false,
+  "divergence": null
+ },
+ "stoch": {
+  "k": 49.14,
+  "d": 66.83,
+  "cross": null,
+  "k_vs_d": {
+   "pos": "ABAIXO",
+   "event": null
+  },
+  "zone": "range 20-80",
+  "levels": {
+   "Suporte Inferior": {
+    "pos": "ACIMA",
+    "event": null
+   },
+   "Suporte Superior": {
+    "pos": "ABAIXO",
+    "event": "PERDEU (confirma/anula na proxima vela)"
+   },
+   "Resistencia Superior": {
+    "pos": "ABAIXO",
+    "event": "CONFIRMOU ABAIXO"
+   }
+  }
+ },
+ "horizontal_levels": {
+  "Fundo 2025-NOV": {
+   "value": 80537,
+   "dist_pct": -26.49,
+   "pos": "ABAIXO",
+   "event": null
+  }
+ },
+ "picycle_ratio_pct": 47.2
+}

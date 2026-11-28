@@ -1,0 +1,8 @@
+1W  2026-09-21 ma77   calc=    88,865 citado=  88,800 dif=+0.07%  (Raicher 21/09/2026: MA77 nos 88.8K)
+1W  2026-09-21 ma49   calc=    77,555 citado=  77,800 dif=-0.32%  (Raicher 21/09/2026: MA49 nos 77.8K)
+1W  2026-02-23 ma231  calc=    57,004 citado=  57,000 dif=+0.01%  (Raicher 02/03/2026: MA231 nos 57K)
+1W  2026-02-23 ma343  calc=    45,671 citado=  45,800 dif=-0.28%  (Raicher 02/03/2026: MA343 nos 45.8K)
+1W  2026-09-07 ma7    calc=    71,965 citado=  74,300 dif=-3.14%  (Raicher 14/09/2026: MA7 nos 74.3K)
+1W  2026-09-07 ma21   calc=    70,487 citado=  70,400 dif=+0.12%  (Raicher 14/09/2026: MA21 nos 70.4K)
+1D  2026-10-26 ma77   calc=    78,943 citado=  79,000 dif=-0.07%  (Dollynho 27/10/2026: MA77 ~79k)
+2D  2026-09-18 ma200  calc=    83,346 citado=  83,200 dif=+0.18%  (Dollynho 20/09/2026: MA200 do 2D ~83200)
