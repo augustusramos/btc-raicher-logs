@@ -28,7 +28,7 @@
       }
     },
     "alvos": "['🎯 Linha Laranja/Amarela 686 ~58,5K (58.690/58.302 em 28/11 14:09; mín 58.895 não tocou) → cluster ~57,7K (Linha Branca/Vinho/Trend Agulhadas 2023/MA686 3D) → ~56,9K (EMA2401 1D/EMA343 1W/EMA77 1M)']",
-    "stop": "fechamento do 343 ACIMA da MA7 (14:09: 59.935) — Augustus 28/11 ~14:30 'vamos seguir a linha dele' (gatilho de long do Dollynho: 'Recuperando a MA7, a gente entra na confirmação'). Fechou ACIMA = zera o short; long no fechamento seguinte que confirmar ACIMA da MA7. Intracandle não stopa. | anterior: MA21/EMA21 (14:09: 60.045/60.170)",
+    "stop": "fechamento do 343 ACIMA da MA7 da vela (19:52: > ~59.658 = média dos últimos 6 fechamentos; MA7 nova ~59,7K) — Augustus 28/11 ~14:30 'vamos seguir a linha dele'. Fechou ACIMA = zera o short; long no fechamento seguinte (21:00) que confirmar ACIMA da MA7. Intracandle não stopa. | anterior: MA21/EMA21 (14:09: 60.045/60.170)",
     "historico_stop": [
       "MA7/EMA7 (09/11 08:26)",
       "EMA21 (09/11 14:09, após o pavio tocar a MA21)",

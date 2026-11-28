@@ -330,3 +330,9 @@ Dollynho 28/11 14:09: "Recuperando a MA7, a gente entra na confirmação. Manten
 - Long na confirmação = fechamento seguinte que CONFIRMA ACIMA da MA7 (evento CONFIRMOU no JSON) → ⚖️ ABRIR LONG no fechamento, stop = fechamento de volta ABAIXO da MA7; grave "entrada" long em estado.json. Se voltar ABAIXO antes de confirmar = "Bull trap na MA7;" → fora.
 - Enquanto seguir ABAIXO da MA7: mantém o short; linha de ação traz o stop "fechamento ACIMA da MA7 (valor)".
 - Se ele postar outra coisa (entrou antes, desistiu, outro nível), os Logs seguem o que ele disser (regra 18/11 ~22:10: quando ele anuncia entrada/saída, seguimos a decisão dele).
+
+## MA7 da PRÓXIMA vela e aviso de entrada (Augustus, 28/11 ~14:45: "sim") — VALE SEMPRE
+Erro de 28/11 14:09: o Log usou a MA7 do fechamento atual (59.935) e não avisou o gatilho de long dele; na vela seguinte a MA7 cai para ~59,7K (sai da conta um fechamento alto), então o nível real era ~59,66K.
+- Em todo Log do 343 (e do 686), calcule o nível que vale no PRÓXIMO fechamento: fechar ACIMA da MA7 na próxima vela ⇔ fechamento > média dos ÚLTIMOS 6 fechamentos (dados/ohlc/<tf>.csv.gz). Para a EMA7: fechamento > EMA7 atual (a EMA7 nova fica entre a atual e o fechamento). Use esse nível nos stops/gatilhos que dependem da MA7.
+- Sempre que houver gatilho de entrada perto (do Dollynho ou pelo método, a até ~1,5% do preço), a linha de ação da MENSAGEM diz onde ele liga, com 1 número: em short aberto "Mantemos o trade. Long só fechando ACIMA da MA7 (59,7K)." (o stop e o gatilho podem dividir a linha); fora do trade "Seguimos fora. Long fechando ACIMA da MA7 (59,7K)." / "Short perdendo a MA21 (60,1K)." Se o trade usa o mesmo nível como stop, uma frase só: "Stop e gatilho de long: fechamento ACIMA da MA7 (59,7K)."
+- Nas notas internas, registre a simulação do fechamento no nível (MA7/EMA7, RSI, Stoch), como em calibracao/dollynho/2026-11-28_1409_343m.md.
