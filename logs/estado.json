@@ -105,7 +105,8 @@
     "dollynho_26_11_1952": "343 26/11 19:52: 'Nos mantemos ACIMA da MA7/MA21;' '👀 MA7 está cruzando bullish a MA21; a confirmar.' 'RSI fechou ACIMA da Resistência Inferior;' '🚨 Mas o StochRSI confirmou o cruzamento bearish;' 'Seguimos fora. Aguardemos o fechamento Diário.' Print: ABAIXO da Linha Ciano (~61,2K), Linha Vermelha ~61,8K, ACIMA da Linha Branca (~57,5K); Stoch 'CRUZOU!'.",
     "gatilho_short_dollynho": "(26/11 21:00 'Shortarei se perdermos a MA21' — NÃO executado em 27/11 14:09: stop longe demais, Stoch a arrefecer) 26/11 21:00 (post dele): 'Shortarei se perdermos a MA21' (MA21 do 343 = 60.384 no fechamento de 21:00); 'Longs aqui são extremamente arriscados'. 14:09: 'A perda da MA7/EMA7 enseja novo short'.",
     "dollynho_27_11_0826": "343 27/11 08:26: 'Breakout da Resistência Inferior no RSI!!' 'Ganhamos a MA49;' 'Estamos ABAIXO da EMA49;' 'StochRSI voltou a Máxima!!' 'Possível entrada na MA7/MA49.' 'Bom dia, senhores!' Print: ABAIXO da Linha Vermelha e da EMA49, ACIMA da Linha Ciano, da MA7 e da Linha Branca (~57,3K); RSI ACIMA da Resistência Inferior; Stoch MÁXIMA!! 🚨.",
-    "dollynho_27_11_1409": "343 27/11 14:09: '⚠️ Estamos de volta ABAIXO de todas as Médias!' 'RSI se segurou ACIMA do Suporte Inferior;' 'StochRSI perdeu a Resistência Superior!' 'Está ruim demais para posicionar o stop num preço razoável para shortar, e cedo demais para longar.' 'Não é uma oportunidade racional de Short, e se perder o Suporte Inferior no RSI, tem chance para ir fazer novo fundo.' 'Nos mantemos de fora.' 'Aguardemos o arrefecimento do StochRSI.' Print: ABAIXO da MA21, Linha Vermelha, Linha Ciano, EMA49; ACIMA da Linha Branca (~57,4K); RSI ACIMA DO SUPORTE INFERIOR!!; Stoch ABAIXO!! 🚨."
+    "dollynho_27_11_1409": "343 27/11 14:09: '⚠️ Estamos de volta ABAIXO de todas as Médias!' 'RSI se segurou ACIMA do Suporte Inferior;' 'StochRSI perdeu a Resistência Superior!' 'Está ruim demais para posicionar o stop num preço razoável para shortar, e cedo demais para longar.' 'Não é uma oportunidade racional de Short, e se perder o Suporte Inferior no RSI, tem chance para ir fazer novo fundo.' 'Nos mantemos de fora.' 'Aguardemos o arrefecimento do StochRSI.' Print: ABAIXO da MA21, Linha Vermelha, Linha Ciano, EMA49; ACIMA da Linha Branca (~57,4K); RSI ACIMA DO SUPORTE INFERIOR!!; Stoch ABAIXO!! 🚨.",
+    "dollynho_27_11_2100": "686 e 343 27/11 21:00 (post único): 'Seguimos ABAIXO de todas as Médias do Raicher Strategy! Tanto no 686 quanto no 343!' 'Stoch ainda não arrefeceu totalmente, portanto, temos espaço para mais queda.' 'RSI no 343 tem se segurado bem ACIMA do Suporte Inferior. Então esse é o principal Suporte aqui.' 'Seguimos de fora. Shortar a essa altura está muito arriscado para o potencial retorno.' 'E ainda não temos pé firme para longar.' Print 343: ABAIXO da Linha Vermelha/Linha Ciano/EMA49/MA21, ACIMA da Linha Branca (~57,4K); RSI ACIMA DO SUPORTE INFERIOR!!; Stoch indo ao 20. Nosso short (trade nosso) segue aberto."
   },
   "686m": {
     "postura": "short; 🎯 MA539 CONFIRMADO ABAIXO 12/11 21:00 (sem novo alvo definido)",
@@ -126,7 +127,8 @@
     "leitura_2411_2100": "59.743 ABAIXO de TODAS as médias (EMA7/MA7 60.285/60.583, MA21 60.971 = resistência); RSI 34,77 > Média 33,44; Stoch 73,95 < 81,80 PERDEU a Resistência Superior (80)",
     "dollynho_25_11": "686 25/11 21:00: '🍷 QED, tocamos na Linha Vinho!!'; 'Belo bear trap na Média do RSI (que eu caí, inclusive) 😅'; '🚨 Stoch de volta à Máxima!'; 'A nossa baliza aqui é a EMA21; Abaixo dela, seguimos bearish.' (EMA21 686 = 61.084). Print: ABAIXO DA MA21, DIVERGÊNCIA, RSI NA REGIÃO DOS TRAPS (!!).",
     "baliza": "EMA21 do 686 (61.084 em 25/11 21:00) — abaixo dela bearish (Dollynho 25/11 21:00)",
-    "gatilho_short_dollynho": "26/11 21:00 (post dele): 'Shortarei perdendo a MA7' (MA7 do 686 = 60.087 no fechamento de 21:00) e 'Sem longs abaixo da MA21' (60.199); EMA21 (60.954) = principal Resistência. Próximos fechamentos do 686: 27/11 08:26, 19:52, 21:00."
+    "gatilho_short_dollynho": "(26/11 21:00 'Shortarei perdendo a MA7' — fechou 27/11 19:52/21:00, NÃO executado por ele: 'muito arriscado para o potencial retorno') 26/11 21:00 (post dele): 'Shortarei perdendo a MA7' (MA7 do 686 = 60.087 no fechamento de 21:00) e 'Sem longs abaixo da MA21' (60.199); EMA21 (60.954) = principal Resistência. Próximos fechamentos do 686: 27/11 08:26, 19:52, 21:00.",
+    "dollynho_27_11_2100": "686 27/11 21:00: Região dos Traps ('onde as maldades acontecem'); gatilho 'Shortarei perdendo a MA7' NÃO executado ('muito arriscado para o potencial retorno'). Print: ABAIXO da EMA21 e da MA77; RSI ABAIXO DO SUPORTE INFERIOR; Stoch 🚨 descendo do teto."
   },
   "1D": {
     "postura": "25/11: martelo 59.743→60.382 (+1,07%), mín 57.209 (furou Linha Vinho/Linha Branca e voltou), máx 60.481 = rejeição na MA7 (60.473; fechou 0,15% ABAIXO); RSI 27,47 > Média 23,93 (Média segurou); Stoch 58,9 > 49,1 rompendo o 50. | tendência de baixa: 24/11 rejeição na MA7/EMA7 (60.844/61.465; máx 61.590), fechou 59.743 (−2,39%); mín 59.197 = toque na Linha Laranja (~59,2K); MA7 x MA1617 CONFIRMOU ABAIXO (bearish); RSI 24,81 ACIMA da Média 24,48 (por um fio) e do 23,67; Stoch 46,9 > 37,3 subindo, ACIMA de 20",
@@ -148,7 +150,8 @@
     },
     "rsi_atl": 9.63,
     "suportes_ciclo_dollynho": "EMA2401 ~56,9K → MA2401 ~52,7K (fundo do último ciclo) → MA2744 ~47,3K (24/11 21:00)",
-    "dollynho_25_11": "DIÁRIO 25/11 21:00: 'Seguimos ABAIXO da MA7, mas deixamos um candle extremamente bullish, acima de outro já mais bullish ainda!!'; 'bounce na Média do RSI'; 'StochRSI segue indo testar a Resistência Superior'; 'o parâmetro segue sendo a MA7/EMA7. Abaixo delas seguimos bearish.' Print: ACIMA da EMA2401 (56.918) = suporte; RSI Suporte Inferior do Diário marcado em 41,86."
+    "dollynho_25_11": "DIÁRIO 25/11 21:00: 'Seguimos ABAIXO da MA7, mas deixamos um candle extremamente bullish, acima de outro já mais bullish ainda!!'; 'bounce na Média do RSI'; 'StochRSI segue indo testar a Resistência Superior'; 'o parâmetro segue sendo a MA7/EMA7. Abaixo delas seguimos bearish.' Print: ACIMA da EMA2401 (56.918) = suporte; RSI Suporte Inferior do Diário marcado em 41,86.",
+    "dollynho_27_11": "DIÁRIO 27/11 21:00 (Log 341): 'QED! A regra é clara, se recuperou apenas a MA7, mas ainda não a EMA7, presuma bull trap! Pois eis o bull trap! 😅' 'Perdemos a MA7;' 'Ainda assim, seguimos ACIMA da Média no RSI;' 'StochRSI ACIMA da Resistência Superior: aceleração ou reversão!' 'Amanhã é sábado... só no domingo tomar seu rumo.' 'Acompanhemos!' Print: ABAIXO da MA7/MA1617/Linha Laranja/Agulhada 2024, ACIMA da EMA2401 (56.918); RSI ACIMA DA MÉDIA; Stoch ACIMA (do 80)."
   },
   "1W": {
     "postura": "sem trade",
@@ -175,7 +178,7 @@
     "obs_2411": "Log 338 = DOIS DIAS de 24/11 21:00 (confirmado no post dele; nossa estimativa igual)",
     "obs_2511": "Log 339 CONFIRMADO pelo post dele = DOIS DIAS intracandle (2D aberto, fecha 26/11); nosso 339 saiu como DIÁRIO (número igual, título diferente)",
     "obs_2611": "26/11 21:00: Log 340 CONFIRMADO pelo post dele = DOIS DIAS (2D abriu o lote; nós abrimos com TRÊS DIAS).",
-    "obs_2711": "27/11 21:00: nosso Log 341 (DOIS DIAS aberto abre o lote, com DIÁRIO; '686 e 343' em seguida); estimativa, corrigir se ele postar outro número."
+    "obs_2711": "27/11 21:00: Log 341 CONFIRMADO pelo post dele = DIÁRIO (Diário abriu o lote; ele não postou o 2D). Nosso 341 abriu com DOIS DIAS aberto (número igual, título diferente)."
   },
   "gatilho_long_343": {
     "regra": "BALIZA RSI 23.67 (Dollynho 13/11 08:26): RSI do 343 ABAIXO de 23.67 = não tem short (zona de long/realização); ACIMA de 23.67 = não tem long. Resposta de 12/11 ~13:36: long só se RSI < 23.67 OU 343 fechar ACIMA da MA7/EMA7.",
